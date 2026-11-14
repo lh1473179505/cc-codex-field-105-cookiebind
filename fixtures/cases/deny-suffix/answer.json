@@ -1,0 +1,21 @@
+{
+  "kid": "k-active",
+  "signer": "corp.example.",
+  "type_covered": "A",
+  "labels": 3,
+  "orig_ttl": 300,
+  "inception": 1781780400,
+  "expiration": 1781870400,
+  "rrset": [
+    {
+      "name": "www.evil.example.",
+      "type": "A",
+      "class": "IN",
+      "ttl": 300,
+      "rdata": "198.51.100.1"
+    }
+  ],
+  "nsec": null,
+  "nonce": "n-deny-suffix",
+  "sig": "xtA78Ot5JIEaYlW_uxKoRW_gRlCLRWaPCUy3huraw1s"
+}

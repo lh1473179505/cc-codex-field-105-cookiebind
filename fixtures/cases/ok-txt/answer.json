@@ -1,0 +1,21 @@
+{
+  "kid": "k-active",
+  "signer": "corp.example.",
+  "type_covered": "TXT",
+  "labels": 3,
+  "orig_ttl": 300,
+  "inception": 1781780400,
+  "expiration": 1781870400,
+  "rrset": [
+    {
+      "name": "txt.corp.example.",
+      "type": "TXT",
+      "class": "IN",
+      "ttl": 300,
+      "rdata": "v=spf1 -all"
+    }
+  ],
+  "nsec": null,
+  "nonce": "n-ok-txt",
+  "sig": "9XVeM4jrGdKvK0UPKRKNQdNpffgu00nPKlSz84dOTxA"
+}

@@ -1,0 +1,14 @@
+{
+  "keys": {
+    "k-active": {
+      "secret": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "status": "active",
+      "signer": "corp.example."
+    },
+    "k-revoked": {
+      "secret": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "status": "revoked",
+      "signer": "corp.example."
+    }
+  }
+}

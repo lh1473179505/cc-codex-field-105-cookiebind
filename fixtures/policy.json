@@ -1,0 +1,17 @@
+{
+  "allowed_signers": [
+    "corp.example.",
+    "example."
+  ],
+  "allowed_types": [
+    "A",
+    "AAAA",
+    "TXT",
+    "NSEC"
+  ],
+  "require_rrset_name_suffix": ".corp.example.",
+  "require_uniform_name_type": true,
+  "clock_skew_seconds": 120,
+  "max_labels": 5,
+  "nsec_mode": "optional_proof"
+}

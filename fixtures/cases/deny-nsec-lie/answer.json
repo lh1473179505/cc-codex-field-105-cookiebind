@@ -1,0 +1,29 @@
+{
+  "kid": "k-active",
+  "signer": "corp.example.",
+  "type_covered": "NSEC",
+  "labels": 3,
+  "orig_ttl": 300,
+  "inception": 1781780400,
+  "expiration": 1781870400,
+  "rrset": [
+    {
+      "name": "a.corp.example.",
+      "type": "NSEC",
+      "class": "IN",
+      "ttl": 300,
+      "rdata": "b.corp.example. A TXT"
+    }
+  ],
+  "nsec": {
+    "owner": "a.corp.example.",
+    "next": "b.corp.example.",
+    "types": [
+      "A",
+      "TXT"
+    ],
+    "claims_nxdomain_for": "www.corp.example."
+  },
+  "nonce": "n-deny-nsec-lie",
+  "sig": "pIgiwekPPsfaQ2ZopOpBQc9Xl6R1OZQ4Bi_b9UgAAlM"
+}

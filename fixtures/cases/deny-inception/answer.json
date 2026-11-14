@@ -1,0 +1,28 @@
+{
+  "kid": "k-active",
+  "signer": "corp.example.",
+  "type_covered": "A",
+  "labels": 3,
+  "orig_ttl": 300,
+  "inception": 1781787600,
+  "expiration": 1781791200,
+  "rrset": [
+    {
+      "name": "www.corp.example.",
+      "type": "A",
+      "class": "IN",
+      "ttl": 300,
+      "rdata": "203.0.113.10"
+    },
+    {
+      "name": "www.corp.example.",
+      "type": "A",
+      "class": "IN",
+      "ttl": 300,
+      "rdata": "203.0.113.11"
+    }
+  ],
+  "nsec": null,
+  "nonce": "n-deny-inception",
+  "sig": "B35OBDfZkj0ugGRnjIF6D9dbGhK4NjXSaHMBNyG7pYc"
+}
