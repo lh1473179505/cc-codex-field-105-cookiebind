@@ -1,0 +1,9 @@
+{
+  "case": "pn",
+  "id": "deny-4",
+  "marker": "pn",
+  "path": "/evil/ratchets/4",
+  "kid": "k-active",
+  "sig": "ukT1T_0Cm7skSSxU6dr1qBDiUF0iJT1elp8uDCcwaGg",
+  "_sign_line": "v1|k-active|f9fafd2b589a03376a3f26eae8c64f0b553ff44c129f1cc3e514308aadd95a10"
+}

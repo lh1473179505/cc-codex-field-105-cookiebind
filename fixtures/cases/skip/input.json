@@ -1,0 +1,9 @@
+{
+  "case": "skip",
+  "id": "deny-2",
+  "marker": "skip",
+  "path": "/evil/ratchets/2",
+  "kid": "k-active",
+  "sig": "sTUUsEXsv5LVQBjfuD27SF4Bp-yjFUthe8R21rSEI5U",
+  "_sign_line": "v1|k-active|9c39ec71f2efcb8d218f27ec7104599fb36e23223f9bd08b0928cb783dc74178"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-dh-step",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/ratchets/1",
+  "kid": "k-active",
+  "sig": "B-nfTno3EWBP4MHATdJfs3HRxhcBFYMYq3vlPBvXPpA",
+  "_sign_line": "v1|k-active|fda9681a0cedf3208c933ebffd2452ae943df0ef0c819e70cc5e9e387ba6214b"
+}

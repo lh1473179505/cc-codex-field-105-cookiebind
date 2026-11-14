@@ -1,0 +1,9 @@
+{
+  "case": "gap",
+  "id": "deny-5",
+  "marker": "gap",
+  "path": "/evil/ratchets/5",
+  "kid": "k-active",
+  "sig": "dSuM6OtLwNWeHoc6pSeEDkRz0zHY0CSr5_5jAZDeQ1w",
+  "_sign_line": "v1|k-active|b6d54dee17d6105ea4c25ed247e953422954366c8943c2414dac6d0510f79811"
+}

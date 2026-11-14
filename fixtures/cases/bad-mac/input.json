@@ -1,0 +1,9 @@
+{
+  "case": "bad-mac",
+  "id": "deny-0",
+  "marker": "bad-mac",
+  "path": "/evil/ratchets/0",
+  "kid": "k-active",
+  "sig": "3ykrYWp4WYF7TMne8kpYHXHDhRbT8QjgPveX-E86AO4",
+  "_sign_line": "v1|k-active|0d604e147398fe0040740db39a6aae3d7ac51c84d28229fd786043d2149deee1"
+}

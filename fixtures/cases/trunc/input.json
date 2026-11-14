@@ -1,0 +1,9 @@
+{
+  "case": "trunc",
+  "id": "deny-7",
+  "marker": "trunc",
+  "path": "/evil/ratchets/7",
+  "kid": "k-active",
+  "sig": "c4zsq4zwcLgX-L5oAdcic02_nTm5trxXRdNpMVGNaWE",
+  "_sign_line": "v1|k-active|cb743cfe973dc71e4219483760e11a33c1aa52863b6a9b0f2673579a207e204f"
+}

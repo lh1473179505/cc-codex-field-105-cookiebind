@@ -1,0 +1,9 @@
+{
+  "case": "old",
+  "id": "deny-6",
+  "marker": "old",
+  "path": "/evil/ratchets/6",
+  "kid": "k-active",
+  "sig": "ncOvjUair14EWfFad39kSbMY12-ijUQ7fpB22Dpow9Q",
+  "_sign_line": "v1|k-active|d5c615cd1c8b274157666455bc91b576fcd99810accc6a5f0bd330bdfa74e793"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-next",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/ratchets/0",
+  "kid": "k-active",
+  "sig": "wQteMr-4RJDI5e1g05vg0VZwW886glfRB2mz3UUpSY4",
+  "_sign_line": "v1|k-active|492468ba547b0609f2d633c9ad1aa5f4ecad31bd0d9d5f10db9d1b24ac33736f"
+}

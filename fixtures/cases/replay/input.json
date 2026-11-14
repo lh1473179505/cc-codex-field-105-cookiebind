@@ -1,0 +1,9 @@
+{
+  "case": "replay",
+  "id": "deny-1",
+  "marker": "replay",
+  "path": "/evil/ratchets/1",
+  "kid": "k-active",
+  "sig": "v3_WxieU0YOXsspHNnevJr-zRhKBRQ0HwcEoXaijY50",
+  "_sign_line": "v1|k-active|e8c663e23ffdf3540c00e42b37cbfa76e7010823a049a57a7e7a23b631302f06"
+}
