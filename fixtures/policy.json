@@ -1,0 +1,23 @@
+{
+  "allowed_hosts": [
+    "app.example.com",
+    "api.example.com"
+  ],
+  "allowed_methods": [
+    "GET",
+    "POST"
+  ],
+  "denied_path_prefixes": [
+    "/admin",
+    "/internal"
+  ],
+  "path_allow_prefixes": [
+    "/v1/",
+    "/public/"
+  ],
+  "require_body_hash_for": [
+    "POST"
+  ],
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 300
+}
