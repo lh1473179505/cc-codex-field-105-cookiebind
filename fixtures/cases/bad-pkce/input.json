@@ -1,0 +1,9 @@
+{
+  "case": "bad-pkce",
+  "id": "deny-0",
+  "marker": "bad-pkce",
+  "path": "/evil/oidcxch/0",
+  "kid": "k-active",
+  "sig": "aXJXDEVSsGFjJuVx8lravGZ7ppmbyz1DsKOkiy1-_AA",
+  "_sign_line": "v1|k-active|5f2596664ad9cf72c82e397a17451f0c38c9b05ff03c888020547ca91f67d276"
+}

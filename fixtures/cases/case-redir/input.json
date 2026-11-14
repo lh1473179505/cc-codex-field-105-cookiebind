@@ -1,0 +1,9 @@
+{
+  "case": "case-redir",
+  "id": "deny-7",
+  "marker": "case-redir",
+  "path": "/evil/oidcxch/7",
+  "kid": "k-active",
+  "sig": "QK3RJOFaD6esnJsMQcbDAvTUM1-Oi5Okx1SeVMhG6Zs",
+  "_sign_line": "v1|k-active|eeadf0b9fd059f282d292d281dbd85007e63392d354235faac0f3331cc564643"
+}

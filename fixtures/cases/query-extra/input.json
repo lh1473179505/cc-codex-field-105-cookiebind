@@ -1,0 +1,9 @@
+{
+  "case": "query-extra",
+  "id": "deny-6",
+  "marker": "query-extra",
+  "path": "/evil/oidcxch/6",
+  "kid": "k-active",
+  "sig": "c9fSznVGY6NGcM1-QRRmUs-kWiAvku3e5559segTCKg",
+  "_sign_line": "v1|k-active|108c2a26a788c5dfa2feac45aaa54df5d09eeb84f314ec93e83d32a9a30e4a09"
+}

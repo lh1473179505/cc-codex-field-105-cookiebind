@@ -1,0 +1,9 @@
+{
+  "case": "nonce",
+  "id": "deny-2",
+  "marker": "nonce",
+  "path": "/evil/oidcxch/2",
+  "kid": "k-active",
+  "sig": "rpRMyWRezOJGBMNTHJZ6lDkLtURNcA1fB8QlVWrTohs",
+  "_sign_line": "v1|k-active|94e14d8a4168ec31d996b5af35575af133c7a6fba25d2c9294cd5242c3c37266"
+}

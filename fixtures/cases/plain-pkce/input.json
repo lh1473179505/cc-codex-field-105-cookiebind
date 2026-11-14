@@ -1,0 +1,9 @@
+{
+  "case": "plain-pkce",
+  "id": "deny-5",
+  "marker": "plain-pkce",
+  "path": "/evil/oidcxch/5",
+  "kid": "k-active",
+  "sig": "cIpSWGnsEyjf6pv0ZuT1C47I9l-OvEFmZAKx6eBBzwA",
+  "_sign_line": "v1|k-active|95f68dddca5c98169218a8cf1779d169a17ac344fd56ba0a7be4e15de21f19fd"
+}

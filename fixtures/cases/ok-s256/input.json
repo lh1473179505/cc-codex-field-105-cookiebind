@@ -1,0 +1,9 @@
+{
+  "case": "ok-s256",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/oidcxch/0",
+  "kid": "k-active",
+  "sig": "1T3fE6heKSHxjJdHR9AWcPg1gSnyQFgzjDnuq8bhPAw",
+  "_sign_line": "v1|k-active|e1b41da0d0237b5c978651e66ef3d38f66c8479f75e035747d4f39627bddad67"
+}

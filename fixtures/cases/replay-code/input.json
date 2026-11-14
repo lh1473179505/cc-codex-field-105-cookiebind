@@ -1,0 +1,9 @@
+{
+  "case": "replay-code",
+  "id": "deny-4",
+  "marker": "replay-code",
+  "path": "/evil/oidcxch/4",
+  "kid": "k-active",
+  "sig": "BenOra6OFAYUvsBzUE3WcAZtRuRXlhE12t2gfBBXDWY",
+  "_sign_line": "v1|k-active|9703d680969ad669ffa8a2ad01bd340613534c864c87b85c4b7e69a5b8c126bd"
+}

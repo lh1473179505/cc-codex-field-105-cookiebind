@@ -1,0 +1,9 @@
+{
+  "case": "redirect",
+  "id": "deny-1",
+  "marker": "redirect",
+  "path": "/evil/oidcxch/1",
+  "kid": "k-active",
+  "sig": "sgYHhxKQ2g_xq3YV9qldYpX0GF7ni3_cKIP8MUIWZTM",
+  "_sign_line": "v1|k-active|80a7b7410320587ebb8986717d754f9ef52a03bfab9f256d1bcae840a4262a24"
+}

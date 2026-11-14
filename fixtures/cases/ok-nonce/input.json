@@ -1,0 +1,9 @@
+{
+  "case": "ok-nonce",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/oidcxch/1",
+  "kid": "k-active",
+  "sig": "u8h-pURfigxGGXzH3h7XT6BeTYmE5PJ4WHrfIB4bGpA",
+  "_sign_line": "v1|k-active|b8351d8529416de799d696a72d0c386e58575812524e8d7e3364a68e7ca9aabf"
+}

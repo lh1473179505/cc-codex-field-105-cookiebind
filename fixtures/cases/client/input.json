@@ -1,0 +1,9 @@
+{
+  "case": "client",
+  "id": "deny-3",
+  "marker": "client",
+  "path": "/evil/oidcxch/3",
+  "kid": "k-active",
+  "sig": "HpyMlFjskejhTgUXKrUrJAP7-gq0cfd3iaEuAsl6GyA",
+  "_sign_line": "v1|k-active|48a85f5bd2c42a5abea4d4c5c8ea15691bdc17d02b9966353c16ed83201d7445"
+}
