@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/proxyacl/0",
+  "kid": "k-active",
+  "sig": "l8J_IdHVLZk39Akwa9yngN2czo0XQfC3gFIT_yRlIJc",
+  "_sign_line": "v1|k-active|e6a69091393181bf60110a5374d71bdd6dcd0f9fd71ff3cb5058f441fb9bcefa"
+}

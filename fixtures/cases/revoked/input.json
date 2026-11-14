@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/proxyacl/5",
+  "kid": "k-revoked",
+  "sig": "58FMZpdNeAabfzP7Gkvc_7A41wLAQbS8PZUD5RP3pSs",
+  "_sign_line": "v1|k-revoked|3e3fcbf82a0b95e36569b604be8a3e1da8237f40a7ef06b290b9bddeeb5f48a7"
+}

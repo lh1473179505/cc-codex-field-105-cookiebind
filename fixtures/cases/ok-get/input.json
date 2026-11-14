@@ -1,0 +1,9 @@
+{
+  "case": "ok-get",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/proxyacl/0",
+  "kid": "k-active",
+  "sig": "XK-lfTPfIk4r2VW9z9IeaS-QJdsS9e4Bco7PuWRdyhA",
+  "_sign_line": "v1|k-active|cc321e9bba960d3f39370c831d3649775396d4cbcfae2cd41b68d79fa30a39bb"
+}

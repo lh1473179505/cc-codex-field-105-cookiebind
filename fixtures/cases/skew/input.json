@@ -1,0 +1,9 @@
+{
+  "case": "skew",
+  "id": "deny-6",
+  "marker": "skew",
+  "path": "/evil/proxyacl/6",
+  "kid": "k-active",
+  "sig": "LIxLQapvbCPkL_t5qJi_1QP2WvsKKZ35fSADGMKmnq0",
+  "_sign_line": "v1|k-active|ed09e0e1b70edbe44d550418ce97ac786e4acbc37938c8d30403ed92276684c4"
+}

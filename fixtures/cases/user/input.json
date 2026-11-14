@@ -1,0 +1,9 @@
+{
+  "case": "user",
+  "id": "deny-4",
+  "marker": "user",
+  "path": "/evil/proxyacl/4",
+  "kid": "k-active",
+  "sig": "3W-T-VkPFHKmjcyjuZfNpsuLpWEOJ2-j43skz5T5Oow",
+  "_sign_line": "v1|k-active|3e46d5cbab6ef8ab1cd1ece3cd80428c4f1526ee28baab2b9fab45197ce44d5a"
+}

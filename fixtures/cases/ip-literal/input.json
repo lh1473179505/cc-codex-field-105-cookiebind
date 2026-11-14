@@ -1,0 +1,9 @@
+{
+  "case": "ip-literal",
+  "id": "deny-7",
+  "marker": "ip-literal",
+  "path": "/evil/proxyacl/7",
+  "kid": "k-active",
+  "sig": "qTiwxFvRy3G-mAtc-v9vCW8b0scpPyB-Nnq8q0_NouY",
+  "_sign_line": "v1|k-active|5abe290f4e81507bd659ac0abbe6cfa8a371614ce9a5793b482e62700d5e1e04"
+}

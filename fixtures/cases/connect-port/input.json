@@ -1,0 +1,9 @@
+{
+  "case": "connect-port",
+  "id": "deny-2",
+  "marker": "connect-port",
+  "path": "/evil/proxyacl/2",
+  "kid": "k-active",
+  "sig": "FFpHY6s3FOn5jlNWGMi4qcRCWW-552zJm_meJ-wiXZE",
+  "_sign_line": "v1|k-active|e17a4772663f4f6485db872d7980097572aa51855ce958c2c9acfcd657726822"
+}

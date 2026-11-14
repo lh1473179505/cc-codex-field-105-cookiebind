@@ -1,0 +1,9 @@
+{
+  "case": "host",
+  "id": "deny-3",
+  "marker": "host",
+  "path": "/evil/proxyacl/3",
+  "kid": "k-active",
+  "sig": "GPOlx5bseXhC-dcsgpAY9Yj94_j9prITa5a_Oj_2ap0",
+  "_sign_line": "v1|k-active|2ab1bc45b7b26ae49066b49724f158c2e636cff4ce08604dc86206fb3fa886be"
+}

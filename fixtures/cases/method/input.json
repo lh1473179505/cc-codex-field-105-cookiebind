@@ -1,0 +1,9 @@
+{
+  "case": "method",
+  "id": "deny-1",
+  "marker": "method",
+  "path": "/evil/proxyacl/1",
+  "kid": "k-active",
+  "sig": "_yWJdkmYAyFWAaTW4gyqnarHeZqilCMlVTLoV7Yc-ew",
+  "_sign_line": "v1|k-active|beb05f71b7035c8f9ccbbc7ee4f726959050a2a58b1d0a4fb69fdec6633c4e59"
+}
