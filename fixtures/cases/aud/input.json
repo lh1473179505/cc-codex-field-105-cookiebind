@@ -1,0 +1,9 @@
+{
+  "case": "aud",
+  "id": "deny-6",
+  "marker": "aud",
+  "path": "/evil/jwtcrit/6",
+  "kid": "k-active",
+  "sig": "cbNojmPc8dQHaSP5VTiQKMnDvms_rB6QSLC14_Dus7Q",
+  "_sign_line": "v1|k-active|9db05cd06e6f069bb0a0631822d50162ab5b8b3a7d8a3a3950e2b9cc5a6df457"
+}

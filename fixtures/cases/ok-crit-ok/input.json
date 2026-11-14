@@ -1,0 +1,9 @@
+{
+  "case": "ok-crit-ok",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/jwtcrit/1",
+  "kid": "k-active",
+  "sig": "SfIDc08w7ADSshIGPWdIN2rKUvfuajXWP_p79GxM0w4",
+  "_sign_line": "v1|k-active|f51427288e571ad79f95c42dc5e268fe611e3c43b3b01ff176ed3aaacb68d17a"
+}

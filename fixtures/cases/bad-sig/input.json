@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/jwtcrit/0",
+  "kid": "k-active",
+  "sig": "f-dHUmmYJw6rzuCbUp6C1AqT9NK84Bzxe0cgqUEO_aE",
+  "_sign_line": "v1|k-active|a3c8d7fc01263f7387b37ae876614e84133d6d346f4fd80e390f09773360ced8"
+}

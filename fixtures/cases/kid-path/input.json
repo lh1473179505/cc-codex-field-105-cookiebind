@@ -1,0 +1,9 @@
+{
+  "case": "kid-path",
+  "id": "deny-4",
+  "marker": "kid-path",
+  "path": "/evil/jwtcrit/4",
+  "kid": "k-active",
+  "sig": "259wZIiT3lteYjoSNr0Rl2skOdCE2cOduEb9hoR59e8",
+  "_sign_line": "v1|k-active|7a31f5f0dc20595b7c5cff6e8991f3de472e71afec251c496529f0c33420000a"
+}

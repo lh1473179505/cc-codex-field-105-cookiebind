@@ -1,0 +1,9 @@
+{
+  "case": "typ",
+  "id": "deny-3",
+  "marker": "typ",
+  "path": "/evil/jwtcrit/3",
+  "kid": "k-active",
+  "sig": "NGWNbmGW3zG-juEaaraWyloi8NivwLPWSdcBSF4v0hU",
+  "_sign_line": "v1|k-active|a18a4fdda1852556906d61010806092ea7629349f5e2a6b116a0f143303babc0"
+}

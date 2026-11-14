@@ -1,0 +1,9 @@
+{
+  "case": "exp",
+  "id": "deny-7",
+  "marker": "exp",
+  "path": "/evil/jwtcrit/7",
+  "kid": "k-active",
+  "sig": "aYqCHE-9sowi8x5qV6E2mVHsOfAdtHiZT96bLc8I5M0",
+  "_sign_line": "v1|k-active|5b89848c76ec604bd64735331a60071778da6de7c5f87d3cfc6e2a007ae0519a"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "crit",
+  "id": "deny-1",
+  "marker": "crit",
+  "path": "/evil/jwtcrit/1",
+  "kid": "k-active",
+  "sig": "zQ1SeYk3fXCukymfzBKZ2QpNybQfstCY85qOWll07uw",
+  "_sign_line": "v1|k-active|7a7d8c7570b09a648ec4c7c34f15e78298b218fa0512b533eba0d24c178a9bee"
+}

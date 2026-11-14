@@ -1,0 +1,9 @@
+{
+  "case": "jku",
+  "id": "deny-2",
+  "marker": "jku",
+  "path": "/evil/jwtcrit/2",
+  "kid": "k-active",
+  "sig": "rso2uxtlfggT8gI3iTNlJNIxB7DbYBYkGK1cuzULKAM",
+  "_sign_line": "v1|k-active|d9c06917d3de6947ce6bc0f672c0a274bd6eca5b2859c30902521b45198bf22e"
+}
