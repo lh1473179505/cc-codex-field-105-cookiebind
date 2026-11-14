@@ -1,0 +1,9 @@
+{
+  "case": "obf",
+  "id": "deny-2",
+  "marker": "obf",
+  "path": "/evil/redteamx/2",
+  "kid": "k-active",
+  "sig": "85uKA7WTr2KaeDTKGwWOt7CuBxJDQHXUZYIMOumX_-k",
+  "_sign_line": "v1|k-active|e900a963c98ca75f57cf9f02e0b360f63a9d5e488e01523032039cf2f2906eea"
+}

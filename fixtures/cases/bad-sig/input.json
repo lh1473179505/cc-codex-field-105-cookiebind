@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/redteamx/0",
+  "kid": "k-active",
+  "sig": "-1IhE-SWRHI5OmpjCrKGk1X3bbxI97fC15YxSUw9IJA",
+  "_sign_line": "v1|k-active|be773309dc831b7e56931772a48b6da709a458fed5d31ba5b80bf2e7848a5a5f"
+}

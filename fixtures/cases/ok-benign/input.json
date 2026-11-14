@@ -1,0 +1,9 @@
+{
+  "case": "ok-benign",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/redteamx/0",
+  "kid": "k-active",
+  "sig": "T8jNiYJTqGhxgkWM08wgLEkx8RZNHoLd-GJUJa4DPOY",
+  "_sign_line": "v1|k-active|45fbc03b9f7fcc56a7d69c7ec9cf88020e7419c012a2998dc4308cf4ed18ab6e"
+}

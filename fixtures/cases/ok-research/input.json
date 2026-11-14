@@ -1,0 +1,9 @@
+{
+  "case": "ok-research",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/redteamx/1",
+  "kid": "k-active",
+  "sig": "2vduukWS6w4JVFYmmX2lVQwZ6LOkgXbS5-UtFkJZT5U",
+  "_sign_line": "v1|k-active|a4a774e6c81c8c84b84861884330721b433a8a1692ff0118438151fd2485051c"
+}

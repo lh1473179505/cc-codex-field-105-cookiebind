@@ -1,0 +1,9 @@
+{
+  "case": "empty",
+  "id": "deny-6",
+  "marker": "empty",
+  "path": "/evil/redteamx/6",
+  "kid": "k-active",
+  "sig": "oWqMbU_dg5OUbSWwSLbYTu5y4wWWa_nY7d8-ypwUa0E",
+  "_sign_line": "v1|k-active|1f8d2b7a75b1a19320c51dd6a2a15ab99ab8b0caea2f66000452d5f5b101b348"
+}

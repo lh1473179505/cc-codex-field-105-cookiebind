@@ -1,0 +1,9 @@
+{
+  "case": "prod-high",
+  "id": "deny-3",
+  "marker": "prod-high",
+  "path": "/evil/redteamx/3",
+  "kid": "k-active",
+  "sig": "xknnUSbeClWYCnp7qxmQTv6UARyukAHe1ZRJrJUVxjk",
+  "_sign_line": "v1|k-active|1b597a74bd5ea50751670fe65d273b895c276f4c85be1bdbe07475fd8f11a67b"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "fake-research",
+  "id": "deny-5",
+  "marker": "fake-research",
+  "path": "/evil/redteamx/5",
+  "kid": "k-active",
+  "sig": "k4UGhawMzgMuHGEY7AKeZnzJ38ulqL6XO-3Lhfzy_A0",
+  "_sign_line": "v1|k-active|62a5c7f1df876687e218ee9d2222677976bcd00bcc99f3c8795288a434de1de1"
+}

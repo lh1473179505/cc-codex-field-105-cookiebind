@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/redteamx/4",
+  "kid": "k-revoked",
+  "sig": "dl7ptPyug3g_5wFUS1zgMyWRGG6SLWMrwAO4oo0e-Ok",
+  "_sign_line": "v1|k-revoked|99c12d0b63537f338a936394edfb36fff0aaba0c45e7d420e0473131e048cf8d"
+}

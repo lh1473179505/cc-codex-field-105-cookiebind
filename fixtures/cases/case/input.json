@@ -1,0 +1,9 @@
+{
+  "case": "case",
+  "id": "deny-7",
+  "marker": "case",
+  "path": "/evil/redteamx/7",
+  "kid": "k-active",
+  "sig": "JMyp1opJc93gMfnzU4wA11fNbpC53QLuyDjUQuOgvI8",
+  "_sign_line": "v1|k-active|c40a80c416b6a2e7187ef1a5183b4820e16c92400d63106505572b0b9fb5b805"
+}
