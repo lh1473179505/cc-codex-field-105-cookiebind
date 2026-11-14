@@ -1,0 +1,9 @@
+{
+  "case": "underage",
+  "id": "deny-2",
+  "marker": "underage",
+  "path": "/evil/agegatex/2",
+  "kid": "k-active",
+  "sig": "8RAguffOPFCO5fy53ZU00d66frbRwhFwp2H6Zyej7ho",
+  "_sign_line": "v1|k-active|dda824744b821a43c585e665ebec3dd545cf310462298ae838b850c61221f9d1"
+}

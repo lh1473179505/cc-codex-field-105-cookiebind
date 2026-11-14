@@ -1,0 +1,9 @@
+{
+  "case": "jurisdiction",
+  "id": "deny-3",
+  "marker": "jurisdiction",
+  "path": "/evil/agegatex/3",
+  "kid": "k-active",
+  "sig": "Ln365MJ5yC_UXA76_Z3IcqrGPpsSVDUfDTsu2bjDHLk",
+  "_sign_line": "v1|k-active|1b491a5c21537983ed6d2559f4df8527c4a31db2fdadece76539a0f24d66254e"
+}

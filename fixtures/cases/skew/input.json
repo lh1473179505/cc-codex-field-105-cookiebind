@@ -1,0 +1,9 @@
+{
+  "case": "skew",
+  "id": "deny-6",
+  "marker": "skew",
+  "path": "/evil/agegatex/6",
+  "kid": "k-active",
+  "sig": "vFobGJaicqkpQtxgObaitpZDRZA-Gudiol1mYOKwReY",
+  "_sign_line": "v1|k-active|2962272b4cc7e79b162a721c846944e177b36d4c2f46289e2403ac2687d59640"
+}

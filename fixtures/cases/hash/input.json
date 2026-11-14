@@ -1,0 +1,9 @@
+{
+  "case": "hash",
+  "id": "deny-1",
+  "marker": "hash",
+  "path": "/evil/agegatex/1",
+  "kid": "k-active",
+  "sig": "ddMGzihUgcmX8q_QxqjdEDtfes-GjXeaDk3sIiaO5i4",
+  "_sign_line": "v1|k-active|d3c22e4a8b6e67c1e9a5c79e38f77da30bbffa925bc670481e0c47f8c505f1f4"
+}

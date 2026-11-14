@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/agegatex/0",
+  "kid": "k-active",
+  "sig": "V56z6NTH66TWMUG5b8AZgR6bfC29sGT_Ycfb6kZIa3Q",
+  "_sign_line": "v1|k-active|9667bd955011223b2b1ae4fedf7f2c32ba0a4c72237d4de60710bdab8a49188f"
+}

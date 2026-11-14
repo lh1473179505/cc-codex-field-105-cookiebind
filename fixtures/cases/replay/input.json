@@ -1,0 +1,9 @@
+{
+  "case": "replay",
+  "id": "deny-4",
+  "marker": "replay",
+  "path": "/evil/agegatex/4",
+  "kid": "k-active",
+  "sig": "EcmvYT_o1Peb20fw_mdNckq4OqBf8qlsjLHgpY-GG0M",
+  "_sign_line": "v1|k-active|fbbfbcd5ead2fc9323967d3a1c2ab97cb640c8d5c7d7005b15bac04aba9d4e6a"
+}

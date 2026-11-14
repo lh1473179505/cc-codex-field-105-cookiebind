@@ -1,0 +1,9 @@
+{
+  "case": "ok-eu",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/agegatex/1",
+  "kid": "k-active",
+  "sig": "eK9o064oAf25KxAToSUMy9Y6_a5uf7Q7qc5Ga4ObzJo",
+  "_sign_line": "v1|k-active|4e446ded5bc4e03e16f78ea503460f9f38526add497d19b779cdd4ba09aea3b4"
+}

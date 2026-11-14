@@ -1,0 +1,9 @@
+{
+  "case": "threshold",
+  "id": "deny-7",
+  "marker": "threshold",
+  "path": "/evil/agegatex/7",
+  "kid": "k-active",
+  "sig": "80zc1YY_d6_EkECqYfthLrSVe2O3DtERFWo3QRXCWz8",
+  "_sign_line": "v1|k-active|a7e359471900cba0e7d4e09452f2ce0584a69a22fd23976c228011c045c7e377"
+}

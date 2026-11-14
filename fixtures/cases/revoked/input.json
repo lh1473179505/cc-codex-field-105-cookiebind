@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/agegatex/5",
+  "kid": "k-revoked",
+  "sig": "WF6_Y-tdk_wsRzdmAV7kTpUq-uKAkDjfr8wXUTiWzLw",
+  "_sign_line": "v1|k-revoked|f125dbb3e8126d75f12034a5852aca15ba3e01361121852d4d386238719389cc"
+}
