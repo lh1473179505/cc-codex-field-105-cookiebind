@@ -1,0 +1,9 @@
+{
+  "case": "expired",
+  "id": "deny-3",
+  "marker": "expired",
+  "path": "/evil/samlbind/3",
+  "kid": "k-active",
+  "sig": "8FFXJZsBd9FLRGp12IBV4nj9IS0NtjqX6--UcHchBBc",
+  "_sign_line": "v1|k-active|7ca3111100f37ff857fad7d28be232e510a24178dbc35dc3338e2e0cd64d590d"
+}

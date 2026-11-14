@@ -1,0 +1,9 @@
+{
+  "case": "ok-sso",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/samlbind/0",
+  "kid": "k-active",
+  "sig": "aFEFpjzWC9U7mEz-a1l9MLT0JGwzI0TM-ktzlq7znwo",
+  "_sign_line": "v1|k-active|cb91b8df6e8fcaec01bece52316c4ef82aaa6203144dd96991f9755b938d7c47"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "issuer",
+  "id": "deny-4",
+  "marker": "issuer",
+  "path": "/evil/samlbind/4",
+  "kid": "k-active",
+  "sig": "xpqDtIysVEB1LqcTwUUzN_j--83vSQNScau83nWJ3_U",
+  "_sign_line": "v1|k-active|77ceba566d9e683b4238091dfb95a744ab8c103a70a48203b2974fae6abd8ac6"
+}

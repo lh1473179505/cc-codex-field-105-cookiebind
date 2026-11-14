@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/samlbind/5",
+  "kid": "k-revoked",
+  "sig": "AInpufXu_tKaOY62SxmJTtRymvyp6IzlLxVgBIa1chI",
+  "_sign_line": "v1|k-revoked|96381ed2d631844c4c3c275f831cdf50181e3c4f0521ce738770f61b16a47125"
+}

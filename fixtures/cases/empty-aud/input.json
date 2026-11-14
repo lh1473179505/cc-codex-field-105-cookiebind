@@ -1,0 +1,9 @@
+{
+  "case": "empty-aud",
+  "id": "deny-7",
+  "marker": "empty-aud",
+  "path": "/evil/samlbind/7",
+  "kid": "k-active",
+  "sig": "dPF909P3RXPy4X9ui1P87EcggYHw-VwrUMJIkj5powQ",
+  "_sign_line": "v1|k-active|a67c2efd49e790e23c360f4fc3c30402bb0261a35437cc68d61af15094dff7f4"
+}

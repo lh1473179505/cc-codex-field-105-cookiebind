@@ -1,0 +1,9 @@
+{
+  "case": "recipient",
+  "id": "deny-2",
+  "marker": "recipient",
+  "path": "/evil/samlbind/2",
+  "kid": "k-active",
+  "sig": "aQ3IrIX6w5PLXg7cUCIcM8DsKSdMxgjf623XB8kex_k",
+  "_sign_line": "v1|k-active|f7b7f8e272287f006d65f9df79c3e55d84e28c0de7384810d242a4c8a8ba204e"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-skew",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/samlbind/1",
+  "kid": "k-active",
+  "sig": "FyrGL-6FDBeOb5yVjVzJuUoRgxdaLSEY-UMS1UGhGZo",
+  "_sign_line": "v1|k-active|84112e1f28f754cb9729e90553b53576ba612d6d53041865c627fb21fbc5b2cc"
+}

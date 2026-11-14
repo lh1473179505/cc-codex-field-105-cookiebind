@@ -1,0 +1,9 @@
+{
+  "case": "skew",
+  "id": "deny-6",
+  "marker": "skew",
+  "path": "/evil/samlbind/6",
+  "kid": "k-active",
+  "sig": "rZ1DgI-H_fX6Ddy35dOaYiyMz3BOqWL_0BtFUKfdi0I",
+  "_sign_line": "v1|k-active|ba06da2a7785dc65e62342ca11ece7e0801cdccfdeaaf30a84e49dd4d77e9653"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/samlbind/0",
+  "kid": "k-active",
+  "sig": "W_GKCEfUa1gLtHFH122KiR7P8-iFeoZj2niQRPEIZS4",
+  "_sign_line": "v1|k-active|24336f33ce82aff7b7dbe14c2c3787d6e5906a134a28b8e552638e54e9df9ce1"
+}
