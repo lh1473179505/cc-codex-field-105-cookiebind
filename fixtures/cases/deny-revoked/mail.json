@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "d": "mail.example.com",
+  "s": "s2025",
+  "from_domain": "mail.example.com",
+  "arc_cv": "pass",
+  "body_hash": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+  "iat": 1781783960,
+  "nonce": "n-deny-revoked",
+  "sig": "oVxJJstQpyewjJlpM-UixM5a0eiQUJbq2clJfgcnFZo"
+}

@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "d": "mail.example.com",
+  "s": "s2019",
+  "from_domain": "mail.example.com",
+  "arc_cv": "pass",
+  "body_hash": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+  "iat": 1781783960,
+  "nonce": "n-deny-selector",
+  "sig": "QoypWzMQ-GlrAotfbKilpb9jzVl06woj0e9xruEFHEE"
+}

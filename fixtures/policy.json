@@ -1,0 +1,16 @@
+{
+  "allowed_d": [
+    "mail.example.com",
+    "notify.example.com"
+  ],
+  "allowed_s": [
+    "s2024",
+    "s2025"
+  ],
+  "from_must_align_d": true,
+  "required_arc_cv": [
+    "pass"
+  ],
+  "clock_skew_seconds": 180,
+  "max_age_seconds": 600
+}
