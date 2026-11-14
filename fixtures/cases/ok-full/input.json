@@ -1,0 +1,9 @@
+{
+  "case": "ok-full",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/sbombind/0",
+  "kid": "k-active",
+  "sig": "uY0M1OVOADNQH9yPbC7fWDAQQkPqpfLVHIVtSfwsxDM",
+  "_sign_line": "v1|k-active|14a286ea081520b37bd8db3f1be3afbcfae9dbd506de40e2a1aeaae16daaba76"
+}

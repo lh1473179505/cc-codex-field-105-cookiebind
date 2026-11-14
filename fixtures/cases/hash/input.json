@@ -1,0 +1,9 @@
+{
+  "case": "hash",
+  "id": "deny-1",
+  "marker": "hash",
+  "path": "/evil/sbombind/1",
+  "kid": "k-active",
+  "sig": "QiJTLn2L2oWzknOM-73HLVnMu34bauXG_2Ei_H65-uo",
+  "_sign_line": "v1|k-active|bb458fc01dfe920d430b3a35abd0f6a0df486485e29530c875f57b43197a0a00"
+}

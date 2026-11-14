@@ -1,0 +1,9 @@
+{
+  "case": "license",
+  "id": "deny-2",
+  "marker": "license",
+  "path": "/evil/sbombind/2",
+  "kid": "k-active",
+  "sig": "rKbdattcQPXDFdaqLvwt-xr5KDRebK-DoY7XuzF8zsI",
+  "_sign_line": "v1|k-active|5d3a0c4d79a4127821bc42ca13fd0efb12d86fb62c0469467a8269517e12e5b0"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "excluded-miss",
+  "id": "deny-6",
+  "marker": "excluded-miss",
+  "path": "/evil/sbombind/6",
+  "kid": "k-active",
+  "sig": "UE3XES28HtiQazBuBY9zZOrR86W2SF3NxUv-poKHXeI",
+  "_sign_line": "v1|k-active|1eb8822e5deb4b2f58f7e159a69b40a40b713b9abb61f54f7cf366f21ff43e25"
+}

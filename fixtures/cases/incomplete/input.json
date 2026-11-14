@@ -1,0 +1,9 @@
+{
+  "case": "incomplete",
+  "id": "deny-4",
+  "marker": "incomplete",
+  "path": "/evil/sbombind/4",
+  "kid": "k-active",
+  "sig": "AxqAnwXU2bnPJsCfW_Dq8PeUvWKLY0uT-__3PNrpfpU",
+  "_sign_line": "v1|k-active|c5b6a21707b34519ff952755cfa5a00a375c85297b508cda5f9f25d09cb0ea36"
+}

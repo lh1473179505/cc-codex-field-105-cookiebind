@@ -1,0 +1,9 @@
+{
+  "case": "alias",
+  "id": "deny-3",
+  "marker": "alias",
+  "path": "/evil/sbombind/3",
+  "kid": "k-active",
+  "sig": "2LKCSqhTt1BaYAD9ba0mwYdgSlimhdw4lcLPbOdmr_I",
+  "_sign_line": "v1|k-active|675bf6da5ecd1fe1128454eff0cba86c490788d29a248f3f1c2a734eac1b75e8"
+}

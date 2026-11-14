@@ -1,0 +1,9 @@
+{
+  "case": "case-name",
+  "id": "deny-7",
+  "marker": "case-name",
+  "path": "/evil/sbombind/7",
+  "kid": "k-active",
+  "sig": "2ULpomZQ0Yjyeqr2OfatDiX7N6NYCxsnVAryvaO2Qms",
+  "_sign_line": "v1|k-active|a33f7565bc7c22257d2cebd66136096249065242c7b48580ba28f40acabac004"
+}

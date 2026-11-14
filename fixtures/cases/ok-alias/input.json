@@ -1,0 +1,9 @@
+{
+  "case": "ok-alias",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/sbombind/1",
+  "kid": "k-active",
+  "sig": "uiNaRU9nEs9TJPhW1CO3G5Hd2hdrERizvon8q-t28fo",
+  "_sign_line": "v1|k-active|23f443cd8f891abb58511266248acc361de5b8146d2abae1dd52019c57d97879"
+}
