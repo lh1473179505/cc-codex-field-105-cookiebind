@@ -1,0 +1,9 @@
+{
+  "case": "trunc",
+  "id": "deny-7",
+  "marker": "trunc",
+  "path": "/evil/merkleinc/7",
+  "kid": "k-active",
+  "sig": "f972rAF-mi0wMQr-lzdNrW7W4ZzfyXlwXGR-QlOyW9A",
+  "_sign_line": "v1|k-active|e0ea0c5590296ccf1069cd3492c1bd53d572fee5d14027745db4a956e74adc0c"
+}

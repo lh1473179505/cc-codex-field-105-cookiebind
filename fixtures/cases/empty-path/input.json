@@ -1,0 +1,9 @@
+{
+  "case": "empty-path",
+  "id": "deny-5",
+  "marker": "empty-path",
+  "path": "/evil/merkleinc/5",
+  "kid": "k-active",
+  "sig": "8OoqIoCsnSOXwg1cm0TeQ7vDI7ctPu_N4EM34QAEKkw",
+  "_sign_line": "v1|k-active|2562b20821f78e49634f46541e145f16474575d3b22633284ff9186406a2c8c7"
+}

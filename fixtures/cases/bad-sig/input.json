@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/merkleinc/0",
+  "kid": "k-active",
+  "sig": "gA_zSiZtibJq8s_4fvNMzgoPyH8EnM1aIIiHijTnHyQ",
+  "_sign_line": "v1|k-active|650a47b24c2b901e992c27cc27e403e27a2a28d1701c2768d262cca74cd3cef8"
+}

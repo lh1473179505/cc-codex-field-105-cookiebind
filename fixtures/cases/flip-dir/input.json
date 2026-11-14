@@ -1,0 +1,9 @@
+{
+  "case": "flip-dir",
+  "id": "deny-6",
+  "marker": "flip-dir",
+  "path": "/evil/merkleinc/6",
+  "kid": "k-active",
+  "sig": "27RNQ84CRhqzf43ZW7AunjiXjEVawASRpdW7KnTZ6qg",
+  "_sign_line": "v1|k-active|7fae23f79fdcb2281b9d738ce5245421d2e47f3039f43b8b93b16fa9a67d306b"
+}

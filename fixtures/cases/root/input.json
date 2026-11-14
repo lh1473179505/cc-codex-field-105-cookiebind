@@ -1,0 +1,9 @@
+{
+  "case": "root",
+  "id": "deny-3",
+  "marker": "root",
+  "path": "/evil/merkleinc/3",
+  "kid": "k-active",
+  "sig": "i0aCVdNIldJkaOQj1V9lDrlpRJuZVzWaLaLLIPFNxGw",
+  "_sign_line": "v1|k-active|1b692cfb4226a92d735b56c6455fe2bd388049f25322379c67882b30417f60b6"
+}

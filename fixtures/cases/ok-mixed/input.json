@@ -1,0 +1,9 @@
+{
+  "case": "ok-mixed",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/merkleinc/1",
+  "kid": "k-active",
+  "sig": "i-pilMz40kRMEIuRjGgrCfjGlZUuMDPBAD2kWcy1ojI",
+  "_sign_line": "v1|k-active|eeca7d26e124230615168ba6ec45b5feb14aa947d9303169954fa73df42ca0e9"
+}
