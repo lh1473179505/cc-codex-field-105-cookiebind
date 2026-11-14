@@ -1,0 +1,9 @@
+{
+  "case": "rel-exe",
+  "id": "deny-6",
+  "marker": "rel-exe",
+  "path": "/evil/auditmatch/6",
+  "kid": "k-active",
+  "sig": "sIDOZf-4QKPoqTNC2TS054aOyqANe8BTjKtj93l5Bbw",
+  "_sign_line": "v1|k-active|a5639be8ad6e8163fbc7cd52e51ca4d1584499a00f6657f7229a7cdfdaefcc5e"
+}

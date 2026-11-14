@@ -1,0 +1,9 @@
+{
+  "case": "ok-fail",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/auditmatch/0",
+  "kid": "k-active",
+  "sig": "lLU1tgWPfKEqX3gohkFybV2bMDYjAZOWiDLhA3mESBs",
+  "_sign_line": "v1|k-active|6cb0f5b913064ecbd6bdf3077820f108d3c79a243d49bef4f6a83acd58162540"
+}

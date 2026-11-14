@@ -1,0 +1,9 @@
+{
+  "case": "success",
+  "id": "deny-3",
+  "marker": "success",
+  "path": "/evil/auditmatch/3",
+  "kid": "k-active",
+  "sig": "Ij_k5irPirsdH6BfVQ3J9RV2DKDUYVFfJUZ33yuz8zs",
+  "_sign_line": "v1|k-active|199edabc7ae46a8704bd96885e48ab2870a69c919fa1d9370adbf72fde38bc5b"
+}

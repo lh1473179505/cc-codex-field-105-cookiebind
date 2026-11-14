@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/auditmatch/5",
+  "kid": "k-revoked",
+  "sig": "ZkXKbAyi2d5hTRaB5-1HYSKNfTwZBgH6yTjFSn7Ev8A",
+  "_sign_line": "v1|k-revoked|6a0ebfc67b3bf99d5e1e490dd0de88f5fb02089bdaebe77dd184c697f8e4ac21"
+}

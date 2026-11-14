@@ -1,0 +1,9 @@
+{
+  "case": "exe",
+  "id": "deny-2",
+  "marker": "exe",
+  "path": "/evil/auditmatch/2",
+  "kid": "k-active",
+  "sig": "XIa6CzYrvcjlgwc56yXA3nD3CIv90daBPjLkhDQsRrs",
+  "_sign_line": "v1|k-active|8c578622d7687bf3639a182f7a5b637de3744d80f71ff02ecc59c52bfb058377"
+}
