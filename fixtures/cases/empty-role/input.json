@@ -1,0 +1,9 @@
+{
+  "case": "empty-role",
+  "id": "deny-7",
+  "marker": "empty-role",
+  "path": "/evil/mtlsmap/7",
+  "kid": "k-active",
+  "sig": "QF0PaxBqLACAn8-lzkVXamdxSWRQWRW48YHh4S2w1is",
+  "_sign_line": "v1|k-active|d5c0b225cbdcdaecc70c58cfa1bafe7cc59b98cb4377e3a88877389e8540a54d"
+}

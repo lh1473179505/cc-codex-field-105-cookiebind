@@ -1,0 +1,9 @@
+{
+  "case": "ok-ops",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/mtlsmap/1",
+  "kid": "k-active",
+  "sig": "cIJWZF4ekncXYqHJZ3uN3sPqDCrW5b4JC-TJz8Fg2CA",
+  "_sign_line": "v1|k-active|e8d22d58b3e6721709315f922f7b5ddd92715c9ab5dd77a41b41a8431905fa93"
+}

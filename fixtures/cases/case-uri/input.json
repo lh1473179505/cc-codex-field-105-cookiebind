@@ -1,0 +1,9 @@
+{
+  "case": "case-uri",
+  "id": "deny-6",
+  "marker": "case-uri",
+  "path": "/evil/mtlsmap/6",
+  "kid": "k-active",
+  "sig": "o-fVIswgwNBVpDNoZGMdA2MhIRXYcdRE1PaxsRAA04E",
+  "_sign_line": "v1|k-active|6cd99927b174441bb324f1566f5d1f9d4cf8b257ec50e235b5cc9c87be110eae"
+}

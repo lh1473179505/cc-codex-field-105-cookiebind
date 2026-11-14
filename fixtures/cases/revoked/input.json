@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/mtlsmap/5",
+  "kid": "k-revoked",
+  "sig": "BBpzfDEG26Q3KMB6pXYgEpNLqlsk10Y2CzcxgGR7LXg",
+  "_sign_line": "v1|k-revoked|8c16e32d10686b499d07ffaa00edef3525f30c19b8207c4bb619af267a29d428"
+}

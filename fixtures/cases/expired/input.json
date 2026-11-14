@@ -1,0 +1,9 @@
+{
+  "case": "expired",
+  "id": "deny-4",
+  "marker": "expired",
+  "path": "/evil/mtlsmap/4",
+  "kid": "k-active",
+  "sig": "PkCsef55cYzBjLKWl7e3kGy1JwlZErSYN2HPALSDpX0",
+  "_sign_line": "v1|k-active|9cd85776f5e49a35131afb14cbf0c51f461862fcd9679f041dd9821437c81c58"
+}

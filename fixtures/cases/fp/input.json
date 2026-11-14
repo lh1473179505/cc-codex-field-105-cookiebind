@@ -1,0 +1,9 @@
+{
+  "case": "fp",
+  "id": "deny-1",
+  "marker": "fp",
+  "path": "/evil/mtlsmap/1",
+  "kid": "k-active",
+  "sig": "9IMBHiZvnqkVbO-0NjjdDxXYSII3gV97eXKQ9v0RNk0",
+  "_sign_line": "v1|k-active|fbdb3b6226371cbcb448d5138ba285e52e8882f7f692963ee3fd0aa0cd006054"
+}

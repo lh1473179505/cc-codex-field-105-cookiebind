@@ -1,0 +1,9 @@
+{
+  "case": "ok-pay",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/mtlsmap/0",
+  "kid": "k-active",
+  "sig": "VhOTi6s7uMHcKODragiLfn-bWhJeAGSpCb1bOFICmdM",
+  "_sign_line": "v1|k-active|1a797e5d4ab73181bac70f45bf47ff3c46f6c0813f810d83b335a1d051151d15"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "uri",
+  "id": "deny-2",
+  "marker": "uri",
+  "path": "/evil/mtlsmap/2",
+  "kid": "k-active",
+  "sig": "kvjdMFIe8hP9ZHL5ARmDiIrV2osdqq3aO0ET4vosNFg",
+  "_sign_line": "v1|k-active|c16f2cfed3e763a1b5748ab823c3cea765bf41b23a3a2a09f23e053eafb49eac"
+}
