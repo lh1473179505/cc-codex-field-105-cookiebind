@@ -1,0 +1,28 @@
+{
+  "ticket_kid": "tk-active",
+  "realm": "CORP.EXAMPLE",
+  "cname": "alice",
+  "spn": "http/app.corp.example",
+  "authtime": 1781783880,
+  "starttime": 1781783940,
+  "endtime": 1781787600,
+  "renew_till": 1781870400,
+  "renewable": true,
+  "transited": "CORP.EXAMPLE",
+  "pac_sha256": "7f2cf8b2241d7e85a63674ddafa9f232a062ef80793a2a213bafcb5f06f6c116",
+  "pac": {
+    "pac_kid": "pac-revoked",
+    "logon_domain": "CORP",
+    "account": "alice",
+    "group_sids": [
+      "S-1-5-21-1-2-3-512",
+      "S-1-5-21-1-2-3-513"
+    ],
+    "deny_sids": [],
+    "logon_time": 1781783880,
+    "password_last_set": 1779192000,
+    "sig": "xp62CQOsX2PmUzzlFiI9jEYMwQHs6i6IrGGJoUNEU34"
+  },
+  "nonce": "n-deny-pac-revoked",
+  "sig": "bI4A_I1t7szQRMMn6ljTERXyy0pDjtmzAJigyaiV4L0"
+}

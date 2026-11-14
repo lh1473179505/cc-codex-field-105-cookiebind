@@ -1,0 +1,33 @@
+{
+  "allowed_realms": [
+    "CORP.EXAMPLE",
+    "PARTNER.EXAMPLE"
+  ],
+  "spn_allow": [
+    {
+      "realm": "CORP.EXAMPLE",
+      "exact": "http/app.corp.example"
+    },
+    {
+      "realm": "CORP.EXAMPLE",
+      "prefix": "http/api."
+    },
+    {
+      "realm": "PARTNER.EXAMPLE",
+      "exact": "http/partner.example"
+    }
+  ],
+  "allowed_group_sids": [
+    "S-1-5-21-1-2-3-512",
+    "S-1-5-21-1-2-3-513",
+    "S-1-5-21-9-9-9-1107"
+  ],
+  "denied_group_sids": [
+    "S-1-5-21-1-2-3-666"
+  ],
+  "max_transit_hops": 2,
+  "require_contiguous_transit": true,
+  "clock_skew_seconds": 120,
+  "require_pac_account_match": true,
+  "forbid_renewable_past_end": true
+}

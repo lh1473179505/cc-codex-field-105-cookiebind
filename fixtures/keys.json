@@ -1,0 +1,22 @@
+{
+  "ticket_keys": {
+    "tk-active": {
+      "secret": "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+      "status": "active"
+    },
+    "tk-revoked": {
+      "secret": "c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3",
+      "status": "revoked"
+    }
+  },
+  "pac_keys": {
+    "pac-active": {
+      "secret": "b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2",
+      "status": "active"
+    },
+    "pac-revoked": {
+      "secret": "d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4",
+      "status": "revoked"
+    }
+  }
+}
