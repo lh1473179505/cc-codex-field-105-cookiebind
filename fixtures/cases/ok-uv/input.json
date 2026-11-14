@@ -1,0 +1,9 @@
+{
+  "case": "ok-uv",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/webauthn/0",
+  "kid": "k-active",
+  "sig": "Cc1Lbu2VmyNrIfvjB5lVxsehCqVNH5ItgGI8mYUArU4",
+  "_sign_line": "v1|k-active|d665c5ed1c9f43526ce2e2ab76b4830247c625f9b503e0e04318172d6ab8b369"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "replay-count",
+  "id": "deny-4",
+  "marker": "replay-count",
+  "path": "/evil/webauthn/4",
+  "kid": "k-active",
+  "sig": "INZKgXgLrt1gK0iWVvqhRPNlUrdmCymrPalEktlyr04",
+  "_sign_line": "v1|k-active|32d68d0aa3e9af8d2709ecc7228ac7e2b85a898e1053c956bd9bd3790d5a0bf0"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "rp",
+  "id": "deny-1",
+  "marker": "rp",
+  "path": "/evil/webauthn/1",
+  "kid": "k-active",
+  "sig": "SjT9RN0g0UM9wq87DqSkWibF9uBYSbsadPN9foyabdw",
+  "_sign_line": "v1|k-active|b82b6bb52d0042c8223b6110e8e72348d18ad559e8b92f4efc3312efd63d4057"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "cred",
+  "id": "deny-7",
+  "marker": "cred",
+  "path": "/evil/webauthn/7",
+  "kid": "k-active",
+  "sig": "UR2owlLf8uZ0MsFzWskRI-iJbDtdhf4boYHKo0T3mpo",
+  "_sign_line": "v1|k-active|00a7cfa54a7d3b038cc95fbed5e1b9f95463c3f57f82e96d2e3e6a6f0830f4b3"
+}

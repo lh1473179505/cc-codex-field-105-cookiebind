@@ -1,0 +1,9 @@
+{
+  "case": "uv",
+  "id": "deny-3",
+  "marker": "uv",
+  "path": "/evil/webauthn/3",
+  "kid": "k-active",
+  "sig": "GiY1ElFw0WR8J8ja1FikDJR1OsQnGq8G21CjdVHYH6Q",
+  "_sign_line": "v1|k-active|e26eacf74e567a7fe9842205df9ea527caddd3e6e65ba0690b61e51caee675be"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/webauthn/0",
+  "kid": "k-active",
+  "sig": "-oymig2VFAA-clTVn2IsQWBVBqCyktGjC7Y0TzjLT4w",
+  "_sign_line": "v1|k-active|99b620e1175d9c12456f9e0f1238fb879aaecd3c2a1aaf97abf7be3494e9b303"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "challenge",
+  "id": "deny-5",
+  "marker": "challenge",
+  "path": "/evil/webauthn/5",
+  "kid": "k-active",
+  "sig": "7I5blASDqJ_RWytPkeM6sBC8acvnAs4veIUgb4RMJdQ",
+  "_sign_line": "v1|k-active|0b6cefe95dadf97ebaf16133c0dec97fdb4ec313fbb2d4fe88f727eb84422b1e"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "type",
+  "id": "deny-6",
+  "marker": "type",
+  "path": "/evil/webauthn/6",
+  "kid": "k-active",
+  "sig": "pz4Zd27L-mSDLsK9EX0R4ytdeAkj2dweaWLBftwNavI",
+  "_sign_line": "v1|k-active|ed39e7e1ca966f89bc077ee24cb25e9f867dae6384d70873b07f98a1b0e04d9d"
+}
