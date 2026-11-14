@@ -1,0 +1,10 @@
+{
+  "kid": "k-active",
+  "client_id": "sensor-2",
+  "topic": "devices/sensor-2/humidity",
+  "qos": 0,
+  "payload_sha256": "9cda9ecc682b5dd720eef5a7d7fe49ceb4350d196135a2f7882b4345bfa664c2",
+  "iat": 1781783985,
+  "nonce": "n-ok-s2",
+  "sig": "jH8j_nx3pL8KOwcViJTB9hnctSs2gME77VETrC_cISM"
+}

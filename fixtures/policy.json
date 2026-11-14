@@ -1,0 +1,14 @@
+{
+  "client_topic_prefix": {
+    "sensor-1": "devices/sensor-1/",
+    "sensor-2": "devices/sensor-2/"
+  },
+  "forbidden_topic_substrings": [
+    "#",
+    "+",
+    "$SYS"
+  ],
+  "max_qos": 1,
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 300
+}

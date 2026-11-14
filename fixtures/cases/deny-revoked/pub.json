@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "client_id": "sensor-1",
+  "topic": "devices/sensor-1/temp",
+  "qos": 0,
+  "payload_sha256": "9cda9ecc682b5dd720eef5a7d7fe49ceb4350d196135a2f7882b4345bfa664c2",
+  "iat": 1781783985,
+  "nonce": "n-deny-revoked",
+  "sig": "VBXRwUEESdyBFlTEjO2XK_GijgwbCPZKS_pX971zcfI"
+}
