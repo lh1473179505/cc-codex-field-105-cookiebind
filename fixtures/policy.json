@@ -1,0 +1,12 @@
+{
+  "allowed_issuers": [
+    "https://idp.corp.example/saml"
+  ],
+  "allowed_audiences": [
+    "https://app.corp.example/acs"
+  ],
+  "allowed_recipients": [
+    "https://app.corp.example/acs"
+  ],
+  "clock_skew_seconds": 120
+}

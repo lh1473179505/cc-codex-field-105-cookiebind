@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "issuer": "https://idp.corp.example/saml",
+  "audience": "https://other.example/acs",
+  "recipient": "https://app.corp.example/acs",
+  "subject": "alice@corp.example",
+  "not_before": 1781783940,
+  "not_on_or_after": 1781784300,
+  "nonce": "n-deny-audience",
+  "sig": "vmt6Ea3ZTjMSKdHwj1hm_6GMPSCkWdxcAzdPwCvXFGw"
+}
