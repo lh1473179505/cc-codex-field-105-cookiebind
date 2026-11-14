@@ -1,0 +1,9 @@
+{
+  "case": "ok-ath",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/dpopbind/1",
+  "kid": "k-active",
+  "sig": "lqni7EEVym1CSNp9BKVCVaJT7YjTq7zgnvKsoa0pyQk",
+  "_sign_line": "v1|k-active|91b14b32653807801964a4d2b8c4cc325222d26cc6236a97cfff1c863167bc7d"
+}

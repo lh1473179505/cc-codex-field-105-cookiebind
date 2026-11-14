@@ -1,0 +1,9 @@
+{
+  "case": "jwk",
+  "id": "deny-6",
+  "marker": "jwk",
+  "path": "/evil/dpopbind/6",
+  "kid": "k-active",
+  "sig": "5dLADFwkhMPWQ8ggr4_5-ADa97oZhZOw8kDPrloVpn0",
+  "_sign_line": "v1|k-active|22ab558774a06b7d6149a617884f0a969938b2635f5d35c60b3c8659a319472d"
+}

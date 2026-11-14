@@ -1,0 +1,9 @@
+{
+  "case": "ath",
+  "id": "deny-4",
+  "marker": "ath",
+  "path": "/evil/dpopbind/4",
+  "kid": "k-active",
+  "sig": "fEgQe6Sfy06thcHU9sMQGcoM7DiULPLl6TDqMXjQ4TQ",
+  "_sign_line": "v1|k-active|f968c27aa153b346b861e4ac8fb66e596e608fca751546842d3dcd1fc12bbc86"
+}

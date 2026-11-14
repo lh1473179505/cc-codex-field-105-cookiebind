@@ -1,0 +1,9 @@
+{
+  "case": "htu",
+  "id": "deny-2",
+  "marker": "htu",
+  "path": "/evil/dpopbind/2",
+  "kid": "k-active",
+  "sig": "CXgTm9EYIsJ3e41DgnNdkif3ZvMXsanwuaW9Lcve1bI",
+  "_sign_line": "v1|k-active|32cde45643dc91d3b9a58ec6e4b08b898375c8608b980d47e329cb5d8467990e"
+}

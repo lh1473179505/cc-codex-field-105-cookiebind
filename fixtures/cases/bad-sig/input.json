@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/dpopbind/0",
+  "kid": "k-active",
+  "sig": "b8EH2OEMQeO94JLINDYsIEa__MwgOVqzl1l96Wcb_Ps",
+  "_sign_line": "v1|k-active|2f3da659b9eb61b104ad4c10c6c945ef71f32fd20346a8b4959e69620ef587d3"
+}

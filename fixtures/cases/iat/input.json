@@ -1,0 +1,9 @@
+{
+  "case": "iat",
+  "id": "deny-5",
+  "marker": "iat",
+  "path": "/evil/dpopbind/5",
+  "kid": "k-active",
+  "sig": "ICKRcmeLd992cceXSJ95j3Ii79xXoQIgi15ajSLKEw8",
+  "_sign_line": "v1|k-active|38e770d93322768444b812e1de6f04d4fbe7b575405a0712e9ba626c7200751d"
+}

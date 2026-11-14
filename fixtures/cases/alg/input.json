@@ -1,0 +1,9 @@
+{
+  "case": "alg",
+  "id": "deny-7",
+  "marker": "alg",
+  "path": "/evil/dpopbind/7",
+  "kid": "k-active",
+  "sig": "9OjkDIZkrrsxYLfzYkjFI74KSzjL7AMweXvdGgvWDl4",
+  "_sign_line": "v1|k-active|aac780af7027a016c6aa2a9e6a191e0b8557a7092df9f449b4680fc14f49ea5c"
+}

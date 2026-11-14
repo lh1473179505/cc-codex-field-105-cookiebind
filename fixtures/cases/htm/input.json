@@ -1,0 +1,9 @@
+{
+  "case": "htm",
+  "id": "deny-1",
+  "marker": "htm",
+  "path": "/evil/dpopbind/1",
+  "kid": "k-active",
+  "sig": "12XCC9nf1lF7oLswIhmDon0n1vQEOnp7DzafidFc1cI",
+  "_sign_line": "v1|k-active|8fd84c5205b8243e56a6e4dc33b351873b27618d3eb2c80b756738fc857fd868"
+}

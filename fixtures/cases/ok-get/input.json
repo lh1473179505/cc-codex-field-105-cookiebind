@@ -1,0 +1,9 @@
+{
+  "case": "ok-get",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/dpopbind/0",
+  "kid": "k-active",
+  "sig": "FASAZmPr7nuoTJUFFQbVBl4acajRT3KrN-ZXJpnkV6U",
+  "_sign_line": "v1|k-active|4ce4a30c905ae3fbb06aa7257376485cb01aeb5c1abd5a414b1d7de6d96c5a07"
+}

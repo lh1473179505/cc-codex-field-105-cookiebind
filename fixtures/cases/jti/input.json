@@ -1,0 +1,9 @@
+{
+  "case": "jti",
+  "id": "deny-3",
+  "marker": "jti",
+  "path": "/evil/dpopbind/3",
+  "kid": "k-active",
+  "sig": "MRNwBmVEJc8QKqJoQ8IdaFfb12QOprU0Kek5LoJO06M",
+  "_sign_line": "v1|k-active|3e573a8b6ffd337f4c0f0fc9364cefc2084ff5932bb060c7876bf91cbf05471b"
+}
