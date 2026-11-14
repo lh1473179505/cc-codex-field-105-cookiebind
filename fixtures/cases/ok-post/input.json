@@ -1,0 +1,9 @@
+{
+  "case": "ok-post",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/httpsigx/1",
+  "kid": "k-active",
+  "sig": "2NqV9tCWLS7GXpRKoLgyjSRMeyU-jnv-QD3_nPdALW4",
+  "_sign_line": "v1|k-active|31e965c349c0efe5b7487207894f57fa5b351a3717a7fdc21c8019f715077efd"
+}

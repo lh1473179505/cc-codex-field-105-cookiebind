@@ -1,0 +1,9 @@
+{
+  "case": "cover",
+  "id": "deny-1",
+  "marker": "cover",
+  "path": "/evil/httpsigx/1",
+  "kid": "k-active",
+  "sig": "4ppULS1qljqZ_AKDuQ8Zx48BpqlersW1hVuU0HJ-yzU",
+  "_sign_line": "v1|k-active|aa5f3333010ffed80f917860dfb3cb55398a5ce6d46be3f1682328c36c49a3f3"
+}

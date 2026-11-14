@@ -1,0 +1,9 @@
+{
+  "case": "expires",
+  "id": "deny-3",
+  "marker": "expires",
+  "path": "/evil/httpsigx/3",
+  "kid": "k-active",
+  "sig": "76IRUCfFgE_phDc-eC_GS6bTsjAOg-Nvek7PuDVSEkM",
+  "_sign_line": "v1|k-active|ef169e957d81081604ebae68b9807e443bdc194bd6dc96d87e421f99d8e83a96"
+}

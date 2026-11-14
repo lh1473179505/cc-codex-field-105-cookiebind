@@ -1,0 +1,9 @@
+{
+  "case": "alg",
+  "id": "deny-7",
+  "marker": "alg",
+  "path": "/evil/httpsigx/7",
+  "kid": "k-active",
+  "sig": "Ykqavqn-TYZRkwewnHQHdire76ioOh_HxDsU45UKJYA",
+  "_sign_line": "v1|k-active|ce1b08b4e865e72c86a7079aeb2b8bb8f45a7e9625f9b02313e0cdb98fddca8c"
+}

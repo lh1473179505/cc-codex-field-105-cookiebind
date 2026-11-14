@@ -1,0 +1,9 @@
+{
+  "case": "created",
+  "id": "deny-2",
+  "marker": "created",
+  "path": "/evil/httpsigx/2",
+  "kid": "k-active",
+  "sig": "0m2GTOHUxHm-4dBkb-dlxJnaMaL9ePIarsMp1H7ibL8",
+  "_sign_line": "v1|k-active|8149fb6f924fc4ec725b20c8dee670a3f3d1ab90699ef3d35952b81a55518ba2"
+}

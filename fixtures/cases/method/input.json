@@ -1,0 +1,9 @@
+{
+  "case": "method",
+  "id": "deny-5",
+  "marker": "method",
+  "path": "/evil/httpsigx/5",
+  "kid": "k-active",
+  "sig": "lnBhalbLky3FFQvb4HVHbPvpjso06FKx-vLp7n7yurI",
+  "_sign_line": "v1|k-active|263cf946d0e20731190dac57b1b337c9dfe4eee06a090db03b8210f4b3e703de"
+}

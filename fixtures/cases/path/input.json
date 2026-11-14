@@ -1,0 +1,9 @@
+{
+  "case": "path",
+  "id": "deny-6",
+  "marker": "path",
+  "path": "/evil/httpsigx/6",
+  "kid": "k-active",
+  "sig": "8blNB3mrm524xIOmFX4iLEOFPEqerPCUydkIl-4wAQc",
+  "_sign_line": "v1|k-active|c79fbbb8df2c1fc7bad01408969d724d74147c005ea4088ff563a95aec690601"
+}
