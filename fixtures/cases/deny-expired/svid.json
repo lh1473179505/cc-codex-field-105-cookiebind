@@ -1,0 +1,12 @@
+{
+  "kid": "k-active",
+  "td": "prod.example",
+  "sub": "spiffe://prod.example/ns/pay/sa/api",
+  "aud": [
+    "spiffe://prod.example/ns/gateway/sa/gw"
+  ],
+  "iat": 1781783100,
+  "exp": 1781783990,
+  "nonce": "n-deny-expired",
+  "sig": "_qISsGAZ8RtBMypu9XGdvlYQk-QMGlYahHSSCIpSDgI"
+}

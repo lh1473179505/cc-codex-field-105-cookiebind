@@ -1,0 +1,12 @@
+{
+  "allowed_td": [
+    "prod.example",
+    "stage.example"
+  ],
+  "allowed_aud": [
+    "spiffe://prod.example/ns/gateway/sa/gw",
+    "spiffe://stage.example/ns/gateway/sa/gw"
+  ],
+  "sub_must_match_td": true,
+  "clock_skew_seconds": 60
+}

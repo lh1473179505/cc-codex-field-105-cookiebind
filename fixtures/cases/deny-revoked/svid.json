@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "td": "prod.example",
+  "sub": "spiffe://prod.example/ns/pay/sa/api",
+  "aud": [
+    "spiffe://prod.example/ns/gateway/sa/gw"
+  ],
+  "iat": 1781783980,
+  "exp": 1781784240,
+  "nonce": "n-deny-revoked",
+  "sig": "Jtf9H0sS-V-yZUChtEb6H0LUO6k8r5LCbDzsF50m2hs"
+}
