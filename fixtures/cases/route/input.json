@@ -1,0 +1,9 @@
+{
+  "case": "route",
+  "id": "deny-7",
+  "marker": "route",
+  "path": "/evil/netnsacl/7",
+  "kid": "k-active",
+  "sig": "kthyKdvnYjdlfdTrI7UtdvmZfzaqOWtVxFJq8jyHQqY",
+  "_sign_line": "v1|k-active|7bf3cd2770248230718915dd3401e9a06ece4688a8bd6387b51f55a7a2b646e3"
+}

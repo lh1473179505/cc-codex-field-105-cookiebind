@@ -1,0 +1,9 @@
+{
+  "case": "forward",
+  "id": "deny-1",
+  "marker": "forward",
+  "path": "/evil/netnsacl/1",
+  "kid": "k-active",
+  "sig": "1ZgG7SdfEVuY2oJ4Qk_LqHh9xQrmLoCzjcSja7viRt4",
+  "_sign_line": "v1|k-active|c6f703e74e867af3634a7431148beeeda09f9709ac72a08be959dbecc2cca4da"
+}

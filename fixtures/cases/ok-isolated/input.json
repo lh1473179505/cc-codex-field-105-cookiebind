@@ -1,0 +1,9 @@
+{
+  "case": "ok-isolated",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/netnsacl/0",
+  "kid": "k-active",
+  "sig": "mfzpBw7tj0ywULkJIGZ_nU1KvFDCcbFcsR7znsFuMYw",
+  "_sign_line": "v1|k-active|c84fe9ae543b074b07632480f4e83f5d1b441fc27c911d57def6e0554e4f7db5"
+}

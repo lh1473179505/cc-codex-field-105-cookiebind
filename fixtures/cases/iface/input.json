@@ -1,0 +1,9 @@
+{
+  "case": "iface",
+  "id": "deny-3",
+  "marker": "iface",
+  "path": "/evil/netnsacl/3",
+  "kid": "k-active",
+  "sig": "yb8AOxvRUYxksU3Y-mEs-j0G6G3BBJZw-rWVGomJ6T8",
+  "_sign_line": "v1|k-active|fb2ac2d3337bbbf21d6157c09bf66e9859c37724c087036d0c6f185d0b1e2eb7"
+}

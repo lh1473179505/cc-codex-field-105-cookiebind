@@ -1,0 +1,9 @@
+{
+  "case": "ok-dualstack",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/netnsacl/1",
+  "kid": "k-active",
+  "sig": "ErDYFJkeK1-zEI9F6CzwBk0pOxDNWeN6cxYfW8FhFEU",
+  "_sign_line": "v1|k-active|d008182db0e758608285fd0783388ce1502b197aa3e20a2aa502009a50301b44"
+}

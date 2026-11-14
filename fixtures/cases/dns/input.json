@@ -1,0 +1,9 @@
+{
+  "case": "dns",
+  "id": "deny-2",
+  "marker": "dns",
+  "path": "/evil/netnsacl/2",
+  "kid": "k-active",
+  "sig": "Y-kK7GPeYS7yXggjg1Jv_VFGaOb-k6gw30u6b6wqVYM",
+  "_sign_line": "v1|k-active|9e38f026813da2f2f544546baa94db8e7a68dedaad207d81694d410c5ee43721"
+}

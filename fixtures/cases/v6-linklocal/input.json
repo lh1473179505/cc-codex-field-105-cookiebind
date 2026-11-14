@@ -1,0 +1,9 @@
+{
+  "case": "v6-linklocal",
+  "id": "deny-6",
+  "marker": "v6-linklocal",
+  "path": "/evil/netnsacl/6",
+  "kid": "k-active",
+  "sig": "7bqfmkhDCrCCKo8WiKJnQ9W3EAQEJ0Hqb0n-pD_nhIs",
+  "_sign_line": "v1|k-active|1e0170e94a236746dc2eed50f3e78cf14e3c5457963007020298302e7476bc05"
+}
