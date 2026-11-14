@@ -1,0 +1,9 @@
+{
+  "case": "ok-http",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/canarytok/1",
+  "kid": "k-active",
+  "sig": "qxlbkowdkUKANW0QejefLJkWRla1pJgr_9N_80616C8",
+  "_sign_line": "v1|k-active|609e2de5f48f2f5aa03de83532994c7f177d3a85d69115b5f3ca9d9eeff3b644"
+}

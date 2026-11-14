@@ -1,0 +1,9 @@
+{
+  "case": "unknown-token",
+  "id": "deny-6",
+  "marker": "unknown-token",
+  "path": "/evil/canarytok/6",
+  "kid": "k-active",
+  "sig": "t0OKvqWhmYCR4KlXEAy0QGnJ1l--xrjQ9QEHRZspawo",
+  "_sign_line": "v1|k-active|9f4e62985ba38934d2bdb0da1f982ef864e1ede660999b6ff8b54bd215afb64f"
+}

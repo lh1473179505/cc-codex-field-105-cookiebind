@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/canarytok/4",
+  "kid": "k-revoked",
+  "sig": "8pPc3UuJZAm5n2zotwCdrhE16F7w1lThYtOBsKswu_4",
+  "_sign_line": "v1|k-revoked|12b846dc2659594ae2d924bfb444667777a5b4e46047dd8f1155815c60ba0dad"
+}

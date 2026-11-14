@@ -1,0 +1,9 @@
+{
+  "case": "channel",
+  "id": "deny-1",
+  "marker": "channel",
+  "path": "/evil/canarytok/1",
+  "kid": "k-active",
+  "sig": "AyU--sOC10UGL8cuTakFRzM7bVDsOV8JFEQHN5IfKyU",
+  "_sign_line": "v1|k-active|3b84c055eac945dfcc89402f52275ba8d24e016328f9db749cc8cadaecb73a41"
+}

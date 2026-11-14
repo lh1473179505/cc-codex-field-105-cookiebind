@@ -1,0 +1,9 @@
+{
+  "case": "skew",
+  "id": "deny-5",
+  "marker": "skew",
+  "path": "/evil/canarytok/5",
+  "kid": "k-active",
+  "sig": "okMSNJu83wrSs39-z7e64Tx9KR3r9kDBmhEyv_EiRs8",
+  "_sign_line": "v1|k-active|96cea638fee509e17931aaffe277a24e2977c5e29be0f2284cae0053424cdd49"
+}

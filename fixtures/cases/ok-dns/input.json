@@ -1,0 +1,9 @@
+{
+  "case": "ok-dns",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/canarytok/0",
+  "kid": "k-active",
+  "sig": "VUtfpzt6im_48dF-6OrZVBeXjPPyXTUgGg78E5Sf8L8",
+  "_sign_line": "v1|k-active|7537dbac3ce82fd200642c8032be09ad95ffbfa415a2c538e609a6947cc487d2"
+}
