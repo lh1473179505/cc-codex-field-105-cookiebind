@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/seccompx/0",
+  "kid": "k-active",
+  "sig": "vHK8a5irU6T_i2__v9wzWn-b_PvgKpf_Ium0ETDNGGU",
+  "_sign_line": "v1|k-active|1e71bc36253dbda9cb528f5eb57d9348cb35a183f197d048a8282c863d1bae66"
+}

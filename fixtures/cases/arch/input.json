@@ -1,0 +1,9 @@
+{
+  "case": "arch",
+  "id": "deny-1",
+  "marker": "arch",
+  "path": "/evil/seccompx/1",
+  "kid": "k-active",
+  "sig": "bOe_igWjBW8Y7n-cHdixXBZ49sdYJWx1f4fLMDnBuJQ",
+  "_sign_line": "v1|k-active|b8057c31d48102b7732295afa5de9ba3664fd5b5f2e3c276dec2b460cc5849b7"
+}

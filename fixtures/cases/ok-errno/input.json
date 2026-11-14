@@ -1,0 +1,9 @@
+{
+  "case": "ok-errno",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/seccompx/0",
+  "kid": "k-active",
+  "sig": "q15i5Lg1xRq7_sxQh6IcTEHOnfRWWYj7l8drgGeHdzg",
+  "_sign_line": "v1|k-active|5d8396f3d00e11202c324d4da001723932ad6a05f4c97b6686f17d78396cb190"
+}

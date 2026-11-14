@@ -1,0 +1,9 @@
+{
+  "case": "conflict",
+  "id": "deny-4",
+  "marker": "conflict",
+  "path": "/evil/seccompx/4",
+  "kid": "k-active",
+  "sig": "zTt3YFH03B8zOyA8Ns27X3Lk7PZx-IPb9ETkb2TKVFo",
+  "_sign_line": "v1|k-active|9da13d591d964ede7ee13b13107e1f3ba2a03c480cda7dfcc869e1fb61e8dacc"
+}

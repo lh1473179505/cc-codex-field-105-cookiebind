@@ -1,0 +1,9 @@
+{
+  "case": "ok-allowlist",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/seccompx/1",
+  "kid": "k-active",
+  "sig": "FS0STnOyzOEbG5HSpaEMKYgsS4k9Nnmm3Q_zZkxu7RA",
+  "_sign_line": "v1|k-active|0812f9e854262f653b9ed52ca4cb0980b351c022395e3f3b6fc34706dbcfcc42"
+}

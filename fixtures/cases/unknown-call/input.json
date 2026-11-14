@@ -1,0 +1,9 @@
+{
+  "case": "unknown-call",
+  "id": "deny-6",
+  "marker": "unknown-call",
+  "path": "/evil/seccompx/6",
+  "kid": "k-active",
+  "sig": "VDm2wLLYwkqI38noh1jX4wDUYBmEAqmGoPzWp1THhZc",
+  "_sign_line": "v1|k-active|8b0e1ebe33584d8885b0fb3818b0c0620b7db6765228ebf69c27ec178044f445"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "default",
+  "id": "deny-2",
+  "marker": "default",
+  "path": "/evil/seccompx/2",
+  "kid": "k-active",
+  "sig": "fZeuHjebUA4ITvJkB9WK95a-bxyescuX58Mm0BXC0rk",
+  "_sign_line": "v1|k-active|d6c201121aceb3fa2ba70f045f883ddd82ecc0c132b12d074bce6594178a45f8"
+}
