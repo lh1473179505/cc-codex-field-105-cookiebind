@@ -1,0 +1,22 @@
+{
+  "root_keys": {
+    "rk-active": {
+      "secret": "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+      "status": "active"
+    },
+    "rk-revoked": {
+      "secret": "b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2",
+      "status": "revoked"
+    }
+  },
+  "discharge_keys": {
+    "dk-active": {
+      "secret": "c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3",
+      "status": "active"
+    },
+    "dk-revoked": {
+      "secret": "d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4",
+      "status": "revoked"
+    }
+  }
+}

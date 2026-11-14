@@ -1,0 +1,58 @@
+{
+  "request": {
+    "path": "/v1/orders",
+    "method": "GET",
+    "aud": "orders-svc"
+  },
+  "root": {
+    "kid": "rk-active",
+    "location": "https://auth.example/api",
+    "identifier": "root-deny-bad-discharge-sig",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781787600
+      },
+      {
+        "type": "exact_path",
+        "path": "/v1/orders"
+      },
+      {
+        "type": "method_allow",
+        "methods": [
+          "GET",
+          "HEAD"
+        ]
+      },
+      {
+        "type": "audience",
+        "aud": "orders-svc"
+      },
+      {
+        "type": "third_party",
+        "location": "https://discharger.example",
+        "predicate": "role=reader",
+        "ticket_hint": "hint-reader"
+      }
+    ],
+    "sig": "Cg9Z8XE78497tzEftuissYDEgWpt9O9TmVfCkxC-GYc"
+  },
+  "discharge": {
+    "kid": "dk-active",
+    "location": "https://discharger.example",
+    "identifier": "dis-deny-bad-discharge-sig",
+    "binds_root_sig": "Cg9Z8XE78497tzEftuissYDEgWpt9O9TmVfCkxC-GYc",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781785800
+      },
+      {
+        "type": "predicate_satisfy",
+        "predicate": "role=reader"
+      }
+    ],
+    "sig": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"
+  },
+  "nonce": "n-deny-bad-discharge-sig"
+}

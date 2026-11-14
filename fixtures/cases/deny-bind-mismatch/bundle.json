@@ -1,0 +1,58 @@
+{
+  "request": {
+    "path": "/v1/orders",
+    "method": "GET",
+    "aud": "orders-svc"
+  },
+  "root": {
+    "kid": "rk-active",
+    "location": "https://auth.example/api",
+    "identifier": "root-deny-bind-mismatch",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781787600
+      },
+      {
+        "type": "exact_path",
+        "path": "/v1/orders"
+      },
+      {
+        "type": "method_allow",
+        "methods": [
+          "GET",
+          "HEAD"
+        ]
+      },
+      {
+        "type": "audience",
+        "aud": "orders-svc"
+      },
+      {
+        "type": "third_party",
+        "location": "https://discharger.example",
+        "predicate": "role=reader",
+        "ticket_hint": "hint-reader"
+      }
+    ],
+    "sig": "3TjN9DqmAgZ5Q-Y_XWsLFQtucOnXpny5is-FGMBtis8"
+  },
+  "discharge": {
+    "kid": "dk-active",
+    "location": "https://discharger.example",
+    "identifier": "dis-deny-bind-mismatch",
+    "binds_root_sig": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781785800
+      },
+      {
+        "type": "predicate_satisfy",
+        "predicate": "role=reader"
+      }
+    ],
+    "sig": "cJ1YwjNFYJ9-YNFeEXfH56fF208-MW7rlv3q3yAMits"
+  },
+  "nonce": "n-deny-bind-mismatch"
+}

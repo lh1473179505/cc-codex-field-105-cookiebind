@@ -1,0 +1,58 @@
+{
+  "request": {
+    "path": "/v1/orders",
+    "method": "GET",
+    "aud": "billing-svc"
+  },
+  "root": {
+    "kid": "rk-active",
+    "location": "https://auth.example/api",
+    "identifier": "root-deny-audience",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781787600
+      },
+      {
+        "type": "exact_path",
+        "path": "/v1/orders"
+      },
+      {
+        "type": "method_allow",
+        "methods": [
+          "GET",
+          "HEAD"
+        ]
+      },
+      {
+        "type": "audience",
+        "aud": "orders-svc"
+      },
+      {
+        "type": "third_party",
+        "location": "https://discharger.example",
+        "predicate": "role=reader",
+        "ticket_hint": "hint-reader"
+      }
+    ],
+    "sig": "LLeBkOo0tcXU5IxrayU_Jn5q8IZehGr8OaJ8yjkRc0Y"
+  },
+  "discharge": {
+    "kid": "dk-active",
+    "location": "https://discharger.example",
+    "identifier": "dis-deny-audience",
+    "binds_root_sig": "LLeBkOo0tcXU5IxrayU_Jn5q8IZehGr8OaJ8yjkRc0Y",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781785800
+      },
+      {
+        "type": "predicate_satisfy",
+        "predicate": "role=reader"
+      }
+    ],
+    "sig": "6G0XYmLfX8XLZSx4dvvNjaP1156S_gC80frG78iO1SY"
+  },
+  "nonce": "n-deny-audience"
+}

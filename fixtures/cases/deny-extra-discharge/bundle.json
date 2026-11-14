@@ -1,0 +1,52 @@
+{
+  "request": {
+    "path": "/v1/orders",
+    "method": "GET",
+    "aud": "orders-svc"
+  },
+  "root": {
+    "kid": "rk-active",
+    "location": "https://auth.example/api",
+    "identifier": "root-deny-extra-discharge",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781787600
+      },
+      {
+        "type": "exact_path",
+        "path": "/v1/orders"
+      },
+      {
+        "type": "method_allow",
+        "methods": [
+          "GET",
+          "HEAD"
+        ]
+      },
+      {
+        "type": "audience",
+        "aud": "orders-svc"
+      }
+    ],
+    "sig": "dipUCZLGjSyZAVnpOaYGrSMTJqdZU-1Ugu5soxkn2RQ"
+  },
+  "discharge": {
+    "kid": "dk-active",
+    "location": "https://discharger.example",
+    "identifier": "dis-deny-extra-discharge",
+    "binds_root_sig": "dipUCZLGjSyZAVnpOaYGrSMTJqdZU-1Ugu5soxkn2RQ",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781785800
+      },
+      {
+        "type": "predicate_satisfy",
+        "predicate": "role=reader"
+      }
+    ],
+    "sig": "lgQVHoLixRE1Q_cKZVu-U5NfidbrSYLQf3FpiyPrfoM"
+  },
+  "nonce": "n-deny-extra-discharge"
+}

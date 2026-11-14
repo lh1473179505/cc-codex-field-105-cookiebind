@@ -1,0 +1,9 @@
+{
+  "clock_skew_seconds": 90,
+  "path_match": "exact",
+  "audience_match": "exact",
+  "require_discharge_for_third_party": true,
+  "forbid_extra_discharge": true,
+  "discharge_location_match": "exact",
+  "predicate_match": "exact"
+}

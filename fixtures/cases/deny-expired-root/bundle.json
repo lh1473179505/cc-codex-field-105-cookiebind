@@ -1,0 +1,58 @@
+{
+  "request": {
+    "path": "/v1/orders",
+    "method": "GET",
+    "aud": "orders-svc"
+  },
+  "root": {
+    "kid": "rk-active",
+    "location": "https://auth.example/api",
+    "identifier": "root-deny-expired-root",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781783400
+      },
+      {
+        "type": "exact_path",
+        "path": "/v1/orders"
+      },
+      {
+        "type": "method_allow",
+        "methods": [
+          "GET",
+          "HEAD"
+        ]
+      },
+      {
+        "type": "audience",
+        "aud": "orders-svc"
+      },
+      {
+        "type": "third_party",
+        "location": "https://discharger.example",
+        "predicate": "role=reader",
+        "ticket_hint": "hint-reader"
+      }
+    ],
+    "sig": "_g6KmxpoOzwKPGUitMpwC6YSfQgcRtHs-7SaA0EC1X8"
+  },
+  "discharge": {
+    "kid": "dk-active",
+    "location": "https://discharger.example",
+    "identifier": "dis-deny-expired-root",
+    "binds_root_sig": "_g6KmxpoOzwKPGUitMpwC6YSfQgcRtHs-7SaA0EC1X8",
+    "caveats": [
+      {
+        "type": "time_before",
+        "abs_unix": 1781785800
+      },
+      {
+        "type": "predicate_satisfy",
+        "predicate": "role=reader"
+      }
+    ],
+    "sig": "opWSWGphGJeL2NjEFfIvKj5oSTbV9lbWTUKN-hGiGd8"
+  },
+  "nonce": "n-deny-expired-root"
+}

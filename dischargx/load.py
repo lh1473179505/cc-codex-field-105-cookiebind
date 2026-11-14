@@ -1,0 +1,22 @@
+from __future__ import annotations
+import json
+from pathlib import Path
+from typing import Any
+
+def load_json(path: str | Path) -> Any:
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+def load_nonce_store(path: str | Path) -> dict:
+    p = Path(path)
+    if not p.exists():
+        return {"nonces": {}}
+    data = load_json(p)
+    if not isinstance(data, dict) or not isinstance(data.get("nonces"), dict):
+        raise ValueError("nonce store shape")
+    return data
+
+def save_nonce_store(path: str | Path, data: dict) -> None:
+    p = Path(path)
+    tmp = p.with_suffix(p.suffix + ".tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(p)
