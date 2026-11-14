@@ -1,0 +1,9 @@
+{
+  "case": "depth",
+  "id": "deny-3",
+  "marker": "depth",
+  "path": "/evil/scimfilt/3",
+  "kid": "k-active",
+  "sig": "ig7y2OIK3iceqyCOYx0KFhOFzLYo_Pph22nXCHuo8K0",
+  "_sign_line": "v1|k-active|7955d755471148e12e05f99fdf03d3b548d2bc71faece7734c8bf14bd83d0b64"
+}

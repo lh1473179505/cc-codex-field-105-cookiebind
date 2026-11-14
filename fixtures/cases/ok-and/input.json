@@ -1,0 +1,9 @@
+{
+  "case": "ok-and",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/scimfilt/1",
+  "kid": "k-active",
+  "sig": "HUzQAG0bXjoDJHvjSmHPv0nvR7SLXc1xjrMu_8y86Vw",
+  "_sign_line": "v1|k-active|36713b7f31f3b5dbbe2012d34f164558e648c7f3dca3b02bfb5d84fef650e2af"
+}

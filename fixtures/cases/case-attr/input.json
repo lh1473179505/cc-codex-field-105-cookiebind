@@ -1,0 +1,9 @@
+{
+  "case": "case-attr",
+  "id": "deny-7",
+  "marker": "case-attr",
+  "path": "/evil/scimfilt/7",
+  "kid": "k-active",
+  "sig": "zNYvNp8qZWN0QaiQ-tAdlgpbjjehKF2MkMiod91zIg8",
+  "_sign_line": "v1|k-active|d7291bd4e1237f27adb10aea649a2878096aa07e39b2f4c905b02f8dfbc9956f"
+}

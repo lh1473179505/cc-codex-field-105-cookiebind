@@ -1,0 +1,9 @@
+{
+  "case": "op",
+  "id": "deny-2",
+  "marker": "op",
+  "path": "/evil/scimfilt/2",
+  "kid": "k-active",
+  "sig": "NO49B8WfkVlSGVJ4Z0KrSyaOVhdI-OIgO4IA9d5ohqY",
+  "_sign_line": "v1|k-active|0a88cfd2da9e9cd1832b49a4e96209e9afba32d435c2d519b39b456703406539"
+}

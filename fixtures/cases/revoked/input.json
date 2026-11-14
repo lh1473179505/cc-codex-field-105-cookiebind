@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/scimfilt/5",
+  "kid": "k-revoked",
+  "sig": "Qjeo1sssY7kc8pP2brGYBU1tMN_nAw9mt4nRyT3ZHsU",
+  "_sign_line": "v1|k-revoked|db6caa9c781455074a80976f15b292788432d4c6da4c0ab52399665cec7aab36"
+}

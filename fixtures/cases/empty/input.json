@@ -1,0 +1,9 @@
+{
+  "case": "empty",
+  "id": "deny-6",
+  "marker": "empty",
+  "path": "/evil/scimfilt/6",
+  "kid": "k-active",
+  "sig": "fo5rEyown1KMM5XOe5VsTu09lrX7_FsxvC5iDyVK4z8",
+  "_sign_line": "v1|k-active|5b4f5feb96cf45cced103891acf207828c76afc3c0373a964f0012cb235dc1cd"
+}

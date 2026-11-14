@@ -1,0 +1,9 @@
+{
+  "case": "inject",
+  "id": "deny-4",
+  "marker": "inject",
+  "path": "/evil/scimfilt/4",
+  "kid": "k-active",
+  "sig": "fAimCZErOeUNPx-6BKIG1L-H0v1rATyVMWeKfOhpqic",
+  "_sign_line": "v1|k-active|64899340ac9aa21c760fedc95d10a7f5b617f2891a439d723a75dce8a8274d38"
+}
