@@ -2,11 +2,21 @@
   "keys": {
     "k-active": {
       "secret": "54c304985a548c30d2271d747ed6651101217b1050ca111269e1287bf6e6f736",
-      "status": "active"
+      "status": "active",
+      "not_before": "2026-01-01T00:00:00Z",
+      "not_after": "2026-06-18T11:59:00Z"
     },
     "k-revoked": {
       "secret": "c0c5eb79fd92bb0f3423d2c839c00b305b329ea2a2c319fc33cf9375d6f01386",
-      "status": "revoked"
+      "status": "revoked",
+      "not_before": "2026-01-01T00:00:00Z",
+      "not_after": "2027-01-01T00:00:00Z"
+    },
+    "k-expired": {
+      "secret": "31efd04f6d3229b824a019c72ff4f1b353aea2167070686e91a8b468d853e19b",
+      "status": "active",
+      "not_before": "2025-01-01T00:00:00Z",
+      "not_after": "2026-01-01T00:00:00Z"
     }
   }
 }

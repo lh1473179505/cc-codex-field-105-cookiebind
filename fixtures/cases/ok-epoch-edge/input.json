@@ -4,6 +4,11 @@
   "marker": "allow-candidate",
   "path": "/v1/kmswrap/1",
   "kid": "k-active",
-  "sig": "cO3UiuunXAOuk3ybBFfyO1dqZ2sbCoVNvtMAOa0LXes",
-  "_sign_line": "v1|k-active|d14d7474a317bea0cdbaf5d1458ba451e5fcc53042450efa23c94c02cb3eb283"
+  "alg": "AES256_GCM",
+  "aad_b64": "eyJpZCI6Im9rLTEiLCJwYXRoIjoiL3YxL2ttc3dyYXAvMSJ9",
+  "aad_sha256": "2a9e665e4587899ed4d4d4216a19f09904912647ffb63e3a0166291b99021c5e",
+  "wrapped_b64": "/JPplkPaQTJKQbF3hDXG4mtzPOGO54vN3BYwhlXKRVICtAlPHwnF3w185yk/tjGN",
+  "wrapped_sha256": "def38b589124c3f41de06f0c131632dfd3c711add317f4aaa6e0d060a4ce66e6",
+  "sig": "_ogXSp6MAYiaxS4EuEl-aARhyW3DMIWCqf-RGvInIl8",
+  "_sign_line": "v1|k-active|AES256_GCM|2a9e665e4587899ed4d4d4216a19f09904912647ffb63e3a0166291b99021c5e|def38b589124c3f41de06f0c131632dfd3c711add317f4aaa6e0d060a4ce66e6"
 }

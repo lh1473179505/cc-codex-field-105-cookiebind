@@ -4,6 +4,11 @@
   "marker": "aad",
   "path": "/evil/kmswrap/2",
   "kid": "k-active",
-  "sig": "43gpf1aRyLvnfeMWij1eymWEmwDoZ56EJDVifcMUCBU",
-  "_sign_line": "v1|k-active|8a565d615ced1699ad4a5a34e3bfa7bfe6297ba1321de28e10bf3a3c779af4b2"
+  "alg": "AES256_GCM",
+  "aad_b64": "eyJpZCI6ImRlbnktMiIsInBhdGgiOiIvZXZpbC9rbXN3cmFwLzIifQ==",
+  "aad_sha256": "4e22fc53c94195afa5d63b77f831ead9ddf7ba3ea953612c8e990ed3b3ebce70",
+  "wrapped_b64": "4xxx/s7pn67hIe47Eom4UOuwOw2DBlwcZNfp5Ma00hOn2OzPGN3Ex1uAIuRuuwhA",
+  "wrapped_sha256": "66ab8c95d6fc781261750de2a64ead102ef8539962297dc79a718b09b7764268",
+  "sig": "lOosAKRKWSNMIxM4KmXRCBma8hEV7FnYvZjp8485ELg",
+  "_sign_line": "v1|k-active|AES256_GCM|4e22fc53c94195afa5d63b77f831ead9ddf7ba3ea953612c8e990ed3b3ebce70|66ab8c95d6fc781261750de2a64ead102ef8539962297dc79a718b09b7764268"
 }

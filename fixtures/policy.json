@@ -2,5 +2,10 @@
   "clock_skew_seconds": 60,
   "allowed": true,
   "notes": "policy scaffold for kmswrap; real thresholds documented in admit-rules.md",
-  "pkg": "kmswrap"
+  "pkg": "kmswrap",
+  "allowed_wrap_algs": [
+    "AES256_GCM",
+    "AES256_KW"
+  ],
+  "min_wrapped_bytes": 32
 }

@@ -3,7 +3,12 @@
   "id": "deny-7",
   "marker": "unknown-kid",
   "path": "/evil/kmswrap/7",
-  "kid": "k-active",
-  "sig": "rmcqo7WSJcV2XYcwsB-41n-lQ2Yn2g0Rjf7g1EaFY9E",
-  "_sign_line": "v1|k-active|6cfe1f748d21f2d2fc178630f665fc21f83cb8932ab8507d02ab7db101c5dfc3"
+  "kid": "k-unknown",
+  "alg": "AES256_GCM",
+  "aad_b64": "eyJpZCI6ImRlbnktNyIsInBhdGgiOiIvZXZpbC9rbXN3cmFwLzcifQ==",
+  "aad_sha256": "a99f589a4320bb32ddb76a2a475f9eb9cdcf469183bedb6aa41c175d41da3880",
+  "wrapped_b64": "9WBGsyonAqmk7VTjEwDPwYekUvhWsxz6VYEe+JfXixi3Ewe67U2C8cfVOAs1CbfS",
+  "wrapped_sha256": "d874d418a41b4dfc0802a2c3ae032a7b90152ba1e1307afc504c5d38536a28f0",
+  "sig": "IqDmHCyG__lkDnr96f_4ooH9_95ruuZrYT6Qg_8iE-M",
+  "_sign_line": "v1|k-unknown|AES256_GCM|a99f589a4320bb32ddb76a2a475f9eb9cdcf469183bedb6aa41c175d41da3880|d874d418a41b4dfc0802a2c3ae032a7b90152ba1e1307afc504c5d38536a28f0"
 }

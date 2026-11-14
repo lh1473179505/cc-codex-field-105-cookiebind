@@ -4,6 +4,11 @@
   "marker": "revoked",
   "path": "/evil/kmswrap/4",
   "kid": "k-revoked",
-  "sig": "LcPCqcKdFjdNyY0wx5x4PfgjE9dUyEjZoNdGhY9jzkM",
-  "_sign_line": "v1|k-revoked|2254a3c355d024c1d4d4830af242fdd5f8f1e70ac3f38cfd0e452f51b6225caf"
+  "alg": "AES256_GCM",
+  "aad_b64": "eyJpZCI6ImRlbnktNCIsInBhdGgiOiIvZXZpbC9rbXN3cmFwLzQifQ==",
+  "aad_sha256": "0848fe56c473403679e569fd733f108e7615f9e394f2be62fa1f791c5a05ac57",
+  "wrapped_b64": "54ZmgYpb9cJsX+Y2rVewXvTaaDJJBRO3GGgoPfWnk4cN0+IK9B4BZ2h3sv7/ruUm",
+  "wrapped_sha256": "a646cb116e9eba45c35a78b1cef986c3c107fdd1a5e3045ba40e86ba919614e7",
+  "sig": "xIkcfw16Hd1aAzvqGorTUhSXFIcX1WwfuIyih93YJdA",
+  "_sign_line": "v1|k-revoked|AES256_GCM|0848fe56c473403679e569fd733f108e7615f9e394f2be62fa1f791c5a05ac57|a646cb116e9eba45c35a78b1cef986c3c107fdd1a5e3045ba40e86ba919614e7"
 }

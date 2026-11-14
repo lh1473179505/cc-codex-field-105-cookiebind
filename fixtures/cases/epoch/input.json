@@ -3,7 +3,12 @@
   "id": "deny-3",
   "marker": "epoch",
   "path": "/evil/kmswrap/3",
-  "kid": "k-active",
-  "sig": "LXOFhUJmE-_ok8qrO8pPFdRNh3fVBCNmnoXUu9Q-aLM",
-  "_sign_line": "v1|k-active|70d30f68a10692feb141ef33359b957cff5e02c9bf79e6aff18c4d677c55e181"
+  "kid": "k-expired",
+  "alg": "AES256_GCM",
+  "aad_b64": "eyJpZCI6ImRlbnktMyIsInBhdGgiOiIvZXZpbC9rbXN3cmFwLzMifQ==",
+  "aad_sha256": "060c97beb3a94d38ccfc445dcd61ab7d41545823d36dea2fafd20645a73dfab9",
+  "wrapped_b64": "CtlQwVsYmKLiRrsKdKLeh8luIPEPViswr2C/vUOX+8GMmV9yCITVtsJEb4fl3Mlg",
+  "wrapped_sha256": "802baa72000560404b8f9357b226bb9b86d22b80c53e529ddf5db07b9f625b35",
+  "sig": "uwUYhP4IQXiSkhdjXHTJ759jpG8JNRzWT42VCyd5p_E",
+  "_sign_line": "v1|k-expired|AES256_GCM|060c97beb3a94d38ccfc445dcd61ab7d41545823d36dea2fafd20645a73dfab9|802baa72000560404b8f9357b226bb9b86d22b80c53e529ddf5db07b9f625b35"
 }
