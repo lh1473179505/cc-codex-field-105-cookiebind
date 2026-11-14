@@ -1,9 +1,12 @@
 {
   "case": "skew",
   "id": "deny-5",
-  "marker": "skew",
-  "path": "/evil/cosignoff/5",
+  "image": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
   "kid": "k-active",
-  "sig": "gHz5W39vY_1xBau2FCvgokH31toOVrg9o0zvaXBKm_w",
-  "_sign_line": "v1|k-active|60118743ae87731f404d2327e8c4b7959a7066bc37d24abb2e405edf2aebe23a"
+  "digest": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
+  "identity": "https://repo.example.com/ci/build-5508",
+  "issuer": "https://issuer.example.com/cosignoff",
+  "iat": 1781787600,
+  "sig": "inZ-vtQ00tYa4v4Eoq1QxNrYgGuKGbftUdculhGH6Mg",
+  "_sign_line": "v1|k-active|sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028|https://repo.example.com/ci/build-5508|https://issuer.example.com/cosignoff|1781787600"
 }

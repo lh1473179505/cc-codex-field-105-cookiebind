@@ -1,9 +1,12 @@
 {
   "case": "ok-release",
   "id": "ok-1",
-  "marker": "allow-candidate",
-  "path": "/v1/cosignoff/1",
+  "image": "sha256:e30fe96a3877948e56538076e4d78af4e2f5c3b2b8667484c0fd3578a951b54f",
   "kid": "k-active",
-  "sig": "uN7JSRE7F4g4ak_AqUesiy5kMCaQEA-oDI_KsMUBqXI",
-  "_sign_line": "v1|k-active|1467b8019e21ea83c3dc89dc8e3a0e2ca8c1aa4f0ad2b5ff162d62a746de4eac"
+  "digest": "sha256:e30fe96a3877948e56538076e4d78af4e2f5c3b2b8667484c0fd3578a951b54f",
+  "identity": "https://repo.example.com/release/v1.2.3",
+  "issuer": "https://issuer.example.com/cosignoff",
+  "iat": 1781783970,
+  "sig": "gXby0dCOag3P6_vaIvCu8kKfxZ8VMggkbkDQqa0JXm0",
+  "_sign_line": "v1|k-active|sha256:e30fe96a3877948e56538076e4d78af4e2f5c3b2b8667484c0fd3578a951b54f|https://repo.example.com/release/v1.2.3|https://issuer.example.com/cosignoff|1781783970"
 }

@@ -1,9 +1,12 @@
 {
   "case": "bad-sig",
   "id": "deny-0",
-  "marker": "bad-sig",
-  "path": "/evil/cosignoff/0",
+  "image": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
   "kid": "k-active",
-  "sig": "HwrHQCN1grR_DMLxBH9rMhFg7EZ9Z4I7NXYETUp3RUk",
-  "_sign_line": "v1|k-active|d47db67387a1711ec3d3e039940393c151820529cbe3a3de50f9a850c6833905"
+  "digest": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
+  "identity": "https://repo.example.com/ci/build-5508",
+  "issuer": "https://issuer.example.com/cosignoff",
+  "iat": 1781783970,
+  "sig": "Am85zZV_On4mUWMA2fgImUQtf1oqH-vM-1vxzq9eJts",
+  "_sign_line": "v1|k-active|sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028|https://repo.example.com/ci/build-5508|https://issuer.example.com/cosignoff|1781783970"
 }

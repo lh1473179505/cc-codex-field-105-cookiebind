@@ -1,9 +1,12 @@
 {
   "case": "tag-instead-digest",
   "id": "deny-7",
-  "marker": "tag-instead-digest",
-  "path": "/evil/cosignoff/7",
+  "image": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
   "kid": "k-active",
-  "sig": "g6_yEPkPcKQWTig6uV7nWaW-TN8oaeKQ_6Ta9xaMshc",
-  "_sign_line": "v1|k-active|b702a18ca8f0900b7083125c845b3bcd02f48fd1c1e3b4e76406ce0e1a8b80ca"
+  "digest": "latest",
+  "identity": "https://repo.example.com/ci/build-5508",
+  "issuer": "https://issuer.example.com/cosignoff",
+  "iat": 1781783970,
+  "sig": "ZwQKfFSSxutrY0EaOBqsZCFQLtL8fiZuK3A8uTQKB8g",
+  "_sign_line": "v1|k-active|latest|https://repo.example.com/ci/build-5508|https://issuer.example.com/cosignoff|1781783970"
 }

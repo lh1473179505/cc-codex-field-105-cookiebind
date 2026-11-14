@@ -1,9 +1,12 @@
 {
   "case": "revoked",
   "id": "deny-4",
-  "marker": "revoked",
-  "path": "/evil/cosignoff/4",
+  "image": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
   "kid": "k-revoked",
-  "sig": "V304SVwu0LTGF2kIr3lqq5BklS9y-S0u70wOOOpVTaU",
-  "_sign_line": "v1|k-revoked|67329ce4519ecfa6fc740b2e892bb17a357e9d16ed1658519f84590f7c710186"
+  "digest": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
+  "identity": "https://repo.example.com/ci/build-5508",
+  "issuer": "https://issuer.example.com/cosignoff",
+  "iat": 1781783970,
+  "sig": "ul0gTlRLlQteMh-qVPBe42bkYEXfk03cD67TaygvS8s",
+  "_sign_line": "v1|k-revoked|sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028|https://repo.example.com/ci/build-5508|https://issuer.example.com/cosignoff|1781783970"
 }

@@ -1,9 +1,12 @@
 {
   "case": "identity",
   "id": "deny-2",
-  "marker": "identity",
-  "path": "/evil/cosignoff/2",
+  "image": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
   "kid": "k-active",
-  "sig": "mYo6BM8mH6dizSehH67uOKrrEF9qyHIN-8tLcXNkLGU",
-  "_sign_line": "v1|k-active|5112ba083bdf6efffc8b8f0ec33af3ad5d89e88cc3a9afa889b4e1103c548ef2"
+  "digest": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
+  "identity": "https://evil.example.com/ci/build-5508",
+  "issuer": "https://issuer.example.com/cosignoff",
+  "iat": 1781783970,
+  "sig": "xSaXvEs_Tk-vUHPEv_3pVY54_xebXy2LSLaQm-QzXQ0",
+  "_sign_line": "v1|k-active|sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028|https://evil.example.com/ci/build-5508|https://issuer.example.com/cosignoff|1781783970"
 }

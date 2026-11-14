@@ -1,9 +1,12 @@
 {
   "case": "ok-ci",
   "id": "ok-0",
-  "marker": "allow-candidate",
-  "path": "/v1/cosignoff/0",
+  "image": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
   "kid": "k-active",
-  "sig": "ioE8F1RvKIgCqIMWnS53ZDCcqdk3LhMvBSI34nkF9DQ",
-  "_sign_line": "v1|k-active|7c8142f34754b29f962b83b8ab47c0629c39381731b290188a62cce9b2e84fb1"
+  "digest": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
+  "identity": "https://repo.example.com/ci/build-5508",
+  "issuer": "https://issuer.example.com/cosignoff",
+  "iat": 1781783970,
+  "sig": "2m85zZV_On4mUWMA2fgImUQtf1oqH-vM-1vxzq9eJts",
+  "_sign_line": "v1|k-active|sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028|https://repo.example.com/ci/build-5508|https://issuer.example.com/cosignoff|1781783970"
 }

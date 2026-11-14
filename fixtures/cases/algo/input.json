@@ -1,9 +1,12 @@
 {
   "case": "algo",
   "id": "deny-6",
-  "marker": "algo",
-  "path": "/evil/cosignoff/6",
+  "image": "sha256:d80edfb3ab48cf44d1a985a92d12e13251a4ba003e547cb6ef51afe46b0cf028",
   "kid": "k-active",
-  "sig": "2d-uIWXz9WJdLVyz0sWDe8VhvT7T9NXwjrxnDlOkALQ",
-  "_sign_line": "v1|k-active|62456e2e3f1ff246f8e132c224694b891d35b4ca4f9ea8f90def333ce7904e00"
+  "digest": "sha512:f2e5fe16776612f43081b304cbe32848b770a306197a4cc5892b1f36812d9240050c8136b981124fcf2e0b3c39ee046fb0f5c9a0efa2d895ee533f3f49c8e32e",
+  "identity": "https://repo.example.com/ci/build-5508",
+  "issuer": "https://issuer.example.com/cosignoff",
+  "iat": 1781783970,
+  "sig": "yMa__t5g6PFZndWLQvW1hib5_fYvj6PoeJ71hOsjGBs",
+  "_sign_line": "v1|k-active|sha512:f2e5fe16776612f43081b304cbe32848b770a306197a4cc5892b1f36812d9240050c8136b981124fcf2e0b3c39ee046fb0f5c9a0efa2d895ee533f3f49c8e32e|https://repo.example.com/ci/build-5508|https://issuer.example.com/cosignoff|1781783970"
 }

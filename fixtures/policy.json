@@ -1,6 +1,9 @@
 {
-  "clock_skew_seconds": 60,
+  "pkg": "cosignoff",
   "allowed": true,
-  "notes": "policy scaffold for cosignoff; real thresholds documented in admit-rules.md",
-  "pkg": "cosignoff"
+  "issuer": "https://issuer.example.com/cosignoff",
+  "allow_identity_regex": "^https://repo\\.example\\.com/(ci|release)/[A-Za-z0-9._-]+$",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "notes": "gates per docs/admit-rules.md"
 }
