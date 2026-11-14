@@ -1,0 +1,9 @@
+{
+  "kid": "k-active",
+  "bind_dn": "uid=alice,ou=people,dc=corp,dc=example",
+  "base_dn": "ou=people,dc=corp,dc=example",
+  "filter": "(&(objectClass=person)(mail=alice@corp.example))",
+  "scope": "sub",
+  "nonce": "n-ok-mail",
+  "sig": "j6aVetyN48UC6L3qDL8LwCyTIkwKWd-SSCYzdnJWlvw"
+}

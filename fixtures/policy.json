@@ -1,0 +1,26 @@
+{
+  "allowed_bind_dn_suffix": ",ou=people,dc=corp,dc=example",
+  "allowed_base_dn_suffix": ",dc=corp,dc=example",
+  "allowed_scopes": [
+    "base",
+    "one",
+    "sub"
+  ],
+  "allowed_attributes": [
+    "objectClass",
+    "uid",
+    "mail",
+    "memberOf"
+  ],
+  "forbidden_filter_tokens": [
+    ")(",
+    "|(",
+    "*)(",
+    "\\00",
+    "\u0000"
+  ],
+  "max_filter_depth": 3,
+  "max_filter_length": 128,
+  "require_bind_under_base": true,
+  "clock_skew_seconds": 120
+}

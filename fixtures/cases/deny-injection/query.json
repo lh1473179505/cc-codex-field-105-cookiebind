@@ -1,0 +1,9 @@
+{
+  "kid": "k-active",
+  "bind_dn": "uid=alice,ou=people,dc=corp,dc=example",
+  "base_dn": "ou=people,dc=corp,dc=example",
+  "filter": "(&(objectClass=person)(uid=alice)(|(uid=*)))",
+  "scope": "sub",
+  "nonce": "n-deny-injection",
+  "sig": "TWSok9jbdO5rYHt_-D1A4fRljsY_p7JER3PjRPw153Y"
+}

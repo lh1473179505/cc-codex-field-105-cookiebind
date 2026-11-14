@@ -1,0 +1,9 @@
+{
+  "kid": "k-revoked",
+  "bind_dn": "uid=alice,ou=people,dc=corp,dc=example",
+  "base_dn": "ou=people,dc=corp,dc=example",
+  "filter": "(&(objectClass=person)(uid=alice))",
+  "scope": "sub",
+  "nonce": "n-deny-revoked",
+  "sig": "e2RdjR0IOJ2vms3FAoIZg8O_qfbXoNgbO3i5vA9LxGk"
+}
