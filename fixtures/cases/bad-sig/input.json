@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/honeytok/0",
+  "kid": "k-active",
+  "sig": "OiPUZZC3iipSVkBGIo7DXyz3NQOPEhQXoaxdX8HZOuY",
+  "_sign_line": "v1|k-active|5791ce1093fc18b15d75304f1fe0a9396a52ebe5c50126a623f937eb97ce3a43"
+}

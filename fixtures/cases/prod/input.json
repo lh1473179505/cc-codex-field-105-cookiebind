@@ -1,0 +1,9 @@
+{
+  "case": "prod",
+  "id": "deny-2",
+  "marker": "prod",
+  "path": "/evil/honeytok/2",
+  "kid": "k-active",
+  "sig": "YetprqB4Jw7paJEuQH_y33GL-22GZ2MZ2XjagflDNfw",
+  "_sign_line": "v1|k-active|bf989406c1d4691db66938d0af4196f02ed9b8caaee1d8a5018a3e25b7869599"
+}

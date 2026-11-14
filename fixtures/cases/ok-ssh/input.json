@@ -1,0 +1,9 @@
+{
+  "case": "ok-ssh",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/honeytok/0",
+  "kid": "k-active",
+  "sig": "6GH6Rj8V3SXlx-lClVoWn92mGnlHK6YIWDgh6OwnZZo",
+  "_sign_line": "v1|k-active|58248a718d2e7f14023a43e7a783262f230ce78457b7b3f33ed81204e0d71177"
+}

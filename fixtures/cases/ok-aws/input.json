@@ -1,0 +1,9 @@
+{
+  "case": "ok-aws",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/honeytok/1",
+  "kid": "k-active",
+  "sig": "7UHMelNflY0d_tMLZLC-KSo7Ai3Leg2Rbh33dr0wWWI",
+  "_sign_line": "v1|k-active|f5433c95eb2ab3a87da7a7e961d2fbfb8e4d175a4b9326eccc6c6e14f8b14d12"
+}

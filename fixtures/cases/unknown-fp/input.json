@@ -1,0 +1,9 @@
+{
+  "case": "unknown-fp",
+  "id": "deny-6",
+  "marker": "unknown-fp",
+  "path": "/evil/honeytok/6",
+  "kid": "k-active",
+  "sig": "DeNZOtpagSIjGKVXXSJ6P0AGLW4QQPIOOfReE-cXSiI",
+  "_sign_line": "v1|k-active|140126a99fec4fd13eda0817a46e892f4f1b5a5290b15cf13ce18d382aaebde5"
+}
