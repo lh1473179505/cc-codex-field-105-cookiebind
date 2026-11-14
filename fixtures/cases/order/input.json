@@ -1,0 +1,9 @@
+{
+  "case": "order",
+  "id": "deny-1",
+  "marker": "order",
+  "path": "/evil/sfkeyx/1",
+  "kid": "k-active",
+  "sig": "gfHlJpzGucSM0NRnFdtR4uKCSo5rCjaDGEYzjRBrevA",
+  "_sign_line": "v1|k-active|da1730a4f1f855de9f7ebd5383924346eaff2634fa35d3b825328f120e533ce8"
+}

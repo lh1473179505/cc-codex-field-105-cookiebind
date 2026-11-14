@@ -1,0 +1,9 @@
+{
+  "case": "param",
+  "id": "deny-3",
+  "marker": "param",
+  "path": "/evil/sfkeyx/3",
+  "kid": "k-active",
+  "sig": "ouLeiNYJJ2y_G56ZaN3pcEFcTpuQRsSuABdd_SGCC7g",
+  "_sign_line": "v1|k-active|acf76fb08042dd7d2025a7d7d07dd19313832edbc620ae05938dbdfa1aa9740c"
+}

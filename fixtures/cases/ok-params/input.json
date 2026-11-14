@@ -1,0 +1,9 @@
+{
+  "case": "ok-params",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/sfkeyx/1",
+  "kid": "k-active",
+  "sig": "bJHu8FUEolrYSzvA6FFXRsBCJW2HGYuieXedMCQZYS0",
+  "_sign_line": "v1|k-active|07cd037ac6b1c0e54611b812dad13d375a34fca5b45fe8b0ad8c8ced5dce4929"
+}

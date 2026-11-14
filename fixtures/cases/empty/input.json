@@ -1,0 +1,9 @@
+{
+  "case": "empty",
+  "id": "deny-7",
+  "marker": "empty",
+  "path": "/evil/sfkeyx/7",
+  "kid": "k-active",
+  "sig": "IpfSjTLS1CmJOOiG1Eh_R_MwGxM8btu-UtmN6KGwTAw",
+  "_sign_line": "v1|k-active|5a12ac857bd3c3793b6447115ca644ce5208cd07af82063189f18310ed21e827"
+}

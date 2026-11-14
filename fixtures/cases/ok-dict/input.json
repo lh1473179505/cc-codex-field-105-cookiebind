@@ -1,0 +1,9 @@
+{
+  "case": "ok-dict",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/sfkeyx/0",
+  "kid": "k-active",
+  "sig": "5U2jeMvKke-AZ8TzA4Cb5aujZ4KgJX1kuHFeqvqqK3g",
+  "_sign_line": "v1|k-active|cef19614fbfc58f1abc5a782fb12b8bcbb7ab380d747cb698619dd0de2218daf"
+}

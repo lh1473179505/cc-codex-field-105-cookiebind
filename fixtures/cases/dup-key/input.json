@@ -1,0 +1,9 @@
+{
+  "case": "dup-key",
+  "id": "deny-5",
+  "marker": "dup-key",
+  "path": "/evil/sfkeyx/5",
+  "kid": "k-active",
+  "sig": "fEHTK2m9UveGQWwkEA77NDzguR3srvg-RblfV-SxLkw",
+  "_sign_line": "v1|k-active|89ba629550b55f7062a6bea3750bf3ec5f0098c2a935c92b0eba0cc81fe05971"
+}

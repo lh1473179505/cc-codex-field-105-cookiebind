@@ -1,0 +1,9 @@
+{
+  "case": "float",
+  "id": "deny-6",
+  "marker": "float",
+  "path": "/evil/sfkeyx/6",
+  "kid": "k-active",
+  "sig": "9m418t38zYJsmgjAhCGF9P8PlfBDO56CiVs8YdCFTVg",
+  "_sign_line": "v1|k-active|85ba0e92813f64342896532da3db9d7a31758c87e766231f20b22fe98ef5be60"
+}
