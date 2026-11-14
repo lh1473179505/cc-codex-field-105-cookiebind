@@ -1,0 +1,9 @@
+{
+  "case": "ok-chain",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/mailarc/1",
+  "kid": "k-active",
+  "sig": "_Ple5mveulbNd09B16cVWCAZ9ec_52NzGNjJG2y2p4k",
+  "_sign_line": "v1|k-active|c337cf78e2dd18223db5f465d1f00e0c1f82c09100f3fee4eb6b3409520eb46a"
+}

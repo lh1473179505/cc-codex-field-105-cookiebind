@@ -1,0 +1,9 @@
+{
+  "case": "gap-i",
+  "id": "deny-6",
+  "marker": "gap-i",
+  "path": "/evil/mailarc/6",
+  "kid": "k-active",
+  "sig": "usORjjHEknzTPnYLLAQgXtkpviAcdyj7830dHtlueG8",
+  "_sign_line": "v1|k-active|b603f6896463def06987e3de8c617a98128a3401708f327d906497115ca7e003"
+}

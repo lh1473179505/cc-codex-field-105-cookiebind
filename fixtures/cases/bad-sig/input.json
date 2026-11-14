@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/mailarc/0",
+  "kid": "k-active",
+  "sig": "TKTjtVt2AQ0JmD6YtsQi3ab8HmtNdqmxqKAvK2I8M-c",
+  "_sign_line": "v1|k-active|c455f1bc0132ec35622a0c0d9ac64a60dc5742bb4fdc8b0f4d1754ae140145ae"
+}

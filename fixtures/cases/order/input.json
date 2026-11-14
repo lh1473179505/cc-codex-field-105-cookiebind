@@ -1,0 +1,9 @@
+{
+  "case": "order",
+  "id": "deny-1",
+  "marker": "order",
+  "path": "/evil/mailarc/1",
+  "kid": "k-active",
+  "sig": "3JBFsH0Av1l4qna4Hrrc7EjTJNjIVVtY02aTGXglaSU",
+  "_sign_line": "v1|k-active|abdfb011eaa64fef9a802a20595aff1be90648559642d020e9b5a107c144c839"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "dup-i",
+  "id": "deny-7",
+  "marker": "dup-i",
+  "path": "/evil/mailarc/7",
+  "kid": "k-active",
+  "sig": "TWRoGwksEdDalWT-qht_smLpEJsWMCZPV4C8ZKSZ38M",
+  "_sign_line": "v1|k-active|8d13b5fefb75413a7bfc166bdd98aa50d62c9c31329f5c8c5f671a49a8ab8821"
+}

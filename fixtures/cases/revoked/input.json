@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/mailarc/5",
+  "kid": "k-revoked",
+  "sig": "EtzABHxaLlKiEAEVZBDXqJ2CwKr0Cz6FpPojhTPKsGk",
+  "_sign_line": "v1|k-revoked|328cc4d09052bdfa6d5ecd2f6a7833f7ac62685ae8f95a9f41c538c58d5d819b"
+}

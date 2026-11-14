@@ -1,0 +1,9 @@
+{
+  "case": "cv",
+  "id": "deny-2",
+  "marker": "cv",
+  "path": "/evil/mailarc/2",
+  "kid": "k-active",
+  "sig": "gMYTOhj14sfLfvneMOTayd050-zsV6Lk_TWyMzZnW_w",
+  "_sign_line": "v1|k-active|cd94dc36c1c80f9a47b43f498e86c2cc0492ebf0e59cdb497d31c6e0b1575e6e"
+}

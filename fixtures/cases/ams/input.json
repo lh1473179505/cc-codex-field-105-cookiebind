@@ -1,0 +1,9 @@
+{
+  "case": "ams",
+  "id": "deny-3",
+  "marker": "ams",
+  "path": "/evil/mailarc/3",
+  "kid": "k-active",
+  "sig": "u0HDjO3UKb0UGVV_WG1RCp8ZlBhSjVU6LA9-PSxLJeM",
+  "_sign_line": "v1|k-active|395231a4c0e059690ea95da3eb430c74002fe32512fcbdad892833166c9a3056"
+}
