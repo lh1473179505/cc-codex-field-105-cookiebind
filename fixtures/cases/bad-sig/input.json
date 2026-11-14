@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/pasetox/0",
+  "kid": "k-active",
+  "sig": "3g0AjLKW4AsDURAYmubjA-fcicXXe3v9p6ZtezJSbD8",
+  "_sign_line": "v1|k-active|0176a8dd5acb57159be4ff02911581f82d025353f95a575396c6b6857ce5e5cb"
+}

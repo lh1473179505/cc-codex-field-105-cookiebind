@@ -1,0 +1,9 @@
+{
+  "case": "footer",
+  "id": "deny-2",
+  "marker": "footer",
+  "path": "/evil/pasetox/2",
+  "kid": "k-active",
+  "sig": "Wb23Rh7wBIqiXaJA3CejZ5ycqgDftpvAnOTCk2q7Duk",
+  "_sign_line": "v1|k-active|501e008863c579819aecad3192ae624b32bb128386b96b5e77b7dcc23284ff67"
+}

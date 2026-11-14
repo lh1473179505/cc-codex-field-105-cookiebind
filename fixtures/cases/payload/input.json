@@ -1,0 +1,9 @@
+{
+  "case": "payload",
+  "id": "deny-7",
+  "marker": "payload",
+  "path": "/evil/pasetox/7",
+  "kid": "k-active",
+  "sig": "cFIf1yegkOdHF8UooaDzWLSJS0-IsF3wE9EdeoE-bIU",
+  "_sign_line": "v1|k-active|eaebfece195022fdb612ad16d7c9f962529d6fdf4d00af48868edb79e2c80e7c"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "kid-ver",
+  "id": "deny-6",
+  "marker": "kid-ver",
+  "path": "/evil/pasetox/6",
+  "kid": "k-active",
+  "sig": "JWcCjHq0P4wcRSMGTOE1Qiamw8GI_CvgLgqrDeZripw",
+  "_sign_line": "v1|k-active|2b6a7c08d9000f7d97899a1e6e2f300947578ca1577bfb4f2d9a48ef29d02383"
+}

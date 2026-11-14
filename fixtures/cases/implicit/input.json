@@ -1,0 +1,9 @@
+{
+  "case": "implicit",
+  "id": "deny-3",
+  "marker": "implicit",
+  "path": "/evil/pasetox/3",
+  "kid": "k-active",
+  "sig": "8Je9bQ_mDSBMVv8Sl85cJ0Hl3F5S3FfbIaS7MOw2xto",
+  "_sign_line": "v1|k-active|51e9e23dc2c4c1fd5479d055909d019e9c313f6532a78dcfed876ce3a859e3f1"
+}

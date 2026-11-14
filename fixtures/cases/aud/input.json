@@ -1,0 +1,9 @@
+{
+  "case": "aud",
+  "id": "deny-4",
+  "marker": "aud",
+  "path": "/evil/pasetox/4",
+  "kid": "k-active",
+  "sig": "s1PBzmbUEwjKqwU-KS0-Gwk9UitIbLf9A9ssdzajaf4",
+  "_sign_line": "v1|k-active|b1b7f3fde543f922c349c674f2de4c60b404d007a42a7517e73a28a3b50c827b"
+}

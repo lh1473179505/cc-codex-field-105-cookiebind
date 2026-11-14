@@ -1,0 +1,9 @@
+{
+  "case": "ok-basic",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/pasetox/0",
+  "kid": "k-active",
+  "sig": "-nPT3ZBxYhB9-BWwYAUH9TvdGll7XcS7U1PE50w5mxU",
+  "_sign_line": "v1|k-active|dcfb85217ae9c1c896f5546bd3ff9e924ca0c15e04197e8aca185f6dd0f247b2"
+}

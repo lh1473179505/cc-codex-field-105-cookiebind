@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/pasetox/5",
+  "kid": "k-revoked",
+  "sig": "I4aZaSQ5dQQU4oMm91-E_fgR20JrFAWZRWdx4DHFvX4",
+  "_sign_line": "v1|k-revoked|6f7023b77aed5011800e7764d99a92e455170f016c93ad82e55e239e2cfe26a3"
+}
