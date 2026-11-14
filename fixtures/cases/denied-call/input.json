@@ -1,0 +1,9 @@
+{
+  "case": "denied-call",
+  "id": "deny-2",
+  "marker": "denied-call",
+  "path": "/evil/sandtrap/2",
+  "kid": "k-active",
+  "sig": "AXT43OJ1bBRgrk9gFJk-yj7PxiJqtZ3RfcgX3A9b53k",
+  "_sign_line": "v1|k-active|eb50a637da3e7a5b4d74247a4efc47ed7257b6b6267936c3c64c0283c4d7da56"
+}

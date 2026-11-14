@@ -1,0 +1,9 @@
+{
+  "case": "ok-openread",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/sandtrap/0",
+  "kid": "k-active",
+  "sig": "xU6JxIAHOLi_1goT2G0mmOrrapRPQ1q-qROL_-tCU14",
+  "_sign_line": "v1|k-active|de439f1216d6174e6708f67aa21f80437b6eb8044832f15adcd6b7a19e85fbff"
+}

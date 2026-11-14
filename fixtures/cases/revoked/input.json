@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/sandtrap/5",
+  "kid": "k-revoked",
+  "sig": "M3tPQWi0iB5uS4KKFQIpWpcaAfYszWS89-WC5PtoiSc",
+  "_sign_line": "v1|k-revoked|4b9e9aba3d6a8beb775983f858e9eeeda5ed00df4461c4319ceb28b1ff845539"
+}

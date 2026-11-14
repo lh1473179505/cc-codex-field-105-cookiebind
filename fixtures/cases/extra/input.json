@@ -1,0 +1,9 @@
+{
+  "case": "extra",
+  "id": "deny-6",
+  "marker": "extra",
+  "path": "/evil/sandtrap/6",
+  "kid": "k-active",
+  "sig": "CyrF9FkM4qPoioCMD5KBA5tchIcysPiQFOWkWKkzE3g",
+  "_sign_line": "v1|k-active|2cc961ecc56b7a242759607f7e0d9a3bf2e03d6e309ab594be4dd6dcbceb5d33"
+}

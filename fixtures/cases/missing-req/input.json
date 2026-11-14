@@ -1,0 +1,9 @@
+{
+  "case": "missing-req",
+  "id": "deny-1",
+  "marker": "missing-req",
+  "path": "/evil/sandtrap/1",
+  "kid": "k-active",
+  "sig": "c-9lHOy4SPYanjNd5BwhtcYB9vcaG-GGwgIBq31P11E",
+  "_sign_line": "v1|k-active|9dbd5bfaaf35c8c9052d0383258792ccdf121aa69c8c076ee9bb0ae4458b318c"
+}

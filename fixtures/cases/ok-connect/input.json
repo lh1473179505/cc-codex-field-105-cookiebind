@@ -1,0 +1,9 @@
+{
+  "case": "ok-connect",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/sandtrap/1",
+  "kid": "k-active",
+  "sig": "PrkyTee7Ze_Mjv0dAIINrxIOjRU93RSsOPDP7V9O1ac",
+  "_sign_line": "v1|k-active|76b8b77b1ce4546df0c620d7101c98dd8c4375f91cfeeed4cf4790cd312126dc"
+}

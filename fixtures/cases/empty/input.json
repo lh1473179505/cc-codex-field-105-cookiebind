@@ -1,0 +1,9 @@
+{
+  "case": "empty",
+  "id": "deny-7",
+  "marker": "empty",
+  "path": "/evil/sandtrap/7",
+  "kid": "k-active",
+  "sig": "jesn5LP97PaMu2Ib5QtZ4TnwxBE9v85PSvFoYC2BqA4",
+  "_sign_line": "v1|k-active|d1e34b72bc2f9c5b357c058d6ac98bb93fa34352af19d0ef95f85f593c0e0610"
+}

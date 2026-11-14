@@ -1,0 +1,9 @@
+{
+  "case": "arg",
+  "id": "deny-3",
+  "marker": "arg",
+  "path": "/evil/sandtrap/3",
+  "kid": "k-active",
+  "sig": "WQq9MLI4rKU_7YG6KLcOZZINIQiiPh327279wJBplvo",
+  "_sign_line": "v1|k-active|e30a123e0039ca8199f41ebac25570a878953694bb5c9ca7f715c5ebff01a0c8"
+}

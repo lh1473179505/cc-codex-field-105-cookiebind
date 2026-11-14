@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/sandtrap/0",
+  "kid": "k-active",
+  "sig": "NjrX0nvQURLGEmYm2E-eAgBiJe759cyeci1v4DQhshU",
+  "_sign_line": "v1|k-active|6f7d97ea59ad63b019abe853467daeec77707266869908d6ec41b07dd9b9259f"
+}
