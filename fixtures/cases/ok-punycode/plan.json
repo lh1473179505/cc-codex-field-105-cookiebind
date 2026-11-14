@@ -1,0 +1,17 @@
+{
+  "kid": "k-active",
+  "method": "GET",
+  "url": "https://xn--nxasmq6b.test/x",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "authority_host": "xn--nxasmq6b.test",
+  "pin_ips": [
+    "198.51.100.5"
+  ],
+  "redirects": [],
+  "resolver": {
+    "xn--nxasmq6b.test": [
+      "198.51.100.5"
+    ]
+  },
+  "sig": "IeeLmYhcIUn6v-HpcWl_wQY5e2vVxhUFitxqjew5Sfk"
+}

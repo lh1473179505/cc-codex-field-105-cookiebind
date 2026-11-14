@@ -1,0 +1,23 @@
+{
+  "kid": "k-active",
+  "method": "GET",
+  "url": "https://example.test/healthz",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "authority_host": "example.test",
+  "pin_ips": [
+    "203.0.113.10"
+  ],
+  "redirects": [],
+  "resolver": {
+    "example.test": [
+      "203.0.113.10"
+    ],
+    "cdn.example.test": [
+      "203.0.113.20"
+    ],
+    "xn--nxasmq6b.test": [
+      "198.51.100.5"
+    ]
+  },
+  "sig": "xya1NKtNxjnahjmViVI7X4leA7tEhilqz6EjP57HMhs"
+}

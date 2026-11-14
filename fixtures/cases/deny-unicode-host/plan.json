@@ -1,0 +1,20 @@
+{
+  "kid": "k-active",
+  "method": "GET",
+  "url": "https://例子.test/x",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "authority_host": "例子.test",
+  "pin_ips": [
+    "198.51.100.5"
+  ],
+  "redirects": [],
+  "resolver": {
+    "例子.test": [
+      "198.51.100.5"
+    ],
+    "xn--nxasmq6b.test": [
+      "198.51.100.5"
+    ]
+  },
+  "sig": "f_b22B4r-246sH_VcVKONjfRnRAOCsGc1OE5_17W0cA"
+}

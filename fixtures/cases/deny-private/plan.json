@@ -1,0 +1,17 @@
+{
+  "kid": "k-active",
+  "method": "GET",
+  "url": "https://example.test/",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "authority_host": "example.test",
+  "pin_ips": [
+    "10.1.2.3"
+  ],
+  "redirects": [],
+  "resolver": {
+    "example.test": [
+      "10.1.2.3"
+    ]
+  },
+  "sig": "SD9eq91QUT0DJXJxAqdokakFec7AP54v9MhYokSJey4"
+}

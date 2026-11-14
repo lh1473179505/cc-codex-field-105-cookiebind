@@ -1,0 +1,17 @@
+{
+  "kid": "k-active",
+  "method": "GET",
+  "url": "https://3232235777/",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "authority_host": "3232235777",
+  "pin_ips": [
+    "192.168.1.1"
+  ],
+  "redirects": [],
+  "resolver": {
+    "3232235777": [
+      "192.168.1.1"
+    ]
+  },
+  "sig": "7mXMxwVcYCweBaHYAMIspa3hwtWP62Tec-SQwuyOKuo"
+}

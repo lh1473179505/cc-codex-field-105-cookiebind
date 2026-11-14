@@ -1,0 +1,17 @@
+{
+  "kid": "k-active",
+  "method": "GET",
+  "url": "https://evil.test/",
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "authority_host": "evil.test",
+  "pin_ips": [
+    "203.0.113.99"
+  ],
+  "redirects": [],
+  "resolver": {
+    "evil.test": [
+      "203.0.113.99"
+    ]
+  },
+  "sig": "ceCEcGdH1vdozOa5wHA5mCM7FBoIObYktxDy2I3Uvo0"
+}

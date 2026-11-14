@@ -1,0 +1,36 @@
+{
+  "allowed_schemes": [
+    "https"
+  ],
+  "allowed_methods": [
+    "GET",
+    "HEAD"
+  ],
+  "forbid_userinfo": true,
+  "forbid_http_backslash": true,
+  "forbid_decimal_ipv4_obfuscation": true,
+  "blocked_cidrs": [
+    "10.0.0.0/8",
+    "127.0.0.0/8",
+    "169.254.0.0/16",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "0.0.0.0/8",
+    "::1/128"
+  ],
+  "host_allow": [
+    {
+      "exact": "example.test"
+    },
+    {
+      "exact": "cdn.example.test"
+    },
+    {
+      "exact": "xn--nxasmq6b.test"
+    }
+  ],
+  "require_dns_pin_match": true,
+  "max_redirects": 2,
+  "clock_skew_seconds": 60,
+  "idna_policy": "prefer_punycode_label"
+}
