@@ -1,0 +1,9 @@
+{
+  "case": "import",
+  "id": "deny-1",
+  "marker": "import",
+  "path": "/evil/wasmimp/1",
+  "kid": "k-active",
+  "sig": "GJUOai-Ch_DU22vBpG5LjJ32Qw-eb3tP5PsKrtSWe6I",
+  "_sign_line": "v1|k-active|abd4f9fa0b5bceb719e6d01563c6aa466be637dc95668b771acb2723e7f54183"
+}

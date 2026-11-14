@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/wasmimp/0",
+  "kid": "k-active",
+  "sig": "Bm1yZ-oCN968vcqWwy_azJ75X8FJuhrS6IzmGsfZ-84",
+  "_sign_line": "v1|k-active|aef8f4d351c7649c4ff38e2eced8f5060a34a65e12d20fbdd628666fab36e0e2"
+}

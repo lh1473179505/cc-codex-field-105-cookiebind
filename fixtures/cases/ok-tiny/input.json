@@ -1,0 +1,9 @@
+{
+  "case": "ok-tiny",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/wasmimp/1",
+  "kid": "k-active",
+  "sig": "mY8QTHZCYt6l1cfAsWLDtheqnPCWlGmVkElx1h61HVQ",
+  "_sign_line": "v1|k-active|8f3fe1d9990891252efb994a04aa0927062b3676072573d9bc4681e0958f3591"
+}

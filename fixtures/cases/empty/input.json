@@ -1,0 +1,9 @@
+{
+  "case": "empty",
+  "id": "deny-6",
+  "marker": "empty",
+  "path": "/evil/wasmimp/6",
+  "kid": "k-active",
+  "sig": "2wyxSw6bB-BvSVmo3OB22dD_Ptj7wWlLt1yLupFPMMM",
+  "_sign_line": "v1|k-active|ffefe44f8c9df753951d598a086736b816de26d5732c8a49fcb345790e97ae17"
+}

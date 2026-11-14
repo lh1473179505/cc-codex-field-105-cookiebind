@@ -1,0 +1,9 @@
+{
+  "case": "mem",
+  "id": "deny-2",
+  "marker": "mem",
+  "path": "/evil/wasmimp/2",
+  "kid": "k-active",
+  "sig": "cDFjHDSt-Ex1GcfMcizT0-8a8lE7r3SQ46ydHTJxq-k",
+  "_sign_line": "v1|k-active|4a0ee17d4d520ae4ef37b406c4d2a4e703c33d62b2d40ec9a4b70ba40de2f2d7"
+}

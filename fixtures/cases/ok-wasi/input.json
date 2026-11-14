@@ -1,0 +1,9 @@
+{
+  "case": "ok-wasi",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/wasmimp/0",
+  "kid": "k-active",
+  "sig": "XIfJB2oXxaq_6WKZrKjLcVgjR2SszSKiryRUiY4vsZw",
+  "_sign_line": "v1|k-active|cbcf0c1a48729c7c9f411fde61a9193103d1dd8d2fb4cc5563cb27ed467e3322"
+}

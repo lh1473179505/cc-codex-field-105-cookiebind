@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/wasmimp/4",
+  "kid": "k-revoked",
+  "sig": "PZEOHaDoFnXfHM6THu55-W-0Y1zyvjJ0MZ4iVZoF3so",
+  "_sign_line": "v1|k-revoked|cce877ca679bd7b97c3bc92e4c4583a781e3522f70799dc17321d46fc0019df2"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "dup-import",
+  "id": "deny-5",
+  "marker": "dup-import",
+  "path": "/evil/wasmimp/5",
+  "kid": "k-active",
+  "sig": "A9jbIU_5P3w7Evd1TjXzJ0A5Nrt5Ro7dX-C4t2Xzgyc",
+  "_sign_line": "v1|k-active|018571bd2e38c5a4b77618426df772db6e89bb358dd3fc63de4a0ad5984bde27"
+}
