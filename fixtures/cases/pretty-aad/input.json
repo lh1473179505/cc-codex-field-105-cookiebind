@@ -1,0 +1,9 @@
+{
+  "case": "pretty-aad",
+  "id": "deny-6",
+  "marker": "pretty-aad",
+  "path": "/evil/kmswrap/6",
+  "kid": "k-active",
+  "sig": "1fLY2OPXFEytKQ_agUIEXfDRHKGQ1IbmasUd1g0RHcY",
+  "_sign_line": "v1|k-active|9a0f403f1756813fe067c36bac404ff98cb9bf43b24443e525f501a6672c0fee"
+}

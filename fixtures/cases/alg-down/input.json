@@ -1,0 +1,9 @@
+{
+  "case": "alg-down",
+  "id": "deny-1",
+  "marker": "alg-down",
+  "path": "/evil/kmswrap/1",
+  "kid": "k-active",
+  "sig": "a7kQy6UrvLIsqn0FoGJ662HiEoOqrwhcNXISQ3qkHlY",
+  "_sign_line": "v1|k-active|f87416e1ccb9dd8ac06a5b480a25c999a5f5c187dbeb2a336e87ebb64839d734"
+}

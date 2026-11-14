@@ -1,0 +1,9 @@
+{
+  "case": "aad",
+  "id": "deny-2",
+  "marker": "aad",
+  "path": "/evil/kmswrap/2",
+  "kid": "k-active",
+  "sig": "43gpf1aRyLvnfeMWij1eymWEmwDoZ56EJDVifcMUCBU",
+  "_sign_line": "v1|k-active|8a565d615ced1699ad4a5a34e3bfa7bfe6297ba1321de28e10bf3a3c779af4b2"
+}

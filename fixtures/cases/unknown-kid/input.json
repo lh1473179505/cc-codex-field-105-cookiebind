@@ -1,0 +1,9 @@
+{
+  "case": "unknown-kid",
+  "id": "deny-7",
+  "marker": "unknown-kid",
+  "path": "/evil/kmswrap/7",
+  "kid": "k-active",
+  "sig": "rmcqo7WSJcV2XYcwsB-41n-lQ2Yn2g0Rjf7g1EaFY9E",
+  "_sign_line": "v1|k-active|6cfe1f748d21f2d2fc178630f665fc21f83cb8932ab8507d02ab7db101c5dfc3"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-aes",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/kmswrap/0",
+  "kid": "k-active",
+  "sig": "yNg2QUpn5_YqN2krF86ZYqMRN4as9zhLTc--qWGZJq0",
+  "_sign_line": "v1|k-active|987a7df225d0728a51f0df7111ea23b4a6ff6ef463ef0267b89f939c373f3a61"
+}

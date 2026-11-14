@@ -1,0 +1,9 @@
+{
+  "case": "ok-epoch-edge",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/kmswrap/1",
+  "kid": "k-active",
+  "sig": "cO3UiuunXAOuk3ybBFfyO1dqZ2sbCoVNvtMAOa0LXes",
+  "_sign_line": "v1|k-active|d14d7474a317bea0cdbaf5d1458ba451e5fcc53042450efa23c94c02cb3eb283"
+}

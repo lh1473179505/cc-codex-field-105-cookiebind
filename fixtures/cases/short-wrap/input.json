@@ -1,0 +1,9 @@
+{
+  "case": "short-wrap",
+  "id": "deny-5",
+  "marker": "short-wrap",
+  "path": "/evil/kmswrap/5",
+  "kid": "k-active",
+  "sig": "TMtR0NnMkJjEBmO7z-8DPJTUpiRsQu37iqEXGOj-n6o",
+  "_sign_line": "v1|k-active|789f1a3fc84f5c0bc251d70683da7f9e054afc4ad6f635a0daf81ff1fcd4ba83"
+}
