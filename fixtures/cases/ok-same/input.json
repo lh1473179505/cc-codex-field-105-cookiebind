@@ -1,0 +1,9 @@
+{
+  "case": "ok-same",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/relreqx/0",
+  "kid": "k-active",
+  "sig": "sVLdyysHAZqm1cXPdxC4mpNpM5mz5-nydJgUydEq8T8",
+  "_sign_line": "v1|k-active|c79dc7930e5cca0c7e57a87ddb08914c8ecccfa08e0fd6f73c3eba5ee1403ced"
+}

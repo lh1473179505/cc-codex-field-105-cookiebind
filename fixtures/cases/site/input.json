@@ -1,0 +1,9 @@
+{
+  "case": "site",
+  "id": "deny-1",
+  "marker": "site",
+  "path": "/evil/relreqx/1",
+  "kid": "k-active",
+  "sig": "L06o-m31PTT6PTuzlCWc666gPQN7pmqXwPmxlbKEyUg",
+  "_sign_line": "v1|k-active|7ee0343f905629b20fff5d16c691d62b5c04b329576d33faaffe45eecb3efd91"
+}

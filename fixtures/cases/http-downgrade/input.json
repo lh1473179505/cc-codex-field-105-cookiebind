@@ -1,0 +1,9 @@
+{
+  "case": "http-downgrade",
+  "id": "deny-6",
+  "marker": "http-downgrade",
+  "path": "/evil/relreqx/6",
+  "kid": "k-active",
+  "sig": "6j7wixBuEtyk2TntC8uWa6dgI9r55r27d1h-0H0mbhg",
+  "_sign_line": "v1|k-active|ee94cafae1e27a8253bba23c387f92d434c600fcfdc4c750fe4c006b8a9bb984"
+}

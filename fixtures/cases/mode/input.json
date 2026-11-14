@@ -1,0 +1,9 @@
+{
+  "case": "mode",
+  "id": "deny-2",
+  "marker": "mode",
+  "path": "/evil/relreqx/2",
+  "kid": "k-active",
+  "sig": "ld3ZP8BhyhsJp04qaYHVHJne6kzbj_AzaXRbeSqZEmw",
+  "_sign_line": "v1|k-active|f0a1154160a294718615c489be29ef3daeb12aa138dfca01174d77df14db7f73"
+}

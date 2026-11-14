@@ -1,0 +1,9 @@
+{
+  "case": "case-host",
+  "id": "deny-7",
+  "marker": "case-host",
+  "path": "/evil/relreqx/7",
+  "kid": "k-active",
+  "sig": "nCzL_0veBavV6CPeAmdCbk7jIuXVzo0nONo756xVehw",
+  "_sign_line": "v1|k-active|3e3024dc57799ed61334c5d9f391af397cb1609de5ac35d9ab5f4549e2ffed2e"
+}

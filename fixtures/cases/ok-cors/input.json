@@ -1,0 +1,9 @@
+{
+  "case": "ok-cors",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/relreqx/1",
+  "kid": "k-active",
+  "sig": "1IlNocKhw8V7cQTTVM2gqlPQ2HNh71YjGuXBMWn27w8",
+  "_sign_line": "v1|k-active|3eea030bdf6bf6aba3d2c1b4a0f075ee5e1d8bfe051b7829d0274df1b475a914"
+}

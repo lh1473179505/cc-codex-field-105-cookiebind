@@ -1,0 +1,9 @@
+{
+  "case": "dest",
+  "id": "deny-3",
+  "marker": "dest",
+  "path": "/evil/relreqx/3",
+  "kid": "k-active",
+  "sig": "NJ4Lh9TGKp5myP1F7jbx6q0wohCAVtGZ7N9mTo5nRI8",
+  "_sign_line": "v1|k-active|5a392bc54b5eb10a3235bea6e939fe6f8e07008057d835c6ad5ac298a73ff7ca"
+}

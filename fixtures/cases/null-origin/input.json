@@ -1,0 +1,9 @@
+{
+  "case": "null-origin",
+  "id": "deny-5",
+  "marker": "null-origin",
+  "path": "/evil/relreqx/5",
+  "kid": "k-active",
+  "sig": "UFGad7lf-n1ByeOXKRPoy0erxQiU4Dj6adpE_dm79xc",
+  "_sign_line": "v1|k-active|4cfcf50ec8b787504cd2022d4074953b1a885469f10913343c658764def27158"
+}
