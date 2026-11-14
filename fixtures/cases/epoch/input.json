@@ -1,0 +1,9 @@
+{
+  "case": "epoch",
+  "id": "deny-1",
+  "marker": "epoch",
+  "path": "/evil/sealedbox/1",
+  "kid": "k-active",
+  "sig": "cRTJUBArS87cSouya68bRh6qolxEON4R4zW5BW_GL2k",
+  "_sign_line": "v1|k-active|e31ef2ccb127a45ee4a558d1bb8067c7dd3d5330ad69e64d95debfdc8c90569e"
+}

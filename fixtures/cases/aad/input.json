@@ -1,0 +1,9 @@
+{
+  "case": "aad",
+  "id": "deny-2",
+  "marker": "aad",
+  "path": "/evil/sealedbox/2",
+  "kid": "k-active",
+  "sig": "QDJ_oHJWxVDFq1iu0hsSqJ-WNSJoy0JJNvYZ3ZW8kLw",
+  "_sign_line": "v1|k-active|0fe297403a4dd26c64c1b0878971239b23a2f861df0bd103464fa2de34dd4534"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "bad-unseal",
+  "id": "deny-0",
+  "marker": "bad-unseal",
+  "path": "/evil/sealedbox/0",
+  "kid": "k-active",
+  "sig": "PvoVJJO5IZbuCq0jlM0JatN2TRy9OBdtGnKRM0q0PWo",
+  "_sign_line": "v1|k-active|3c8706652cfa48d94b4c1ce918ac16c2ce726d8de95c22e93e81a18c66171eae"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-msg",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/sealedbox/0",
+  "kid": "k-active",
+  "sig": "9I6-d0QroOwvQxqZQ6ntihN9c6tD1ynlOYTjnlCfcTI",
+  "_sign_line": "v1|k-active|cb46dd24450d12c0cf469dd8abb782788c1b63f0ac30f311aa8723953a1c8dcf"
+}

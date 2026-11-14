@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-3",
+  "marker": "revoked",
+  "path": "/evil/sealedbox/3",
+  "kid": "k-revoked",
+  "sig": "Oa5fKQ8_hbti8i1w5LpKDlet3exa8WMBAYCx5ExsDtE",
+  "_sign_line": "v1|k-revoked|ced2b132b78deb0924991f8fd58355c9385d4c53631aa74b831f214caaf51b85"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "short",
+  "id": "deny-4",
+  "marker": "short",
+  "path": "/evil/sealedbox/4",
+  "kid": "k-active",
+  "sig": "g0HJIM6y0e2QdOZXM43GJ-fNN-txql5JqtCtowmY3-o",
+  "_sign_line": "v1|k-active|e884b4c4c23fefddc7cfc39100abfe89859e4e6b6b93188b98fbe98d3b3db423"
+}

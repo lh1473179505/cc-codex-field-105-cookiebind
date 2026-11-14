@@ -1,0 +1,9 @@
+{
+  "case": "ok-aad",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/sealedbox/1",
+  "kid": "k-active",
+  "sig": "r-KHLhcEhffhQjelX7BqnQ26ZaXEU6TPuWTs-1I1r5g",
+  "_sign_line": "v1|k-active|b7e82f85379d5e5df153a33402d8620909d53c46b39a30fcbd3ea919b477e30a"
+}

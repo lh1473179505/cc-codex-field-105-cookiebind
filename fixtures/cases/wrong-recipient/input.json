@@ -1,0 +1,9 @@
+{
+  "case": "wrong-recipient",
+  "id": "deny-5",
+  "marker": "wrong-recipient",
+  "path": "/evil/sealedbox/5",
+  "kid": "k-active",
+  "sig": "1xDz2bA1GUl1ZpHyT0_6DcOtIetLQ6Ff5ZVDfA9LSJk",
+  "_sign_line": "v1|k-active|d98c1e7bf72a203a7ad3066ec139cab969219b2e94e046195fd53ba841d56d2e"
+}

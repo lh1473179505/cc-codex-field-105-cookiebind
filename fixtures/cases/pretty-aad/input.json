@@ -1,0 +1,9 @@
+{
+  "case": "pretty-aad",
+  "id": "deny-6",
+  "marker": "pretty-aad",
+  "path": "/evil/sealedbox/6",
+  "kid": "k-active",
+  "sig": "0ZJt3F7_gUYqWwmMGsyvlFsTYv2P29FY9IYewub5V_g",
+  "_sign_line": "v1|k-active|8f649b3218e754adbf8ced03910f0a6534fef51b259b7f0c67b43d3967fb4f50"
+}

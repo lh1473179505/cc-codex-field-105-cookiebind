@@ -1,0 +1,9 @@
+{
+  "case": "future-epoch",
+  "id": "deny-7",
+  "marker": "future-epoch",
+  "path": "/evil/sealedbox/7",
+  "kid": "k-active",
+  "sig": "IUebWTdS0So68ZiByKeb7uHfEnS6NjNB-WRZN5oTqZ0",
+  "_sign_line": "v1|k-active|95a5b4658c37d5aa655df37017d61c660fde14dbe8af498650367a34c2a2abe9"
+}
