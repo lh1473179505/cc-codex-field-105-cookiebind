@@ -1,0 +1,9 @@
+{
+  "case": "wrong-key",
+  "id": "deny-7",
+  "marker": "wrong-key",
+  "path": "/evil/watermark/7",
+  "kid": "k-active",
+  "sig": "jUvpKlzAU24zVFdZ0M7u-Fatwct4syiIGfIHeVBPxSo",
+  "_sign_line": "v1|k-active|cc05f213b38f8defdec0dcb5c423067cba9a257e2e2d83f71342e93876bde861"
+}

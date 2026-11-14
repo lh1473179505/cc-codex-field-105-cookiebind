@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/watermark/0",
+  "kid": "k-active",
+  "sig": "5GpRDs5f8Yv0QfnOowhFTtCk5s-jD78MtqlHpO7hq8I",
+  "_sign_line": "v1|k-active|17c5b9f2b0160cb3ce782571451f45b0ae25d3d4b88d2fafe8b702c760b823a7"
+}

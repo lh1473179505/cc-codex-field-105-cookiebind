@@ -1,0 +1,9 @@
+{
+  "case": "ok-img",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/watermark/0",
+  "kid": "k-active",
+  "sig": "7Mmrq7FaP8oSINRYZbf0N0mIpEv11FPfUVtT7F9s65U",
+  "_sign_line": "v1|k-active|d1274a7dc203b3dd686eafc7425a085ee0d1b37b670dd7b6d046b3264ef1e644"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "pos",
+  "id": "deny-1",
+  "marker": "pos",
+  "path": "/evil/watermark/1",
+  "kid": "k-active",
+  "sig": "NO2lBnb2U8HxOmgvcTJ97NoCQA5Dn1oB_cc53avfDd4",
+  "_sign_line": "v1|k-active|c87954ecebaee5fe123532332ec81ca4b8bd8c9caf5bc31f697ff78998a72081"
+}

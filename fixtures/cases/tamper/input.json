@@ -1,0 +1,9 @@
+{
+  "case": "tamper",
+  "id": "deny-4",
+  "marker": "tamper",
+  "path": "/evil/watermark/4",
+  "kid": "k-active",
+  "sig": "U4ISFAxyisRiKacd3kJ7K0BHPpPLM8LfafXnP-3p58Y",
+  "_sign_line": "v1|k-active|71f43347632161666379717aea900ac112ccf9250a2da45f615f9d86a5a5529e"
+}

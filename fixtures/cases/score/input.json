@@ -1,0 +1,9 @@
+{
+  "case": "score",
+  "id": "deny-3",
+  "marker": "score",
+  "path": "/evil/watermark/3",
+  "kid": "k-active",
+  "sig": "QOgkEru7YUM21yo7DU_I8vEmS4I_T9r-Wu1DVqs6fkY",
+  "_sign_line": "v1|k-active|4ae29ea4d52f536b96e961f4b1be9d58d4f9dfe103992851cf2dded301b4acbd"
+}

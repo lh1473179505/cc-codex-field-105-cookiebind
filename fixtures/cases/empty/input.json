@@ -1,0 +1,9 @@
+{
+  "case": "empty",
+  "id": "deny-6",
+  "marker": "empty",
+  "path": "/evil/watermark/6",
+  "kid": "k-active",
+  "sig": "D0sqeMtV3isVZnFugw507lwwXbKcF8vUbCBSSoqwWWU",
+  "_sign_line": "v1|k-active|473269fb32b9c0f6764ce68af24c06419438b6798c222780861a608b64a87299"
+}

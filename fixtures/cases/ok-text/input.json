@@ -1,0 +1,9 @@
+{
+  "case": "ok-text",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/watermark/1",
+  "kid": "k-active",
+  "sig": "d6EQE4k2yYfo5JSiQubYw9RJPX2RMkBok7qbHvawCqM",
+  "_sign_line": "v1|k-active|b96ff230eaadd7c30c24ac7b67d7809bd3f03ad48339b6cc3c4c53e779ab6457"
+}
