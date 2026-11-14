@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/yaragate/4",
+  "kid": "k-revoked",
+  "sig": "iD7KbqRkLTF0y1P0DixvgAa0p9LBjtaHj2pUUVHKwJs",
+  "_sign_line": "v1|k-revoked|70bede88ef4106f875182a6c46eb9915cf111b2983295f961dcd4c05af0e6e10"
+}

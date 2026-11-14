@@ -1,0 +1,9 @@
+{
+  "case": "hex",
+  "id": "deny-5",
+  "marker": "hex",
+  "path": "/evil/yaragate/5",
+  "kid": "k-active",
+  "sig": "lHjYtjzccJVLNweohRX2HNGpJhWKgqw6fNUL7ruU_oY",
+  "_sign_line": "v1|k-active|ca503ce8f01073d8a839c65d91350479d65f835e3cbda9b3eb057128dfe6667b"
+}

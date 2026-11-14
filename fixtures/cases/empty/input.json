@@ -1,0 +1,9 @@
+{
+  "case": "empty",
+  "id": "deny-7",
+  "marker": "empty",
+  "path": "/evil/yaragate/7",
+  "kid": "k-active",
+  "sig": "iGSk8ohVvzYcKf5sLJox_ugXoMVHxFe53ke2QuN866M",
+  "_sign_line": "v1|k-active|3772bace8cc7cf2fffc8b7692a43afc018c09b9e73bd335637a649c6fd5a8e6f"
+}

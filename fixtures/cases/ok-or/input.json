@@ -1,0 +1,9 @@
+{
+  "case": "ok-or",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/yaragate/1",
+  "kid": "k-active",
+  "sig": "2VNlDGUmRHo-QSGnUBqMLfPstWa0ogkItUeJoyCGlLY",
+  "_sign_line": "v1|k-active|75b81388f086d65c552c85e1f61feaea90046434aaaab3012ba39bf0baf4f91a"
+}

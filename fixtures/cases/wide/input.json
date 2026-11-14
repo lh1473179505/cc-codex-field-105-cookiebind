@@ -1,0 +1,9 @@
+{
+  "case": "wide",
+  "id": "deny-6",
+  "marker": "wide",
+  "path": "/evil/yaragate/6",
+  "kid": "k-active",
+  "sig": "9dmfhu4Pp9EN79rcMFlCWKOqOwzra2BAuo4LLYizIWs",
+  "_sign_line": "v1|k-active|ab13003a320dc2acc23c5fdbb9285f1b2709fed6015844ea5fb773a560ca9942"
+}

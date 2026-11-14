@@ -1,0 +1,9 @@
+{
+  "case": "cond",
+  "id": "deny-2",
+  "marker": "cond",
+  "path": "/evil/yaragate/2",
+  "kid": "k-active",
+  "sig": "bVPgjNiMuoynfif8xZ_kQgKii7_a3XfC-TWdV_wboKg",
+  "_sign_line": "v1|k-active|ce5ef193752846cad4e151b3de0d5b5cd650e8ef9ca6ec647d25cfa714638cb4"
+}

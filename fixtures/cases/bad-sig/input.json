@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/yaragate/0",
+  "kid": "k-active",
+  "sig": "YPtdaX20KHLEPq2zCgRDmZHX_C72O49DXfxVZwnzEis",
+  "_sign_line": "v1|k-active|dc93084e539c133ec758955d534f5edea18cdaf6107b8b3cb9a885d0fb66326b"
+}
