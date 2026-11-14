@@ -1,0 +1,21 @@
+{
+  "kid": "k-active",
+  "method": "GET",
+  "authority": "api.corp.example",
+  "path": "/v1/health",
+  "content_type": "application/octet-stream",
+  "content_digest": "sha-256=:47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU:",
+  "body_b64": "",
+  "covered": [
+    "@method",
+    "@authority",
+    "@path",
+    "content-digest",
+    "content-type"
+  ],
+  "created": 1781783995,
+  "expires": 1781784300,
+  "nonce": "n-ok-get",
+  "headers": {},
+  "sig": "G7Ph4CkGO3LWRQ14o-ElxzuOckuxI-UvfpZCus53U_Y"
+}

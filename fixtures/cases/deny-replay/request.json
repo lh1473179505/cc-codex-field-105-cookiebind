@@ -1,0 +1,21 @@
+{
+  "kid": "k-active",
+  "method": "POST",
+  "authority": "api.corp.example",
+  "path": "/v1/orders",
+  "content_type": "application/json",
+  "content_digest": "sha-256=:AVq9f1zFei3ZS3WQ8ErYCEJzkF7jPsXOvq5iJ2qX-GI:",
+  "body_b64": "eyJhIjoxfQ",
+  "covered": [
+    "@method",
+    "@authority",
+    "@path",
+    "content-digest",
+    "content-type"
+  ],
+  "created": 1781783995,
+  "expires": 1781784300,
+  "nonce": "n-deny-replay",
+  "headers": {},
+  "sig": "_leJgZYpzoNogIINUb78ecWTk2P4IFxiQasKcFlppFU"
+}

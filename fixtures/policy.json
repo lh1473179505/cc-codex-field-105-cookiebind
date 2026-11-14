@@ -1,0 +1,25 @@
+{
+  "allowed_methods": [
+    "GET",
+    "POST",
+    "HEAD"
+  ],
+  "allowed_authorities": [
+    "api.corp.example"
+  ],
+  "allowed_path_prefixes": [
+    "/v1/"
+  ],
+  "required_covered": [
+    "@method",
+    "@authority",
+    "@path",
+    "content-digest"
+  ],
+  "allowed_content_types": [
+    "application/json",
+    "application/octet-stream"
+  ],
+  "clock_skew_seconds": 60,
+  "forbid_query_in_path": true
+}
