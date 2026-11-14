@@ -1,0 +1,13 @@
+{
+  "allowed_onions": [
+    "abcdefghijklmnopqrstuvwxyz234567.onion",
+    "bcdefghijklmnopqrstuvwxyz234567a.onion"
+  ],
+  "allowed_clients": [
+    "client-alice",
+    "client-bob"
+  ],
+  "min_revision": 3,
+  "clock_skew_seconds": 180,
+  "max_age_seconds": 1200
+}

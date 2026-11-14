@@ -1,0 +1,9 @@
+{
+  "kid": "k-active",
+  "onion": "evilabcdefghijklmnopqrstuvwx.onion",
+  "client": "client-alice",
+  "revision": 5,
+  "iat": 1781783930,
+  "nonce": "n-deny-onion",
+  "sig": "G1vU1DY-8dFrLDigV6WXuG8ntx1KsBWoBEKDhT8cnAE"
+}

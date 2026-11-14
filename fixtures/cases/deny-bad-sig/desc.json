@@ -1,0 +1,9 @@
+{
+  "kid": "k-active",
+  "onion": "abcdefghijklmnopqrstuvwxyz234567.onion",
+  "client": "client-alice",
+  "revision": 5,
+  "iat": 1781783930,
+  "nonce": "n-deny-bad-sig",
+  "sig": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+}

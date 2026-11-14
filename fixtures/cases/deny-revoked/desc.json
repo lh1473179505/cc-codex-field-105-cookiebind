@@ -1,0 +1,9 @@
+{
+  "kid": "k-revoked",
+  "onion": "abcdefghijklmnopqrstuvwxyz234567.onion",
+  "client": "client-alice",
+  "revision": 5,
+  "iat": 1781783930,
+  "nonce": "n-deny-revoked",
+  "sig": "3rHLYgHOAsQpOtTisKBl2OpQILOgRaNWqa9i8NwvZxY"
+}
