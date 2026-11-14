@@ -1,0 +1,9 @@
+{
+  "case": "raw-addr",
+  "id": "deny-7",
+  "marker": "raw-addr",
+  "path": "/evil/fuzzcrash/7",
+  "kid": "k-active",
+  "sig": "La5dOhOxrOxqRwl3y4yxuThtBqCixUMyDwV9krj21xA",
+  "_sign_line": "v1|k-active|40f9b4b0364d9c1ff5934c71f7181cf07a311709e99f7ac8123a9a92d0e96c8e"
+}

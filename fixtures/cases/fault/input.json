@@ -1,0 +1,9 @@
+{
+  "case": "fault",
+  "id": "deny-2",
+  "marker": "fault",
+  "path": "/evil/fuzzcrash/2",
+  "kid": "k-active",
+  "sig": "jrZOR7vEUtl18Nq_7173jjFsF6HTOTSUprZZd1zRHBM",
+  "_sign_line": "v1|k-active|b6f5cb50acc878b1750942f0ca6fcbfe3dea4973852b16890d1f687504ca65ec"
+}

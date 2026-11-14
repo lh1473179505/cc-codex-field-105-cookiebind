@@ -1,0 +1,9 @@
+{
+  "case": "ok-abrt",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/fuzzcrash/1",
+  "kid": "k-active",
+  "sig": "U91BOEsLLiDLy_ovzvILtlwkJ9I9QxjDH5Ga98WUldo",
+  "_sign_line": "v1|k-active|8cfe13cf9b34c8c12393bcc87d221cfb9819943e86d74c090523f1897fdc6296"
+}

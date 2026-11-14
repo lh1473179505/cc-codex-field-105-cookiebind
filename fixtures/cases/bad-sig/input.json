@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/fuzzcrash/0",
+  "kid": "k-active",
+  "sig": "w5-h4OkwIK61mBIOsH7HPztECE6aPGI0Gb1CTyYgxWk",
+  "_sign_line": "v1|k-active|e64bdf7d9873192635bfca3915fb986975021fb2ba3deef6c31abeb15a0a94e1"
+}

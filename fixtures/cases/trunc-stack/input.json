@@ -1,0 +1,9 @@
+{
+  "case": "trunc-stack",
+  "id": "deny-6",
+  "marker": "trunc-stack",
+  "path": "/evil/fuzzcrash/6",
+  "kid": "k-active",
+  "sig": "2e5wZROgBb-X_T_fkytCD-hrXr9-qFm8saaUb1QchxI",
+  "_sign_line": "v1|k-active|4aa4fdc747fda27cf386cdff9d85f1fa144077060affcb9b6b87fc67dad8e52a"
+}

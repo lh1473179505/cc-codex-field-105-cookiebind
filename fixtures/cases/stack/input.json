@@ -1,0 +1,9 @@
+{
+  "case": "stack",
+  "id": "deny-1",
+  "marker": "stack",
+  "path": "/evil/fuzzcrash/1",
+  "kid": "k-active",
+  "sig": "oyKwVFfe-Sliv2FzLGUrv71eWRzr0xLianIrLsgFJPA",
+  "_sign_line": "v1|k-active|3f46cf3d583a59bde018b022d255aebbeba5bbf7d152de5c3e4960732e926c22"
+}

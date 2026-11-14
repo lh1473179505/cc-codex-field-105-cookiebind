@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/fuzzcrash/5",
+  "kid": "k-revoked",
+  "sig": "IMJ0ZwsO2rRC1ro2-1vWj1HqA0MWLmqiRHIC3Uiaxe8",
+  "_sign_line": "v1|k-revoked|e24702ee3eba61b56bd0880c7b9ec0c6c9d71e9ea073e2ddd8112aef846accaf"
+}

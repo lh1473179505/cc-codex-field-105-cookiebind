@@ -1,0 +1,9 @@
+{
+  "case": "sev",
+  "id": "deny-3",
+  "marker": "sev",
+  "path": "/evil/fuzzcrash/3",
+  "kid": "k-active",
+  "sig": "lI56Ljb-LDhs7_Jl3ixnTqd2jV8uISmEoBv4HKneVB8",
+  "_sign_line": "v1|k-active|c7a8d9a32c11b677d5047e250e346cfbce08cbff9113ef5ca09ca74fdd0cc078"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "dup",
+  "id": "deny-4",
+  "marker": "dup",
+  "path": "/evil/fuzzcrash/4",
+  "kid": "k-active",
+  "sig": "fEUIQxUa8EAkhrvdCAIPuGNagTgy7cVzWcaxFPIECNk",
+  "_sign_line": "v1|k-active|2b78d0f71505c2d697719a60edb86244a339def36dcead69a4915dec34a80c58"
+}
