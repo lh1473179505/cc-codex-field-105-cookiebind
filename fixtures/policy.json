@@ -1,0 +1,17 @@
+{
+  "allowed_issuers": [
+    "https://idp.example.com/"
+  ],
+  "allowed_audiences": [
+    "spa-web",
+    "mobile-app"
+  ],
+  "allowed_azp": [
+    "spa-web",
+    "mobile-app"
+  ],
+  "required_acr": [
+    "urn:example:acr:mfa"
+  ],
+  "clock_skew_seconds": 60
+}
