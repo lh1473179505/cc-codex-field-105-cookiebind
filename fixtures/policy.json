@@ -1,0 +1,23 @@
+{
+  "allowed_outer_typ": [
+    "nested+jwt"
+  ],
+  "allowed_inner_typ": [
+    "JWT"
+  ],
+  "allowed_aud": [
+    "api.corp.example"
+  ],
+  "allowed_azp": [
+    "spa.corp.example"
+  ],
+  "allowed_scopes": [
+    "read:profile",
+    "read:email"
+  ],
+  "allowed_crit": [
+    "sid"
+  ],
+  "require_cnf_jkt_match_inner_key": true,
+  "clock_skew_seconds": 60
+}
