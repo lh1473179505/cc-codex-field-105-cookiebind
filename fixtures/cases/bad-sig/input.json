@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/cookiebind/0",
+  "kid": "k-active",
+  "sig": "y429B8mjf3BIUwZcu3ByCqPAYXfuImzkeRVzKxNA4oA",
+  "_sign_line": "v1|k-active|1f8f20dfeaef3da7724be25e937689e3067354b9b6559ad5c4c5a74927222015"
+}

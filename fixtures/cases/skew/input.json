@@ -1,0 +1,9 @@
+{
+  "case": "skew",
+  "id": "deny-7",
+  "marker": "skew",
+  "path": "/evil/cookiebind/7",
+  "kid": "k-active",
+  "sig": "pJK13U3i2e9Rl_PHO2qkKxTtOw-ChjyBhd1RIa0kmZA",
+  "_sign_line": "v1|k-active|2cf1e4c35a5c6ae600992e29a3d39c8ac7587e10cb73127d92e2548090ac9a9e"
+}

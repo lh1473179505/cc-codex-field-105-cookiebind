@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/cookiebind/5",
+  "kid": "k-revoked",
+  "sig": "wiZk7v4f1VF_Mj44OEGqQcrM4bwN93Un7dUhF_EYBYs",
+  "_sign_line": "v1|k-revoked|243a97c56da113d9cd4d9ff52301a74140043146639be436e45a0b8979433b0d"
+}

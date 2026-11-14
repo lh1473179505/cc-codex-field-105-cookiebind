@@ -1,0 +1,9 @@
+{
+  "case": "csrf",
+  "id": "deny-3",
+  "marker": "csrf",
+  "path": "/evil/cookiebind/3",
+  "kid": "k-active",
+  "sig": "MkZtGdCJvqGgjPK1rrQ5vOROvR9qMvoMNKYBp6cZCAg",
+  "_sign_line": "v1|k-active|04db879053fe76316eaf259a1c7087494835bb128ef4246ce26d8be269fe6ff8"
+}

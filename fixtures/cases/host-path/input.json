@@ -1,0 +1,9 @@
+{
+  "case": "host-path",
+  "id": "deny-1",
+  "marker": "host-path",
+  "path": "/evil/cookiebind/1",
+  "kid": "k-active",
+  "sig": "aRii8yqbemUIRkjFrOG6yyvOoPKuvq9IHzuowgJuYEI",
+  "_sign_line": "v1|k-active|04edacbd723d012607d891495fd72652fdd9e1cad29d1e4f983a10d18f2afec5"
+}

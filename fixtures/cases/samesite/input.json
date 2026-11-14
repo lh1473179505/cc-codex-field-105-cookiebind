@@ -1,0 +1,9 @@
+{
+  "case": "samesite",
+  "id": "deny-2",
+  "marker": "samesite",
+  "path": "/evil/cookiebind/2",
+  "kid": "k-active",
+  "sig": "6nNNYUtepxQGm3oNnKA65tWsms28F9vffcmLe2ErCF0",
+  "_sign_line": "v1|k-active|96b78be67b36153a84e761ab408354f6e3d39ea0ed8d4eb39624437459abcba5"
+}

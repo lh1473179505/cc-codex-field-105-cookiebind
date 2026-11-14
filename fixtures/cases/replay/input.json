@@ -1,0 +1,9 @@
+{
+  "case": "replay",
+  "id": "deny-6",
+  "marker": "replay",
+  "path": "/evil/cookiebind/6",
+  "kid": "k-active",
+  "sig": "xid-ZJQ8miz0OdzSohpd420sO5M7ZEwcBLOs6tM4J_Y",
+  "_sign_line": "v1|k-active|a60ef64cbfa8bcf47612cb992d5f2bf02433cfb4b5349bb067c26dfaf6aad6d9"
+}

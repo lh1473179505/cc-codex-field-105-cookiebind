@@ -1,0 +1,9 @@
+{
+  "case": "path",
+  "id": "deny-4",
+  "marker": "path",
+  "path": "/evil/cookiebind/4",
+  "kid": "k-active",
+  "sig": "xpbPns6iGcvub00afCwpqi7JLcPOiLMA1xtJ4XP2sb0",
+  "_sign_line": "v1|k-active|5436cf974d0cd5e690d54148460d81ceaf4fd0203877c848d62a706016806c5d"
+}

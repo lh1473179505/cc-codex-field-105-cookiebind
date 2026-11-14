@@ -1,0 +1,9 @@
+{
+  "case": "ok-host",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/cookiebind/0",
+  "kid": "k-active",
+  "sig": "wzxy3lk3S2SHEE6omBBX6I4W59777usCveLG3KBUau0",
+  "_sign_line": "v1|k-active|88c1b462fe05026608c0ec269441ac69ee56474d929c02f9819ca7325d660d3f"
+}
