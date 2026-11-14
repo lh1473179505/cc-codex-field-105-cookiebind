@@ -1,0 +1,9 @@
+{
+  "case": "issuer",
+  "id": "deny-3",
+  "marker": "issuer",
+  "path": "/evil/cosignoff/3",
+  "kid": "k-active",
+  "sig": "fSkRllaAlb5U0jrlD7WslpTFMljlAbdYJzhzVzaS-EM",
+  "_sign_line": "v1|k-active|a0432cbcaedd8adbde30f001bf64feedc0e6c65a13331b56e2445b11fa6bcf45"
+}

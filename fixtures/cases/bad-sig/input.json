@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/cosignoff/0",
+  "kid": "k-active",
+  "sig": "HwrHQCN1grR_DMLxBH9rMhFg7EZ9Z4I7NXYETUp3RUk",
+  "_sign_line": "v1|k-active|d47db67387a1711ec3d3e039940393c151820529cbe3a3de50f9a850c6833905"
+}

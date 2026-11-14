@@ -1,0 +1,9 @@
+{
+  "case": "ok-ci",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/cosignoff/0",
+  "kid": "k-active",
+  "sig": "ioE8F1RvKIgCqIMWnS53ZDCcqdk3LhMvBSI34nkF9DQ",
+  "_sign_line": "v1|k-active|7c8142f34754b29f962b83b8ab47c0629c39381731b290188a62cce9b2e84fb1"
+}

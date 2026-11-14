@@ -1,0 +1,9 @@
+{
+  "case": "algo",
+  "id": "deny-6",
+  "marker": "algo",
+  "path": "/evil/cosignoff/6",
+  "kid": "k-active",
+  "sig": "2d-uIWXz9WJdLVyz0sWDe8VhvT7T9NXwjrxnDlOkALQ",
+  "_sign_line": "v1|k-active|62456e2e3f1ff246f8e132c224694b891d35b4ca4f9ea8f90def333ce7904e00"
+}

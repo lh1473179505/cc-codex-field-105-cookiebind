@@ -1,0 +1,9 @@
+{
+  "case": "tag-instead-digest",
+  "id": "deny-7",
+  "marker": "tag-instead-digest",
+  "path": "/evil/cosignoff/7",
+  "kid": "k-active",
+  "sig": "g6_yEPkPcKQWTig6uV7nWaW-TN8oaeKQ_6Ta9xaMshc",
+  "_sign_line": "v1|k-active|b702a18ca8f0900b7083125c845b3bcd02f48fd1c1e3b4e76406ce0e1a8b80ca"
+}

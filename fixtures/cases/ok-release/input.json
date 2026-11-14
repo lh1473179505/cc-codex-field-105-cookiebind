@@ -1,0 +1,9 @@
+{
+  "case": "ok-release",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/cosignoff/1",
+  "kid": "k-active",
+  "sig": "uN7JSRE7F4g4ak_AqUesiy5kMCaQEA-oDI_KsMUBqXI",
+  "_sign_line": "v1|k-active|1467b8019e21ea83c3dc89dc8e3a0e2ca8c1aa4f0ad2b5ff162d62a746de4eac"
+}

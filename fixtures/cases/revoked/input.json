@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/cosignoff/4",
+  "kid": "k-revoked",
+  "sig": "V304SVwu0LTGF2kIr3lqq5BklS9y-S0u70wOOOpVTaU",
+  "_sign_line": "v1|k-revoked|67329ce4519ecfa6fc740b2e892bb17a357e9d16ed1658519f84590f7c710186"
+}

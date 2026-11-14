@@ -1,0 +1,9 @@
+{
+  "case": "identity",
+  "id": "deny-2",
+  "marker": "identity",
+  "path": "/evil/cosignoff/2",
+  "kid": "k-active",
+  "sig": "mYo6BM8mH6dizSehH67uOKrrEF9qyHIN-8tLcXNkLGU",
+  "_sign_line": "v1|k-active|5112ba083bdf6efffc8b8f0ec33af3ad5d89e88cc3a9afa889b4e1103c548ef2"
+}

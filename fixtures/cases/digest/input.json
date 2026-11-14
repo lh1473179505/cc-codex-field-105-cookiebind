@@ -1,0 +1,9 @@
+{
+  "case": "digest",
+  "id": "deny-1",
+  "marker": "digest",
+  "path": "/evil/cosignoff/1",
+  "kid": "k-active",
+  "sig": "bvisMZoHwPLhLWgzWjC1DnygK2QmFqlgEWPtweBnOic",
+  "_sign_line": "v1|k-active|b123c58db9331b2242599561c55ab200083cadd0b3961c040ad951c04da07adf"
+}
