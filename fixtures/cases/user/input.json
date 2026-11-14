@@ -1,0 +1,9 @@
+{
+  "case": "user",
+  "id": "deny-3",
+  "marker": "user",
+  "path": "/evil/saslscram/3",
+  "kid": "k-active",
+  "sig": "eWLM5fy-xhaLwMt6Yk6DJtRd5GqTzaVlprS-eWAuw74",
+  "_sign_line": "v1|k-active|1c6a9222268e0a616f5fe9891bce02ae0d96f705cde03293fb245667b93c20d4"
+}

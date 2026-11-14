@@ -1,0 +1,9 @@
+{
+  "case": "iter",
+  "id": "deny-5",
+  "marker": "iter",
+  "path": "/evil/saslscram/5",
+  "kid": "k-active",
+  "sig": "W8Aj7PnSAvPOR2Xu24DaiL5fYAkDiHMKXtPV_JYjAC0",
+  "_sign_line": "v1|k-active|fa50bc17337c084e7983e208bb2341cc8fd620472068516e5720de547ffcfda6"
+}

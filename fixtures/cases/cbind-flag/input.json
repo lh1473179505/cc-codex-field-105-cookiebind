@@ -1,0 +1,9 @@
+{
+  "case": "cbind-flag",
+  "id": "deny-7",
+  "marker": "cbind-flag",
+  "path": "/evil/saslscram/7",
+  "kid": "k-active",
+  "sig": "mIpj1miL1n49i-Z-Mzdc0MGcSCdIteAWkomK2pGy-EE",
+  "_sign_line": "v1|k-active|6d602459e07c61b5f1f84ffae93317dc99e4f7adcb85833756c505511d9055f0"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-cbind",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/saslscram/1",
+  "kid": "k-active",
+  "sig": "TyHHZNskGqj0_qPdfxjn7hhmLTkQjVTQHduWfUVn_z0",
+  "_sign_line": "v1|k-active|953d7e82bdd83afc824b118d5c904ee6394e95f75c878e96842dedb913575bad"
+}

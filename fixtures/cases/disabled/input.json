@@ -1,0 +1,9 @@
+{
+  "case": "disabled",
+  "id": "deny-4",
+  "marker": "disabled",
+  "path": "/evil/saslscram/4",
+  "kid": "k-active",
+  "sig": "N6bNS4uqdv2V4XNm6VFZvCHtw7Zmz6gvosSqZz_M2mk",
+  "_sign_line": "v1|k-active|3a8c773997408d65bb7a245105ad48f32baef01dc4f1208ab7ca9120344744db"
+}

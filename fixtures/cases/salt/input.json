@@ -1,0 +1,9 @@
+{
+  "case": "salt",
+  "id": "deny-6",
+  "marker": "salt",
+  "path": "/evil/saslscram/6",
+  "kid": "k-active",
+  "sig": "fWn_k7elUZigssyjOl29ZCj0ZsrL4BrLibVbd1aHN6E",
+  "_sign_line": "v1|k-active|a1fdf870a65e8da34385f19183d4a99ac2b3e047a9d4018e095d553842ca5df1"
+}

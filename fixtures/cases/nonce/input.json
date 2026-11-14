@@ -1,0 +1,9 @@
+{
+  "case": "nonce",
+  "id": "deny-1",
+  "marker": "nonce",
+  "path": "/evil/saslscram/1",
+  "kid": "k-active",
+  "sig": "ndCGaD8jiHzS2y-ZrUJPb8hQsJK9pOOyoAq5wVQO-i0",
+  "_sign_line": "v1|k-active|1bf0cc12957e2f5afaafb2a1914b6efd3d924ced1a6cf83c7d1fd78c8408cf4f"
+}

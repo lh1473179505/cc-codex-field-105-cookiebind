@@ -1,0 +1,9 @@
+{
+  "case": "channel",
+  "id": "deny-2",
+  "marker": "channel",
+  "path": "/evil/saslscram/2",
+  "kid": "k-active",
+  "sig": "QvfQ7u4uHcLtkbqINM4HH7bpDRJSLAhZ_PkFbyaInN4",
+  "_sign_line": "v1|k-active|e5fe31beeb508881deea9c188f620e2daacc55e18359c66f82483eb13727ebe8"
+}

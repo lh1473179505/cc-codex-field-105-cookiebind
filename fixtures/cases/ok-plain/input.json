@@ -1,0 +1,9 @@
+{
+  "case": "ok-plain",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/saslscram/0",
+  "kid": "k-active",
+  "sig": "ov4iIWm66fr6-eiVP6qzRmNDirTiNJx61oxrR4iWoCw",
+  "_sign_line": "v1|k-active|485afbd4fe538282f75c23435b043f5df0087cd1fab404f5ec86fdb7c4fde25c"
+}

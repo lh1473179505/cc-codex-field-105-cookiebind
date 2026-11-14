@@ -1,0 +1,9 @@
+{
+  "case": "bad-proof",
+  "id": "deny-0",
+  "marker": "bad-proof",
+  "path": "/evil/saslscram/0",
+  "kid": "k-active",
+  "sig": "50Utl494UxEqqvbPFUJF2exzrAeDUJ_ljbRScUR5HAs",
+  "_sign_line": "v1|k-active|0c00031a809e82b33b3352179ebdc4b2d8f12f8acd1c6bf840dd88be4ec90c35"
+}
