@@ -1,0 +1,16 @@
+{
+  "allowed_pubkeys": [
+    "PKALICE",
+    "PKBOB"
+  ],
+  "allowed_endpoint_suffixes": [
+    ".vpn.example.com:51820"
+  ],
+  "allowed_ip_prefixes": [
+    "10.10.0.",
+    "10.10.1."
+  ],
+  "forbid_default_route": true,
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 600
+}

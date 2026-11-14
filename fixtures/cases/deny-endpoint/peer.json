@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "pubkey": "PKALICE",
+  "endpoint": "alice.evil.example:51820",
+  "allowed_ips": [
+    "10.10.0.2/32"
+  ],
+  "iat": 1781783975,
+  "nonce": "n-deny-endpoint",
+  "sig": "_mS_GPvJn8MmU_v3Z2W-6u2iYyn-7zMdyFgppw2tHzE"
+}

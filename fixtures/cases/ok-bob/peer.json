@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "pubkey": "PKBOB",
+  "endpoint": "bob.vpn.example.com:51820",
+  "allowed_ips": [
+    "10.10.1.2/32"
+  ],
+  "iat": 1781783975,
+  "nonce": "n-ok-bob",
+  "sig": "oz_n8n0AShhydnxhviM-m-qZmzEMccYmKHdGZgUu-Og"
+}

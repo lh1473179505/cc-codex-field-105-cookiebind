@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "pubkey": "PKALICE",
+  "endpoint": "alice.vpn.example.com:51820",
+  "allowed_ips": [
+    "192.168.0.2/32"
+  ],
+  "iat": 1781783975,
+  "nonce": "n-deny-ips",
+  "sig": "YkZkW7Fq_R9RitQ2g_lpHqsCRIuWTmPiNZ1KNgubBpQ"
+}

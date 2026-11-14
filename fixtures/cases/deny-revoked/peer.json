@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "pubkey": "PKALICE",
+  "endpoint": "alice.vpn.example.com:51820",
+  "allowed_ips": [
+    "10.10.0.2/32"
+  ],
+  "iat": 1781783975,
+  "nonce": "n-deny-revoked",
+  "sig": "xqjyRh0-PXnWFz3tIJ_nyiyfQXLf1fwe4XuE5RUfaRU"
+}

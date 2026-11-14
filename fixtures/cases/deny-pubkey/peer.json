@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "pubkey": "PKEVE",
+  "endpoint": "alice.vpn.example.com:51820",
+  "allowed_ips": [
+    "10.10.0.2/32"
+  ],
+  "iat": 1781783975,
+  "nonce": "n-deny-pubkey",
+  "sig": "qSej-ju0BFKVEmxTpNo47fNVkhFTb5YSnhmBFxj8rr8"
+}
