@@ -1,0 +1,9 @@
+{
+  "case": "role",
+  "id": "deny-2",
+  "marker": "role",
+  "path": "/evil/rlsrow/2",
+  "kid": "k-active",
+  "sig": "ychS-aHVCHV5WQh6TxuCwLXdSgzkrypE2CjF6NUK34g",
+  "_sign_line": "v1|k-active|77be4f5c8eecddb192de4c7cb8dd8129d0d4da0e296788b3cb22514309bddab2"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/rlsrow/0",
+  "kid": "k-active",
+  "sig": "wHoCNvJ1q5B7yW0Haowpnx4MEQ6NZvBKp-AKP0FbsgU",
+  "_sign_line": "v1|k-active|634e3f645e5424bc75a273d41b48b5f4914b7ba2f45678e4a7ed56c6c5afedcb"
+}

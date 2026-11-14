@@ -1,0 +1,9 @@
+{
+  "case": "tenant",
+  "id": "deny-1",
+  "marker": "tenant",
+  "path": "/evil/rlsrow/1",
+  "kid": "k-active",
+  "sig": "jaUgmy_Z-uh7IR4WaEWv9QRDjoPuYR7058wWym937VQ",
+  "_sign_line": "v1|k-active|8038a9820b1c5c08b66ca20a9b1ea2537bfb02ad93973b091da3367737a54738"
+}

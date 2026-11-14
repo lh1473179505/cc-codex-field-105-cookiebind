@@ -1,0 +1,9 @@
+{
+  "case": "ok-shared",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/rlsrow/1",
+  "kid": "k-active",
+  "sig": "NTOIQwjb0HPiw_YrZ82TpmxZWhJj09hBICNnoU3ZAZY",
+  "_sign_line": "v1|k-active|2372014a5a0221e7721b94995a4405d439bffcfdbee7cfeb2f61d0469a643cdc"
+}

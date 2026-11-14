@@ -1,0 +1,9 @@
+{
+  "case": "empty-pred",
+  "id": "deny-5",
+  "marker": "empty-pred",
+  "path": "/evil/rlsrow/5",
+  "kid": "k-active",
+  "sig": "N73JZRJldFsY-rU8SqCl0ABHEocReyR2J-nzZqmVd24",
+  "_sign_line": "v1|k-active|d259e0969aa90073290ca1b79f3f7597e0a3e86ca3461d5986505133389abe42"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-owner",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/rlsrow/0",
+  "kid": "k-active",
+  "sig": "GXO-uHhg3SWiVTzgGzjDd2FRdOqtVv6ycnW2fLzNiNY",
+  "_sign_line": "v1|k-active|61706e29a98e54257a7c3998ac9069acc794d97bf5aebcb5c55dd799cf4dadd1"
+}

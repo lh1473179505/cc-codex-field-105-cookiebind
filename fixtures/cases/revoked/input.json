@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/rlsrow/4",
+  "kid": "k-revoked",
+  "sig": "XJ5jmr_AkXiEbMExYZMfvzC7g3YI7UV3hXYiK1IhSy4",
+  "_sign_line": "v1|k-revoked|4aa0db209f2c04c5ef465538a0c7d09ee33db5a5edef6f351a8b2f6d191652b8"
+}

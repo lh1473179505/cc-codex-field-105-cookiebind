@@ -1,0 +1,9 @@
+{
+  "case": "or-escalation",
+  "id": "deny-3",
+  "marker": "or-escalation",
+  "path": "/evil/rlsrow/3",
+  "kid": "k-active",
+  "sig": "nXurcTTPvW0RY4KffLLpA1CrQPVeZVcgQ0rSmZsyHvk",
+  "_sign_line": "v1|k-active|ba9c2ade27e52060f4558cff369e416e93ad8e7e789adf48d6842c722b8ce855"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "case",
+  "id": "deny-7",
+  "marker": "case",
+  "path": "/evil/rlsrow/7",
+  "kid": "k-active",
+  "sig": "Nx1bfouOmoGvsCOZQdmN35H2ObqLYPjEekzp9NciW4M",
+  "_sign_line": "v1|k-active|1f6d77ba84dc79da6240577b64e4801aafb07137da15bd3e73853212bc1dac7a"
+}

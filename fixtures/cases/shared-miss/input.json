@@ -1,0 +1,9 @@
+{
+  "case": "shared-miss",
+  "id": "deny-6",
+  "marker": "shared-miss",
+  "path": "/evil/rlsrow/6",
+  "kid": "k-active",
+  "sig": "BBdFKkriA2fIaUEldHdUKdgCEx31MaaBHT-XfZJgv5c",
+  "_sign_line": "v1|k-active|2465b4327ba5cc210ef9fcdae4884bedf68c67398d62fe14ff9903f745c7de1c"
+}
