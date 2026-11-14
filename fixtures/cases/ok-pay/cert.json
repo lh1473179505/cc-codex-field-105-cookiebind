@@ -1,0 +1,15 @@
+{
+  "kid": "k-active",
+  "spiffe_id": "spiffe://prod.example/ns/pay/sa/api",
+  "sans": [
+    "api.pay.svc.cluster.local",
+    "spiffe://prod.example/ns/pay/sa/api"
+  ],
+  "eku": [
+    "clientAuth"
+  ],
+  "iat": 1781783970,
+  "exp": 1781784600,
+  "nonce": "n-ok-pay",
+  "sig": "0YrQZeHV-jbBpKsnfNBydkELih5s-oK5ZHkj6tE0kT4"
+}

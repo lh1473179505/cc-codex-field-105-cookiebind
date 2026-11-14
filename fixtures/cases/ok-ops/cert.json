@@ -1,0 +1,15 @@
+{
+  "kid": "k-active",
+  "spiffe_id": "spiffe://prod.example/ns/ops/sa/bot",
+  "sans": [
+    "bot.ops.svc.cluster.local",
+    "spiffe://prod.example/ns/ops/sa/bot"
+  ],
+  "eku": [
+    "clientAuth"
+  ],
+  "iat": 1781783970,
+  "exp": 1781784600,
+  "nonce": "n-ok-ops",
+  "sig": "OKzv6wvp4Zp0DDejVF10rGaKw-42hmeV-MpoivUIyaA"
+}

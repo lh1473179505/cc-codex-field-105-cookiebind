@@ -1,0 +1,14 @@
+{
+  "kid": "k-active",
+  "spiffe_id": "spiffe://prod.example/ns/pay/sa/api",
+  "sans": [
+    "api.pay.evil.example"
+  ],
+  "eku": [
+    "clientAuth"
+  ],
+  "iat": 1781783970,
+  "exp": 1781784600,
+  "nonce": "n-deny-san",
+  "sig": "RAS43uoo0zbw9p62weN0r6bkpMjYpJ2QhNbiOPU9QhM"
+}

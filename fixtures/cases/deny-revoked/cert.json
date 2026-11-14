@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "spiffe_id": "spiffe://prod.example/ns/pay/sa/api",
+  "sans": [
+    "api.pay.svc.cluster.local",
+    "spiffe://prod.example/ns/pay/sa/api"
+  ],
+  "eku": [
+    "clientAuth"
+  ],
+  "iat": 1781783970,
+  "exp": 1781784600,
+  "nonce": "n-deny-revoked",
+  "sig": "2bYp9af3lix7VZJVitBEoCXuZNg2mp5Tgdh2ATGJTuU"
+}

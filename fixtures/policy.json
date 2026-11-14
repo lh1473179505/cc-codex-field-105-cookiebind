@@ -1,0 +1,15 @@
+{
+  "allowed_trust_domains": [
+    "prod.example"
+  ],
+  "allowed_eku": [
+    "clientAuth"
+  ],
+  "require_spiffe": true,
+  "allowed_san_suffixes": [
+    ".svc.cluster.local",
+    "@prod.example"
+  ],
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 600
+}
