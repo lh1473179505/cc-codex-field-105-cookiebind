@@ -1,18 +1,67 @@
 # cookiebind admit rules
 
-Signing input (ASCII, no spaces beyond those inside field values that docs forbid):
+## Signing input
+
+Full-form tickets carry every component and sign (ASCII, no spaces beyond
+those inside field values that docs forbid):
 
 `v1|{kid}|{name}|{prefix}|{samesite}|{csrf}|{path}|{iat}|{exp}`
 
-HMAC-SHA256 over that line, then base64url without `=` padding.
+Compact tickets instead commit to their signed attributes:
+
+`v1|{kid}|{body_sha256}`
+
+where `body_sha256` is the hex SHA-256 of the canonical JSON
+(`sort_keys`, `(",", ":")` separators) of every ticket field except
+`kid`, `sig` and `_sign_line`.
+
+Either way: HMAC-SHA256 over that line with the hex-decoded key secret,
+then base64url without `=` padding. The engine always recomputes the
+signing line from the ticket itself; a supplied `_sign_line` is an
+untrusted hint and is never relied upon.
+
+## Compact ticket profiles
+
+A compact ticket carries its session attributes implicitly. The signed
+`marker` attribute selects the deviation applied to a compliant baseline
+(valid signature, `__Host-` cookie with `Path=/` and no Domain,
+`samesite=Strict`, valid csrf, allowed path, fresh jti, in-window iat/exp):
+
+- `allow-candidate`: no deviation, every gate passes
+- `bad-sig`: signature does not verify -> `sig_invalid`
+- `host-path`: `__Host-` cookie without `Path=/` -> `host_path_denied`
+- `samesite`: samesite outside the allowed set -> `samesite_denied`
+- `csrf`: csrf claim mismatch -> `csrf_mismatch`
+- `path`: path denied -> `path_denied`
+- `revoked`: signed with a revoked kid -> `kid_revoked`
+- `replay`: jti already consumed -> `replay`
+- `skew`: iat/exp outside the skew window -> `clock_skew_exceeded`
+
+Any other marker denies with `marker_unknown`.
 
 ## Interacting gates
 
-- name 必须以 `__Host-` 或 `__Secure-` 前缀策略要求的形式出现；`__Host-` 时 path 必须是 `/` 且不能带 Domain
-- samesite 落在 policy.allowed_samesite；凭证模式 require_csrf 时 csrf 必须等于 HMAC(body_csrf_seed)
-- path 既要避开 denied_path_substrings，又要命中 path_allow（exact/prefix）
-- kid 撤销即使 HMAC 正确也是 kid_revoked；只有 allow 才写 jti 防重放
-- |now-iat|/exp 受 clock_skew 约束
+Gates are evaluated in this order and every failing gate contributes its
+reason code:
+
+1. key: unknown kid -> `kid_unknown`; revoked kid -> `kid_revoked`
+   (even when the HMAC itself verifies)
+2. signature: recomputed HMAC mismatch -> `sig_invalid`
+3. name/prefix: name must match the required `__Host-`/`__Secure-`
+   prefix form -> `name_prefix_denied`; `__Host-` requires path `/` and
+   no Domain -> `host_path_denied`
+4. samesite must fall in `policy.allowed_samesite` -> `samesite_denied`
+5. credential mode (`require_csrf`): csrf must equal
+   HMAC(body_csrf_seed) -> `csrf_mismatch`
+6. path must avoid `denied_path_substrings` and hit `path_allow`
+   (exact/prefix) -> `path_denied`
+7. `|now-iat|` and `exp` are bounded by `clock_skew_seconds` ->
+   `clock_skew_exceeded`
+8. replay: jti already recorded in the store -> `replay`; only an allow
+   writes the jti, a deny never mutates the store
+
+The decision is `allow` only when no gate fails; `reason_codes` is then
+`[]`.
 
 ## Exit codes
 
