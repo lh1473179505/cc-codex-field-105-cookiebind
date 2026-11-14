@@ -1,0 +1,9 @@
+{
+  "case": "evidence",
+  "id": "deny-2",
+  "marker": "evidence",
+  "path": "/evil/trustroll/2",
+  "kid": "k-active",
+  "sig": "nRRXyibLVH9GlVMfT6YUt_ggbCjYQxQ6_rbA02qwIKg",
+  "_sign_line": "v1|k-active|9304aff401d151f82773b6d96389dd476e6d00e5ed0e53aa060f5c7880fe7ec4"
+}

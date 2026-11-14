@@ -1,0 +1,9 @@
+{
+  "case": "ok-roll",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/trustroll/0",
+  "kid": "k-active",
+  "sig": "ldssIBQsZrqkHJj08dWutlbmANTPniRyLDz-mPI3uqg",
+  "_sign_line": "v1|k-active|6eba422360c01d6bee1cca0f00c9f60e8e88079c63678f1805041dc5ef90d8f5"
+}

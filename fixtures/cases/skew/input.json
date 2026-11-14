@@ -1,0 +1,9 @@
+{
+  "case": "skew",
+  "id": "deny-6",
+  "marker": "skew",
+  "path": "/evil/trustroll/6",
+  "kid": "k-active",
+  "sig": "q8OctBHzAtpc-Nomraaasv3L0AHiOEzZAPV4NcVx1rU",
+  "_sign_line": "v1|k-active|f775d1d7388b31b18b6d4fdaa1289dd984681748d63d1a6a6b048039fcbf0a99"
+}

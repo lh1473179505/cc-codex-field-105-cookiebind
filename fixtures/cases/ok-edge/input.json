@@ -1,0 +1,9 @@
+{
+  "case": "ok-edge",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/trustroll/1",
+  "kid": "k-active",
+  "sig": "5Lka0mAxelndVGrhLLNYU9oqSAF5nWw1XPBF5064g18",
+  "_sign_line": "v1|k-active|bfc80b072f7501e2e62bd2d566cd15607a2a46955730c1cfdd801339e11bddd9"
+}

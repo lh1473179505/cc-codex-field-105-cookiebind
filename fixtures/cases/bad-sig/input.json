@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/trustroll/0",
+  "kid": "k-active",
+  "sig": "zaceu6H24h4ZUG9FyM9Iq0gOdU-y9ya4cpA5UsgpBX8",
+  "_sign_line": "v1|k-active|118557590e3d1bf29ce359548974d13b9b59e3e7c4bbb10210a58ca13fc845fd"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "gap",
+  "id": "deny-7",
+  "marker": "gap",
+  "path": "/evil/trustroll/7",
+  "kid": "k-active",
+  "sig": "l-YeQ_354hIHRcC_jVncd9dWzl_RSjFdfjeqL50NNR4",
+  "_sign_line": "v1|k-active|6570e8f7478d4b9041def921b3842a364cad50fdd40c1d843b604412efeb3e26"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "emergency",
+  "id": "deny-3",
+  "marker": "emergency",
+  "path": "/evil/trustroll/3",
+  "kid": "k-active",
+  "sig": "9Ow8ln5RLeqM6yWvdc9PJceYuZPpN6ZQzjoqhSYGJDM",
+  "_sign_line": "v1|k-active|141b7c13ef4f773b64132a6a492978727b5a0939f2124a849c71fa6a2ef65c53"
+}

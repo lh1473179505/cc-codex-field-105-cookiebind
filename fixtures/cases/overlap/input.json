@@ -1,0 +1,9 @@
+{
+  "case": "overlap",
+  "id": "deny-1",
+  "marker": "overlap",
+  "path": "/evil/trustroll/1",
+  "kid": "k-active",
+  "sig": "HeaiS0cNT1OKAarQ8ptBSRxuy1ewUgT7m_q7f9frRkI",
+  "_sign_line": "v1|k-active|7d5bda0b04296094a023920598f53c96ed7edf7dddbca9ad467446dabca4440a"
+}

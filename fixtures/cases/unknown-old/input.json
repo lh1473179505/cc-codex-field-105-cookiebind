@@ -1,0 +1,9 @@
+{
+  "case": "unknown-old",
+  "id": "deny-4",
+  "marker": "unknown-old",
+  "path": "/evil/trustroll/4",
+  "kid": "k-active",
+  "sig": "9p7YpFtthYSVIsUD65yQgDetajlH_NmZ77AAlY_4mqs",
+  "_sign_line": "v1|k-active|fe772935fc4c40fcc26639f747fdc98be35e06703ab5c9a8279f3dddc1c9c8d9"
+}
