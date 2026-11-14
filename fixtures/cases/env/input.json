@@ -4,6 +4,10 @@
   "marker": "env",
   "path": "/evil/canarytok/2",
   "kid": "k-active",
-  "sig": "pBWh1VJPxxK66Wf9hK2r2v2B1qS00zz30JF2o05KckA",
-  "_sign_line": "v1|k-active|6cf96d801621a16f8525c4a144dfa1e513665af6cbc6d85d7374c24e323d5e0a"
+  "sig": "kwkChqoRc0sx3d5NYyadH5Pfo2Jy4sWEnECcta9W35Y",
+  "_sign_line": "v1|k-active|6cf96d801621a16f8525c4a144dfa1e513665af6cbc6d85d7374c24e323d5e0a|dns|dev|1781784000",
+  "token_id": "6cf96d801621a16f8525c4a144dfa1e513665af6cbc6d85d7374c24e323d5e0a",
+  "channel": "dns",
+  "env": "dev",
+  "ts": 1781784000
 }

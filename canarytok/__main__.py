@@ -26,23 +26,26 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
+    try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+    except (OSError, ValueError) as e:
+        print(str(e), file=sys.stderr)
+        return 2
     now = None
     if args.now:
-        # accept unix int or leave None for stub
         try:
             now = int(args.now)
         except ValueError:
-            from datetime import datetime, timezone
-            now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
-    try:
-        report = admit_object(obj, keys, policy, store, now)
-    except ValueError as e:
-        print(str(e), file=sys.stderr)
-        return 2
+            try:
+                from datetime import datetime, timezone
+                now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
+            except ValueError as e:
+                print(f"invalid --now: {e}", file=sys.stderr)
+                return 2
+    report = admit_object(obj, keys, policy, store, now)
     from pathlib import Path as _P
     _P(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if report.get("decision") == "allow":

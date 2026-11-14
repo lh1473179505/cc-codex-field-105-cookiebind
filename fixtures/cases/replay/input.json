@@ -4,6 +4,10 @@
   "marker": "replay",
   "path": "/evil/canarytok/3",
   "kid": "k-active",
-  "sig": "06N4VNMPhbPG33k_q7Cl6WeIXmTyHnfCzspcF9eWv2w",
-  "_sign_line": "v1|k-active|daba2279b32ddef7d53bd2cf7f6a6b633cbb7e521ed856d44b1d6ce109e32386"
+  "sig": "f_oOn9ENE192qFXcyLieyb0oKRz5fw8RFT2xOHg9iug",
+  "_sign_line": "v1|k-active|used-1|dns|prod|1781784000",
+  "token_id": "used-1",
+  "channel": "dns",
+  "env": "prod",
+  "ts": 1781784000
 }

@@ -1,6 +1,20 @@
 {
+  "pkg": "canarytok",
+  "allowed_channels": [
+    "dns",
+    "http"
+  ],
+  "env": "prod",
   "clock_skew_seconds": 60,
-  "allowed": true,
-  "notes": "policy scaffold for canarytok; real thresholds documented in admit-rules.md",
-  "pkg": "canarytok"
+  "known_token_ids": [
+    "7537dbac3ce82fd200642c8032be09ad95ffbfa415a2c538e609a6947cc487d2",
+    "609e2de5f48f2f5aa03de83532994c7f177d3a85d69115b5f3ca9d9eeff3b644",
+    "af0b88ca4bd9491235fbd0301d0613d2d24ec5065cb3215369b42fb202b53189",
+    "3b84c055eac945dfcc89402f52275ba8d24e016328f9db749cc8cadaecb73a41",
+    "6cf96d801621a16f8525c4a144dfa1e513665af6cbc6d85d7374c24e323d5e0a",
+    "used-1",
+    "12b846dc2659594ae2d924bfb444667777a5b4e46047dd8f1155815c60ba0dad",
+    "96cea638fee509e17931aaffe277a24e2977c5e29be0f2284cae0053424cdd49",
+    "ffa3f6c808b858fcd39c2d69d1012a498ae0c150825bf1588b199699be637f2e"
+  ]
 }

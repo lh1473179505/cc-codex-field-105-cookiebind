@@ -4,6 +4,10 @@
   "marker": "allow-candidate",
   "path": "/v1/canarytok/0",
   "kid": "k-active",
-  "sig": "VUtfpzt6im_48dF-6OrZVBeXjPPyXTUgGg78E5Sf8L8",
-  "_sign_line": "v1|k-active|7537dbac3ce82fd200642c8032be09ad95ffbfa415a2c538e609a6947cc487d2"
+  "sig": "774Cyfa8xsY_EGr4kr4Oz2CFG-DsIs9dyvthsG98wWM",
+  "_sign_line": "v1|k-active|7537dbac3ce82fd200642c8032be09ad95ffbfa415a2c538e609a6947cc487d2|dns|prod|1781784000",
+  "token_id": "7537dbac3ce82fd200642c8032be09ad95ffbfa415a2c538e609a6947cc487d2",
+  "channel": "dns",
+  "env": "prod",
+  "ts": 1781784000
 }
