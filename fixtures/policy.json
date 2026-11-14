@@ -1,0 +1,20 @@
+{
+  "allowed_main_classes": [
+    "com.example.App",
+    "com.example.Tool"
+  ],
+  "allowed_path_prefixes": [
+    "com/example/",
+    "META-INF/services/"
+  ],
+  "forbidden_path_substrings": [
+    "../",
+    "..\\",
+    "/../"
+  ],
+  "max_entries": 32,
+  "clock_skew_seconds": 120,
+  "require_body_sha_match": true,
+  "forbid_absolute_paths": true,
+  "max_age_seconds": 300
+}

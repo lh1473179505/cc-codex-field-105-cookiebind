@@ -1,0 +1,17 @@
+{
+  "kid": "k-active",
+  "main_class": "com.example.App",
+  "entries": [
+    {
+      "path": "com/other/X.class",
+      "sha256": "6c6bdc8126b42bf5037acc206840a5a4c20aab42685d9a3287c8f160c03d7e27",
+      "size": 1
+    }
+  ],
+  "body_sha256": {
+    "com/other/X.class": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+  },
+  "created": 1781783940,
+  "nonce": "n-deny-prefix",
+  "sig": "wQFrZFnrqR9jrRdSkuQcgHHgfxvmcp2jVX46poWGqV0"
+}

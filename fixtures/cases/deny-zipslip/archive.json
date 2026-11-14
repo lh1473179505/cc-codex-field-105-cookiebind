@@ -1,0 +1,23 @@
+{
+  "kid": "k-active",
+  "main_class": "com.example.App",
+  "entries": [
+    {
+      "path": "com/example/App.class",
+      "sha256": "bad83e055688eaaa70f35482bd4f25826334d6b53426a0794b902e7755791cc2",
+      "size": 14
+    },
+    {
+      "path": "../etc/passwd",
+      "sha256": "147b930a2499a6025b504fa1396a7fbc213f6feae4be01872b2d5983d71b9842",
+      "size": 1
+    }
+  ],
+  "body_sha256": {
+    "com/example/App.class": "1f934dbecf4d2d345f25c99bde4f84ab09717a2edfd4b6e2ef92cb86290484c3",
+    "../etc/passwd": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+  },
+  "created": 1781783940,
+  "nonce": "n-deny-zipslip",
+  "sig": "oBr49-LKyWSafcb3Tlb0kuIgOe9BUxLqC_tSjaQ0WKw"
+}

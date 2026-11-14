@@ -1,0 +1,23 @@
+{
+  "kid": "k-revoked",
+  "main_class": "com.example.App",
+  "entries": [
+    {
+      "path": "com/example/App.class",
+      "sha256": "bad83e055688eaaa70f35482bd4f25826334d6b53426a0794b902e7755791cc2",
+      "size": 14
+    },
+    {
+      "path": "META-INF/services/x",
+      "sha256": "aff5e882a44a338c88050928aed877f841a78b31ceb9437960c9461489e50219",
+      "size": 3
+    }
+  ],
+  "body_sha256": {
+    "com/example/App.class": "1f934dbecf4d2d345f25c99bde4f84ab09717a2edfd4b6e2ef92cb86290484c3",
+    "META-INF/services/x": "348c658682ae8701d3e9d21f191872491cf15e6acbb1681770b1cb787c1cf7ff"
+  },
+  "created": 1781783940,
+  "nonce": "n-deny-revoked",
+  "sig": "opdDvzqHTGsgzfPj3c4xv2C-lJWGtVwpXYJ5UB0aA6s"
+}
