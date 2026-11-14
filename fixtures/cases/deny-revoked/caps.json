@@ -1,0 +1,20 @@
+{
+  "kid": "k-revoked",
+  "permitted": [
+    "CAP_NET_BIND_SERVICE",
+    "CAP_CHOWN"
+  ],
+  "effective": [
+    "CAP_NET_BIND_SERVICE"
+  ],
+  "bounding": [
+    "CAP_NET_BIND_SERVICE",
+    "CAP_CHOWN",
+    "CAP_SETUID"
+  ],
+  "ambient": [],
+  "no_new_privs": true,
+  "securebits": "noroot",
+  "nonce": "n-deny-revoked",
+  "sig": "GxxJyQ_2-QinaQWhzc_i7BJO6INO2RTyeCmYANWBk0I"
+}

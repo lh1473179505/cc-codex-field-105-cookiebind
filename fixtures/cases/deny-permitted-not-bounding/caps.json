@@ -1,0 +1,17 @@
+{
+  "kid": "k-active",
+  "permitted": [
+    "CAP_DAC_OVERRIDE"
+  ],
+  "effective": [
+    "CAP_DAC_OVERRIDE"
+  ],
+  "bounding": [
+    "CAP_NET_BIND_SERVICE"
+  ],
+  "ambient": [],
+  "no_new_privs": true,
+  "securebits": "noroot",
+  "nonce": "n-deny-permitted-not-bounding",
+  "sig": "SdXHuCDwP_M6nDBpy7eYjMavV4N7emffYen30bW5Sjc"
+}

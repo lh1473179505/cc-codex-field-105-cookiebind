@@ -1,0 +1,20 @@
+{
+  "kid": "k-active",
+  "permitted": [
+    "CAP_NET_BIND_SERVICE",
+    "CAP_CHOWN"
+  ],
+  "effective": [
+    "CAP_NET_BIND_SERVICE"
+  ],
+  "bounding": [
+    "CAP_NET_BIND_SERVICE",
+    "CAP_CHOWN",
+    "CAP_SETUID"
+  ],
+  "ambient": [],
+  "no_new_privs": false,
+  "securebits": "noroot",
+  "nonce": "n-deny-nnp",
+  "sig": "iS-Dol5DZH5xIECni3RzV_bAAvkKOyPjnj79NbGdTow"
+}

@@ -1,0 +1,22 @@
+{
+  "allowed_caps": [
+    "CAP_NET_BIND_SERVICE",
+    "CAP_CHOWN",
+    "CAP_SETUID",
+    "CAP_DAC_OVERRIDE"
+  ],
+  "denied_caps": [
+    "CAP_SYS_ADMIN",
+    "CAP_SYS_MODULE",
+    "CAP_SYS_PTRACE"
+  ],
+  "require_effective_subset_permitted": true,
+  "require_permitted_subset_bounding": true,
+  "forbid_ambient_unless_raiseable": true,
+  "require_no_new_privs": true,
+  "allowed_securebits": [
+    "noroot",
+    "noroot|no_setuid_fix"
+  ],
+  "max_effective": 2
+}
