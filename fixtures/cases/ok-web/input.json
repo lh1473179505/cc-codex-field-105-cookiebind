@@ -1,0 +1,9 @@
+{
+  "case": "ok-web",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/k8sadmit/0",
+  "kid": "k-active",
+  "sig": "_sp0O60aUc6NKHBhY271bbpg5tnVjSSjRrO9WacWCJ4",
+  "_sign_line": "v1|k-active|e87c56835a2fb9048faa33cf8e8d32cad29eaf8412358a53e2c5f73037937ce9"
+}

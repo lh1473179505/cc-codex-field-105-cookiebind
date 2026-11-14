@@ -1,0 +1,9 @@
+{
+  "case": "hostpath",
+  "id": "deny-3",
+  "marker": "hostpath",
+  "path": "/evil/k8sadmit/3",
+  "kid": "k-active",
+  "sig": "Bik5SOilU9-ZYoV-0Co-Xh2YdIvUB63Vms5VTmIwgBI",
+  "_sign_line": "v1|k-active|03beda1d206a832f085c63fdcb2e9a4f343103c624801fb02ba3d8d4354684b4"
+}

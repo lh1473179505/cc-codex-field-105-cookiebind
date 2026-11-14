@@ -1,0 +1,9 @@
+{
+  "case": "ok-job",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/k8sadmit/1",
+  "kid": "k-active",
+  "sig": "PsVTT8gpLH2RH4Jd2PCzfwTFGS57mBYFhxxkiiYZafg",
+  "_sign_line": "v1|k-active|5f1f1e0eaf5e1386c2c2ec3698fbec386ec6757ad61b9726ef32bdbe71d0e020"
+}

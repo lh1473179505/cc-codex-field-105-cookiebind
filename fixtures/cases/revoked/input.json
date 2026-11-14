@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-6",
+  "marker": "revoked",
+  "path": "/evil/k8sadmit/6",
+  "kid": "k-revoked",
+  "sig": "MvIA_9KiUWUVQLfdCUKsZkXNcUtMhoxXmkDAkMAvULU",
+  "_sign_line": "v1|k-revoked|182091db0bc717fb52789a3fc5862a92154e2dd2ed89a7f571c01ab9de782718"
+}

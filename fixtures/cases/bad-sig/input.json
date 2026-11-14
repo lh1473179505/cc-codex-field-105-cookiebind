@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/k8sadmit/0",
+  "kid": "k-active",
+  "sig": "qcu2nwAFWsvY_hnC6zvYQaUvitAGmHe1Tyf4tCUm4LY",
+  "_sign_line": "v1|k-active|bf2b132c5462f2a607103dda996fbc4bb2b07a0db2f197c2a79f8c2166ca3ce2"
+}

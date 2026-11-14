@@ -1,0 +1,9 @@
+{
+  "case": "priv",
+  "id": "deny-2",
+  "marker": "priv",
+  "path": "/evil/k8sadmit/2",
+  "kid": "k-active",
+  "sig": "MN6LgAetkM2zwLvNjt7ecfAUASzWkm4W5BE2Xmvw9o8",
+  "_sign_line": "v1|k-active|8de818d97a914c266ceec007d00d84463355122b14b7a8242f55c9d4610f7957"
+}

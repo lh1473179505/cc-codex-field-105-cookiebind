@@ -1,0 +1,9 @@
+{
+  "case": "cap",
+  "id": "deny-4",
+  "marker": "cap",
+  "path": "/evil/k8sadmit/4",
+  "kid": "k-active",
+  "sig": "WUDx85ATOMzI1_Tll9D3SFkEnKJ_lD6722veBE1EGIo",
+  "_sign_line": "v1|k-active|5f379500eb0daa42eed81c6fb1159239cc9fc569dbad1fff1d2a40a1680ebdd5"
+}

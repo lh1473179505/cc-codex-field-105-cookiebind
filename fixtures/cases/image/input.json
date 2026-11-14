@@ -1,0 +1,9 @@
+{
+  "case": "image",
+  "id": "deny-1",
+  "marker": "image",
+  "path": "/evil/k8sadmit/1",
+  "kid": "k-active",
+  "sig": "e1SpEngsV3Nr_c186AJp6ux50QE6qqA7WCOxf0A5eQg",
+  "_sign_line": "v1|k-active|4d42943cca4a0058eaa3b72f4d8ab5bee3f048b8f7f51adc0b4330fd98871d8a"
+}

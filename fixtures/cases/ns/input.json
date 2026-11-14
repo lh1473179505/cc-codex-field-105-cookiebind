@@ -1,0 +1,9 @@
+{
+  "case": "ns",
+  "id": "deny-5",
+  "marker": "ns",
+  "path": "/evil/k8sadmit/5",
+  "kid": "k-active",
+  "sig": "HZJRPNHSNWZIsM0GCOUmaKrGRzN4V1qFB0kVU0utmiU",
+  "_sign_line": "v1|k-active|37c10f7f2fae01899570f980a518d34783f6a99f0f80ce07888b8515029f6d14"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "tag-only",
+  "id": "deny-7",
+  "marker": "tag-only",
+  "path": "/evil/k8sadmit/7",
+  "kid": "k-active",
+  "sig": "l8apUX9xBGGC5lzR8c-Nk7rmMY7EnGf6maJ0a-F1bwI",
+  "_sign_line": "v1|k-active|c09f24d2afbb82f61b38edc1b3eb4b489b0aa97f2a7a4a05f5093ee79aad36b2"
+}
