@@ -1,0 +1,9 @@
+{
+  "case": "depth",
+  "id": "deny-6",
+  "marker": "depth",
+  "path": "/evil/idsrule/6",
+  "kid": "k-active",
+  "sig": "JAJVlMWrNQ3lXQA6vFORW2i9NeflyhfJ_1nUNhnfzlU",
+  "_sign_line": "v1|k-active|cfdbb591f0ed9400fb784b96c80702445607f1b1e26e9da6baf7859a09fe939a"
+}

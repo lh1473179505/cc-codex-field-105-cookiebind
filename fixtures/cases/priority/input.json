@@ -1,0 +1,9 @@
+{
+  "case": "priority",
+  "id": "deny-3",
+  "marker": "priority",
+  "path": "/evil/idsrule/3",
+  "kid": "k-active",
+  "sig": "831jrszrcQYlnV2p3bTuZ5PPnJPH8-yByWu6DPI-Mjw",
+  "_sign_line": "v1|k-active|4d436dc987f476fa28650fe11368cbbb1eb6f1a7566465029dd821d4b127d490"
+}

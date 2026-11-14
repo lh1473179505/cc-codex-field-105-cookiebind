@@ -1,0 +1,9 @@
+{
+  "case": "offset",
+  "id": "deny-2",
+  "marker": "offset",
+  "path": "/evil/idsrule/2",
+  "kid": "k-active",
+  "sig": "cd9kcoV_qzfesDkMwgAc5cZBRsgHXJCASYrGPp9N8TY",
+  "_sign_line": "v1|k-active|13522a37f307aba433cdec591209d0010d99674e48456d8f7b83f4336d07c62d"
+}

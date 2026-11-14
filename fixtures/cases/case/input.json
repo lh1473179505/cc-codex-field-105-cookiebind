@@ -1,0 +1,9 @@
+{
+  "case": "case",
+  "id": "deny-7",
+  "marker": "case",
+  "path": "/evil/idsrule/7",
+  "kid": "k-active",
+  "sig": "cWjsFlpdQk5M0lMmLrPXqeK3RYwcWEbYVHgR7fEZLAc",
+  "_sign_line": "v1|k-active|467481b93b1aae6a538ab6707362722dd406142f3c426203da137ee40200d9b4"
+}

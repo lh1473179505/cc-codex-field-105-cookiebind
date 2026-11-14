@@ -1,0 +1,9 @@
+{
+  "case": "ok-nocase",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/idsrule/1",
+  "kid": "k-active",
+  "sig": "6cVAo2Kn8yLJ2d9mYDvdP6wy6w2wLpUDCK6os77DFOw",
+  "_sign_line": "v1|k-active|55b3483b116352760f9ac55a1f1ff136a34702243d1e39348cd3b3e82805b50f"
+}

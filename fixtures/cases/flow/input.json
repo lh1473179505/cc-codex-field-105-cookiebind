@@ -1,0 +1,9 @@
+{
+  "case": "flow",
+  "id": "deny-4",
+  "marker": "flow",
+  "path": "/evil/idsrule/4",
+  "kid": "k-active",
+  "sig": "ciSFaOek29a8OXohfRK5cxPImnzCTEVkwzeyOGxKwFI",
+  "_sign_line": "v1|k-active|dd972470aac141ec1bc59530b4b67502657595d1d0ff255b7548db5658b5541c"
+}

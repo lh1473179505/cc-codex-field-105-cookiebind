@@ -1,0 +1,9 @@
+{
+  "case": "miss",
+  "id": "deny-1",
+  "marker": "miss",
+  "path": "/evil/idsrule/1",
+  "kid": "k-active",
+  "sig": "9Ayp4EkJrOwpbp_svXYriNy8cKN8Ws5ZY0LSzRyoHN4",
+  "_sign_line": "v1|k-active|3c0167893df80ee6fe1eb3f4dcc97fff5051392d3b6a1e5af4d62ccccd177f38"
+}

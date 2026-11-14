@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-5",
+  "marker": "revoked",
+  "path": "/evil/idsrule/5",
+  "kid": "k-revoked",
+  "sig": "MBy_OfpKyjivzAyTT2iwFGmypmbkt9rbdIUnnnEtgxU",
+  "_sign_line": "v1|k-revoked|a9f508cdd939973cdadc3819c8d78a7f329f947c00d296f1db9eba9bdfbe6d61"
+}
