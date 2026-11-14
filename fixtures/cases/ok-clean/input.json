@@ -1,0 +1,9 @@
+{
+  "case": "ok-clean",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/fileinteg/0",
+  "kid": "k-active",
+  "sig": "oZaQiTuMJwfpS1XxBXEC3XQGzIXGcbawTwTs6x83jrI",
+  "_sign_line": "v1|k-active|7149ab1ec3f8d1718d357e8a8b689ade411bc668398f1bf74b1005960de8fb70"
+}

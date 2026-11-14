@@ -1,0 +1,9 @@
+{
+  "case": "missing",
+  "id": "deny-7",
+  "marker": "missing",
+  "path": "/evil/fileinteg/7",
+  "kid": "k-active",
+  "sig": "IwreoYz-IooXaQOAIVy1bpUo44DdHxKFgN20EIRqwak",
+  "_sign_line": "v1|k-active|9eb2993d02027b8a42093899368f0212a593a29a367956643007b3081de8a65a"
+}

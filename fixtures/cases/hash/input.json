@@ -1,0 +1,9 @@
+{
+  "case": "hash",
+  "id": "deny-1",
+  "marker": "hash",
+  "path": "/evil/fileinteg/1",
+  "kid": "k-active",
+  "sig": "MFNPg3P0_1kN3gdIqQzU4O9HPYChMjqPRLqyXiIv7o4",
+  "_sign_line": "v1|k-active|36507755b209d60f640c67f9081d661505c8df413964391cd78f6ca1a9c5dee4"
+}

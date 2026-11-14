@@ -1,0 +1,9 @@
+{
+  "case": "xattr",
+  "id": "deny-5",
+  "marker": "xattr",
+  "path": "/evil/fileinteg/5",
+  "kid": "k-active",
+  "sig": "D5OyvrHuWKEmWLHVGscpotXTTxXDovMcKNNjnMs7soM",
+  "_sign_line": "v1|k-active|9d15169a8a13943021362623b6405fb663c3fc4c554181d06dfb53c99077bf1c"
+}

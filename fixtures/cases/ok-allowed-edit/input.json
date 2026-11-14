@@ -1,0 +1,9 @@
+{
+  "case": "ok-allowed-edit",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/fileinteg/1",
+  "kid": "k-active",
+  "sig": "Rh2-F-16arzsfNMePOis61RhF6JqIkhf5We4yG8yzrs",
+  "_sign_line": "v1|k-active|eecb6515bd9302bba5bfb2c9d76758a1b412a0c5940a15d1f8e7cd8bfdc715ff"
+}

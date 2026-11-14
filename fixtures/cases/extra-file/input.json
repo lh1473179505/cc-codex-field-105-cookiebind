@@ -1,0 +1,9 @@
+{
+  "case": "extra-file",
+  "id": "deny-3",
+  "marker": "extra-file",
+  "path": "/evil/fileinteg/3",
+  "kid": "k-active",
+  "sig": "ZIkbsIboCw1Tbj-g453NlSfaQ2XYXf7TBK3-HxyAN-4",
+  "_sign_line": "v1|k-active|fbc535be0310b1c592fed4f6e020dd5a28ebb084fa3d700a7302f41684fce4a5"
+}

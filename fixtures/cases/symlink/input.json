@@ -1,0 +1,9 @@
+{
+  "case": "symlink",
+  "id": "deny-2",
+  "marker": "symlink",
+  "path": "/evil/fileinteg/2",
+  "kid": "k-active",
+  "sig": "FwBvdssNEjGVTdCY16oIgmwL3sdClJ9pJdF2ApkOwfU",
+  "_sign_line": "v1|k-active|2c339800265ca2b8a97336b5ff4d33e203607d85e85c4fd3ab8b42d8115ded0d"
+}
