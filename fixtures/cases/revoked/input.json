@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/opaish/4",
+  "kid": "k-revoked",
+  "sig": "C8v1kyAjU6jgdjN0uD9kFuMJgC9B6kutNIhQF-6qnis",
+  "_sign_line": "v1|k-revoked|c3f4de08c663108c636ae7dbd2edba8b6c6d7e1aae52f11c89ac0c56e8ad1210"
+}

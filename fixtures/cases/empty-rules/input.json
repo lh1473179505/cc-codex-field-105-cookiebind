@@ -1,0 +1,9 @@
+{
+  "case": "empty-rules",
+  "id": "deny-6",
+  "marker": "empty-rules",
+  "path": "/evil/opaish/6",
+  "kid": "k-active",
+  "sig": "53tRLjVp4ryWRMViYzWFZU9Pd9bDpQhfdjlga6qButQ",
+  "_sign_line": "v1|k-active|c68d42b858e68e4cdbac8b106797486faa572d06b6cede5e4efa950b37a46992"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-allow",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/opaish/0",
+  "kid": "k-active",
+  "sig": "C5OF8oUSQd0j2VAiei0chyh92QmnTATXHODYODmyf38",
+  "_sign_line": "v1|k-active|ecdabec29aba450cc5fedf34c85a4f35e43589ab10ec9986f63b4b6ba5a110ef"
+}

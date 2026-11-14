@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/opaish/0",
+  "kid": "k-active",
+  "sig": "hB6WWTmZ05VSGO0Pe3Gs74LkDg-Aw9w5R-QpcKIN2qA",
+  "_sign_line": "v1|k-active|1474d58a087919f08a91175385d2046a272d6d5bf1c7973ac8e7a4adf80c6ef0"
+}

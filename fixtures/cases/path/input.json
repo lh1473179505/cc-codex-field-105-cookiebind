@@ -1,0 +1,9 @@
+{
+  "case": "path",
+  "id": "deny-3",
+  "marker": "path",
+  "path": "/evil/opaish/3",
+  "kid": "k-active",
+  "sig": "2wwGYOaJe9uNDYc9MEOPz8Cq8m1N8FP_0XnI8l00DvI",
+  "_sign_line": "v1|k-active|bf2d83fe911a2e069e896dd9c57909cec7bec390892842b19d9468d318ae51a5"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "shadow",
+  "id": "deny-7",
+  "marker": "shadow",
+  "path": "/evil/opaish/7",
+  "kid": "k-active",
+  "sig": "ccO9jE4aYStsHueW6cbAgbEEcT2Qv-w0xWKoZsRfeRU",
+  "_sign_line": "v1|k-active|864d7456d27936d727dfa3da021a4d295e56c9b9cd34a480f232f82a4cf9d952"
+}

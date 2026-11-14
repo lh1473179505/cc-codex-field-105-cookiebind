@@ -1,0 +1,9 @@
+{
+  "case": "ok-second-rule",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/opaish/1",
+  "kid": "k-active",
+  "sig": "MFw5lwzyQ7LRvAea20eeCwL423ifCKR1BNfjJp8aJ7g",
+  "_sign_line": "v1|k-active|e40d50992d91de0f3ba8712b1c3d85e8560e2d46b45a3126e8a69bf7e3dcf25e"
+}
