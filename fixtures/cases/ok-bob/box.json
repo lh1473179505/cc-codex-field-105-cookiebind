@@ -1,0 +1,10 @@
+{
+  "kid": "k-active",
+  "recipient": "age1bob",
+  "alg": "X25519+ChaCha20Poly1305",
+  "aad": "ctx=stage|svc=ops",
+  "ct_hash": "c806cd9c716cfbfdb4763c71dd1394b3e602fce81291a0338bf8e3225416ac32",
+  "iat": 1781783950,
+  "nonce": "n-ok-bob",
+  "sig": "iX3H8WEiXoP1W2J6usowMPR_mUHfuMI54YNjlHJETV4"
+}

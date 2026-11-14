@@ -1,0 +1,10 @@
+{
+  "kid": "k-active",
+  "recipient": "age1alice",
+  "alg": "AES-128-CTR",
+  "aad": "ctx=prod|svc=pay",
+  "ct_hash": "c806cd9c716cfbfdb4763c71dd1394b3e602fce81291a0338bf8e3225416ac32",
+  "iat": 1781783950,
+  "nonce": "n-deny-alg",
+  "sig": "K7q9LQ8FHPvb5ai8AQHFMEaPIwwbzIBhat-jy8V-luc"
+}

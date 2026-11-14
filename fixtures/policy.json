@@ -1,0 +1,18 @@
+{
+  "allowed_recipients": [
+    "age1alice",
+    "age1bob"
+  ],
+  "allowed_algs": [
+    "X25519+ChaCha20Poly1305"
+  ],
+  "required_aad_prefixes": [
+    "ctx=prod|",
+    "ctx=stage|"
+  ],
+  "deny_alg_downgrade": [
+    "AES-128-CTR"
+  ],
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 900
+}

@@ -1,0 +1,10 @@
+{
+  "kid": "k-active",
+  "recipient": "age1eve",
+  "alg": "X25519+ChaCha20Poly1305",
+  "aad": "ctx=prod|svc=pay",
+  "ct_hash": "c806cd9c716cfbfdb4763c71dd1394b3e602fce81291a0338bf8e3225416ac32",
+  "iat": 1781783950,
+  "nonce": "n-deny-recipient",
+  "sig": "0owcfn96FouU4XHlhrF8o_1wbiHihtJ-zWX2SgpN7-4"
+}
