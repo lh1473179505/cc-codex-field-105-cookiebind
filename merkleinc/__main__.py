@@ -26,10 +26,14 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
+    try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+    except (OSError, ValueError) as e:
+        print(f"load failure: {e}", file=sys.stderr)
+        return 2
     now = None
     if args.now:
         # accept unix int or leave None for stub
