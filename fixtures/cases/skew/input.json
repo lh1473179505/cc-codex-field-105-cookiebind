@@ -1,0 +1,9 @@
+{
+  "case": "skew",
+  "id": "deny-5",
+  "marker": "skew",
+  "path": "/evil/vaultpath/5",
+  "kid": "k-active",
+  "sig": "fzcDK31t_nFTJOvMcJ7tnKbxP3h8tOB3O6cZUhZgAVc",
+  "_sign_line": "v1|k-active|70492ad3df5917698a785c398684ed9d6bc551e008608844814fd8e36babed54"
+}

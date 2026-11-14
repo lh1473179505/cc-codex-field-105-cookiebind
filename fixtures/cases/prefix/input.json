@@ -1,0 +1,9 @@
+{
+  "case": "prefix",
+  "id": "deny-1",
+  "marker": "prefix",
+  "path": "/evil/vaultpath/1",
+  "kid": "k-active",
+  "sig": "TqqqaVHhjdgk_lhOhboTMhnN1ugbr1k1wRK48GCYgQ0",
+  "_sign_line": "v1|k-active|d09dddfd5cfcb2f8b4252f7eba0ea586dbecce60eab21232fe3ba695950d7147"
+}

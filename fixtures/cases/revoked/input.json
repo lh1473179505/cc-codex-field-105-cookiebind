@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/vaultpath/4",
+  "kid": "k-revoked",
+  "sig": "Xq-9IVDSaOmsPeRMDEWfLKN0gsQBEpiLhkf_RZ4VRYM",
+  "_sign_line": "v1|k-revoked|957be87c6c5aabdf80a94241686761cbf9f636d62978a62a8d0cfb9fa815ffe6"
+}

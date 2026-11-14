@@ -1,0 +1,9 @@
+{
+  "case": "ok-write",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/vaultpath/1",
+  "kid": "k-active",
+  "sig": "RBN8KEzgwJHsQAVAEcTUcqaLd1V_XDHKfTSlc1FQQGs",
+  "_sign_line": "v1|k-active|98c1cc1c709b4a5376685044bdb3d101b4323fa8a095e8902c2e551a1cd9b565"
+}

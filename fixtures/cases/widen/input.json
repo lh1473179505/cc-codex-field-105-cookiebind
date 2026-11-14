@@ -1,0 +1,9 @@
+{
+  "case": "widen",
+  "id": "deny-6",
+  "marker": "widen",
+  "path": "/evil/vaultpath/6",
+  "kid": "k-active",
+  "sig": "s24j4r_7kA9fHVW8L0-TDwxn0QGEW34fov3_kQu0aCk",
+  "_sign_line": "v1|k-active|17ea044b93e8a1cc524a27011fb7dd6455d368042ef3bb411fd80dae34d0f648"
+}

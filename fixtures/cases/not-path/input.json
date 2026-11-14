@@ -1,0 +1,9 @@
+{
+  "case": "not-path",
+  "id": "deny-2",
+  "marker": "not-path",
+  "path": "/evil/vaultpath/2",
+  "kid": "k-active",
+  "sig": "LwtHQXhG9xbPUAs9O72wY2pqGh45WCde1Ovh25RzwsM",
+  "_sign_line": "v1|k-active|2002bac403fa6d1b7592e0584c802b677f69d19c47377b3da25a1cac9cfb8b07"
+}

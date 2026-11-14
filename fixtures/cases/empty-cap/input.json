@@ -1,0 +1,9 @@
+{
+  "case": "empty-cap",
+  "id": "deny-7",
+  "marker": "empty-cap",
+  "path": "/evil/vaultpath/7",
+  "kid": "k-active",
+  "sig": "ZhuYFdMUVeioB1R2wyKmIb4vKJ5L69Hea0jiYYh2WUI",
+  "_sign_line": "v1|k-active|87cab4aadecdd11b79b2bb19cde95b93bcce79a9cc8e8bc42c9947c68e9963df"
+}

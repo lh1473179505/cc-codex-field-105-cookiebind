@@ -1,0 +1,9 @@
+{
+  "case": "ok-read",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/vaultpath/0",
+  "kid": "k-active",
+  "sig": "qMVXlfuhhRy-c1pzdNgCMn4wYDh17Mm9_FvNreJoiJU",
+  "_sign_line": "v1|k-active|359ad75b6559bc8c2bc158c9b61b55627bd217b5cf9f473fe1fc24da17d0f4b7"
+}

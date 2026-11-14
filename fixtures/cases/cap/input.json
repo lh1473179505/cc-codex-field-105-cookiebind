@@ -1,0 +1,9 @@
+{
+  "case": "cap",
+  "id": "deny-3",
+  "marker": "cap",
+  "path": "/evil/vaultpath/3",
+  "kid": "k-active",
+  "sig": "_uwXplHOvqCL0xf_PgQuw3xFhhDmtj0GgOG4duIDMOQ",
+  "_sign_line": "v1|k-active|ca412001aafa7edb29b77b3a791cc4d0d85958d7121fdcd919389f65eba4fa6f"
+}
