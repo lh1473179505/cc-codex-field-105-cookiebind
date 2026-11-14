@@ -1,0 +1,9 @@
+{
+  "case": "parent",
+  "id": "deny-5",
+  "marker": "parent",
+  "path": "/evil/gitgpgx/5",
+  "kid": "k-active",
+  "sig": "shepayuKXWyLZ1yJgVxNlj1J_EIuRpersOqNcr4CCbk",
+  "_sign_line": "v1|k-active|e17d29e010176b4d44b9353bebe092af4b1816cf480e2646901569412fcfe24e"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-main",
+  "id": "ok-0",
+  "marker": "allow-candidate",
+  "path": "/v1/gitgpgx/0",
+  "kid": "k-active",
+  "sig": "6RPjBKgYMaMByJy6AifulVJhN4iC5KCvd0lE-YZbRJM",
+  "_sign_line": "v1|k-active|dcb5f904173a80d9d08329c8b5aca4b2240436746091f346459534c12beba587"
+}

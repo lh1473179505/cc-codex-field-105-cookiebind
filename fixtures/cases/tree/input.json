@@ -1,0 +1,9 @@
+{
+  "case": "tree",
+  "id": "deny-2",
+  "marker": "tree",
+  "path": "/evil/gitgpgx/2",
+  "kid": "k-active",
+  "sig": "7UcbTZuwinpcVnWjGiFibrpP5sfiGQNOFbH6tCT-jEo",
+  "_sign_line": "v1|k-active|0028fe4cf179f6133fb92fbe73566d7d0f2b901cafcee54ebdf19f6f5427942e"
+}

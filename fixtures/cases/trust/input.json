@@ -1,0 +1,9 @@
+{
+  "case": "trust",
+  "id": "deny-1",
+  "marker": "trust",
+  "path": "/evil/gitgpgx/1",
+  "kid": "k-active",
+  "sig": "p12NvWWGuaFdjHLXKmb2yp9mLdv7vwRMwslLHA-j2gQ",
+  "_sign_line": "v1|k-active|c345a8075b4027d306f58359f090e53d9662f6409607c54a2c2d76a97c38a41b"
+}

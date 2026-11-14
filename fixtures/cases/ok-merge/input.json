@@ -1,0 +1,9 @@
+{
+  "case": "ok-merge",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/gitgpgx/1",
+  "kid": "k-active",
+  "sig": "ClSZASIRhXDHnJTKtT3B8CYKuRbaYPdvKUSS-eCegpU",
+  "_sign_line": "v1|k-active|4a23e9ce9c90b9a4484e10ed8eb2b5ee0367fff8abbb5d06e72aa551068d9547"
+}

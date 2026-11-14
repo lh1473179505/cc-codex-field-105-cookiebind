@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-4",
+  "marker": "revoked",
+  "path": "/evil/gitgpgx/4",
+  "kid": "k-revoked",
+  "sig": "wNOe_LHKM082IHZETgPpcF0vIbGiil1nPBIx_2ZV2qo",
+  "_sign_line": "v1|k-revoked|d8fc6ade5ddbadae8709b6daac9d321bd084d72e1d44a77afd2494e926bb872e"
+}

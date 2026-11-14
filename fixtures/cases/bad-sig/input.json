@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/gitgpgx/0",
+  "kid": "k-active",
+  "sig": "O9Kk0mX5re7ZfjBKVtpBoPcr_jPdEqBpbwgWhSTI7sE",
+  "_sign_line": "v1|k-active|178f63ae448fc73ee7c42463285578b6c1bdc4bf15c8f86eb26a0dd4ceacaa92"
+}

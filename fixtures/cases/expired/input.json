@@ -1,0 +1,9 @@
+{
+  "case": "expired",
+  "id": "deny-6",
+  "marker": "expired",
+  "path": "/evil/gitgpgx/6",
+  "kid": "k-active",
+  "sig": "st_p1Rri_5KY7CzHcfw-eb3sUORiotiAnGm4KXQpPC0",
+  "_sign_line": "v1|k-active|34d4567e07c6d33555bfce3b92d16f8be49c03bec2ebc1108b8425599ce63d00"
+}

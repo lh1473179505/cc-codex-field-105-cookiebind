@@ -1,0 +1,9 @@
+{
+  "case": "trailer",
+  "id": "deny-3",
+  "marker": "trailer",
+  "path": "/evil/gitgpgx/3",
+  "kid": "k-active",
+  "sig": "9L7b2Gc8E17PtR9d09uxKxA_uu_kuKDQO0ZaCEtsbwc",
+  "_sign_line": "v1|k-active|d3690041d6f7e6e217b32f1a7f2656afefd06c82ac63af43350b4583d08b2156"
+}
