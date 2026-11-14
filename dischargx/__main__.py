@@ -36,7 +36,7 @@ def main(argv=None) -> int:
         print(str(e), file=sys.stderr); return 2
     Path(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if report.get("decision") == "allow":
-        # stub does not mutate store; real impl writes nonce into store then save
+        # engine persisted the nonce into the store; save only on allow
         save_nonce_store(args.nonce_store, store); return 0
     if report.get("decision") == "deny":
         return 1
