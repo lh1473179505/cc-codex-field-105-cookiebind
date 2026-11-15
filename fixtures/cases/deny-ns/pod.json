@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "ns": "kube-system",
+  "privileged": 0,
+  "caps": "",
+  "root_fs": "ro",
+  "nonce": "n-deny-ns",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "O5weVbiTun5eVKufvNKdYjO10gIr6vmp3WRXNvbUrK4"
+}

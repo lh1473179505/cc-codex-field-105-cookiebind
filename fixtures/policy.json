@@ -1,0 +1,27 @@
+{
+  "namespaces": {
+    "pay": {
+      "allow_privileged": false,
+      "allowed_caps": [
+        "NET_BIND_SERVICE"
+      ],
+      "require_read_only_root": true
+    },
+    "ops": {
+      "allow_privileged": false,
+      "allowed_caps": [],
+      "require_read_only_root": true
+    }
+  },
+  "forbid_caps": [
+    "SYS_ADMIN",
+    "NET_ADMIN"
+  ],
+  "name_deny_substrings": [
+    "..",
+    "/",
+    " "
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

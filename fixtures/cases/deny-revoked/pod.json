@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "name": "api",
+  "ns": "pay",
+  "privileged": 0,
+  "caps": "NET_BIND_SERVICE",
+  "root_fs": "ro",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "knDtiluxMHCtjEZyL1rQrGu58y0lz5-NyK1-NDUDVSI"
+}

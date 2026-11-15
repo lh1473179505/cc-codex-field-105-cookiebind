@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "ns": "pay",
+  "privileged": 0,
+  "caps": "NET_BIND_SERVICE",
+  "root_fs": "ro",
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}

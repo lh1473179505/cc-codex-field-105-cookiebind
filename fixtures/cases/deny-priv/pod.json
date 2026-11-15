@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "ns": "pay",
+  "privileged": 1,
+  "caps": "",
+  "root_fs": "ro",
+  "nonce": "n-deny-priv",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "xJxYkUmvqWc3HuoktWo5ToC7-XAf_NokYm2uDLgeQZ4"
+}

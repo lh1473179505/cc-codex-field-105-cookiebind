@@ -1,0 +1,11 @@
+{
+  "name": "bot",
+  "ns": "ops",
+  "privileged": 0,
+  "caps": "",
+  "root_fs": "ro",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IgXZ7R2-2ut7lQGPF5Fkz0MuK9gbwtbdJ6BNCCx1KHY"
+}
