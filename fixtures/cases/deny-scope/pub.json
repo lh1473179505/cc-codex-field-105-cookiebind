@@ -1,0 +1,10 @@
+{
+  "pkg": "@evil/x",
+  "otp": "123456",
+  "user": "alice",
+  "registry": "https://registry.npmjs.org/",
+  "nonce": "n-deny-scope",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "aCovsyTO-wcks5jXUBzBIL_SN2KYtqXVK5eRPL2j22Q"
+}

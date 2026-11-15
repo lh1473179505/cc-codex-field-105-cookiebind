@@ -1,0 +1,31 @@
+{
+  "scopes": {
+    "@pay": {
+      "users": [
+        "alice",
+        "pay-ci"
+      ],
+      "registries": [
+        "https://registry.npmjs.org/"
+      ],
+      "otp_len": 6
+    },
+    "@ops": {
+      "users": [
+        "ops-ci"
+      ],
+      "registries": [
+        "https://registry.npmjs.org/"
+      ],
+      "otp_len": 6
+    }
+  },
+  "otp_digits_only": true,
+  "pkg_deny_substrings": [
+    " ",
+    "..",
+    "/"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

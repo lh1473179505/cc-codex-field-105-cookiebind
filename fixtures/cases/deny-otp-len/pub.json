@@ -1,0 +1,10 @@
+{
+  "pkg": "@pay/api",
+  "otp": "12",
+  "user": "alice",
+  "registry": "https://registry.npmjs.org/",
+  "nonce": "n-deny-otp-len",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "DvEoQ5sZF2hqW-l1TrknZFI97Zp4rUT6lzp5LUONbB0"
+}

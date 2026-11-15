@@ -1,0 +1,10 @@
+{
+  "pkg": "@pay/api",
+  "otp": "123456",
+  "user": "alice",
+  "registry": "https://evil.example/",
+  "nonce": "n-deny-reg",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "bs-oCyc21GQQOkQSRjkDwCzsEbGqL6UC-lILAHSi954"
+}

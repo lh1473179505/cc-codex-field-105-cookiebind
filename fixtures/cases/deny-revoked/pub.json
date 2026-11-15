@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "pkg": "@pay/api",
+  "otp": "123456",
+  "user": "alice",
+  "registry": "https://registry.npmjs.org/",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "QZm_TBYXPz99bjxFzEJ5BGY9ruqI17gYjE5gnt9eUuY"
+}

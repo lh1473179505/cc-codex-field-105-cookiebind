@@ -1,0 +1,10 @@
+{
+  "pkg": "@ops/bot",
+  "otp": "654321",
+  "user": "ops-ci",
+  "registry": "https://registry.npmjs.org/",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "O-83qwl4nQOnhyDvz9rTKaTK-aGHZonc7lI1_nhQO4M"
+}
