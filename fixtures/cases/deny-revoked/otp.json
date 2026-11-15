@@ -1,0 +1,9 @@
+{
+  "kid": "k-revoked",
+  "public_id": "ccccccpay001",
+  "session": 10,
+  "use": 3,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "lsL-f2caTmL5kp74CBzge0dXsHKqvctKpcIDvFT2jUY"
+}

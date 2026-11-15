@@ -1,0 +1,9 @@
+{
+  "public_id": "short",
+  "session": 10,
+  "use": 3,
+  "nonce": "n-deny-len",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "k9L549PHhNEGpeuNC92L6E6rsPmqTfTacXJ9ay_qsi0"
+}

@@ -1,0 +1,9 @@
+{
+  "public_id": "cccccccccccc",
+  "session": 10,
+  "use": 3,
+  "nonce": "n-deny-id",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "r96flrqWFeQww-EO5gsB0hzD35QbehxbHKoM2I0LMuw"
+}

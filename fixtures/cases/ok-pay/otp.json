@@ -1,0 +1,9 @@
+{
+  "public_id": "ccccccpay001",
+  "session": 10,
+  "use": 3,
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "uhsLhW7334iWSs0i9M3-UbBdZvvzIp81eRmtfK_JR_o"
+}

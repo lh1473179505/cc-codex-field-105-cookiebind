@@ -1,0 +1,17 @@
+{
+  "ids": {
+    "ccccccpay001": {
+      "session_min": 1,
+      "use_min": 0,
+      "use_max": 255
+    },
+    "ccccccops001": {
+      "session_min": 1,
+      "use_min": 0,
+      "use_max": 255
+    }
+  },
+  "public_id_len": 12,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}
