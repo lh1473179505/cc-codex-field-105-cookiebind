@@ -1,0 +1,11 @@
+{
+  "endpoint": "pay-api",
+  "direction": "egress",
+  "cidr": "10.10.1.0/24",
+  "port": 22,
+  "proto": "TCP",
+  "nonce": "n-deny-port",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mEwlZC5jYETK2CfOmBCZTw_fUqCQfqEa8RKNw04w9Is"
+}

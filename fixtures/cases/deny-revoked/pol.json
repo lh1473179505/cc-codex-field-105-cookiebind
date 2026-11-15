@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "endpoint": "pay-api",
+  "direction": "egress",
+  "cidr": "10.10.1.0/24",
+  "port": 8080,
+  "proto": "TCP",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "TtSdGm2u3Z5Jhk3bSdHHZi2T2dV71GPk70h0Y-3BmpY"
+}

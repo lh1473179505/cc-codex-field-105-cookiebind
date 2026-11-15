@@ -1,0 +1,11 @@
+{
+  "endpoint": "evil",
+  "direction": "egress",
+  "cidr": "10.10.1.0/24",
+  "port": 8080,
+  "proto": "TCP",
+  "nonce": "n-deny-ep",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Xq0ASRcsErTmqRcH_PULD6CkUyUNbh8eL80EDlb8l40"
+}

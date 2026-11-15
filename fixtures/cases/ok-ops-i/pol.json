@@ -1,0 +1,11 @@
+{
+  "endpoint": "ops-bot",
+  "direction": "ingress",
+  "cidr": "10.20.1.0/24",
+  "port": 8080,
+  "proto": "TCP",
+  "nonce": "n-ok-ops-i",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZQ6Eng_qWdUoZV91iHml8hLrYr36R7ywyzX294vlngM"
+}

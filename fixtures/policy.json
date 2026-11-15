@@ -1,0 +1,40 @@
+{
+  "endpoints": {
+    "pay-api": {
+      "egress_cidrs": [
+        "10.10.0.0/16",
+        "203.0.113.0/24"
+      ],
+      "ingress_cidrs": [
+        "10.10.0.0/16"
+      ],
+      "ports": [
+        8080,
+        8443
+      ],
+      "protos": [
+        "TCP"
+      ]
+    },
+    "ops-bot": {
+      "egress_cidrs": [
+        "10.20.0.0/16"
+      ],
+      "ingress_cidrs": [
+        "10.20.0.0/16"
+      ],
+      "ports": [
+        8080
+      ],
+      "protos": [
+        "TCP"
+      ]
+    }
+  },
+  "denied_cidrs": [
+    "0.0.0.0/0",
+    "::/0"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
