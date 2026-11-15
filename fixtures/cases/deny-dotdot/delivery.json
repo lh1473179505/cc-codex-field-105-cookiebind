@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "url": "https://hooks.example.com/v1/webhooks/../admin",
+  "host": "hooks.example.com",
+  "method": "POST",
+  "body_sha256": "39f94024cbcf740958d8bb6e25095e33ee260776744698ff4e0d43a4454bf72f",
+  "event": "payment.created",
+  "iat": 1781783990,
+  "nonce": "n-deny-dotdot",
+  "sig": "sye22eDzEuEBjGh-pl20E68v1-vRJQK7qjDeDuwrbNM"
+}

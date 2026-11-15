@@ -1,0 +1,26 @@
+{
+  "allowed_hosts": [
+    "hooks.example.com",
+    "hooks.pay.example"
+  ],
+  "allowed_schemes": [
+    "https"
+  ],
+  "allowed_methods": [
+    "POST"
+  ],
+  "allowed_events": [
+    "payment.created",
+    "payment.failed"
+  ],
+  "path_allow_prefixes": [
+    "/v1/webhooks/",
+    "/hooks/"
+  ],
+  "forbid_userinfo": true,
+  "forbid_query": true,
+  "forbid_fragment": true,
+  "body_sha256_hex_len": 64,
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 300
+}

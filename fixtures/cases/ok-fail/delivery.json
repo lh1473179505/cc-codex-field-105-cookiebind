@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "url": "https://hooks.pay.example/hooks/pay",
+  "host": "hooks.pay.example",
+  "method": "POST",
+  "body_sha256": "39f94024cbcf740958d8bb6e25095e33ee260776744698ff4e0d43a4454bf72f",
+  "event": "payment.failed",
+  "iat": 1781783990,
+  "nonce": "n-ok-fail",
+  "sig": "OwSx1wu9SpVCPgdUMt6fWnHZN8ozMIoqEbPRT77B2co"
+}
