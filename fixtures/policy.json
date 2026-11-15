@@ -1,0 +1,27 @@
+{
+  "allowed_authorities": [
+    "api.pay.example",
+    "api.ops.example"
+  ],
+  "method_allow_prefixes": [
+    "/pay.v1.",
+    "/ops.v1."
+  ],
+  "method_deny_substrings": [
+    "..",
+    "//",
+    "Admin"
+  ],
+  "deadline_min_ms": 50,
+  "deadline_max_ms": 5000,
+  "peer_cn_suffixes": [
+    ".pay.example",
+    ".ops.example"
+  ],
+  "authority_cn_bind": {
+    "api.pay.example": ".pay.example",
+    "api.ops.example": ".ops.example"
+  },
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

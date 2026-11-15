@@ -1,0 +1,10 @@
+{
+  "authority": "api.pay.example",
+  "method": "/pay.v1../Charge/Create",
+  "deadline_ms": 800,
+  "peer_cn": "worker.pay.example",
+  "nonce": "n-deny-dotdot",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "X7EhXyxX6OqQkyK8DZwilS6giby11BRNqQ-J1bSNZDw"
+}

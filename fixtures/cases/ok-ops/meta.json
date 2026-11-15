@@ -1,0 +1,10 @@
+{
+  "authority": "api.ops.example",
+  "method": "/ops.v1.Bot/Run",
+  "deadline_ms": 1200,
+  "peer_cn": "bot.ops.example",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "t4lQB-UopnpagdAv0JEp3UK6GR-BUFGv7GP9IdjD5DE"
+}

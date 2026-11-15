@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "authority": "api.pay.example",
+  "method": "/pay.v1.Charge/Create",
+  "deadline_ms": 800,
+  "peer_cn": "worker.pay.example",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "tVZoBEK7SqyxdFnHwwLDNpCf_HEDT3lOCfGD4TqrhfE"
+}

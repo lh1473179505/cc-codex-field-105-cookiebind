@@ -1,0 +1,10 @@
+{
+  "authority": "api.pay.example",
+  "method": "/pay.v1.Admin/Wipe",
+  "deadline_ms": 800,
+  "peer_cn": "worker.pay.example",
+  "nonce": "n-deny-admin",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "t8rnpEn0KXWjMAr8wmkf_02IZ9Awjpk2-9u_yXXdTGQ"
+}
