@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "owner": "api.example.com.",
+  "rrtype": "A",
+  "rdata": "203.0.113.10",
+  "ttl": 60,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "8xugvOvOLwyX2us8M3v0m5MaTMs7SmmIaQAUoW6Mclo"
+}

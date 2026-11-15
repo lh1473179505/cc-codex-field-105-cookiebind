@@ -1,0 +1,10 @@
+{
+  "owner": "api.evil.com.",
+  "rrtype": "A",
+  "rdata": "203.0.113.10",
+  "ttl": 60,
+  "nonce": "n-deny-zone",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "MGrMSbvB_zKwjwB-NF1toWThASsQ3WaFkM-E5_6hcLE"
+}

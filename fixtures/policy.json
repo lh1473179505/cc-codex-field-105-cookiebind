@@ -1,0 +1,22 @@
+{
+  "allowed_zones": [
+    "example.com.",
+    "pay.example."
+  ],
+  "allowed_types": [
+    "A",
+    "AAAA",
+    "TXT"
+  ],
+  "ttl_min": 30,
+  "ttl_max": 3600,
+  "require_absolute": true,
+  "require_lowercase": true,
+  "forbid_empty_label": true,
+  "txt_prefix_allow": [
+    "v=spf1",
+    "v=DMARC1"
+  ],
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 600
+}

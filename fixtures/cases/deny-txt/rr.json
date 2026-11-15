@@ -1,0 +1,10 @@
+{
+  "owner": "mail.pay.example.",
+  "rrtype": "TXT",
+  "rdata": "hello",
+  "ttl": 300,
+  "nonce": "n-deny-txt",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "dQJoz07KVT3qLVRdUxRLFluE5hKv_oqhI6m-SPZNKbE"
+}

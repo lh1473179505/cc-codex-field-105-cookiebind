@@ -1,0 +1,10 @@
+{
+  "owner": "mail.pay.example.",
+  "rrtype": "TXT",
+  "rdata": "v=spf1 include:_spf.pay.example ~all",
+  "ttl": 300,
+  "nonce": "n-ok-txt",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6mAkA50zD36m0_-ld8GaEy9e3snjr-QroJwJdsd_nac"
+}

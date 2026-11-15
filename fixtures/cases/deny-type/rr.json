@@ -1,0 +1,10 @@
+{
+  "owner": "api.example.com.",
+  "rrtype": "MX",
+  "rdata": "10 mail.example.com.",
+  "ttl": 60,
+  "nonce": "n-deny-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "rwrJgwZLi9WknY2rOEvWFPqChsB71dGHRNjc75yhIk8"
+}

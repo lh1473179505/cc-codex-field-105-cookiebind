@@ -1,0 +1,10 @@
+{
+  "owner": "api.example.com",
+  "rrtype": "A",
+  "rdata": "203.0.113.10",
+  "ttl": 60,
+  "nonce": "n-deny-relative",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "X_dRRQJGMdM-ayM6E9kceeonO2xuXptsGKis7DdIw2E"
+}
