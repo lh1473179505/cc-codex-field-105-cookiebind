@@ -1,0 +1,10 @@
+{
+  "project": "pay-sdk",
+  "issuer": "https://evil.example",
+  "sub": "repo:pay/sdk:ref:refs/tags/v1",
+  "claim": "workflow",
+  "nonce": "n-deny-issuer",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "wEyx82AkCW0vKUElyi_Meo-R3I-sXAxgZcA2gNF-Jac"
+}

@@ -1,0 +1,10 @@
+{
+  "project": "pay-sdk",
+  "issuer": "https://token.actions.githubusercontent.com",
+  "sub": "repo:pay/sdk:ref:refs/tags/v1",
+  "claim": "environment",
+  "nonce": "n-deny-claim",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "4HSY9Fbj7wGDljmYZajJHVQfBiGov4ECP2n1QW3mcnE"
+}

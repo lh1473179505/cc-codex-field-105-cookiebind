@@ -1,0 +1,10 @@
+{
+  "project": "ops-cli",
+  "issuer": "https://token.actions.githubusercontent.com",
+  "sub": "repo:ops/cli:ref:refs/heads/main",
+  "claim": "workflow",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2B0BYvERn4pwcYumpKo-IB7h2iXdt5MNO2FPewyVyN0"
+}

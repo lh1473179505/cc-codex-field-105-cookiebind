@@ -1,0 +1,10 @@
+{
+  "project": "evil",
+  "issuer": "https://token.actions.githubusercontent.com",
+  "sub": "repo:pay/sdk:ref:refs/tags/v1",
+  "claim": "workflow",
+  "nonce": "n-deny-project",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "cesvV4VCOwGnNjHUuxW7AEL1H2oWuEtFTshYHyyqvtA"
+}

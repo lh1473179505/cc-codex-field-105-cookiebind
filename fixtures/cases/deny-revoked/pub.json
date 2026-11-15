@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "project": "pay-sdk",
+  "issuer": "https://token.actions.githubusercontent.com",
+  "sub": "repo:pay/sdk:ref:refs/tags/v1",
+  "claim": "workflow",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "natkPSHTxqW_CtXDOWxGiKmO8MX1gl4dEbV4Pr42erI"
+}
