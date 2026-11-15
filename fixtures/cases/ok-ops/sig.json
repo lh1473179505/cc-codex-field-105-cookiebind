@@ -1,0 +1,10 @@
+{
+  "key_fp": "FP-OPS-1",
+  "algo": "ed25519",
+  "hash": "sha256",
+  "body_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mYTmEgIqq_wJLAstUH6UXZzQoZLCqSzj9EWqO_FYmQU"
+}

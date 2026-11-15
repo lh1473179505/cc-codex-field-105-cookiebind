@@ -1,0 +1,26 @@
+{
+  "fps": {
+    "FP-PAY-1": {
+      "algos": [
+        "ed25519",
+        "rsa4096"
+      ],
+      "hashes": [
+        "sha256",
+        "sha512"
+      ]
+    },
+    "FP-OPS-1": {
+      "algos": [
+        "ed25519"
+      ],
+      "hashes": [
+        "sha256"
+      ]
+    }
+  },
+  "body_sha256_len": 64,
+  "forbid_md5": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

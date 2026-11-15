@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "key_fp": "FP-PAY-1",
+  "algo": "rsa4096",
+  "hash": "sha256",
+  "body_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "y1p-aI7m27pHh8Q6_FUGcFCnWvL_MQsYc-Qsv2yLVQo"
+}
