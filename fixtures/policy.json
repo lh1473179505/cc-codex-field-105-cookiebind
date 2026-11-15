@@ -1,0 +1,35 @@
+{
+  "apps": {
+    "pay-batch": {
+      "users": [
+        "pay-ci"
+      ],
+      "masters": [
+        "yarn",
+        "k8s://pay"
+      ],
+      "jar_prefixes": [
+        "s3://pay-jars/",
+        "local:/opt/pay/"
+      ]
+    },
+    "ops-batch": {
+      "users": [
+        "ops-ci"
+      ],
+      "masters": [
+        "k8s://ops"
+      ],
+      "jar_prefixes": [
+        "s3://ops-jars/"
+      ]
+    }
+  },
+  "jar_deny_substrings": [
+    "..",
+    " ",
+    "?"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

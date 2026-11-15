@@ -1,0 +1,10 @@
+{
+  "app": "evil",
+  "user": "pay-ci",
+  "master": "yarn",
+  "jars": "s3://pay-jars/job.jar",
+  "nonce": "n-deny-app",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "d7Q9GUhMWt9meA2Xeyv-q9MLFzLcIDqGZEU71OPoL7k"
+}

@@ -1,0 +1,10 @@
+{
+  "app": "ops-batch",
+  "user": "ops-ci",
+  "master": "k8s://ops",
+  "jars": "s3://ops-jars/job.jar",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "BmC17zvxsLgEoGQ0v9Q5qXfVVjUt6v5fBYQMKBX_XN0"
+}

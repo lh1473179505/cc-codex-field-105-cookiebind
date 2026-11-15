@@ -1,0 +1,10 @@
+{
+  "app": "pay-batch",
+  "user": "pay-ci",
+  "master": "yarn",
+  "jars": "s3://pay-jars/../evil.jar",
+  "nonce": "n-deny-dotdot",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "eb9_xyPsfjDEdEpPCDZH0i0yx-c1e3ivf2BpspdE7H4"
+}

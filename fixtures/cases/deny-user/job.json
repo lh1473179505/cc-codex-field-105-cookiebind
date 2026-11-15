@@ -1,0 +1,10 @@
+{
+  "app": "pay-batch",
+  "user": "eve",
+  "master": "yarn",
+  "jars": "s3://pay-jars/job.jar",
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "qAViWBTR8kZTzW4FTMEPeCM9sg6NP0g_vgOOFdJU6Yc"
+}

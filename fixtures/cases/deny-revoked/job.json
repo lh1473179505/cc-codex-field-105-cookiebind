@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "app": "pay-batch",
+  "user": "pay-ci",
+  "master": "yarn",
+  "jars": "s3://pay-jars/job.jar",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "qxHpjSdc49bK76Ell9vbd7QweEgkZjTLLv2SgrrtI-Q"
+}

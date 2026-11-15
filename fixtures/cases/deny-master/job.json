@@ -1,0 +1,10 @@
+{
+  "app": "pay-batch",
+  "user": "pay-ci",
+  "master": "local",
+  "jars": "s3://pay-jars/job.jar",
+  "nonce": "n-deny-master",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "T-y0vhK_LJacS2yig9KX-FteLftEjYZPJY8KB2cHjHA"
+}
