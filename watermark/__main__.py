@@ -5,6 +5,13 @@ import sys
 from .engine import admit_object, inspect_object
 from .load import load_json, load_store, save_store
 
+def _load_inputs(args):
+    obj = load_json(args.input)
+    keys = load_json(args.keys)
+    policy = load_json(args.policy)
+    store = load_store(args.store)
+    return obj, keys, policy, store
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="python -m watermark")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -22,14 +29,19 @@ def main(argv: list[str] | None = None) -> int:
 
     args = ap.parse_args(argv)
     if args.cmd == "inspect":
-        obj = load_json(args.input)
+        try:
+            obj = load_json(args.input)
+        except (OSError, ValueError) as e:
+            print(str(e), file=sys.stderr)
+            return 2
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
+    try:
+        obj, keys, policy, store = _load_inputs(args)
+    except (OSError, ValueError) as e:
+        print(str(e), file=sys.stderr)
+        return 2
     now = None
     if args.now:
         # accept unix int or leave None for stub
