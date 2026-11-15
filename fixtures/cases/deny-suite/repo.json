@@ -1,0 +1,11 @@
+{
+  "uri": "https://apt.pay.example/debian",
+  "suite": "sid",
+  "component": "main",
+  "signed_by": "/usr/share/keyrings/pay.gpg",
+  "arch": "amd64",
+  "nonce": "n-deny-suite",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "POf50ibq4UNs4XAuQJScxQnZlZwn3-OMNt1lNsCS2mI"
+}

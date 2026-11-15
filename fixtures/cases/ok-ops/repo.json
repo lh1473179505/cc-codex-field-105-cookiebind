@@ -1,0 +1,11 @@
+{
+  "uri": "https://apt.ops.example/ubuntu",
+  "suite": "jammy",
+  "component": "main",
+  "signed_by": "/usr/share/keyrings/ops.gpg",
+  "arch": "arm64",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QBi77onvn2FAmt5ASlSz3pVSNI9ZT5aY6LVIHReGrZ8"
+}

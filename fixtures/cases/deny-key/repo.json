@@ -1,0 +1,11 @@
+{
+  "uri": "https://apt.pay.example/debian",
+  "suite": "bookworm",
+  "component": "main",
+  "signed_by": "/tmp/evil.gpg",
+  "arch": "amd64",
+  "nonce": "n-deny-key",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ryARkT8RDNZ9OFwCPA_5xhrMEAH3Jz9spSu7AClinPo"
+}

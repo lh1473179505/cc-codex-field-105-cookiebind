@@ -1,0 +1,35 @@
+{
+  "allowed_hosts": [
+    "apt.pay.example",
+    "apt.ops.example"
+  ],
+  "allowed_schemes": [
+    "https"
+  ],
+  "suites": {
+    "bookworm": [
+      "main",
+      "updates"
+    ],
+    "jammy": [
+      "main"
+    ]
+  },
+  "signed_by_allow": [
+    "/usr/share/keyrings/pay.gpg",
+    "/usr/share/keyrings/ops.gpg"
+  ],
+  "arch_allow": [
+    "amd64",
+    "arm64"
+  ],
+  "uri_deny_substrings": [
+    "@",
+    "..",
+    " ",
+    "?"
+  ],
+  "forbid_http": true,
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 900
+}

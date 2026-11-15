@@ -1,0 +1,11 @@
+{
+  "uri": "http://apt.pay.example/debian",
+  "suite": "bookworm",
+  "component": "main",
+  "signed_by": "/usr/share/keyrings/pay.gpg",
+  "arch": "amd64",
+  "nonce": "n-deny-http",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "VMqfzUIZDlewweTy3v6JoDWzl7lsIjcaNXZo29m_pYg"
+}
