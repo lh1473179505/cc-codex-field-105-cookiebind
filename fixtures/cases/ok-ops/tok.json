@@ -1,0 +1,13 @@
+{
+  "ns": "ops/",
+  "path": "secret/data/ops/runbook",
+  "caps": [
+    "read",
+    "list"
+  ],
+  "wrap_ttl": 120,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "TZM0xLYWg08m26H6OM6waYBjoEpm9ci2oyCUIX4oQN8"
+}

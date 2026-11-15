@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "ns": "pay/",
+  "path": "secret/data/pay/db",
+  "caps": [
+    "read"
+  ],
+  "wrap_ttl": 60,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "s182tsU1XfcI8xqpczKbl5IE8lpkd2J_KnAE0T8Vs_4"
+}

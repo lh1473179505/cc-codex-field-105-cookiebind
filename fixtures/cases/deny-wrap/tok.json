@@ -1,0 +1,12 @@
+{
+  "ns": "pay/",
+  "path": "secret/data/pay/db",
+  "caps": [
+    "read"
+  ],
+  "wrap_ttl": 999,
+  "nonce": "n-deny-wrap",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "npFYDf6ZYllPROw8wQSvDxz4qUMVN50VZHFKerRf0zA"
+}

@@ -1,0 +1,32 @@
+{
+  "allowed_namespaces": [
+    "pay/",
+    "ops/"
+  ],
+  "path_allow_prefixes": {
+    "pay/": [
+      "secret/data/pay/",
+      "kv/data/pay/"
+    ],
+    "ops/": [
+      "secret/data/ops/"
+    ]
+  },
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "%2e"
+  ],
+  "caps_allow": [
+    "read",
+    "list"
+  ],
+  "caps_max": [
+    "read",
+    "list"
+  ],
+  "forbid_sudo": true,
+  "wrap_ttl_max": 300,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
