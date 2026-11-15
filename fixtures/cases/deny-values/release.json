@@ -1,0 +1,12 @@
+{
+  "release": "pay-api",
+  "chart": "pay-api",
+  "version": "1.2.1",
+  "ns": "pay",
+  "values_sha256": "abcd",
+  "kube": "1.29.0",
+  "nonce": "n-deny-values",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iN-5hOvIZkdHyPbRpyy2Ervdi5szt4z6o7j1e8KMAGQ"
+}

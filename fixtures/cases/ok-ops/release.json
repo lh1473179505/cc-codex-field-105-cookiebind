@@ -1,0 +1,12 @@
+{
+  "release": "ops-bot",
+  "chart": "ops-bot",
+  "version": "0.9.0",
+  "ns": "ops",
+  "values_sha256": "89445ea08b55421faa49919a5fd272e9a520f701b479d6084847e161ca5b7711",
+  "kube": "1.28.3",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "xmmXd27rVMkjFrsu-JnscesML7P-jF0lilDant7UujE"
+}

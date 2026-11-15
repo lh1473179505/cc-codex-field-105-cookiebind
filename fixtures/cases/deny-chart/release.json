@@ -1,0 +1,12 @@
+{
+  "release": "evil",
+  "chart": "evil",
+  "version": "1.0.0",
+  "ns": "pay",
+  "values_sha256": "89445ea08b55421faa49919a5fd272e9a520f701b479d6084847e161ca5b7711",
+  "kube": "1.29.0",
+  "nonce": "n-deny-chart",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ieqg0N78XP-52uBAjFVrvllsA_MJGnDk1XQ_QbBzKtk"
+}

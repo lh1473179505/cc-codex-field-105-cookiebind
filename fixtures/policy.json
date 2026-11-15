@@ -1,0 +1,32 @@
+{
+  "allowed_ns": [
+    "pay",
+    "ops"
+  ],
+  "charts": {
+    "pay-api": {
+      "versions": [
+        "1.2.0",
+        "1.2.1"
+      ],
+      "ns": [
+        "pay"
+      ],
+      "kube_min": "1.28.0"
+    },
+    "ops-bot": {
+      "versions": [
+        "0.9.0"
+      ],
+      "ns": [
+        "ops"
+      ],
+      "kube_min": "1.27.0"
+    }
+  },
+  "values_sha256_hex_len": 64,
+  "release_name_re": "^[a-z0-9]([-a-z0-9]*[a-z0-9])?$",
+  "forbid_uppercase_release": true,
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 900
+}
