@@ -26,21 +26,20 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
-    now = None
-    if args.now:
-        # accept unix int or leave None for stub
-        try:
-            now = int(args.now)
-        except ValueError:
-            from datetime import datetime, timezone
-            now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
     try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+        now = None
+        if args.now:
+            try:
+                now = int(args.now)
+            except ValueError:
+                from datetime import datetime, timezone
+                now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
         report = admit_object(obj, keys, policy, store, now)
-    except ValueError as e:
+    except (ValueError, OSError, json.JSONDecodeError) as e:
         print(str(e), file=sys.stderr)
         return 2
     from pathlib import Path as _P
