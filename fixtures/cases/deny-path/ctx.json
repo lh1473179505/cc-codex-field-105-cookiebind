@@ -1,0 +1,11 @@
+{
+  "user": "system_u",
+  "role": "object_r",
+  "type": "httpd_sys_content_t",
+  "range": "s0",
+  "path": "/etc/passwd",
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "nxCTPSPHuW_rPz5ctGYpQO1i60QWa296B528G_iZ0-k"
+}

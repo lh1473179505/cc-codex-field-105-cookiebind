@@ -1,0 +1,11 @@
+{
+  "user": "unconfined_u",
+  "role": "object_r",
+  "type": "httpd_sys_content_t",
+  "range": "s0",
+  "path": "/var/www/index.html",
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "0Iq7XXFGJMT2d6aYsrn3sniAVjwJO7K8uYgLiGTu-eM"
+}

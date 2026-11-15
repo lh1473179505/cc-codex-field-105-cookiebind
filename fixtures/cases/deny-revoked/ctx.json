@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "user": "system_u",
+  "role": "object_r",
+  "type": "httpd_sys_content_t",
+  "range": "s0",
+  "path": "/var/www/index.html",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "ijyZeAKnrDQJUAUkFa-gvUVW-UZDv6WVMsm_9KYwCfc"
+}

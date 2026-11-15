@@ -1,0 +1,34 @@
+{
+  "allowed_users": [
+    "system_u",
+    "user_u"
+  ],
+  "allowed_roles": [
+    "object_r",
+    "system_r"
+  ],
+  "allowed_types": [
+    "httpd_sys_content_t",
+    "etc_t"
+  ],
+  "type_path_prefixes": {
+    "httpd_sys_content_t": [
+      "/var/www/",
+      "/srv/www/"
+    ],
+    "etc_t": [
+      "/etc/"
+    ]
+  },
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\u0000"
+  ],
+  "range_allow": [
+    "s0",
+    "s0-s0:c0.c1023"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

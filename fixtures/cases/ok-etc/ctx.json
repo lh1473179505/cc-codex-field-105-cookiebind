@@ -1,0 +1,11 @@
+{
+  "user": "system_u",
+  "role": "object_r",
+  "type": "etc_t",
+  "range": "s0-s0:c0.c1023",
+  "path": "/etc/ssh/sshd_config",
+  "nonce": "n-ok-etc",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2_7EwUIDarHMViRMZBtza4H6_B7ciy3LWDXioxj5RTk"
+}

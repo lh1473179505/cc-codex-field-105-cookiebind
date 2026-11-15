@@ -1,0 +1,11 @@
+{
+  "user": "system_u",
+  "role": "object_r",
+  "type": "unconfined_t",
+  "range": "s0",
+  "path": "/var/www/index.html",
+  "nonce": "n-deny-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "0a39XduXpBGd9fotwPuYRy6JqevJu2lWtQ1c8YEtatM"
+}

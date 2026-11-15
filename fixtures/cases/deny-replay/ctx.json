@@ -1,0 +1,11 @@
+{
+  "user": "system_u",
+  "role": "object_r",
+  "type": "httpd_sys_content_t",
+  "range": "s0",
+  "path": "/var/www/index.html",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "XwZXe1TB3Hd4ka7gNiXv-otsu6eB1bKsE_tsBeV9o1c"
+}
