@@ -1,0 +1,11 @@
+{
+  "job": "pay-api",
+  "driver": "raw_exec",
+  "network": "bridge",
+  "volume": "/data/pay/cache",
+  "image": "ghcr.io/pay/api:1",
+  "nonce": "n-deny-driver",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Oxu4t0BRWqT29YHFW4rXXOTHtX2QC6dEq3qAh_4F8B0"
+}

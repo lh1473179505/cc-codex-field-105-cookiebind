@@ -1,0 +1,11 @@
+{
+  "job": "pay-api",
+  "driver": "docker",
+  "network": "bridge",
+  "volume": "/data/pay/cache",
+  "image": "docker.io/library/nginx",
+  "nonce": "n-deny-image",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SYQ7FZU7olpzo3WjJhWYGlCm5Gha2Xo9VfKHOZ6-GRU"
+}

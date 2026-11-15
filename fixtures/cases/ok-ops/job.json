@@ -1,0 +1,11 @@
+{
+  "job": "ops-batch",
+  "driver": "exec",
+  "network": "host",
+  "volume": "/data/ops/work",
+  "image": "ghcr.io/ops/batch:1",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "R4p7IFkckIc7zRuQwQLAe73Wreys1yfu1_Lrf__yekM"
+}

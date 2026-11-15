@@ -1,0 +1,11 @@
+{
+  "job": "pay-api",
+  "driver": "docker",
+  "network": "bridge",
+  "volume": "/data/pay/cache",
+  "image": "ghcr.io/pay/api:1",
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "aHUE-eBydkBR3nFmJiS790cafJ0Gtr62cHLo41pbD64"
+}

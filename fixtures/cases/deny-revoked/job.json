@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "job": "pay-api",
+  "driver": "docker",
+  "network": "bridge",
+  "volume": "/data/pay/cache",
+  "image": "ghcr.io/pay/api:1",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "QVkbd6LOhXSQHrQdaiukvfBDxi-FGITMsFilxdw8G7U"
+}

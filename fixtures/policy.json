@@ -1,0 +1,46 @@
+{
+  "jobs": {
+    "pay-api": {
+      "drivers": [
+        "docker"
+      ],
+      "networks": [
+        "bridge"
+      ],
+      "volume_prefixes": [
+        "/data/pay/"
+      ],
+      "image_prefixes": [
+        "ghcr.io/pay/"
+      ]
+    },
+    "ops-batch": {
+      "drivers": [
+        "exec",
+        "docker"
+      ],
+      "networks": [
+        "host",
+        "bridge"
+      ],
+      "volume_prefixes": [
+        "/data/ops/"
+      ],
+      "image_prefixes": [
+        "ghcr.io/ops/"
+      ]
+    }
+  },
+  "volume_deny_substrings": [
+    "..",
+    "//",
+    "\u0000"
+  ],
+  "forbid_privileged_network_for": {
+    "pay-api": [
+      "host"
+    ]
+  },
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

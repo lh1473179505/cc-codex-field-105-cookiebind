@@ -1,0 +1,11 @@
+{
+  "job": "evil",
+  "driver": "docker",
+  "network": "bridge",
+  "volume": "/data/pay/cache",
+  "image": "ghcr.io/pay/api:1",
+  "nonce": "n-deny-job",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "F0QVQd4qtC1eLU4SragEiWeCY2ETHoMBZ5kMgKZ90p0"
+}

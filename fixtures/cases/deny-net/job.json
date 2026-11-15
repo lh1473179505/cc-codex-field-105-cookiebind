@@ -1,0 +1,11 @@
+{
+  "job": "pay-api",
+  "driver": "docker",
+  "network": "host",
+  "volume": "/data/pay/cache",
+  "image": "ghcr.io/pay/api:1",
+  "nonce": "n-deny-net",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "c3jFBzPt0u-Pw05GIMOr2GtbA1xphzLCrPpwOHdb2sY"
+}
