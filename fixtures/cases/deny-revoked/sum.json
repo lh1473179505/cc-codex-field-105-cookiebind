@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "module": "github.com/pay/sdk",
+  "version": "v1.2.3",
+  "hash": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "algo": "h1",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "GDs7DN3mpZ8WqvdX_irWUKFQL3YInzzj_GtI2dX4L0c"
+}

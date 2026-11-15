@@ -1,0 +1,10 @@
+{
+  "module": "github.com/ops/lib",
+  "version": "v0.9.0",
+  "hash": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+  "algo": "h1",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "F5_s9pbNY5R5TOGuFt6JJrvmU3VC304QbLYG5VG5MXw"
+}

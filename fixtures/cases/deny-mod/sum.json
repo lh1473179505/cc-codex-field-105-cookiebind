@@ -1,0 +1,10 @@
+{
+  "module": "github.com/evil/x",
+  "version": "v1.0.0",
+  "hash": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "algo": "h1",
+  "nonce": "n-deny-mod",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "_UYM5rSsYAQ8uGaDJMOEjOyvAe8bd89UBNTdcLBqdwg"
+}

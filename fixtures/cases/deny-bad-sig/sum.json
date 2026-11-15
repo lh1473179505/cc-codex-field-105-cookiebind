@@ -1,0 +1,10 @@
+{
+  "module": "github.com/pay/sdk",
+  "version": "v1.2.3",
+  "hash": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "algo": "h1",
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}

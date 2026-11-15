@@ -1,0 +1,28 @@
+{
+  "modules": {
+    "github.com/pay/sdk": {
+      "version_prefixes": [
+        "v1.",
+        "v2."
+      ],
+      "algos": [
+        "h1"
+      ],
+      "hash_len": 44
+    },
+    "github.com/ops/lib": {
+      "version_prefixes": [
+        "v0."
+      ],
+      "algos": [
+        "h1"
+      ],
+      "hash_len": 44
+    }
+  },
+  "forbid_algos": [
+    "h0"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
