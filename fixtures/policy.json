@@ -1,0 +1,30 @@
+{
+  "allowed_cmds": [
+    "GET",
+    "SET",
+    "PUBLISH",
+    "HGET"
+  ],
+  "key_allow_prefixes": [
+    "app:pay:",
+    "app:ops:"
+  ],
+  "key_deny_substrings": [
+    "..",
+    "*",
+    " "
+  ],
+  "channel_allow_prefixes": [
+    "events.pay.",
+    "events.ops."
+  ],
+  "cmd_arity": {
+    "GET": 2,
+    "SET": 3,
+    "PUBLISH": 3,
+    "HGET": 3
+  },
+  "publish_requires_channel": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

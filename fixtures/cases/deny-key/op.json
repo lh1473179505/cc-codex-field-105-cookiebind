@@ -1,0 +1,10 @@
+{
+  "cmd": "GET",
+  "key": "app:evil:x",
+  "channel": "",
+  "arity": 2,
+  "nonce": "n-deny-key",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "o-AGabCuOk6rMsLmqvg5HUNbu1ECBnbA9NqShBJ9duI"
+}

@@ -1,0 +1,10 @@
+{
+  "cmd": "PUBLISH",
+  "key": "app:pay:outbox",
+  "channel": "events.evil.x",
+  "arity": 3,
+  "nonce": "n-deny-channel",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "tTfE2eXov7KqDBPKqxlchf60pml-0YDKs3zNfNTSvjY"
+}

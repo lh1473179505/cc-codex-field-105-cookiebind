@@ -1,0 +1,10 @@
+{
+  "cmd": "GET",
+  "key": "app:pay:balance",
+  "channel": "",
+  "arity": 3,
+  "nonce": "n-deny-arity",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Ibk8-i8PbQHfvbacBzEFNkkuLs47iiqlRbAXC-sxuDo"
+}

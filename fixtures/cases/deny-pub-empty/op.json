@@ -1,0 +1,10 @@
+{
+  "cmd": "PUBLISH",
+  "key": "app:pay:outbox",
+  "channel": "",
+  "arity": 3,
+  "nonce": "n-deny-pub-empty",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PaXEgaBxW9-d7Lw6e2G6_5Xy-VCSW8HIwNE6EisW-SU"
+}

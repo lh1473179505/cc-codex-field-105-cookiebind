@@ -1,0 +1,10 @@
+{
+  "cmd": "GET",
+  "key": "app:pay:*",
+  "channel": "",
+  "arity": 2,
+  "nonce": "n-deny-glob",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "M_pkKOQ4PRzsDia5MDToBy6KL9QAZpel8eYOObcfQ6M"
+}

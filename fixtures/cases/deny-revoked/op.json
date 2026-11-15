@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "cmd": "GET",
+  "key": "app:pay:balance",
+  "channel": "",
+  "arity": 2,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "nKjqVP8oE7M0FyzIj4STP-rqOMXymH9KxAcICLiV2VY"
+}

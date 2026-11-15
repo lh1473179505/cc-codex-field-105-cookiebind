@@ -1,0 +1,10 @@
+{
+  "cmd": "FLUSHALL",
+  "key": "app:pay:x",
+  "channel": "",
+  "arity": 1,
+  "nonce": "n-deny-cmd",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "8asCDPl0ajKZOoXrzy4mA-9mNJlNSdv3w61nTORPLwU"
+}

@@ -1,0 +1,10 @@
+{
+  "cmd": "PUBLISH",
+  "key": "app:pay:outbox",
+  "channel": "events.pay.ledger",
+  "arity": 3,
+  "nonce": "n-ok-pub",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "yEqe0VUcCHlsmYvvycIRc0Wff76dcH5lffs_cUHNPfo"
+}
