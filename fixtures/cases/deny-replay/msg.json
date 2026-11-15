@@ -1,0 +1,10 @@
+{
+  "from_addr": "a@pay.example",
+  "to_addr": "b@partner.example",
+  "arc_i": 1,
+  "cv": "pass",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-QgpAYJ11ORivwNSgjhkuTAMi6yIZ1C--0taFi7udR0"
+}

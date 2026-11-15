@@ -1,0 +1,10 @@
+{
+  "from_addr": "n@ops.example",
+  "to_addr": "m@ops.example",
+  "arc_i": 0,
+  "cv": "none",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "OhvrHDZwifw5P_8RwQ6zbi92x-bbNKy8phDxjECHFCg"
+}

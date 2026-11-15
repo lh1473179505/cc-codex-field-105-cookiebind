@@ -1,0 +1,19 @@
+{
+  "from_domains": [
+    "pay.example",
+    "ops.example"
+  ],
+  "to_domains": [
+    "pay.example",
+    "ops.example",
+    "partner.example"
+  ],
+  "arc_i_max": 5,
+  "cv_allow": [
+    "pass",
+    "none"
+  ],
+  "forbid_cv_fail": true,
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "from_addr": "a@pay.example",
+  "to_addr": "b@partner.example",
+  "arc_i": 1,
+  "cv": "pass",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "UipcnwkeVgCDPhQk8gJkhjGEOqLG7_MfLo39kNcI3Qo"
+}
