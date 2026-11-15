@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "name": "pay-core",
+  "version": "1.2.1",
+  "advisory": "none",
+  "severity": "none",
+  "yanked": 0,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "YMj489aKWoVwcrkxZTpCrLc70cxKe8qQa9ZgMw0K6hM"
+}

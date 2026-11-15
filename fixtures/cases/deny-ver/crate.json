@@ -1,0 +1,11 @@
+{
+  "name": "pay-core",
+  "version": "9.9.9",
+  "advisory": "none",
+  "severity": "none",
+  "yanked": 0,
+  "nonce": "n-deny-ver",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Ma-Zhd5_LX2kqI7V5t1FqRlFksj7LxZnj7e6Exa8K-8"
+}

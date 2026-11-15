@@ -1,0 +1,11 @@
+{
+  "name": "ops-util",
+  "version": "0.9.0",
+  "advisory": "RUSTSEC-1",
+  "severity": "high",
+  "yanked": 0,
+  "nonce": "n-deny-sev",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "t1aKRGW4f47WioUyVUmlALqFFI5qTH6OI2RxYA7VGUE"
+}

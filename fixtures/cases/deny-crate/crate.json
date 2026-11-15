@@ -1,0 +1,11 @@
+{
+  "name": "evil",
+  "version": "1.0.0",
+  "advisory": "none",
+  "severity": "none",
+  "yanked": 0,
+  "nonce": "n-deny-crate",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "CtclGSHPU4EiNqaUTCiN1VKyQnJH4dWGKXevnIancLk"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ops-util",
+  "version": "0.9.0",
+  "advisory": "none",
+  "severity": "none",
+  "yanked": 0,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "hLgK88vK3BHRtDpxQYduygQck8xYkVgwCKNT1KH45Vo"
+}

@@ -1,0 +1,28 @@
+{
+  "crates": {
+    "pay-core": {
+      "versions": [
+        "1.2.0",
+        "1.2.1"
+      ],
+      "max_severity": "medium",
+      "forbid_yanked": true
+    },
+    "ops-util": {
+      "versions": [
+        "0.9.0"
+      ],
+      "max_severity": "low",
+      "forbid_yanked": true
+    }
+  },
+  "severity_rank": {
+    "none": 0,
+    "low": 1,
+    "medium": 2,
+    "high": 3,
+    "critical": 4
+  },
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
