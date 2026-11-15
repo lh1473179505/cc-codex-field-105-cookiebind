@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "group": "com.pay",
+  "artifact": "sdk",
+  "version": "1.4.0",
+  "fp": "FP-MAVEN-PAY",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "JY__mblvZ9KoI4ezJ2YON6hhOmhbQKzYB2UCoBzAXlA"
+}

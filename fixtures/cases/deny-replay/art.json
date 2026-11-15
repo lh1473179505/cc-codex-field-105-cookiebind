@@ -1,0 +1,10 @@
+{
+  "group": "com.pay",
+  "artifact": "sdk",
+  "version": "1.4.0",
+  "fp": "FP-MAVEN-PAY",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "TaFYxvWDqdHMNpi47nvHnqhmhOpyDNN3zwY9wqpr2zw"
+}

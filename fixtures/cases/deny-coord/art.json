@@ -1,0 +1,10 @@
+{
+  "group": "com.evil",
+  "artifact": "sdk",
+  "version": "1.0.0",
+  "fp": "FP-MAVEN-PAY",
+  "nonce": "n-deny-coord",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "bVtDeP7tgCISgT6pP3HTexHRU6MpzTCFeypsujEdstw"
+}

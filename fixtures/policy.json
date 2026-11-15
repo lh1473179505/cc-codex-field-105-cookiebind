@@ -1,0 +1,25 @@
+{
+  "coords": {
+    "com.pay:sdk": {
+      "version_prefixes": [
+        "1.",
+        "2."
+      ],
+      "fps": [
+        "FP-MAVEN-PAY"
+      ]
+    },
+    "com.ops:tools": {
+      "version_prefixes": [
+        "0."
+      ],
+      "fps": [
+        "FP-MAVEN-OPS"
+      ]
+    }
+  },
+  "coord_key": "group:artifact",
+  "forbid_snapshot": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

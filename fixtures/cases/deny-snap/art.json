@@ -1,0 +1,10 @@
+{
+  "group": "com.pay",
+  "artifact": "sdk",
+  "version": "1.4.0-SNAPSHOT",
+  "fp": "FP-MAVEN-PAY",
+  "nonce": "n-deny-snap",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mJHXhElMOvZwr2IXYy9wTeG3LzQ1vG4XdgvoeUtvjF4"
+}

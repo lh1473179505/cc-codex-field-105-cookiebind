@@ -1,0 +1,10 @@
+{
+  "group": "com.ops",
+  "artifact": "tools",
+  "version": "0.3.1",
+  "fp": "FP-MAVEN-OPS",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "AwbUgl6wViVGeG3NVdZs0hHBOd1ivoSYzfL1cGpPWk8"
+}
