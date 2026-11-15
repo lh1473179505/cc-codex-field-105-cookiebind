@@ -1,0 +1,30 @@
+{
+  "peers": {
+    "PKALICE": {
+      "pool": "10.10.0.0/24",
+      "endpoint_suffix": ".vpn.example.com",
+      "require_psk": true
+    },
+    "PKBOB": {
+      "pool": "10.10.1.0/24",
+      "endpoint_suffix": ".vpn.example.com",
+      "require_psk": false
+    }
+  },
+  "endpoint_ip_cidrs": [
+    "203.0.113.0/24",
+    "198.51.100.0/24"
+  ],
+  "denied_cidrs": [
+    "0.0.0.0/0",
+    "::/0",
+    "169.254.0.0/16"
+  ],
+  "keepalive_min": 15,
+  "keepalive_max": 60,
+  "psk_hashes": {
+    "PKALICE": "62ec0e517d516f0a5ce63620ef346c6d76654072717e5862bc884c2595750702"
+  },
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 600
+}

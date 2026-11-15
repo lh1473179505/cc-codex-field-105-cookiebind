@@ -1,0 +1,14 @@
+{
+  "kid": "k-active",
+  "pubkey": "PKALICE",
+  "endpoint_host": "alice.vpn.example.com",
+  "endpoint_ip": "203.0.113.10",
+  "allowed_ips": [
+    "10.10.0.2/32"
+  ],
+  "keepalive": 25,
+  "psk_hash": "8810ad581e59f2bc3928b261707a71308f7e139eb04820366dc4d5c18d980225",
+  "iat": 1781783970,
+  "nonce": "n-deny-psk",
+  "sig": "eLIC_xAgWOwLp77sVuskfVMc_u2TYnkVb1UzyLnJwHY"
+}
