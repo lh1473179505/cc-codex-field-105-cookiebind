@@ -1,0 +1,10 @@
+{
+  "bucket": "ops-logs",
+  "key": "days/x.log",
+  "method": "PUT",
+  "expires": 120,
+  "nonce": "n-deny-method",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "H4LAIA0Z0Yz_-yX5ALQyTBEFdfbFxU7UzQOlquYTZi4"
+}

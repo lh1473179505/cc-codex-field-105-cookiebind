@@ -1,0 +1,10 @@
+{
+  "bucket": "pay-artifacts",
+  "key": "builds/a.zip",
+  "method": "PUT",
+  "expires": 99999,
+  "nonce": "n-deny-exp",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-YntxB9WYWOG3_jxFhFoJ2UjI7dtJkokcjobI8Gtwps"
+}

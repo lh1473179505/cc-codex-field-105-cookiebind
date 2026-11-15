@@ -1,0 +1,10 @@
+{
+  "bucket": "ops-logs",
+  "key": "days/2026-06-18.log",
+  "method": "GET",
+  "expires": 120,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "8V_Cl9x-d329n9u-BFRZ-jEx9OCENz3C42LtCI3Nvy8"
+}

@@ -1,0 +1,36 @@
+{
+  "buckets": {
+    "pay-artifacts": {
+      "key_prefixes": [
+        "builds/",
+        "reports/"
+      ],
+      "methods": [
+        "GET",
+        "PUT"
+      ],
+      "expires_max": 900,
+      "deny_key_substrings": [
+        "..",
+        "//",
+        "\\"
+      ]
+    },
+    "ops-logs": {
+      "key_prefixes": [
+        "days/"
+      ],
+      "methods": [
+        "GET"
+      ],
+      "expires_max": 300,
+      "deny_key_substrings": [
+        "..",
+        "//",
+        "\\"
+      ]
+    }
+  },
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

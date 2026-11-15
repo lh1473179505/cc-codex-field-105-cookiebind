@@ -1,0 +1,10 @@
+{
+  "bucket": "pay-artifacts",
+  "key": "secrets/a",
+  "method": "GET",
+  "expires": 600,
+  "nonce": "n-deny-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "4_at5C9LyYb5Oh_VdK3o39Jo6Hh6bZGJMeO_mHQ4xF4"
+}

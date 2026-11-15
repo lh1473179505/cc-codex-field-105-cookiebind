@@ -1,0 +1,10 @@
+{
+  "bucket": "evil",
+  "key": "builds/a.zip",
+  "method": "PUT",
+  "expires": 600,
+  "nonce": "n-deny-bucket",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "FxxLHErX2T3E_qosQ-Zc9LOzXiwFM2jBQXAQETQ7lUU"
+}

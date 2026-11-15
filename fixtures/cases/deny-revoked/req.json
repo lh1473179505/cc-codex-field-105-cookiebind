@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "bucket": "pay-artifacts",
+  "key": "builds/a.zip",
+  "method": "PUT",
+  "expires": 600,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "FGdpATDPzy0-LeMmidIxnX2l93AFUUqWMKJDatavh-o"
+}
