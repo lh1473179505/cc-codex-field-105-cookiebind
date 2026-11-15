@@ -1,0 +1,13 @@
+{
+  "path": "/tmp/cgroup",
+  "controllers": [
+    "cpu",
+    "memory"
+  ],
+  "memory_max": 268435456,
+  "cpu_weight": 100,
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "m3E2a2BsX6vfvhhNJz5Usg4OZ5VxC90UVn4Z7fe8CDc"
+}

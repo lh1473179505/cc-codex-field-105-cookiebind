@@ -1,0 +1,13 @@
+{
+  "path": "/sys/fs/cgroup/pay/../ops",
+  "controllers": [
+    "cpu",
+    "memory"
+  ],
+  "memory_max": 268435456,
+  "cpu_weight": 100,
+  "nonce": "n-deny-dotdot",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "kSXa_JpksAYSCntvwFH7j5npRe8324yM5FlOIMR_IQk"
+}

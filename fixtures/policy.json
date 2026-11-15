@@ -1,0 +1,26 @@
+{
+  "path_allow_prefixes": [
+    "/sys/fs/cgroup/pay/",
+    "/sys/fs/cgroup/ops/"
+  ],
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\u0000"
+  ],
+  "controllers_allow": [
+    "cpu",
+    "memory",
+    "io"
+  ],
+  "controllers_required": [
+    "cpu",
+    "memory"
+  ],
+  "memory_max_min": 67108864,
+  "memory_max_max": 8589934592,
+  "cpu_weight_min": 1,
+  "cpu_weight_max": 10000,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

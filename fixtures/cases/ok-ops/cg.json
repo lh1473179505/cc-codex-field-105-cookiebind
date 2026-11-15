@@ -1,0 +1,14 @@
+{
+  "path": "/sys/fs/cgroup/ops/bot",
+  "controllers": [
+    "cpu",
+    "memory",
+    "io"
+  ],
+  "memory_max": 134217728,
+  "cpu_weight": 50,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "8VhRuaOuSQMZ_Ou0CjJXemGSSYhTbnUSmXXF7iyB860"
+}

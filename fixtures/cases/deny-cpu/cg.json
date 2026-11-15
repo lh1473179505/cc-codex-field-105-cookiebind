@@ -1,0 +1,13 @@
+{
+  "path": "/sys/fs/cgroup/pay/api",
+  "controllers": [
+    "cpu",
+    "memory"
+  ],
+  "memory_max": 268435456,
+  "cpu_weight": 999999,
+  "nonce": "n-deny-cpu",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "vfHWn1Q2b4ekh617U5iiHqAH66bkjSiFtIMBtr0UekU"
+}
