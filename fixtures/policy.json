@@ -1,0 +1,44 @@
+{
+  "users": {
+    "analyst": {
+      "databases": [
+        "pay"
+      ],
+      "tables": {
+        "pay": [
+          "events",
+          "orders"
+        ]
+      },
+      "formats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "ops": {
+      "databases": [
+        "ops"
+      ],
+      "tables": {
+        "ops": [
+          "metrics"
+        ]
+      },
+      "formats": [
+        "JSON"
+      ]
+    }
+  },
+  "forbid_formats": [
+    "Pretty",
+    "XML"
+  ],
+  "ident_deny": [
+    ";",
+    " ",
+    "--",
+    "`"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

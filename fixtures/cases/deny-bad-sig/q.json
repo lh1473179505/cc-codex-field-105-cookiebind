@@ -1,0 +1,10 @@
+{
+  "database": "pay",
+  "table": "events",
+  "user": "analyst",
+  "format": "JSON",
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}

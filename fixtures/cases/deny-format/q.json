@@ -1,0 +1,10 @@
+{
+  "database": "ops",
+  "table": "metrics",
+  "user": "ops",
+  "format": "Pretty",
+  "nonce": "n-deny-format",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "bdNOu6xv5CNHCWby1cK5CpmTtQN-cX0BekAvMBjdXcY"
+}

@@ -1,0 +1,10 @@
+{
+  "database": "ops",
+  "table": "metrics",
+  "user": "ops",
+  "format": "JSON",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QzWGvi0aEPWym8w2UoFpnRUomS0PVl-Qq9J0Eyc1U3A"
+}

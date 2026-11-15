@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "database": "pay",
+  "table": "events",
+  "user": "analyst",
+  "format": "JSON",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "dtxi_KOeX8zqW_2R09_IE5z3H8XrwdxF1Kp37HJbSAE"
+}

@@ -1,0 +1,10 @@
+{
+  "database": "pay",
+  "table": "events",
+  "user": "analyst",
+  "format": "JSON",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "KNC0x1bZDPEdlbyqpB7D5XZ4b2ojc_1xuphaWsoLgjo"
+}

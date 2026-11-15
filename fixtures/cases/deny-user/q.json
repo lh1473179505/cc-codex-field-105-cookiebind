@@ -1,0 +1,10 @@
+{
+  "database": "pay",
+  "table": "events",
+  "user": "root",
+  "format": "JSON",
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "hjuno-AqGrmtmm-2AdrHZBqhebYnHjoAPpnVBJp0MnM"
+}

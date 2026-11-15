@@ -1,0 +1,10 @@
+{
+  "database": "pay",
+  "table": "secrets",
+  "user": "analyst",
+  "format": "JSON",
+  "nonce": "n-deny-table",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "V5X70WEGSJUPcWktWHidVHogLYe_T_yQW5gVXvtPOuQ"
+}

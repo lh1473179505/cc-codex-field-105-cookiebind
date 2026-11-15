@@ -1,0 +1,10 @@
+{
+  "database": "pay",
+  "table": "events;drop",
+  "user": "analyst",
+  "format": "JSON",
+  "nonce": "n-deny-inject",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "JccXm5f2SpS13qbs4a9m5IXthpmljirI7-OvjGVQsWU"
+}
