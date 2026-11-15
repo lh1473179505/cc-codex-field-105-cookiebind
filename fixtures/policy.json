@@ -1,0 +1,31 @@
+{
+  "fps": {
+    "SHA256:AAAA": {
+      "dst_suffixes": [
+        ".pay.example",
+        ".bastion.example"
+      ],
+      "constraints": [
+        "confirm",
+        "port-forward"
+      ]
+    },
+    "SHA256:BBBB": {
+      "dst_suffixes": [
+        ".ops.example"
+      ],
+      "constraints": [
+        "confirm"
+      ]
+    }
+  },
+  "lifetime_max": 3600,
+  "lifetime_min": 60,
+  "dst_deny_substrings": [
+    "*",
+    "..",
+    " "
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

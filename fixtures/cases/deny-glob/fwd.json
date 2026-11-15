@@ -1,0 +1,10 @@
+{
+  "fp": "SHA256:AAAA",
+  "dst": "*.pay.example",
+  "constraint": "confirm",
+  "lifetime": 600,
+  "nonce": "n-deny-glob",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IxAHqQ8YGBKUcCv7OXmm4DunujbkXRtvNZ-Sc_i9t0k"
+}

@@ -1,0 +1,10 @@
+{
+  "fp": "SHA256:AAAA",
+  "dst": "jump.evil.example",
+  "constraint": "confirm",
+  "lifetime": 600,
+  "nonce": "n-deny-dst",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "X9jO95kCJ9TA6GU7SFYTMaRQ5kIJGzkQaZCQwOPk79I"
+}

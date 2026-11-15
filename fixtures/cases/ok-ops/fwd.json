@@ -1,0 +1,10 @@
+{
+  "fp": "SHA256:BBBB",
+  "dst": "jump.ops.example",
+  "constraint": "confirm",
+  "lifetime": 300,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PuAElSkVlgR9gVJEzXeJNrzxLF1mOUhR89vSyB5Z8AM"
+}

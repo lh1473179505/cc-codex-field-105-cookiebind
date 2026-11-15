@@ -1,0 +1,10 @@
+{
+  "fp": "SHA256:AAAA",
+  "dst": "jump.pay.example",
+  "constraint": "confirm",
+  "lifetime": 99999,
+  "nonce": "n-deny-life-max",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "FdYkPurs8Jkp-HTvOKzAbl3bWTO4WXPWOUPlaQizTlE"
+}

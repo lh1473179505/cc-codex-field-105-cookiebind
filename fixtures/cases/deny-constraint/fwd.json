@@ -1,0 +1,10 @@
+{
+  "fp": "SHA256:BBBB",
+  "dst": "jump.ops.example",
+  "constraint": "port-forward",
+  "lifetime": 300,
+  "nonce": "n-deny-constraint",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "AZeIY_qI3jo2QJNkAC-ZdDxgzevzotfKFxej-_hiyxo"
+}
