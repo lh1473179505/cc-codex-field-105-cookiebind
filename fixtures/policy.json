@@ -1,0 +1,26 @@
+{
+  "clients": {
+    "pay-spa": {
+      "redirects": [
+        "https://pay.example/cb"
+      ],
+      "methods": [
+        "S256"
+      ],
+      "challenge_len": 43
+    },
+    "ops-cli": {
+      "redirects": [
+        "https://ops.example/cb",
+        "http://127.0.0.1:8765/cb"
+      ],
+      "methods": [
+        "S256"
+      ],
+      "challenge_len": 43
+    }
+  },
+  "forbid_plain": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

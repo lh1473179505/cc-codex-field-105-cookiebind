@@ -1,0 +1,10 @@
+{
+  "client_id": "pay-spa",
+  "code_challenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "method": "S256",
+  "redirect": "https://evil.example/cb",
+  "nonce": "n-deny-redirect",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "bJInbPWLr4nCTcJIDiJ_sjqUo9nxcgWKcQvtyyLud4E"
+}

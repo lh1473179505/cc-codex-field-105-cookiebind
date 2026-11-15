@@ -1,0 +1,10 @@
+{
+  "client_id": "ops-cli",
+  "code_challenge": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "method": "S256",
+  "redirect": "http://127.0.0.1:8765/cb",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ETHRW22myQUNJRtxHYuMg1wwcV6sNgw9lNgN3-areXI"
+}

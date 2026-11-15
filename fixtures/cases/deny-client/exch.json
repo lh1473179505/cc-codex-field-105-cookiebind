@@ -1,0 +1,10 @@
+{
+  "client_id": "evil",
+  "code_challenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "method": "S256",
+  "redirect": "https://pay.example/cb",
+  "nonce": "n-deny-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "EbXS_P77aufbCZ7TkDSykXLBtQzBTn6pVvS2oyQ6whY"
+}
