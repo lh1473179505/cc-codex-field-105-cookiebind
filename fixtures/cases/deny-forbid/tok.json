@@ -1,0 +1,14 @@
+{
+  "token_id": "tokpay01",
+  "ns": "pay",
+  "rules": [
+    "service:read",
+    "acl:write"
+  ],
+  "service_prefix": "pay-",
+  "node": "pay-1",
+  "nonce": "n-deny-forbid",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "rlBhNyi-q-Ts0uWmLvBQ-I8oby7Zmbh4c1Q0Wwu5cBU"
+}

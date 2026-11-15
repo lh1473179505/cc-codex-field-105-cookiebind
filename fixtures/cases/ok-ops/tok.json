@@ -1,0 +1,13 @@
+{
+  "token_id": "tokops01",
+  "ns": "ops",
+  "rules": [
+    "service:read"
+  ],
+  "service_prefix": "ops-",
+  "node": "ops-1",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jftwhz-Ob9Rfm42_CCy9tCpcgArGRoX9aDF1ldJGzpI"
+}

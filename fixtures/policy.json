@@ -1,0 +1,37 @@
+{
+  "namespaces": {
+    "pay": {
+      "rules_max": [
+        "service:read",
+        "service:write",
+        "node:read"
+      ],
+      "service_prefixes": [
+        "pay-"
+      ],
+      "nodes": [
+        "pay-1",
+        "pay-2"
+      ]
+    },
+    "ops": {
+      "rules_max": [
+        "service:read",
+        "node:read"
+      ],
+      "service_prefixes": [
+        "ops-"
+      ],
+      "nodes": [
+        "ops-1"
+      ]
+    }
+  },
+  "token_id_len": 8,
+  "forbid_rules": [
+    "acl:write",
+    "operator:write"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,13 @@
+{
+  "token_id": "short",
+  "ns": "pay",
+  "rules": [
+    "service:read"
+  ],
+  "service_prefix": "pay-",
+  "node": "pay-1",
+  "nonce": "n-deny-idlen",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "EQ9_BM5_s5pmr67wXeXUjmCtWbEt0WTTotvhE8dJOhU"
+}

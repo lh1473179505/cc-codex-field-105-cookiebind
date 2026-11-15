@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "token_id": "tokpay01",
+  "ns": "pay",
+  "rules": [
+    "service:read"
+  ],
+  "service_prefix": "pay-",
+  "node": "pay-1",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "8nG-ne0b4nXTGZewFxvwj6ZZTk1Vt1-XQzauritNSmU"
+}
