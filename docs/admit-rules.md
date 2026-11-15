@@ -28,3 +28,18 @@ Allow cases: ok-allow, ok-second-rule
 Deny cases: bad-sig, deny-rule, default, path, revoked, type, empty-rules, shadow
 
 Reason codes should be stable snake_case identifiers matching the failing gate.
+
+## Reason codes
+
+- `invalid_type` — input is not an object or a required string field is missing/mistyped
+- `unknown_kid` — kid is not present in the key store
+- `kid_revoked` — kid exists but is not active
+- `bad_signature` — HMAC does not match the signing input
+- `replay_detected` — id was already admitted (present in the store)
+- `deny_rule` — an explicit deny rule matched (first match wins)
+- `default_deny` — no rule matched; default deny
+
+Rules are evaluated in order (policy rules first, then the built-in
+`/v1/{pkg}/` path allow rule); the first matching rule decides. When the
+policy has no rules, the signing line omits `|{rules_sha}`. On allow the
+object id is recorded in the store; deny and load failure never write it.
