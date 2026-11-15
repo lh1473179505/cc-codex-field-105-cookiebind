@@ -1,0 +1,36 @@
+{
+  "allowed_audiences": [
+    "https://kubernetes.default.svc",
+    "pay-api"
+  ],
+  "allowed_namespaces": [
+    "pay",
+    "ops"
+  ],
+  "sa_allow": {
+    "pay": [
+      "api",
+      "worker"
+    ],
+    "ops": [
+      "bot"
+    ]
+  },
+  "path_allow_prefixes": [
+    "/var/run/secrets/tokens/",
+    "/var/run/secrets/sa/"
+  ],
+  "path_deny_substrings": [
+    "..",
+    "%2e",
+    "%2E",
+    "//"
+  ],
+  "require_bound": true,
+  "bound_kinds": [
+    "Pod",
+    "Secret"
+  ],
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 600
+}
