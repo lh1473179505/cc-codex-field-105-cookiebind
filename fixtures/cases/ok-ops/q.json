@@ -1,0 +1,10 @@
+{
+  "index": "ops-metrics",
+  "user": "ops-search",
+  "qtype": "term",
+  "fields": "name",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Db1gSmLU36gVQAikWC51CxeFky7DyxyIkiU5x8Tw0vs"
+}

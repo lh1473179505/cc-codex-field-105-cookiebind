@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "index": "pay-orders",
+  "user": "pay-search",
+  "qtype": "term",
+  "fields": "id",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "XpflE4ihYDI5Dr0dY7OdsMr9z9pnFALY_O9cj9h_3MU"
+}

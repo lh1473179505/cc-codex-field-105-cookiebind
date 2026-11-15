@@ -1,0 +1,42 @@
+{
+  "users": {
+    "pay-search": {
+      "indices": [
+        "pay-events-*",
+        "pay-orders"
+      ],
+      "qtypes": [
+        "term",
+        "range"
+      ],
+      "field_allow": [
+        "id",
+        "status",
+        "ts"
+      ]
+    },
+    "ops-search": {
+      "indices": [
+        "ops-metrics"
+      ],
+      "qtypes": [
+        "term"
+      ],
+      "field_allow": [
+        "name",
+        "value"
+      ]
+    }
+  },
+  "forbid_qtypes": [
+    "script",
+    "wildcard"
+  ],
+  "index_deny_substrings": [
+    "..",
+    "/",
+    " "
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

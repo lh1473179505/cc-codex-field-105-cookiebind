@@ -1,0 +1,10 @@
+{
+  "index": "secrets",
+  "user": "pay-search",
+  "qtype": "term",
+  "fields": "id",
+  "nonce": "n-deny-index",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "UfoJiQ0GdKIOJ-lRR9Ela4ODg3uul5_nMu2rXFJzuak"
+}

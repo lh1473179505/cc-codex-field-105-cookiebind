@@ -1,0 +1,10 @@
+{
+  "index": "pay-orders/../x",
+  "user": "pay-search",
+  "qtype": "term",
+  "fields": "id",
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "wyB0724Hi6O-FYc_ah4X-8bmXuWwAn9ahBjgzscYNwE"
+}
