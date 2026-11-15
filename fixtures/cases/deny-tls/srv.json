@@ -1,0 +1,10 @@
+{
+  "server": "pay-api",
+  "client": "pay-web",
+  "port": 8080,
+  "meshtls": 0,
+  "nonce": "n-deny-tls",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5hig1tGGBE0aAl3sgD4c_g3QBvdSx5Dh4VtUbQ7KOIM"
+}

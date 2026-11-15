@@ -1,0 +1,10 @@
+{
+  "server": "pay-api",
+  "client": "pay-web",
+  "port": 22,
+  "meshtls": 1,
+  "nonce": "n-deny-port",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "65iOCiJCLFasOSqHfWxqIDain39aQ4gj9EtIJQlDfa0"
+}

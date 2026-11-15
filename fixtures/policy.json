@@ -1,0 +1,26 @@
+{
+  "servers": {
+    "pay-api": {
+      "clients": [
+        "pay-web",
+        "pay-worker"
+      ],
+      "ports": [
+        8080,
+        8443
+      ],
+      "require_meshtls": true
+    },
+    "ops-bot": {
+      "clients": [
+        "ops-ui"
+      ],
+      "ports": [
+        8080
+      ],
+      "require_meshtls": true
+    }
+  },
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

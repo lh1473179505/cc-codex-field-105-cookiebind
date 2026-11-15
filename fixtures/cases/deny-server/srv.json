@@ -1,0 +1,10 @@
+{
+  "server": "evil",
+  "client": "pay-web",
+  "port": 8080,
+  "meshtls": 1,
+  "nonce": "n-deny-server",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "vna7xC5Yb1JtiNzj5sbifGmX12DdYoEG4FHZTQUBReA"
+}

@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "server": "pay-api",
+  "client": "pay-web",
+  "port": 8080,
+  "meshtls": 1,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "wsumEhr9-wwdLkRncBFyFeu9SUQaySfNJjhREjq6s6E"
+}

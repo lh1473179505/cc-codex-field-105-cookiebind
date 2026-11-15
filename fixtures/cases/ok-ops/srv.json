@@ -1,0 +1,10 @@
+{
+  "server": "ops-bot",
+  "client": "ops-ui",
+  "port": 8080,
+  "meshtls": 1,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "57Ifim1WZGtQw4AvMyhR833s8LaDmV09xGaZpQA7jnc"
+}
