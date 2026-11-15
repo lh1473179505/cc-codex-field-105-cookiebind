@@ -2,6 +2,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from pathlib import Path
 from .engine import admit_object, inspect_object
 from .load import load_json, load_store, save_store
 
@@ -22,17 +23,25 @@ def main(argv: list[str] | None = None) -> int:
 
     args = ap.parse_args(argv)
     if args.cmd == "inspect":
-        obj = load_json(args.input)
+        try:
+            obj = load_json(args.input)
+        except (OSError, ValueError) as e:
+            print(f"load failure: {e}", file=sys.stderr)
+            return 2
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
+    try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+    except (OSError, ValueError) as e:
+        print(f"load failure: {e}", file=sys.stderr)
+        return 2
     now = None
     if args.now:
-        # accept unix int or leave None for stub
+        # accept unix int or ISO-8601 timestamp
         try:
             now = int(args.now)
         except ValueError:
@@ -43,8 +52,7 @@ def main(argv: list[str] | None = None) -> int:
     except ValueError as e:
         print(str(e), file=sys.stderr)
         return 2
-    from pathlib import Path as _P
-    _P(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    Path(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if report.get("decision") == "allow":
         save_store(args.store, store)
         return 0
