@@ -1,0 +1,28 @@
+{
+  "sites": {
+    "app.pay.example": {
+      "ancestors_allow": [
+        "'self'",
+        "https://pay.example"
+      ],
+      "sandbox_required": true,
+      "script_modes": [
+        "nonce",
+        "hash"
+      ]
+    },
+    "ops.example": {
+      "ancestors_allow": [
+        "'none'"
+      ],
+      "sandbox_required": false,
+      "script_modes": [
+        "hash"
+      ]
+    }
+  },
+  "forbid_star_ancestor": true,
+  "forbid_unsafe_inline_script": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

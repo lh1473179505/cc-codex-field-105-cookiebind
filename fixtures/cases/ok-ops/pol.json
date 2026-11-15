@@ -1,0 +1,10 @@
+{
+  "site": "ops.example",
+  "frame_ancestors": "'none'",
+  "sandbox": 0,
+  "script_mode": "hash",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "q0SpKBjEIN0HejZGASPuUy9qFOclFgBXCJG94dbzChc"
+}

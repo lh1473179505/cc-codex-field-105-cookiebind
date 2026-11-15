@@ -1,0 +1,10 @@
+{
+  "site": "evil.example",
+  "frame_ancestors": "'none'",
+  "sandbox": 0,
+  "script_mode": "hash",
+  "nonce": "n-deny-site",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Y1_9PHcackNqDcr8EPkGMDbFK1BUxBuJhhANMvMvZMw"
+}

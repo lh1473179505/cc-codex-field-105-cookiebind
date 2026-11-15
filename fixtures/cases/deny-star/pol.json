@@ -1,0 +1,10 @@
+{
+  "site": "app.pay.example",
+  "frame_ancestors": "*",
+  "sandbox": 1,
+  "script_mode": "nonce",
+  "nonce": "n-deny-star",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "HmN_NUDFXFafQybRmq_b7m5b4V8qrlvM_FL23MToU-8"
+}

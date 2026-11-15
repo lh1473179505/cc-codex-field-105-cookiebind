@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "site": "app.pay.example",
+  "frame_ancestors": "'self' https://pay.example",
+  "sandbox": 1,
+  "script_mode": "nonce",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "DBQKXU4q_FYpJusA2v8LEvormRP1mRfUtdfMPd_NeKk"
+}

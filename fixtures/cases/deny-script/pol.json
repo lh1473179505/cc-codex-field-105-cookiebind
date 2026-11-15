@@ -1,0 +1,10 @@
+{
+  "site": "ops.example",
+  "frame_ancestors": "'none'",
+  "sandbox": 0,
+  "script_mode": "unsafe-inline",
+  "nonce": "n-deny-script",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "aC9n3kouG19bIdkWPI04RV_dufRVP6Qi3NH09kBkCe0"
+}

@@ -1,0 +1,10 @@
+{
+  "site": "app.pay.example",
+  "frame_ancestors": "https://evil.example",
+  "sandbox": 1,
+  "script_mode": "nonce",
+  "nonce": "n-deny-ancestor",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "TVPwHLpc1u3KSwyEonVMFSyFuG2WCvGdHqWiwtUkLPw"
+}
