@@ -1,0 +1,40 @@
+{
+  "allowed_typ": [
+    "OKP+JWT",
+    "nested+jwt"
+  ],
+  "allowed_crit": [
+    "claim_path",
+    "claim_val"
+  ],
+  "require_all_crit": true,
+  "allowed_audiences": [
+    "api.pay",
+    "api.ops"
+  ],
+  "sub_prefixes": [
+    "user:",
+    "svc:"
+  ],
+  "claim_path_allow": [
+    "org.role",
+    "org.tenant",
+    "auth.acr"
+  ],
+  "claim_values": {
+    "org.role": [
+      "admin",
+      "reader"
+    ],
+    "org.tenant": [
+      "t-pay",
+      "t-ops"
+    ],
+    "auth.acr": [
+      "aal2"
+    ]
+  },
+  "forbid_path_dots_escape": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}
