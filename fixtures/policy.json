@@ -1,0 +1,26 @@
+{
+  "allowed_ref_prefixes": [
+    "refs/heads/",
+    "refs/tags/"
+  ],
+  "denied_ref_names": [
+    "refs/heads/main",
+    "refs/heads/master"
+  ],
+  "protect_prefixes": [
+    "refs/heads/release/",
+    "refs/tags/v"
+  ],
+  "force_require_actors": [
+    "release-bot"
+  ],
+  "actors": [
+    "alice",
+    "bob",
+    "release-bot"
+  ],
+  "oid_hex_len": 40,
+  "forbid_delete": true,
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 600
+}

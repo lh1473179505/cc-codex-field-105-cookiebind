@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "ref": "refs/heads/feature/pay",
+  "old_oid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "new_oid": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "actor": "alice",
+  "force": false,
+  "iat": 1781783985,
+  "nonce": "n-deny-revoked",
+  "sig": "I6N4U3oyjENMSb4DMYPsEV8bjl12ID2PMfFWyTapIuU"
+}

@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "ref": "refs/heads/feature/pay",
+  "old_oid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "new_oid": "0000000000000000000000000000000000000000",
+  "actor": "alice",
+  "force": false,
+  "iat": 1781783985,
+  "nonce": "n-deny-delete",
+  "sig": "o_Pn8YQ8DgvLbEGpjUAC26b7wtDyUyHwjhh7rIvy7ao"
+}

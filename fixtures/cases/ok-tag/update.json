@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "ref": "refs/tags/v1.2.3",
+  "old_oid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "new_oid": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "actor": "release-bot",
+  "force": true,
+  "iat": 1781783985,
+  "nonce": "n-ok-tag",
+  "sig": "bLukEftUjRlcIIWTTdYd-K6dheOl_smaw2b7jhRl_bg"
+}

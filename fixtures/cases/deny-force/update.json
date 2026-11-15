@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "ref": "refs/heads/release/1.0",
+  "old_oid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "new_oid": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "actor": "alice",
+  "force": true,
+  "iat": 1781783985,
+  "nonce": "n-deny-force",
+  "sig": "3kyrEI3Tnez0ht0ARGtaEjAz5Gf3eCA4IoT9nffS7MM"
+}

@@ -1,0 +1,11 @@
+{
+  "kid": "k-active",
+  "ref": "refs/heads//evil",
+  "old_oid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "new_oid": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "actor": "alice",
+  "force": false,
+  "iat": 1781783985,
+  "nonce": "n-deny-slash",
+  "sig": "5D2RYf7n9lKahE7PlE8A0KvmxEdFmHRH-ecDlpWVTK8"
+}
