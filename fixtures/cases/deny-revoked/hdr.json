@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "host": "pay.example",
+  "max_age": 31536000,
+  "include_sub": 1,
+  "preload": 1,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "RilmYaR8BsjH0wCeyizUrXL8hubtQGJq4BfU7i9wJWQ"
+}

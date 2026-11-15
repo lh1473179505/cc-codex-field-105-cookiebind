@@ -1,0 +1,10 @@
+{
+  "host": "ops.example",
+  "max_age": 86400,
+  "include_sub": 0,
+  "preload": 0,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "cDjOHP6tuQcJfBAgXmv5tWO5XNKj33BR0P4bLmtQhrk"
+}

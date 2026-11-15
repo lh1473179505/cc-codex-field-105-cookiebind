@@ -1,0 +1,17 @@
+{
+  "hosts": {
+    "pay.example": {
+      "max_age_min": 31536000,
+      "require_sub": true,
+      "allow_preload": true
+    },
+    "ops.example": {
+      "max_age_min": 86400,
+      "require_sub": false,
+      "allow_preload": false
+    }
+  },
+  "forbid_preload_without_sub": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

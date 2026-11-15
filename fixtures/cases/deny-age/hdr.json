@@ -1,0 +1,10 @@
+{
+  "host": "pay.example",
+  "max_age": 100,
+  "include_sub": 1,
+  "preload": 0,
+  "nonce": "n-deny-age",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SY_oMGZMMIitwPXcZW-Od61QpAhYcvA52GFFSsz0uD4"
+}

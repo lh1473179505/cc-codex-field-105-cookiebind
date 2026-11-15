@@ -1,0 +1,10 @@
+{
+  "host": "evil.example",
+  "max_age": 31536000,
+  "include_sub": 1,
+  "preload": 0,
+  "nonce": "n-deny-host",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PL1uzBD6dXcRErjcXagBikXybuvJWhAMWtcwQo9B51w"
+}
