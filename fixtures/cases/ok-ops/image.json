@@ -1,0 +1,13 @@
+{
+  "ref": "ghcr.io/ops/bot@sha256:2c8648d103e3dd7ad87660da0f126a1443b6d21ac1bd3ec000c5e24e2373a90c",
+  "digest": "sha256:2c8648d103e3dd7ad87660da0f126a1443b6d21ac1bd3ec000c5e24e2373a90c",
+  "platform": "linux/arm64",
+  "cap_drop": [
+    "ALL"
+  ],
+  "seccomp": "localhost/pay-seccomp.json",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "HxXrJs3APEE0dbCdKKqa771bpy7jxUV2Bo_PVulJods"
+}

@@ -1,0 +1,25 @@
+{
+  "allowed_repos": [
+    "ghcr.io/pay/",
+    "ghcr.io/ops/"
+  ],
+  "digest_prefix": "sha256:",
+  "allowed_platforms": [
+    "linux/amd64",
+    "linux/arm64"
+  ],
+  "required_cap_drop": [
+    "ALL"
+  ],
+  "forbidden_caps": [
+    "SYS_ADMIN",
+    "NET_ADMIN"
+  ],
+  "allowed_seccomp": [
+    "runtime/default",
+    "localhost/pay-seccomp.json"
+  ],
+  "forbid_mutable_tag_only": true,
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 900
+}

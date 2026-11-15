@@ -1,0 +1,13 @@
+{
+  "ref": "ghcr.io/pay/api@sha256:2c8648d103e3dd7ad87660da0f126a1443b6d21ac1bd3ec000c5e24e2373a90c",
+  "digest": "sha1:abcd",
+  "platform": "linux/amd64",
+  "cap_drop": [
+    "ALL"
+  ],
+  "seccomp": "runtime/default",
+  "nonce": "n-deny-digest",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Qk02sDsoOjDdQ7N6fcwR83au1Y76S0ckbaY5eZudUc8"
+}
