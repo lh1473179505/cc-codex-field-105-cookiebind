@@ -1,0 +1,10 @@
+{
+  "operation": "PayQuery",
+  "depth": 3,
+  "complexity": 40,
+  "fields": "viewer",
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}

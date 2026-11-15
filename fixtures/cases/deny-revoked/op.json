@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "operation": "PayQuery",
+  "depth": 3,
+  "complexity": 40,
+  "fields": "viewer",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "wnDL4MfxISRaNGGvh2hqLzpNpUnbzCzJqvRbm0SSt1A"
+}

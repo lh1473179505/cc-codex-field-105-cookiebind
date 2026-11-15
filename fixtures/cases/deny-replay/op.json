@@ -1,0 +1,10 @@
+{
+  "operation": "PayQuery",
+  "depth": 3,
+  "complexity": 40,
+  "fields": "viewer",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "sPuzhJB-Y1Cf24v9NHXIDgcRdCD8jrVBP4OZeyacxdA"
+}

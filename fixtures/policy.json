@@ -1,0 +1,27 @@
+{
+  "operations": {
+    "PayQuery": {
+      "field_allow": [
+        "viewer",
+        "order",
+        "payment"
+      ],
+      "depth_max": 5,
+      "complexity_max": 100
+    },
+    "OpsMutation": {
+      "field_allow": [
+        "runJob"
+      ],
+      "depth_max": 3,
+      "complexity_max": 40
+    }
+  },
+  "forbid_fields": [
+    "__schema",
+    "__type",
+    "password"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

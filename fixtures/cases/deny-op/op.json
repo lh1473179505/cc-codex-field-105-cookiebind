@@ -1,0 +1,10 @@
+{
+  "operation": "Evil",
+  "depth": 1,
+  "complexity": 1,
+  "fields": "viewer",
+  "nonce": "n-deny-op",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "yn6wWUnbJ71xtz6DG8N40wtAjGD9CCs18WxGnsXthPc"
+}
