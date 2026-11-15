@@ -26,18 +26,27 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
+    # Any load failure exits 2 and must not touch the store or report.
+    try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+    except (OSError, ValueError) as exc:
+        print(f"load failure: {exc}", file=sys.stderr)
+        return 2
     now = None
     if args.now:
-        # accept unix int or leave None for stub
+        # accept unix int or ISO-8601 timestamp
         try:
             now = int(args.now)
         except ValueError:
-            from datetime import datetime, timezone
-            now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
+            try:
+                from datetime import datetime
+                now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
+            except ValueError as exc:
+                print(f"load failure: {exc}", file=sys.stderr)
+                return 2
     try:
         report = admit_object(obj, keys, policy, store, now)
     except ValueError as e:
