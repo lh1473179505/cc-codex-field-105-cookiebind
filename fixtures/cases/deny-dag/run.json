@@ -1,0 +1,10 @@
+{
+  "dag_id": "evil",
+  "owner": "alice",
+  "pool": "pay",
+  "queue": "kubernetes",
+  "nonce": "n-deny-dag",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "oB-7Wren-MldecsK8Bq0W-eOEons_gMsLqLDSbKusqI"
+}

@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "dag_id": "pay_etl",
+  "owner": "alice",
+  "pool": "pay",
+  "queue": "kubernetes",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "ZWH883zyzqYemrzqTqMdxDXVDh3juAgu-PqZgFsR2Po"
+}

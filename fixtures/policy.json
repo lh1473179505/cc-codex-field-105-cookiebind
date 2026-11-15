@@ -1,0 +1,36 @@
+{
+  "dags": {
+    "pay_etl": {
+      "owners": [
+        "alice",
+        "pay-ci"
+      ],
+      "pools": [
+        "pay"
+      ],
+      "queues": [
+        "kubernetes"
+      ]
+    },
+    "ops_rotate": {
+      "owners": [
+        "bob",
+        "ops-ci"
+      ],
+      "pools": [
+        "ops"
+      ],
+      "queues": [
+        "default",
+        "kubernetes"
+      ]
+    }
+  },
+  "dag_deny_substrings": [
+    "..",
+    "/",
+    " "
+  ],
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 600
+}

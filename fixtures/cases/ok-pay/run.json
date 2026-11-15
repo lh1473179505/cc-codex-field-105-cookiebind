@@ -1,0 +1,10 @@
+{
+  "dag_id": "pay_etl",
+  "owner": "alice",
+  "pool": "pay",
+  "queue": "kubernetes",
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "UE_-2M5iQAp76YlPA1WjTD3JpbV4T0mIxw5UJvYg_Xw"
+}

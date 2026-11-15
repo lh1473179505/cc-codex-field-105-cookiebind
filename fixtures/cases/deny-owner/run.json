@@ -1,0 +1,10 @@
+{
+  "dag_id": "pay_etl",
+  "owner": "eve",
+  "pool": "pay",
+  "queue": "kubernetes",
+  "nonce": "n-deny-owner",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "cZvZkCf8mW2Q7eMCUCvnm0hiUY9An4Nn6HDN9kGSlBo"
+}

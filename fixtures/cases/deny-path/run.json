@@ -1,0 +1,10 @@
+{
+  "dag_id": "pay/../ops",
+  "owner": "alice",
+  "pool": "pay",
+  "queue": "kubernetes",
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "wSGWHD1lHAwgBdOoiA1VIXhPt1nKUsfa-rt2DrXDeLQ"
+}

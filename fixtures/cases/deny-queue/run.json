@@ -1,0 +1,10 @@
+{
+  "dag_id": "pay_etl",
+  "owner": "alice",
+  "pool": "pay",
+  "queue": "default",
+  "nonce": "n-deny-queue",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5tAWmef4CIIpyfGuqDMbY7KODkTGwyElGj7gvupA0C8"
+}
