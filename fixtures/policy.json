@@ -1,0 +1,19 @@
+{
+  "trusted_roots": [
+    "ROOTA",
+    "ROOTB"
+  ],
+  "allowed_eku": [
+    "serverAuth"
+  ],
+  "allowed_dns_suffixes": [
+    ".pay.example",
+    ".ops.example"
+  ],
+  "require_chain_leaf_first": true,
+  "min_chain_len": 2,
+  "max_chain_len": 4,
+  "forbid_duplicate_certs": true,
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 86400
+}

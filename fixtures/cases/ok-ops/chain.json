@@ -1,0 +1,15 @@
+{
+  "leaf": "LEAF_OPS",
+  "chain": [
+    "LEAF_OPS",
+    "INTB",
+    "ROOTB"
+  ],
+  "eku": "serverAuth",
+  "dns": "bot.ops.example",
+  "exp": 1781787600,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "z8HihfBuzW65qzqxPcXR9YYTyfXkxtZGHszVNeVDUyc"
+}

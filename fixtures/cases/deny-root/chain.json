@@ -1,0 +1,15 @@
+{
+  "leaf": "LEAF_X",
+  "chain": [
+    "LEAF_X",
+    "INTX",
+    "ROOTEVIL"
+  ],
+  "eku": "serverAuth",
+  "dns": "api.pay.example",
+  "exp": 1781787600,
+  "nonce": "n-deny-root",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ithHigZAOJeyzme8a-EyN6QhAwNemjypSzQ8Hmcbybc"
+}

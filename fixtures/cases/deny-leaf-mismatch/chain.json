@@ -1,0 +1,15 @@
+{
+  "leaf": "LEAF_PAY",
+  "chain": [
+    "LEAF_OTHER",
+    "INTA",
+    "ROOTA"
+  ],
+  "eku": "serverAuth",
+  "dns": "api.pay.example",
+  "exp": 1781787600,
+  "nonce": "n-deny-leaf-mismatch",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "0GAWZBqRndMgsJim8g7lOIObShKvvhttFe5_T-fL52c"
+}
