@@ -1,0 +1,11 @@
+{
+  "bucket": "ops-bot",
+  "subject": "svc:bot",
+  "cost": 1,
+  "window": "5m",
+  "burst": 2,
+  "nonce": "n-deny-window",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "HU8Kumslxybs5uDyawmcVdCUZMKeuCXO8G7djCA2OVs"
+}

@@ -1,0 +1,11 @@
+{
+  "bucket": "ops-bot",
+  "subject": "user:alice",
+  "cost": 1,
+  "window": "1m",
+  "burst": 2,
+  "nonce": "n-deny-sub",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PbI6m9OXjNQvk2D-4T2Wt2LNtzSCZXrcqynCEZfVwp0"
+}

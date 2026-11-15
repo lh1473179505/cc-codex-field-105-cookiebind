@@ -1,0 +1,11 @@
+{
+  "bucket": "pay-api",
+  "subject": "user:alice",
+  "cost": -1,
+  "window": "1m",
+  "burst": 5,
+  "nonce": "n-deny-neg",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SfUuH-sTf2THQ62YjbfUewDOtFr_JBDmvJRhlN8VcDY"
+}

@@ -1,0 +1,11 @@
+{
+  "bucket": "evil",
+  "subject": "user:alice",
+  "cost": 2,
+  "window": "1m",
+  "burst": 5,
+  "nonce": "n-deny-bucket",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "xmoNlPKx5SCjtbaUtpAfoXcWit3tm665HXfFiCSOhho"
+}

@@ -1,0 +1,29 @@
+{
+  "buckets": {
+    "pay-api": {
+      "subjects_prefix": [
+        "user:",
+        "svc:"
+      ],
+      "cost_max": 10,
+      "windows": [
+        "1m",
+        "5m"
+      ],
+      "burst_max": 20
+    },
+    "ops-bot": {
+      "subjects_prefix": [
+        "svc:"
+      ],
+      "cost_max": 3,
+      "windows": [
+        "1m"
+      ],
+      "burst_max": 5
+    }
+  },
+  "forbid_negative_cost": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}
