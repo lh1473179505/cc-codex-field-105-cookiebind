@@ -1,0 +1,10 @@
+{
+  "map_id": "10",
+  "key_hex": "aabbccdd",
+  "value_sha256": "d4ea4d2fc5684d4a84060b062cb855e622f5f9256b3e2a7bbc647f8f8f17a529",
+  "pin": "/tmp/evil",
+  "nonce": "n-deny-pin",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "kCTSp0QylJkBie0a_mhbtWUZggfwCQOvfmqZZWeG8nU"
+}

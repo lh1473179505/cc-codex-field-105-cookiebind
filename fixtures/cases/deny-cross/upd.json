@@ -1,0 +1,10 @@
+{
+  "map_id": "10",
+  "key_hex": "aabbccdd",
+  "value_sha256": "d4ea4d2fc5684d4a84060b062cb855e622f5f9256b3e2a7bbc647f8f8f17a529",
+  "pin": "/sys/fs/bpf/ops/drop",
+  "nonce": "n-deny-cross",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "apk31_0wBHIh-UTCSZdbXy0PE61TGxuO5uaH2pqMhJQ"
+}

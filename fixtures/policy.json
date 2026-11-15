@@ -1,0 +1,22 @@
+{
+  "maps": {
+    "10": {
+      "key_bytes": 4,
+      "pin_prefix": "/sys/fs/bpf/pay/",
+      "max_entries_hint": 1024
+    },
+    "11": {
+      "key_bytes": 8,
+      "pin_prefix": "/sys/fs/bpf/ops/",
+      "max_entries_hint": 256
+    }
+  },
+  "pin_deny_substrings": [
+    "..",
+    "//",
+    "\u0000"
+  ],
+  "value_sha256_hex_len": 64,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

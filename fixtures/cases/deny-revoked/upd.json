@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "map_id": "10",
+  "key_hex": "aabbccdd",
+  "value_sha256": "d4ea4d2fc5684d4a84060b062cb855e622f5f9256b3e2a7bbc647f8f8f17a529",
+  "pin": "/sys/fs/bpf/pay/conn",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "IrxqUdsmrSZ5VkWhLZQxPB-G7N1j-oYo7Yy_LvkoZ3s"
+}

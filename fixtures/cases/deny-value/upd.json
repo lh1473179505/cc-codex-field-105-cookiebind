@@ -1,0 +1,10 @@
+{
+  "map_id": "10",
+  "key_hex": "aabbccdd",
+  "value_sha256": "zz",
+  "pin": "/sys/fs/bpf/pay/conn",
+  "nonce": "n-deny-value",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "msu6zERgyDdcj2nl-CagDV6mS1PigwHi3fQGZ3p_Qkg"
+}
