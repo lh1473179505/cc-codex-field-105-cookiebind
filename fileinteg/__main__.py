@@ -5,6 +5,17 @@ import sys
 from .engine import admit_object, inspect_object
 from .load import load_json, load_store, save_store
 
+def _load_inputs(args) -> tuple | None:
+    try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+    except (OSError, ValueError) as e:
+        print(f"load failure: {e}", file=sys.stderr)
+        return None
+    return obj, keys, policy, store
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="python -m fileinteg")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -22,14 +33,18 @@ def main(argv: list[str] | None = None) -> int:
 
     args = ap.parse_args(argv)
     if args.cmd == "inspect":
-        obj = load_json(args.input)
+        try:
+            obj = load_json(args.input)
+        except (OSError, ValueError) as e:
+            print(f"load failure: {e}", file=sys.stderr)
+            return 2
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
+    loaded = _load_inputs(args)
+    if loaded is None:
+        return 2
+    obj, keys, policy, store = loaded
     now = None
     if args.now:
         # accept unix int or leave None for stub
