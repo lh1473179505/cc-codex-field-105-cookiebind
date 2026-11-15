@@ -1,0 +1,26 @@
+{
+  "rps": {
+    "pay.example": {
+      "aaguids": [
+        "AAGUID-PAY",
+        "AAGUID-YUBI"
+      ],
+      "require_uv": true,
+      "user_prefix": [
+        "user:"
+      ]
+    },
+    "ops.example": {
+      "aaguids": [
+        "AAGUID-OPS"
+      ],
+      "require_uv": true,
+      "user_prefix": [
+        "svc:",
+        "user:"
+      ]
+    }
+  },
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

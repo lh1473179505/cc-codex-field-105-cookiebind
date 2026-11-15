@@ -1,0 +1,10 @@
+{
+  "rp_id": "pay.example",
+  "user_id": "user:alice",
+  "aaguid": "AAGUID-PAY",
+  "uv": 1,
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Xm7YOvl2MxAnLyM-H6uM4pPH_YmHDhgOzdS4lu83RPY"
+}

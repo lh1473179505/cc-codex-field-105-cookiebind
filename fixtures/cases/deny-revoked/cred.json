@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "rp_id": "pay.example",
+  "user_id": "user:alice",
+  "aaguid": "AAGUID-PAY",
+  "uv": 1,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "8TJ8YA6oSHeHLFjnrowLS-2wSpHIhbLrliwimfTJ5gw"
+}

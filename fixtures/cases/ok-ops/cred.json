@@ -1,0 +1,10 @@
+{
+  "rp_id": "ops.example",
+  "user_id": "svc:bot",
+  "aaguid": "AAGUID-OPS",
+  "uv": 1,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jAk_CUsdOXj_1D87WLTKBsJ5dE0cBxdcC16zsLEJTrA"
+}

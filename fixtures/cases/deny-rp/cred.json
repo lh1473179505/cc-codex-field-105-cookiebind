@@ -1,0 +1,10 @@
+{
+  "rp_id": "evil.example",
+  "user_id": "user:alice",
+  "aaguid": "AAGUID-PAY",
+  "uv": 1,
+  "nonce": "n-deny-rp",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "0SBscnn4tIgFMpX3H80jNoRCiy9jqxsLV_O8RK87fPU"
+}
