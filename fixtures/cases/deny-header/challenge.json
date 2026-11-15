@@ -1,0 +1,18 @@
+{
+  "kid": "k-active",
+  "method": "GET",
+  "host": "app.example.com",
+  "raw_path": "/v1/items",
+  "query": "page=1&q=a",
+  "headers": {
+    "x-request-id": "r-3",
+    "x-forwarded-host": "evil.example"
+  },
+  "origin": "https://app.example.com",
+  "content_type": "",
+  "body_sha256": "",
+  "iat": 1781783980,
+  "exp": 1781784180,
+  "nonce": "n-deny-header",
+  "sig": "20z70fNozxj5Vn_Kye5ZgjRX-FYNO9_Ny19B1ZrytOE"
+}

@@ -1,0 +1,17 @@
+{
+  "kid": "k-active",
+  "method": "POST",
+  "host": "app.example.com",
+  "raw_path": "/v1/items",
+  "query": "page=1&q=a",
+  "headers": {
+    "x-request-id": "r-1"
+  },
+  "origin": "https://app.example.com",
+  "content_type": "text/plain",
+  "body_sha256": "39f94024cbcf740958d8bb6e25095e33ee260776744698ff4e0d43a4454bf72f",
+  "iat": 1781783980,
+  "exp": 1781784180,
+  "nonce": "n-deny-ctype",
+  "sig": "pUQo9AJm2PQw19S5NcrPVhGas5yBx_R72YohpZ-UedI"
+}

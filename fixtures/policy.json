@@ -1,0 +1,47 @@
+{
+  "allowed_hosts": [
+    "app.example.com",
+    "api.example.com"
+  ],
+  "allowed_methods": [
+    "GET",
+    "POST"
+  ],
+  "path_allow_prefixes": [
+    "/v1/",
+    "/public/"
+  ],
+  "path_deny_prefixes": [
+    "/admin",
+    "/internal",
+    "/v1/admin"
+  ],
+  "strict_query": true,
+  "allowed_query_keys": [
+    "page",
+    "q",
+    "trace"
+  ],
+  "required_headers": [
+    "x-request-id"
+  ],
+  "denied_headers": [
+    "x-forwarded-host",
+    "x-original-url"
+  ],
+  "credentials_mode": true,
+  "require_origin_for_credentials": true,
+  "allowed_origins": [
+    "https://app.example.com",
+    "https://api.example.com"
+  ],
+  "require_body_hash_for": [
+    "POST"
+  ],
+  "allowed_content_types": [
+    "application/json",
+    "application/x-www-form-urlencoded"
+  ],
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 300
+}

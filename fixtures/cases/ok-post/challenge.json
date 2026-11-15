@@ -1,0 +1,17 @@
+{
+  "kid": "k-active",
+  "method": "POST",
+  "host": "api.example.com",
+  "raw_path": "/v1/checkout",
+  "query": "page=1&q=a",
+  "headers": {
+    "x-request-id": "r-2"
+  },
+  "origin": "https://api.example.com",
+  "content_type": "application/json",
+  "body_sha256": "39f94024cbcf740958d8bb6e25095e33ee260776744698ff4e0d43a4454bf72f",
+  "iat": 1781783980,
+  "exp": 1781784180,
+  "nonce": "n-ok-post",
+  "sig": "9dtdS63gjmdfsqCtsyTr2LwjXeoK7RtgheEWOCwdJzs"
+}
