@@ -1,0 +1,46 @@
+{
+  "tenants": {
+    "t-pay": {
+      "tables": [
+        "orders",
+        "payments"
+      ],
+      "ops": [
+        "SELECT",
+        "UPDATE"
+      ],
+      "pred_require": [
+        "tenant_id"
+      ],
+      "pred_allow": [
+        "tenant_id",
+        "status",
+        "id"
+      ]
+    },
+    "t-ops": {
+      "tables": [
+        "jobs"
+      ],
+      "ops": [
+        "SELECT"
+      ],
+      "pred_require": [
+        "tenant_id"
+      ],
+      "pred_allow": [
+        "tenant_id",
+        "state"
+      ]
+    }
+  },
+  "pred_deny_substrings": [
+    ";",
+    "--",
+    " ",
+    "OR",
+    "or"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

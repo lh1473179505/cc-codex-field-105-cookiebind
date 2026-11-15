@@ -1,0 +1,10 @@
+{
+  "tenant": "t-ops",
+  "table": "orders",
+  "op": "SELECT",
+  "pred": "tenant_id",
+  "nonce": "n-deny-table",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pbclGfrJoMVPBL3ijAYLyuDrD9Pj7T_bVFuWBAVYS54"
+}

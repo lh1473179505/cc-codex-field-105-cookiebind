@@ -1,0 +1,10 @@
+{
+  "tenant": "t-evil",
+  "table": "orders",
+  "op": "SELECT",
+  "pred": "tenant_id",
+  "nonce": "n-deny-tenant",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RPwFZhYTr28uzs7LwknrG71hfSozz6_IHmio1x9jAVg"
+}

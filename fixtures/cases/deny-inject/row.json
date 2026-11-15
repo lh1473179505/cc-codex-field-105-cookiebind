@@ -1,0 +1,10 @@
+{
+  "tenant": "t-pay",
+  "table": "orders",
+  "op": "SELECT",
+  "pred": "tenant_id;drop",
+  "nonce": "n-deny-inject",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "A4WxREz0NOUpnveeMF0qdeFwuEh2Xm74AvrL4vypYe4"
+}

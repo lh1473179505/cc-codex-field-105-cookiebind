@@ -1,0 +1,10 @@
+{
+  "tenant": "t-pay",
+  "table": "orders",
+  "op": "SELECT",
+  "pred": "tenant_id,id",
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "zXBTJsDrP_UKA9QbnNJYzeTI40tGWaoWWV8fUq74mdQ"
+}

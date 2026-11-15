@@ -1,0 +1,10 @@
+{
+  "tenant": "t-ops",
+  "table": "jobs",
+  "op": "UPDATE",
+  "pred": "tenant_id",
+  "nonce": "n-deny-op",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "znSXPvR_yhXruvx8quxdLWlGoEF17JOw1yQwSEW-fO8"
+}

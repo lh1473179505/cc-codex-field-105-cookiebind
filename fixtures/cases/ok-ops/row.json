@@ -1,0 +1,10 @@
+{
+  "tenant": "t-ops",
+  "table": "jobs",
+  "op": "SELECT",
+  "pred": "tenant_id,state",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "N2jMnpaX_4GlfXy2NcwcHkHjVRVF9eeW7r5pr8MiNyg"
+}

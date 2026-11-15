@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "tenant": "t-pay",
+  "table": "orders",
+  "op": "SELECT",
+  "pred": "tenant_id,id",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "5gZvRMzKTjcTOjPtU8pV66IEz5VzoXyARAsuJmwy2wk"
+}
