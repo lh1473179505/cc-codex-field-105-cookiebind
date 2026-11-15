@@ -1,0 +1,10 @@
+{
+  "oid": "sha256:c0e2e04a83dfb5b561ba319509234ce2a445b7f946d8fcdc3bbb49f3f0033d80",
+  "size": 2000,
+  "repo": "ops/tools",
+  "path": "bins/tool",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "fPLWOPqR4l7TvuRUvpkdLxNcsO-dQETgIz3ZgqrSyPM"
+}

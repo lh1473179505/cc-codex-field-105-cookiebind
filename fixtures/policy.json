@@ -1,0 +1,27 @@
+{
+  "repos": {
+    "pay/app": {
+      "path_prefixes": [
+        "assets/",
+        "models/"
+      ],
+      "size_max": 10485760,
+      "oid_prefix": "sha256:"
+    },
+    "ops/tools": {
+      "path_prefixes": [
+        "bins/"
+      ],
+      "size_max": 5242880,
+      "oid_prefix": "sha256:"
+    }
+  },
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\"
+  ],
+  "oid_hex_len": 64,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

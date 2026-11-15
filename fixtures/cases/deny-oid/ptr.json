@@ -1,0 +1,10 @@
+{
+  "oid": "sha1:abcd",
+  "size": 1000,
+  "repo": "pay/app",
+  "path": "assets/a.bin",
+  "nonce": "n-deny-oid",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QL7Gevu8tosPl1D6Io_cFP1Mi4dEAKUJhoZGVapzm_w"
+}

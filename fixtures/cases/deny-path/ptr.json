@@ -1,0 +1,10 @@
+{
+  "oid": "sha256:c0e2e04a83dfb5b561ba319509234ce2a445b7f946d8fcdc3bbb49f3f0033d80",
+  "size": 1000,
+  "repo": "pay/app",
+  "path": "secrets/a",
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "gR3IRDqbm6qT80s4EjFlNarNklxOIb1S4qGCNJVLpj0"
+}

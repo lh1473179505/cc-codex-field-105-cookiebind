@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "oid": "sha256:c0e2e04a83dfb5b561ba319509234ce2a445b7f946d8fcdc3bbb49f3f0033d80",
+  "size": 1000,
+  "repo": "pay/app",
+  "path": "assets/a.bin",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "fTdiz0iP_83tkmMoP1ERR1HP44kg16YvRtz6KyRqMpM"
+}
