@@ -1,0 +1,12 @@
+{
+  "dn": "ou=bots,dc=ops,dc=example",
+  "filter": "(cn=bot1)",
+  "scope": "base",
+  "attrs": [
+    "cn"
+  ],
+  "nonce": "n-ok-bots",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mXqN0A4-w8UKIzDExaw51cWf-Q1IsxoFKNTQ3KhnPPA"
+}

@@ -1,0 +1,12 @@
+{
+  "dn": "ou=people,dc=pay,dc=example",
+  "filter": "(uid=alice)",
+  "scope": "subtree",
+  "attrs": [
+    "uid"
+  ],
+  "nonce": "n-deny-scope",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RcTEJVw72uQ6Lxr7WiLOVdlMlBuEcqpp_zWzqtLTwMg"
+}

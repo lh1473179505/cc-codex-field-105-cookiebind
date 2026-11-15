@@ -1,0 +1,12 @@
+{
+  "dn": "ou=people,dc=evil,dc=example",
+  "filter": "(uid=alice)",
+  "scope": "one",
+  "attrs": [
+    "uid"
+  ],
+  "nonce": "n-deny-base",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "kUrYRZ0KkbhRwS4xG4pJE98XpkGf4oRM3dAaHV-O2xc"
+}

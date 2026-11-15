@@ -1,0 +1,13 @@
+{
+  "dn": "ou=people,dc=pay,dc=example",
+  "filter": "(uid=alice)",
+  "scope": "one",
+  "attrs": [
+    "uid",
+    "mail"
+  ],
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}

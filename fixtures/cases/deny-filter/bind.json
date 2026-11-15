@@ -1,0 +1,12 @@
+{
+  "dn": "ou=people,dc=pay,dc=example",
+  "filter": "(uid=alice)(uid=bob)",
+  "scope": "one",
+  "attrs": [
+    "uid"
+  ],
+  "nonce": "n-deny-filter",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "MPO2_XYPfu1En_f76TfSm7cdE_PUu7oXnCF9JxMZWmU"
+}

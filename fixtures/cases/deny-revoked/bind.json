@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "dn": "ou=people,dc=pay,dc=example",
+  "filter": "(uid=alice)",
+  "scope": "one",
+  "attrs": [
+    "uid",
+    "mail"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "paI0cgvztH6pmTDmL1e-kp4Dgc9FvLKuQwQ_gh3UNjs"
+}

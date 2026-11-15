@@ -1,0 +1,40 @@
+{
+  "allowed_bases": [
+    "ou=people,dc=pay,dc=example",
+    "ou=bots,dc=ops,dc=example"
+  ],
+  "dn_require_lowercase": true,
+  "dn_deny_substrings": [
+    "\\",
+    "+",
+    "\"",
+    "<",
+    ">",
+    ";",
+    "\u0000"
+  ],
+  "allowed_scopes": [
+    "base",
+    "one",
+    "sub"
+  ],
+  "filter_allow_prefixes": [
+    "(uid=",
+    "(cn="
+  ],
+  "filter_deny_substrings": [
+    ")(",
+    "|",
+    "&",
+    "*",
+    "\\"
+  ],
+  "attrs_allow": [
+    "uid",
+    "cn",
+    "mail"
+  ],
+  "attrs_max": 3,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}
