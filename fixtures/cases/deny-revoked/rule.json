@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "rule_id": "pay.shell",
+  "priority": "ERROR",
+  "condition": "proc.name = bash",
+  "output": "user,proc",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "U_bPwTwOhpeWeVqH2nK0IgleaHqT0Ob_7k_ZgfrJpXw"
+}

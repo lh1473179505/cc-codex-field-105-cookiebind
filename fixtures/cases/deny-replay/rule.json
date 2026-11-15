@@ -1,0 +1,10 @@
+{
+  "rule_id": "pay.shell",
+  "priority": "ERROR",
+  "condition": "proc.name = bash",
+  "output": "user,proc",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5tfwkifMr6ERYqeB3lyEtPjlSdd_uZCDf7BYWfKqrwM"
+}

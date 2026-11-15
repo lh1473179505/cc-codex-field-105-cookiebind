@@ -1,0 +1,10 @@
+{
+  "rule_id": "pay.shell",
+  "priority": "ERROR",
+  "condition": "proc.name = bash",
+  "output": "user,proc",
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "OYymJmOKKVBS08BxuwaS6XLXYyNsPHzdw0C9uIwugwY"
+}

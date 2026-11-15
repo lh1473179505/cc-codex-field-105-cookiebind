@@ -1,0 +1,10 @@
+{
+  "rule_id": "evil.shell",
+  "priority": "ERROR",
+  "condition": "proc.name = bash",
+  "output": "user",
+  "nonce": "n-deny-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "vSRsh1qU9M6flsVU2301o0HRm-lVojzIoebwIBTKXwI"
+}

@@ -1,0 +1,10 @@
+{
+  "rule_id": "pay.shell",
+  "priority": "DEBUG",
+  "condition": "proc.name = bash",
+  "output": "user",
+  "nonce": "n-deny-prio",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6tbUVr6t9R7B9m7it9GRpCdVq3YpqlDxmVy2jNXF58Q"
+}

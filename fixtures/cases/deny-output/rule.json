@@ -1,0 +1,10 @@
+{
+  "rule_id": "pay.shell",
+  "priority": "ERROR",
+  "condition": "proc.name = bash",
+  "output": "password",
+  "nonce": "n-deny-output",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "dWVfAUgTnw0vn-7lPLRTdDFEs_7tsDgmF9kzCydKR2s"
+}

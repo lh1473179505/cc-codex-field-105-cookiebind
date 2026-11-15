@@ -1,0 +1,10 @@
+{
+  "rule_id": "pay.shell",
+  "priority": "ERROR",
+  "condition": "ka.xxx = 1",
+  "output": "user",
+  "nonce": "n-deny-token",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pgnp87nmEpa8Q7VlgB3USkOTXaxigJOilMH_5KC4_vs"
+}

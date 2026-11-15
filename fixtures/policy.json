@@ -1,0 +1,34 @@
+{
+  "priorities": [
+    "WARNING",
+    "ERROR",
+    "CRITICAL"
+  ],
+  "condition_allow_tokens": [
+    "proc.name",
+    "fd.name",
+    "container.id",
+    "and",
+    "or",
+    "=",
+    "exists"
+  ],
+  "condition_deny_substrings": [
+    ";",
+    "`",
+    "$(",
+    "../"
+  ],
+  "output_allow_fields": [
+    "user",
+    "proc",
+    "fd",
+    "container"
+  ],
+  "rule_id_prefix": [
+    "pay.",
+    "ops."
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,10 @@
+{
+  "rule_id": "ops.fd",
+  "priority": "WARNING",
+  "condition": "fd.name exists",
+  "output": "fd,container",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Fj8FFp0IA4J47YtL1c6E2PGQ0eD3ZU2nPt5iY58FNZ8"
+}
