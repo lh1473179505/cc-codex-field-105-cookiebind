@@ -2,9 +2,18 @@
 
 Signing input (ASCII, no spaces beyond those inside field values that docs forbid):
 
-`v1|{kid}|{primitives_csv}|{obf_layers}|{sample_class}`
+`v1|{kid}|{payload_digest}`
 
-HMAC-SHA256 over that line, then base64url without `=` padding.
+`payload_digest` is the lowercase hex SHA-256 of the canonical JSON
+(`sort_keys=True`, `separators=(",", ":")`, UTF-8) of the object's content
+fields: every top-level field except `kid`, `sig`, and underscore-prefixed
+metadata. The digest commits the signature to the payload attributes that the
+classifier derives `primitives`, `obf_layers`, and `sample_class` from.
+Underscore-prefixed fields such as `_sign_line` are untrusted hints and are
+never used as the signing input.
+
+HMAC-SHA256 over that line with the hex-decoded key secret, then base64url
+without `=` padding.
 
 ## Interacting gates
 
