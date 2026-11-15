@@ -20,3 +20,19 @@ String prefix checks are insufficient (e.g. `10.10.0.0/24` vs `10.10.1.0/24`).
 
 ## Compatibility
 inspect echo-only; deny does not write store.
+
+## Reason codes
+Short-circuit at the first failed gate; every deny report carries exactly one code:
+
+1. `unknown_kid`, `kid_revoked`, `bad_signature`
+2. `unknown_pubkey`, `bad_endpoint_suffix`
+3. `bad_endpoint_ip`
+4. `default_route`, `denied_cidr`, `outside_pool`
+5. `bad_keepalive`
+6. `bad_psk`
+7. `iat_out_of_window`, `nonce_replay`
+
+The nonce is inserted into `store.items` only when the final decision is allow.
+Default-route entries inside `denied_cidrs` (prefix length 0) only match an
+allowed network that is itself a default route; non-default denied CIDRs use the
+symmetric overlap test (equal, `subnet_of` in either direction).
