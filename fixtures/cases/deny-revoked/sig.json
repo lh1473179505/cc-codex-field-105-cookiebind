@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "sid": 1000001,
+  "proto": "http",
+  "msg": "ET PAY shell",
+  "content": "cmd.exe",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "pDvmM9UhUpy-AcNS2HiXov7qErI_XVqmwl6mlr80Af8"
+}

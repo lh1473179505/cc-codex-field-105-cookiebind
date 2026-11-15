@@ -1,0 +1,10 @@
+{
+  "sid": 1000001,
+  "proto": "http",
+  "msg": "ET PAY shell",
+  "content": "../etc/passwd",
+  "nonce": "n-deny-content",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "GOL8xPhqAr2w1HguYlFhQAooF4AR1CQswXKd6Mh4p_A"
+}

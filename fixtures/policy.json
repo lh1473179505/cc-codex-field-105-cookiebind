@@ -1,0 +1,29 @@
+{
+  "sid_ranges": [
+    [
+      1000000,
+      1000999
+    ],
+    [
+      2000000,
+      2000099
+    ]
+  ],
+  "protos": [
+    "tcp",
+    "udp",
+    "http"
+  ],
+  "msg_prefixes": [
+    "ET PAY",
+    "ET OPS"
+  ],
+  "content_deny_substrings": [
+    "\u0000",
+    "../",
+    "`"
+  ],
+  "content_max_len": 64,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

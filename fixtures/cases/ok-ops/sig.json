@@ -1,0 +1,10 @@
+{
+  "sid": 2000001,
+  "proto": "tcp",
+  "msg": "ET OPS scan",
+  "content": "nmap",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mahgb2_gHa4fjeMrENrYFJDm647rwApyoSizDvjaFi0"
+}

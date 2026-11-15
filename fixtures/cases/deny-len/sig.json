@@ -1,0 +1,10 @@
+{
+  "sid": 1000001,
+  "proto": "http",
+  "msg": "ET PAY shell",
+  "content": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "nonce": "n-deny-len",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "OUU8er4W2hSfBisQ2kHUQBDIRRmxMOs8lkofVLlx7r8"
+}

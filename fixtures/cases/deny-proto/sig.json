@@ -1,0 +1,10 @@
+{
+  "sid": 1000001,
+  "proto": "icmp",
+  "msg": "ET PAY shell",
+  "content": "cmd.exe",
+  "nonce": "n-deny-proto",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "gw8Zswh9xOXiMYFrzWBkTUA1oENEbtDJr2pMCuSqlW4"
+}

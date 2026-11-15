@@ -1,0 +1,10 @@
+{
+  "sid": 1000001,
+  "proto": "http",
+  "msg": "ET PAY shell",
+  "content": "cmd.exe",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "porrqX6nbstyz51qAYi9FBxdneBnQxL5gcv17Joq3B0"
+}

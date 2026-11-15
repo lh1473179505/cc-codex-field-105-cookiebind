@@ -1,0 +1,10 @@
+{
+  "sid": 1000001,
+  "proto": "http",
+  "msg": "EVIL",
+  "content": "cmd.exe",
+  "nonce": "n-deny-msg",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2shgs7q_kQs6on23jWJI5LKTg7lMx3wis9BBm94ZBkM"
+}
