@@ -1,0 +1,10 @@
+{
+  "principal": "cluster.local/ns/ops/sa/bot",
+  "ns": "ops",
+  "path": "/v1/ops/status",
+  "method": "POST",
+  "nonce": "n-deny-method",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "7OSD0eAZroJMBnrYBCLj6YeWiav0z56tDsqrxx_71Kc"
+}

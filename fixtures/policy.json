@@ -1,0 +1,35 @@
+{
+  "principals": {
+    "cluster.local/ns/pay/sa/api": {
+      "ns": [
+        "pay"
+      ],
+      "paths": [
+        "/v1/",
+        "/healthz"
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ]
+    },
+    "cluster.local/ns/ops/sa/bot": {
+      "ns": [
+        "ops"
+      ],
+      "paths": [
+        "/v1/ops/"
+      ],
+      "methods": [
+        "GET"
+      ]
+    }
+  },
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "%2e"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

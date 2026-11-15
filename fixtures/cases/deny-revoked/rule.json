@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "principal": "cluster.local/ns/pay/sa/api",
+  "ns": "pay",
+  "path": "/v1/charge",
+  "method": "POST",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "7KFRy7Kacbg7kTvcdFSTk33KJPcNY8Tf2fq-GJ8N6iE"
+}

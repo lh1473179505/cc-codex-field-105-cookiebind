@@ -1,0 +1,10 @@
+{
+  "principal": "cluster.local/ns/ops/sa/bot",
+  "ns": "ops",
+  "path": "/v1/ops/status",
+  "method": "GET",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iDcSCDKlLHX9JpTcxYabwEXz-0gpw5mPCEWW-xGX67s"
+}

@@ -1,0 +1,10 @@
+{
+  "principal": "cluster.local/ns/pay/sa/api",
+  "ns": "pay",
+  "path": "/admin",
+  "method": "GET",
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "A86jAHXVSRyIOGJGpBkNjTj0En7QQMNoy4m-ivzucTk"
+}

@@ -1,0 +1,10 @@
+{
+  "principal": "cluster.local/ns/pay/sa/api",
+  "ns": "pay",
+  "path": "/v1/charge",
+  "method": "POST",
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}

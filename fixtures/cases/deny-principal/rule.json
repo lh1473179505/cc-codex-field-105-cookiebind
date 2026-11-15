@@ -1,0 +1,10 @@
+{
+  "principal": "cluster.local/ns/evil/sa/x",
+  "ns": "pay",
+  "path": "/v1/charge",
+  "method": "GET",
+  "nonce": "n-deny-principal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "o7_H2Mk5YoiVU5h6SuapQUBlEFHYJY1_g6nw8D5nObk"
+}
