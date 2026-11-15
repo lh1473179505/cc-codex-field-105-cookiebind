@@ -1,0 +1,10 @@
+{
+  "lock_id": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "workspace": "ops-dev",
+  "backend": "s3://ops-tf/state",
+  "who": "ops-ci",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "G9a-DZixjMGoPQzmY1zrZ6dmlkdrrxCvaTBvIw6dvB8"
+}

@@ -1,0 +1,31 @@
+{
+  "workspaces": {
+    "pay-prod": {
+      "backends": [
+        "s3://pay-tf/state",
+        "s3://pay-tf/state-replica"
+      ],
+      "owners": [
+        "alice",
+        "pay-ci"
+      ]
+    },
+    "ops-dev": {
+      "backends": [
+        "s3://ops-tf/state"
+      ],
+      "owners": [
+        "bob",
+        "ops-ci"
+      ]
+    }
+  },
+  "lock_id_hex_len": 32,
+  "backend_deny_substrings": [
+    "..",
+    " ",
+    "?"
+  ],
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 600
+}

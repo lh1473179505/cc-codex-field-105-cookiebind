@@ -1,0 +1,10 @@
+{
+  "lock_id": "zz",
+  "workspace": "pay-prod",
+  "backend": "s3://pay-tf/state",
+  "who": "alice",
+  "nonce": "n-deny-lock",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "1c8pf0IQkakA5bKOJ_nMTwrdiQ4okBigP_VkuqYV-QU"
+}

@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "lock_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "workspace": "pay-prod",
+  "backend": "s3://pay-tf/state",
+  "who": "alice",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "A5RX6LSNlV8D50yrFEMFCoI0LF5Rz7qIs5qgTalTNeQ"
+}

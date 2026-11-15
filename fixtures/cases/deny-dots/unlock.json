@@ -1,0 +1,10 @@
+{
+  "lock_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "workspace": "pay-prod",
+  "backend": "s3://pay-tf/../evil",
+  "who": "alice",
+  "nonce": "n-deny-dots",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "KMDY_mx1qmsPigO1opdourO40sGcfkZ5Rk8wZk51jrw"
+}
