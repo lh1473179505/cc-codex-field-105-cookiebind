@@ -1,0 +1,10 @@
+{
+  "catalog": "hive",
+  "schema": "ops",
+  "table": "metrics",
+  "user": "ops",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "YPIqxkrILhO6yotvtEhoD_yZwdZvt3tIQP6AnHzb91U"
+}

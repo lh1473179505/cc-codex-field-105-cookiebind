@@ -1,0 +1,10 @@
+{
+  "catalog": "hive",
+  "schema": "pay",
+  "table": "secrets",
+  "user": "analyst",
+  "nonce": "n-deny-table",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "3pewsuk7Reuchlw9KU-TlIBXf-CtpK_sHHMoYSRAA5o"
+}

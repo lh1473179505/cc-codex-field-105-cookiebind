@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "catalog": "hive",
+  "schema": "pay",
+  "table": "orders",
+  "user": "analyst",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "U6q76iq0HhQyKsSR_40GgyCvMqM6Ss_oObWOc-mKzEI"
+}

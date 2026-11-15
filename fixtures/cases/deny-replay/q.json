@@ -1,0 +1,10 @@
+{
+  "catalog": "hive",
+  "schema": "pay",
+  "table": "orders",
+  "user": "analyst",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "NdOtJzhkj1WaYLkR1VcD3TEpRa16ziMedm2SdeeDcYk"
+}

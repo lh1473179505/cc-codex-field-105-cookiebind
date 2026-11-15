@@ -1,0 +1,43 @@
+{
+  "users": {
+    "analyst": {
+      "catalogs": [
+        "hive"
+      ],
+      "schemas": {
+        "hive": [
+          "pay"
+        ]
+      },
+      "tables": {
+        "hive.pay": [
+          "orders",
+          "events"
+        ]
+      }
+    },
+    "ops": {
+      "catalogs": [
+        "hive"
+      ],
+      "schemas": {
+        "hive": [
+          "ops"
+        ]
+      },
+      "tables": {
+        "hive.ops": [
+          "metrics"
+        ]
+      }
+    }
+  },
+  "ident_deny": [
+    ";",
+    " ",
+    ".",
+    ".."
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}
