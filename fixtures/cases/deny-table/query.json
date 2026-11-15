@@ -1,0 +1,13 @@
+{
+  "schema": "pay",
+  "table": "users",
+  "op": "SELECT",
+  "params": [
+    "p1"
+  ],
+  "where_cols": "id",
+  "nonce": "n-deny-table",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "i09lsZVcg5AQ9-9QShfuE2LBXH7iktHXD762mF06vmA"
+}

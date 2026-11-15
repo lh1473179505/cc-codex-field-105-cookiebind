@@ -1,0 +1,13 @@
+{
+  "schema": "pay",
+  "table": "orders",
+  "op": "SELECT",
+  "params": [
+    "p1"
+  ],
+  "where_cols": "id",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "eT2M-JUySFUSc6fUeKIJs_xERTO9G5dBFxaTgTo5Rhc"
+}

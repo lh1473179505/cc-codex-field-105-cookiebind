@@ -1,0 +1,47 @@
+{
+  "schemas": {
+    "pay": {
+      "tables": [
+        "orders",
+        "payments"
+      ],
+      "ops": [
+        "SELECT",
+        "INSERT"
+      ],
+      "where_allow": [
+        "id",
+        "user_id",
+        "status"
+      ]
+    },
+    "ops": {
+      "tables": [
+        "jobs"
+      ],
+      "ops": [
+        "SELECT"
+      ],
+      "where_allow": [
+        "id",
+        "state"
+      ]
+    }
+  },
+  "ident_deny_substrings": [
+    ";",
+    "--",
+    "/*",
+    "*/",
+    " ",
+    "'",
+    "\"",
+    "`",
+    ".."
+  ],
+  "require_lowercase_idents": true,
+  "params_max": 4,
+  "where_cols_csv_max": 3,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

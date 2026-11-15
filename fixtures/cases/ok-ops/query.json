@@ -1,0 +1,13 @@
+{
+  "schema": "ops",
+  "table": "jobs",
+  "op": "SELECT",
+  "params": [
+    "p1"
+  ],
+  "where_cols": "state",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "R5NCr_HRXoaE0sYqpPKrJxXTcxFENo4EzXXCiDp3Ytc"
+}

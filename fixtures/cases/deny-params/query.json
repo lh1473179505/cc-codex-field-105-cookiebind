@@ -1,0 +1,17 @@
+{
+  "schema": "pay",
+  "table": "orders",
+  "op": "SELECT",
+  "params": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "where_cols": "id",
+  "nonce": "n-deny-params",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "nrxYXWmyfpUvbYhumGoJJns8fgkX-48EsZL2wz2uiM8"
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "ops",
+  "table": "jobs",
+  "op": "DELETE",
+  "params": [
+    "p1"
+  ],
+  "where_cols": "id",
+  "nonce": "n-deny-op",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "7m81kHBSwDJ9zJ7eIInhl-T6DDLtbMJT44ohRRN2Iuw"
+}

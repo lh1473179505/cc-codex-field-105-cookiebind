@@ -1,0 +1,13 @@
+{
+  "schema": "pay",
+  "table": "orders;drop",
+  "op": "SELECT",
+  "params": [
+    "p1"
+  ],
+  "where_cols": "id",
+  "nonce": "n-deny-inject",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZFn9vKnXh0YzoRE6CJ81GGcE--FXiodgx7TvMRL4n-s"
+}

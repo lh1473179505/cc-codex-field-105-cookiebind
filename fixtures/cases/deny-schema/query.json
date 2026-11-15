@@ -1,0 +1,13 @@
+{
+  "schema": "evil",
+  "table": "orders",
+  "op": "SELECT",
+  "params": [
+    "p1"
+  ],
+  "where_cols": "id",
+  "nonce": "n-deny-schema",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "H2dm7cx_4FN_maawqYXEhYb_PtsOj_pMHYFUxsBm6vE"
+}

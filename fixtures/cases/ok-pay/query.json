@@ -1,0 +1,14 @@
+{
+  "schema": "pay",
+  "table": "orders",
+  "op": "SELECT",
+  "params": [
+    "p1",
+    "p2"
+  ],
+  "where_cols": "id,user_id",
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "DlDfhkSVSdSzh2AfwW535Ov6yk4PIwHJSZT_LJz2CNY"
+}
