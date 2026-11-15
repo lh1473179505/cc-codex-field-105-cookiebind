@@ -1,0 +1,12 @@
+{
+  "principal": "spiffe://evil/x",
+  "path": "/v1/pay/charge",
+  "method": "POST",
+  "headers": {
+    "x-request-id": "r1"
+  },
+  "nonce": "n-deny-principal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "HrBOSPuukOUYfCjTP5TJ1O4Y0HZGFQMAW8Qp2OswOTI"
+}

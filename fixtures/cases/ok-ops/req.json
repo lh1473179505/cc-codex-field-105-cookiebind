@@ -1,0 +1,13 @@
+{
+  "principal": "spiffe://ops/bot",
+  "path": "/v1/ops/status",
+  "method": "GET",
+  "headers": {
+    "x-request-id": "r2",
+    "x-bot": "1"
+  },
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6YRqClRGtTmkX3-KF3qEJ7025-51iFwq3LXtbKGZbY4"
+}

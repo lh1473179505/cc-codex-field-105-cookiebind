@@ -1,0 +1,12 @@
+{
+  "principal": "spiffe://pay/api",
+  "path": "/v1/pay/charge",
+  "method": "POST",
+  "headers": {
+    "x-request-id": "r1"
+  },
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "7nS4Cmk3fDQ1DC1YogPVDlohJWHc9t1LgfMgce2UH0g"
+}

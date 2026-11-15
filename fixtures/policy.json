@@ -1,0 +1,43 @@
+{
+  "principals": {
+    "spiffe://pay/api": {
+      "path_prefixes": [
+        "/v1/pay/",
+        "/healthz"
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "require_headers": {
+        "x-request-id": null
+      },
+      "deny_headers": [
+        "x-envoy-original-path"
+      ]
+    },
+    "spiffe://ops/bot": {
+      "path_prefixes": [
+        "/v1/ops/"
+      ],
+      "methods": [
+        "GET"
+      ],
+      "require_headers": {
+        "x-request-id": null,
+        "x-bot": "1"
+      },
+      "deny_headers": [
+        "x-envoy-original-path"
+      ]
+    }
+  },
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "%2e",
+    "%2E"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

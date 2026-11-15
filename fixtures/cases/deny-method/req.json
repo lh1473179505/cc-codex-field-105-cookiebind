@@ -1,0 +1,13 @@
+{
+  "principal": "spiffe://ops/bot",
+  "path": "/v1/ops/status",
+  "method": "POST",
+  "headers": {
+    "x-request-id": "r2",
+    "x-bot": "1"
+  },
+  "nonce": "n-deny-method",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "XHmdVKeckvhsCAbt2X94WIKeV6phgQfBlgYLcGgoSgk"
+}

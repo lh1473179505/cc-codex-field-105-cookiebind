@@ -1,0 +1,12 @@
+{
+  "principal": "spiffe://pay/api",
+  "path": "/v1/ops/status",
+  "method": "GET",
+  "headers": {
+    "x-request-id": "r1"
+  },
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "dDAaWmY1iM6g0lQXMSFkB-6_DjMzVE-iZa__jCl1JwM"
+}

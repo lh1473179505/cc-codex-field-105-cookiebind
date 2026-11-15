@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "principal": "spiffe://pay/api",
+  "path": "/v1/pay/charge",
+  "method": "POST",
+  "headers": {
+    "x-request-id": "r1"
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "r62BFSt-cE7Nc98gM4_ehEgqU2h_KW_hMltjw0sD8XQ"
+}
