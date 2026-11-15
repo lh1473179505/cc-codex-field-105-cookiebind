@@ -1,0 +1,15 @@
+{
+  "algs": [
+    "RS256",
+    "ES256"
+  ],
+  "overlap_min": 300,
+  "overlap_max": 86400,
+  "forbid_same_kid": true,
+  "allowed_issuers": [
+    "https://auth.pay.example",
+    "https://auth.ops.example"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,11 @@
+{
+  "issuer": "https://auth.pay.example",
+  "kid_new": "pay-1",
+  "kid_old": "pay-1",
+  "overlap": 3600,
+  "alg": "RS256",
+  "nonce": "n-deny-same",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ynVNLJ6w_6uOzA8gzmH_YVj3oFAf5qGGqIjHb3kyHqw"
+}

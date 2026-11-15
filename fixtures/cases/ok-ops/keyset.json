@@ -1,0 +1,11 @@
+{
+  "issuer": "https://auth.ops.example",
+  "kid_new": "ops-2",
+  "kid_old": "ops-1",
+  "overlap": 7200,
+  "alg": "ES256",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "hrh0C7OZeZqyco_0742TDYLnACF6tMhUinOnX5xVybM"
+}
