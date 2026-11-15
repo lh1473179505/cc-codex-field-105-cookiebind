@@ -5,6 +5,15 @@ import sys
 from .engine import admit_object, inspect_object
 from .load import load_json, load_store, save_store
 
+
+def _parse_now(raw: str) -> int:
+    try:
+        return int(raw)
+    except ValueError:
+        from datetime import datetime
+        return int(datetime.fromisoformat(raw.replace("Z", "+00:00")).timestamp())
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="python -m auditmatch")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -22,22 +31,23 @@ def main(argv: list[str] | None = None) -> int:
 
     args = ap.parse_args(argv)
     if args.cmd == "inspect":
-        obj = load_json(args.input)
+        try:
+            obj = load_json(args.input)
+        except (OSError, ValueError) as e:
+            print(str(e), file=sys.stderr)
+            return 2
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
-    now = None
-    if args.now:
-        # accept unix int or leave None for stub
-        try:
-            now = int(args.now)
-        except ValueError:
-            from datetime import datetime, timezone
-            now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
+    try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+        now = _parse_now(args.now) if args.now else None
+    except (OSError, ValueError) as e:
+        print(str(e), file=sys.stderr)
+        return 2
     try:
         report = admit_object(obj, keys, policy, store, now)
     except ValueError as e:
