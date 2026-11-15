@@ -1,0 +1,12 @@
+{
+  "kid": "k-active",
+  "purl": "pkg:npm/lodash@4.17.21",
+  "registry": "registry.npmjs.org",
+  "name": "lodash",
+  "version": "4.17.21",
+  "digest": "sha1:abcd",
+  "license": "MIT",
+  "iat": 1781783960,
+  "nonce": "n-deny-digest",
+  "sig": "IBnFYyhB_AWXAuVhYWRP7KeCLTV9YMRe76oXL1hQtlQ"
+}

@@ -1,0 +1,12 @@
+{
+  "kid": "k-active",
+  "purl": "pkg:pypi/requests@2.32.0",
+  "registry": "pypi.org",
+  "name": "requests",
+  "version": "2.32.0",
+  "digest": "sha256:db4b4d0d1cb480bf9aeea253771c00febe627f236765fa37d6a5614f079a3aa0",
+  "license": "Apache-2.0",
+  "iat": 1781783960,
+  "nonce": "n-ok-pypi",
+  "sig": "tiT9Oa2zXYU1OHoUXb45WSvAmq0l345e49sBEfhVoDU"
+}

@@ -1,0 +1,12 @@
+{
+  "kid": "k-active",
+  "purl": "pkg:gem/foo@1.0",
+  "registry": "registry.npmjs.org",
+  "name": "foo",
+  "version": "1.0",
+  "digest": "sha256:db4b4d0d1cb480bf9aeea253771c00febe627f236765fa37d6a5614f079a3aa0",
+  "license": "MIT",
+  "iat": 1781783960,
+  "nonce": "n-deny-type",
+  "sig": "nc22UfSeA2mYQp1JG2npZGC0-34XDmP4bjYvc3_P0-k"
+}

@@ -1,0 +1,23 @@
+{
+  "allowed_types": [
+    "pkg:npm",
+    "pkg:pypi"
+  ],
+  "allowed_registries": [
+    "registry.npmjs.org",
+    "pypi.org"
+  ],
+  "denied_names": [
+    "evil-pkg",
+    "left-pad-malware"
+  ],
+  "allowed_licenses": [
+    "MIT",
+    "Apache-2.0"
+  ],
+  "digest_alg": "sha256",
+  "require_lowercase_name": true,
+  "forbid_uppercase_in_purl": true,
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 900
+}
