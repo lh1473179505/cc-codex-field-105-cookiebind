@@ -1,0 +1,26 @@
+{
+  "client_acl": {
+    "sensor-1": [
+      "devices/sensor-1/#",
+      "telemetry/sensor-1/+/metric"
+    ],
+    "sensor-2": [
+      "devices/sensor-2/#"
+    ]
+  },
+  "cn_patterns": {
+    "sensor-1": "^CN=sensor-1,",
+    "sensor-2": "^CN=sensor-2,"
+  },
+  "forbid_publish_wildcards": true,
+  "forbid_share_prefix": true,
+  "forbid_sys_prefix": true,
+  "retain_allow_prefixes": [
+    "devices/"
+  ],
+  "max_qos": 1,
+  "retain_forces_qos0": true,
+  "max_payload_bytes": 64,
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 300
+}
