@@ -1,0 +1,10 @@
+{
+  "kid": "k-revoked",
+  "db": "pay",
+  "cmd": "find",
+  "coll": "orders",
+  "user": "pay-app",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "EULVcqPYn8Q_fusdNyPcY0wY7Ivl3gMX5h8loIC_t30"
+}

@@ -1,0 +1,10 @@
+{
+  "db": "pay",
+  "cmd": "find",
+  "coll": "orders",
+  "user": "pay-app",
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}

@@ -1,0 +1,10 @@
+{
+  "db": "ops",
+  "cmd": "insert",
+  "coll": "jobs",
+  "user": "ops-ro",
+  "nonce": "n-deny-cmd",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "84vLUF2z8jlQZGRjtz8cXaqWG4kdyK4KuvkshCMzaUs"
+}

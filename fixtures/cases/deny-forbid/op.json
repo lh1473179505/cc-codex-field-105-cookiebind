@@ -1,0 +1,10 @@
+{
+  "db": "pay",
+  "cmd": "drop",
+  "coll": "orders",
+  "user": "pay-app",
+  "nonce": "n-deny-forbid",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZcJm1hJmJFb-wOyFFxCawxu6QEH6gZBQxSJvzXYF2a4"
+}

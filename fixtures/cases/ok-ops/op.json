@@ -1,0 +1,10 @@
+{
+  "db": "ops",
+  "cmd": "find",
+  "coll": "jobs",
+  "user": "ops-ro",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "rdTw4HOF4e_xFuvncoCv0JB0167309CgvibdJlg07tg"
+}

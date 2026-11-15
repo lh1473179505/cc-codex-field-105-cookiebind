@@ -1,0 +1,44 @@
+{
+  "users": {
+    "pay-app": {
+      "dbs": [
+        "pay"
+      ],
+      "colls": {
+        "pay": [
+          "orders",
+          "payments"
+        ]
+      },
+      "cmds": [
+        "find",
+        "insert"
+      ]
+    },
+    "ops-ro": {
+      "dbs": [
+        "ops"
+      ],
+      "colls": {
+        "ops": [
+          "jobs"
+        ]
+      },
+      "cmds": [
+        "find"
+      ]
+    }
+  },
+  "forbid_cmds": [
+    "drop",
+    "eval",
+    "mapReduce"
+  ],
+  "ident_deny": [
+    "$",
+    ";",
+    " "
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}

@@ -1,0 +1,10 @@
+{
+  "db": "pay",
+  "cmd": "find",
+  "coll": "orders",
+  "user": "root",
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jibGoOZi1ttkI72_6wZTCPoSQ8nHCgrD6ribzsB9rIM"
+}

@@ -1,0 +1,10 @@
+{
+  "db": "pay",
+  "cmd": "find",
+  "coll": "users",
+  "user": "pay-app",
+  "nonce": "n-deny-coll",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "msE3mgIkSgDVdzRi_ABfoF_a3TvaUHziuwXAqd7qzok"
+}
