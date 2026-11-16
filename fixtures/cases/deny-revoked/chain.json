@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "host": "pay.example",
+  "max_age": 31536000,
+  "include_sub": 1,
+  "preload": 1,
+  "report_uri": "https://reports.pay.example/csp/hsts",
+  "ct_log": "argon2026",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "gh4fHC1xOcvnxELG4Qo7VWVjKIFzmIJD4Vm1IpKifxs"
+}

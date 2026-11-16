@@ -1,0 +1,46 @@
+{
+  "hosts": {
+    "pay.example": {
+      "aliases": [
+        "www.pay.example",
+        "pay.example."
+      ],
+      "max_age_min": 31536000,
+      "require_sub": true,
+      "allow_preload": true,
+      "require_preload_if_listed": true,
+      "preload_listed": true,
+      "report_hosts": [
+        "reports.pay.example"
+      ],
+      "ct_logs": [
+        "argon2026",
+        "xenon2026"
+      ]
+    },
+    "ops.example": {
+      "aliases": [
+        "ops.example."
+      ],
+      "max_age_min": 86400,
+      "require_sub": false,
+      "allow_preload": false,
+      "require_preload_if_listed": true,
+      "preload_listed": false,
+      "report_hosts": [
+        "reports.ops.example"
+      ],
+      "ct_logs": [
+        "argon2026"
+      ]
+    }
+  },
+  "forbid_preload_without_sub": true,
+  "forbid_userinfo_report": true,
+  "forbid_http_report": true,
+  "report_path_prefix": "/csp/",
+  "host_normalize_strip_dot": true,
+  "host_normalize_www": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

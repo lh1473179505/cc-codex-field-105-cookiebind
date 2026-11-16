@@ -1,0 +1,12 @@
+{
+  "host": "ops.example",
+  "max_age": 86400,
+  "include_sub": 0,
+  "preload": 0,
+  "report_uri": "https://reports.ops.example/csp/hsts",
+  "ct_log": "argon2026",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "GKRlEPSEBH64_3iRbuO9d53TdBTV_KhLpCkUdlTeTMM"
+}

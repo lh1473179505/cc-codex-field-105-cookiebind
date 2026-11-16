@@ -1,0 +1,12 @@
+{
+  "host": "pay.example",
+  "max_age": 31536000,
+  "include_sub": 0,
+  "preload": 1,
+  "report_uri": "https://reports.pay.example/csp/hsts",
+  "ct_log": "argon2026",
+  "nonce": "n-deny-preload-sub",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "JO2INuFq23c9NPSj0ZIG_6Wm03RxSSmhrdJNZm7N2bY"
+}
