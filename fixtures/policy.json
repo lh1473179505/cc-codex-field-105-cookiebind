@@ -1,0 +1,55 @@
+{
+  "from_domains": {
+    "pay.example": {
+      "return_path_domains": [
+        "bounce.pay.example",
+        "pay.example"
+      ],
+      "dkim_d": [
+        "pay.example",
+        "mail.pay.example"
+      ],
+      "arc_i_max": 3,
+      "cv_allow": [
+        "pass"
+      ],
+      "require_body_hash": true,
+      "allowed_relays": [
+        "mx1.pay.example",
+        "mx2.pay.example"
+      ]
+    },
+    "ops.example": {
+      "return_path_domains": [
+        "ops.example"
+      ],
+      "dkim_d": [
+        "ops.example"
+      ],
+      "arc_i_max": 2,
+      "cv_allow": [
+        "pass",
+        "none"
+      ],
+      "require_body_hash": true,
+      "allowed_relays": [
+        "mx.ops.example"
+      ]
+    }
+  },
+  "forbid_cv_fail": true,
+  "body_sha256_len": 64,
+  "addr_deny_substrings": [
+    " ",
+    "\"",
+    "(",
+    ")"
+  ],
+  "from_local_deny": [
+    "admin",
+    "root",
+    "postmaster"
+  ],
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 600
+}

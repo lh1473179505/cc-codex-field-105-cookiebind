@@ -1,0 +1,13 @@
+{
+  "from_addr": "a@pay.example",
+  "return_path": "n@pay.example",
+  "dkim_d": "pay.example",
+  "arc_i": 1,
+  "cv": "pass",
+  "body_sha256": "643c2b37a505da1c0679ecb74efe1a4a01cc1859d2439c1d2561dc06cd5dbb90",
+  "relay": "mx.evil.example",
+  "nonce": "n-deny-relay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pWKxuWOWAvfWfUzanfkGjtIAOQk7WsaPyKTvBPt4b60"
+}
