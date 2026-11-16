@@ -1,0 +1,15 @@
+{
+  "sni": "api.pay.example",
+  "version": "TLS1.3",
+  "cipher": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+  "alpn": [
+    "h2"
+  ],
+  "early_data": 1,
+  "max_early": 4096,
+  "lifetime": 3600,
+  "nonce": "n-deny-cipher",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "sV8Hb30LCETIiCenIqcVSAAcUngqK1J_XgRcnNHzues"
+}

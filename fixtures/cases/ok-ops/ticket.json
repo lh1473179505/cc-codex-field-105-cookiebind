@@ -1,0 +1,15 @@
+{
+  "sni": "ops.example",
+  "version": "TLS1.2",
+  "cipher": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+  "alpn": [
+    "h2"
+  ],
+  "early_data": 0,
+  "max_early": 0,
+  "lifetime": 1800,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "7v2UxsGN6sF3-iTVlUvNpiLFD9oN2SmMr1ulYW0LQrw"
+}

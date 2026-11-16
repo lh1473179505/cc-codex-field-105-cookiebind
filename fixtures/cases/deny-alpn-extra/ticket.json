@@ -1,0 +1,16 @@
+{
+  "sni": "ops.example",
+  "version": "TLS1.3",
+  "cipher": "TLS_AES_256_GCM_SHA384",
+  "alpn": [
+    "h2",
+    "http/1.1"
+  ],
+  "early_data": 0,
+  "max_early": 0,
+  "lifetime": 1800,
+  "nonce": "n-deny-alpn-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QIVjy37RBsSz2fuzI-Icjy2P9trKIU9Lt3gMLpm1de0"
+}

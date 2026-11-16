@@ -1,0 +1,47 @@
+{
+  "hosts": {
+    "api.pay.example": {
+      "versions": [
+        "TLS1.3"
+      ],
+      "ciphers": [
+        "TLS_AES_256_GCM_SHA384"
+      ],
+      "alpn_allowed": [
+        "h2",
+        "http/1.1"
+      ],
+      "alpn_required": [
+        "h2"
+      ],
+      "early_allowed": true,
+      "max_early_limit": 16384,
+      "lifetime_min": 300,
+      "lifetime_max": 7200
+    },
+    "ops.example": {
+      "versions": [
+        "TLS1.2",
+        "TLS1.3"
+      ],
+      "ciphers": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+      ],
+      "alpn_allowed": [
+        "h2"
+      ],
+      "alpn_required": [
+        "h2"
+      ],
+      "early_allowed": false,
+      "max_early_limit": 0,
+      "lifetime_min": 600,
+      "lifetime_max": 3600
+    }
+  },
+  "require_unique_alpn": true,
+  "zero_early_when_disabled": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

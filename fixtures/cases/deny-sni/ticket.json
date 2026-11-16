@@ -1,0 +1,15 @@
+{
+  "sni": "evil.example",
+  "version": "TLS1.3",
+  "cipher": "TLS_AES_256_GCM_SHA384",
+  "alpn": [
+    "h2"
+  ],
+  "early_data": 1,
+  "max_early": 4096,
+  "lifetime": 3600,
+  "nonce": "n-deny-sni",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "shk6GorHvCkpG3bgew-NlL-uvbY69V2aqdORIJz9oH0"
+}
