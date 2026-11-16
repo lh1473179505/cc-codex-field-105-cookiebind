@@ -1,0 +1,56 @@
+{
+  "tools": {
+    "payscan": {
+      "rules": {
+        "PAY-SQL": [
+          "error"
+        ],
+        "PAY-XSS": [
+          "error",
+          "warning"
+        ]
+      },
+      "uri_prefixes": [
+        "services/pay/"
+      ],
+      "required_fingerprints": [
+        "primary",
+        "context"
+      ]
+    },
+    "opsscan": {
+      "rules": {
+        "OPS-SECRET": [
+          "critical"
+        ],
+        "OPS-PATH": [
+          "warning"
+        ]
+      },
+      "uri_prefixes": [
+        "infra/ops/"
+      ],
+      "required_fingerprints": [
+        "primary"
+      ]
+    }
+  },
+  "allowed_fingerprint_keys": [
+    "primary",
+    "context"
+  ],
+  "fingerprint_value_min_len": 8,
+  "fingerprint_value_max_len": 64,
+  "line_min": 1,
+  "line_max": 200000,
+  "uri_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "%2e",
+    "%2E",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "opsscan",
+  "rule_id": "OPS-SECRET",
+  "level": "critical",
+  "uri": "infra/ops/deploy/config.tf",
+  "start_line": 8,
+  "end_line": 8,
+  "fingerprints": {
+    "primary": "short"
+  },
+  "nonce": "n-deny-fingerprint-value",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "My-2Kqgvy-GLWxSE790wB0J-uDIqWBxw8htfmqVf1vs"
+}

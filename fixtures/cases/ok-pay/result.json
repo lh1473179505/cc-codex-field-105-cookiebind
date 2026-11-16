@@ -1,0 +1,16 @@
+{
+  "tool": "payscan",
+  "rule_id": "PAY-SQL",
+  "level": "error",
+  "uri": "services/pay/api/query.py",
+  "start_line": 20,
+  "end_line": 24,
+  "fingerprints": {
+    "primary": "fp-pay-0001",
+    "context": "ctx-pay-0001"
+  },
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "3dCMP-TpAZJAZQdom3w8hp4YVOeTcmO_Dzvzlut2x6E"
+}
