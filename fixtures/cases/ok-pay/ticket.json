@@ -1,0 +1,17 @@
+{
+  "realm": "EXAMPLE.COM",
+  "spn": "HTTP/web01.pay.example@EXAMPLE.COM",
+  "enctypes": [
+    "aes256-cts-hmac-sha1-96",
+    "aes128-cts-hmac-sha1-96"
+  ],
+  "pac": 1,
+  "client": "user/alice",
+  "addresses": [
+    "10.20.4.8"
+  ],
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "8DsBwlwPMIQHmZl2NvDePQJCpaXaIDB_b2rWUWbFXY8"
+}

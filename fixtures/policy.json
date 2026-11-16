@@ -1,0 +1,48 @@
+{
+  "realms": {
+    "EXAMPLE.COM": {
+      "services": [
+        "HTTP",
+        "host"
+      ],
+      "host_suffixes": [
+        ".pay.example"
+      ],
+      "enctypes": [
+        "aes256-cts-hmac-sha1-96",
+        "aes128-cts-hmac-sha1-96"
+      ],
+      "required_enctype": "aes256-cts-hmac-sha1-96",
+      "client_prefixes": [
+        "user/",
+        "svc/"
+      ],
+      "client_cidrs": [
+        "10.20.0.0/16"
+      ]
+    },
+    "OPS.EXAMPLE": {
+      "services": [
+        "host"
+      ],
+      "host_suffixes": [
+        ".ops.example"
+      ],
+      "enctypes": [
+        "aes256-cts-hmac-sha1-96"
+      ],
+      "required_enctype": "aes256-cts-hmac-sha1-96",
+      "client_prefixes": [
+        "svc/"
+      ],
+      "client_cidrs": [
+        "10.30.0.0/16"
+      ]
+    }
+  },
+  "require_pac": true,
+  "max_addresses": 2,
+  "forbid_duplicate_addresses": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

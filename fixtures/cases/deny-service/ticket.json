@@ -1,0 +1,16 @@
+{
+  "realm": "OPS.EXAMPLE",
+  "spn": "HTTP/bot01.ops.example@OPS.EXAMPLE",
+  "enctypes": [
+    "aes256-cts-hmac-sha1-96"
+  ],
+  "pac": 1,
+  "client": "svc/bot",
+  "addresses": [
+    "10.30.2.7"
+  ],
+  "nonce": "n-deny-service",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "26qhPoM9KWphAG7gc7gN5PU1_9I2lucKugCYmaCKHFY"
+}
