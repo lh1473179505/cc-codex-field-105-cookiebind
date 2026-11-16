@@ -1,0 +1,64 @@
+{
+  "profiles": {
+    "pay-device": {
+      "cn_suffixes": [
+        ".devices.pay.example"
+      ],
+      "dns_suffixes": [
+        ".devices.pay.example"
+      ],
+      "key_algs": [
+        "RSA"
+      ],
+      "key_bits": [
+        3072,
+        4096
+      ],
+      "required_usage": [
+        "digitalSignature",
+        "keyEncipherment"
+      ],
+      "allowed_usage": [
+        "digitalSignature",
+        "keyEncipherment"
+      ],
+      "challenge_prefixes": [
+        "scep-pay-"
+      ],
+      "challenge_min_len": 20
+    },
+    "ops-server": {
+      "cn_suffixes": [
+        ".servers.ops.example"
+      ],
+      "dns_suffixes": [
+        ".servers.ops.example"
+      ],
+      "key_algs": [
+        "RSA"
+      ],
+      "key_bits": [
+        4096
+      ],
+      "required_usage": [
+        "digitalSignature",
+        "keyEncipherment",
+        "keyAgreement"
+      ],
+      "allowed_usage": [
+        "digitalSignature",
+        "keyEncipherment",
+        "keyAgreement"
+      ],
+      "challenge_prefixes": [
+        "scep-ops-"
+      ],
+      "challenge_min_len": 20
+    }
+  },
+  "require_cn_in_dns": true,
+  "require_unique_dns": true,
+  "max_dns_names": 3,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

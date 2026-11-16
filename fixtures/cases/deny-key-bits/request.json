@@ -1,0 +1,19 @@
+{
+  "profile": "ops-server",
+  "cn": "api01.servers.ops.example",
+  "dns_names": [
+    "api01.servers.ops.example"
+  ],
+  "key_alg": "RSA",
+  "key_bits": 3072,
+  "key_usage": [
+    "digitalSignature",
+    "keyEncipherment",
+    "keyAgreement"
+  ],
+  "challenge": "scep-ops-z9y8x7w6v5",
+  "nonce": "n-deny-key-bits",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Q3Tgyw1CPdNglZ33Id6CBBpwAK2vBoCwwAEY14I4OTc"
+}

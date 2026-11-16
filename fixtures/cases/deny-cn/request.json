@@ -1,0 +1,18 @@
+{
+  "profile": "pay-device",
+  "cn": "pda01.servers.ops.example",
+  "dns_names": [
+    "pda01.servers.ops.example"
+  ],
+  "key_alg": "RSA",
+  "key_bits": 3072,
+  "key_usage": [
+    "digitalSignature",
+    "keyEncipherment"
+  ],
+  "challenge": "scep-pay-a1b2c3d4e5",
+  "nonce": "n-deny-cn",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "TSWvQIQXPAsr8FVvW2z7njQuj1Y5clImwjzU3XaZIOI"
+}

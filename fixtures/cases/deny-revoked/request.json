@@ -1,0 +1,18 @@
+{
+  "kid": "k-revoked",
+  "profile": "pay-device",
+  "cn": "pda01.devices.pay.example",
+  "dns_names": [
+    "pda01.devices.pay.example"
+  ],
+  "key_alg": "RSA",
+  "key_bits": 3072,
+  "key_usage": [
+    "digitalSignature",
+    "keyEncipherment"
+  ],
+  "challenge": "scep-pay-a1b2c3d4e5",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "KelcG1HuTkIUZJo8HdNqxlygkSWfaUYIm5sk_Sb3fm4"
+}
