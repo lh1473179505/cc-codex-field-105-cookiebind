@@ -1,0 +1,40 @@
+{
+  "mains": {
+    "com.pay.App": {
+      "impl_title": "pay-app",
+      "sealing": "com.pay",
+      "svc_line": "com.pay.App"
+    },
+    "com.pay.Tool": {
+      "impl_title": "pay-tool",
+      "sealing": "com.pay",
+      "svc_line": "com.pay.Tool"
+    }
+  },
+  "allowed_path_prefixes": [
+    "com/pay/",
+    "META-INF/"
+  ],
+  "path_deny_substrings": [
+    "../",
+    "..\\",
+    "%2e",
+    "%2E",
+    "//"
+  ],
+  "forbid_absolute": true,
+  "forbid_duplicate_paths": true,
+  "required_files_all": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/services/com.pay.Spi"
+  ],
+  "allowed_algs": [
+    "HMAC-SHA256"
+  ],
+  "max_entries": 16,
+  "max_entry_size": 4096,
+  "max_total_size": 8192,
+  "require_body_sha_match": true,
+  "clock_skew_seconds": 120,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,39 @@
+{
+  "kid": "k-active",
+  "main_class": "com.pay.Tool",
+  "impl_title": "pay-tool",
+  "sealing": "com.pay",
+  "entries": [
+    {
+      "path": "com/pay/Tool.class",
+      "sha256": "1bc56e6a7e385113643deadbac08425974cf3c29eb6a73c37ec1c588f047316c",
+      "size": 16
+    },
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "sha256": "5055a76eb10c05df1a2034e2fdaa1e9445187403a7b539b6cda2e1447b35e920",
+      "size": 22
+    },
+    {
+      "path": "META-INF/services/com.pay.Spi",
+      "sha256": "4298c2a7910e7ade274bad26b51d884cde410590f7307299c6409a50881a6c1d",
+      "size": 13
+    }
+  ],
+  "body_sha256": {
+    "com/pay/Tool.class": "0c62a18dec225f8d251e18daa74695c5b4359877da56b6a2a9fb9411f7215fb1",
+    "META-INF/MANIFEST.MF": "51b6d211a461039ad64b8b09eabb809673e8affd06b605f5efefa6b5ebe2f742",
+    "META-INF/services/com.pay.Spi": "455cb67da84eb9dcb8b77eb641318074fa7f82c510cfd0cf9d49fa7e15b0b67f"
+  },
+  "required_files": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/services/com.pay.Spi"
+  ],
+  "svc_line": "com.pay.Tool",
+  "alg": "HMAC-SHA256",
+  "total_size": 51,
+  "created": 1781783970,
+  "nonce": "n-ok-tool",
+  "iat": 1781783975,
+  "sig": "I1DWNZJf4G5E_GryHNwiUvpDq1ACI99fxfCtcY9W8kE"
+}

@@ -1,0 +1,39 @@
+{
+  "kid": "k-active",
+  "main_class": "com.evil.Pwn",
+  "impl_title": "pay-app",
+  "sealing": "com.pay",
+  "entries": [
+    {
+      "path": "com/pay/App.class",
+      "sha256": "68da6e5353157f1c77155a4e2848e78ea71ed025fff77dda442e7d890ef55cd5",
+      "size": 15
+    },
+    {
+      "path": "META-INF/MANIFEST.MF",
+      "sha256": "5055a76eb10c05df1a2034e2fdaa1e9445187403a7b539b6cda2e1447b35e920",
+      "size": 22
+    },
+    {
+      "path": "META-INF/services/com.pay.Spi",
+      "sha256": "f334ed2f859d9e86579ac7dafac0fd1d26525f4f2fdb8a3e642cd220a5f34cc5",
+      "size": 12
+    }
+  ],
+  "body_sha256": {
+    "com/pay/App.class": "1a8d626e45fd6a80de3f24f868f06e1d66ec7a260326ff0fcac99b12670a3e20",
+    "META-INF/MANIFEST.MF": "51b6d211a461039ad64b8b09eabb809673e8affd06b605f5efefa6b5ebe2f742",
+    "META-INF/services/com.pay.Spi": "85e59d3dad82bb358f9c3149e9d9b1f5961347655a23a6011ffd491d53e50191"
+  },
+  "required_files": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/services/com.pay.Spi"
+  ],
+  "svc_line": "com.pay.App",
+  "alg": "HMAC-SHA256",
+  "total_size": 49,
+  "created": 1781783970,
+  "nonce": "n-deny-main",
+  "iat": 1781783975,
+  "sig": "8vaR3t9Cr4yUqtozFHi2YV9ra8T6LClz74MBcIYrpQ8"
+}
