@@ -1,0 +1,15 @@
+{
+  "profile": "pay-link",
+  "local_id": "pay-gw.example",
+  "peer_id": "pay-branch-1.example",
+  "local_cidr": "10.60.2.0/24",
+  "remote_cidr": "10.50.8.0/24",
+  "esp": "aes256gcm16",
+  "ike": "aes256-sha384-ecp384",
+  "pfs": "ecp384",
+  "lifetime": 7200,
+  "nonce": "n-deny-local-selector",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "rY-uPzOPbKjEkTvDp_O7-2zRaQDJvORPc82b5htLBQs"
+}

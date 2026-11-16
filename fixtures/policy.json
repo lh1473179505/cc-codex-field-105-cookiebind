@@ -1,0 +1,56 @@
+{
+  "profiles": {
+    "pay-link": {
+      "local_id": "pay-gw.example",
+      "peer_ids": [
+        "pay-branch-1.example",
+        "pay-branch-2.example"
+      ],
+      "local_supernets": [
+        "10.40.0.0/16"
+      ],
+      "remote_supernets": [
+        "10.50.0.0/16"
+      ],
+      "esp": [
+        "aes256gcm16",
+        "aes256-sha384"
+      ],
+      "ike": [
+        "aes256-sha384-ecp384"
+      ],
+      "pfs": [
+        "ecp384"
+      ],
+      "lifetime_min": 1800,
+      "lifetime_max": 28800
+    },
+    "ops-link": {
+      "local_id": "ops-gw.example",
+      "peer_ids": [
+        "ops-dr.example"
+      ],
+      "local_supernets": [
+        "10.60.0.0/16"
+      ],
+      "remote_supernets": [
+        "10.70.0.0/16"
+      ],
+      "esp": [
+        "aes256gcm16"
+      ],
+      "ike": [
+        "aes256-sha384-ecp384"
+      ],
+      "pfs": [
+        "ecp384"
+      ],
+      "lifetime_min": 3600,
+      "lifetime_max": 14400
+    }
+  },
+  "forbid_default_route": true,
+  "require_canonical_networks": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

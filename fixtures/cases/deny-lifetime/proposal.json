@@ -1,0 +1,15 @@
+{
+  "profile": "ops-link",
+  "local_id": "ops-gw.example",
+  "peer_id": "ops-dr.example",
+  "local_cidr": "10.60.0.0/16",
+  "remote_cidr": "10.70.0.0/16",
+  "esp": "aes256gcm16",
+  "ike": "aes256-sha384-ecp384",
+  "pfs": "ecp384",
+  "lifetime": 20000,
+  "nonce": "n-deny-lifetime",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "71nBRrL2GLfHl-l_dmlbI8mr7cRSATrbWeVrkyKvUWs"
+}
