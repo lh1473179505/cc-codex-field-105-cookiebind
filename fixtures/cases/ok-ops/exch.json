@@ -1,0 +1,13 @@
+{
+  "client_id": "ops-cli",
+  "code": "c-ops-001",
+  "challenge": "ea149e9c3389a934c84643886c3b5fe9786ad164ec98a2c6a6c49492a6c30c07",
+  "method": "S256",
+  "redirect": "http://127.0.0.1:8765/cb",
+  "jkt": "JKT_OPS_CLI",
+  "auth_method": "pkce",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "JUEMwha3FbMRvuE9B4uCPFKAzE7CUb-ypiB9aqbCa8A"
+}

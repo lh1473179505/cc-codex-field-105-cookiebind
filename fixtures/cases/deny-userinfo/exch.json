@@ -1,0 +1,13 @@
+{
+  "client_id": "pay-spa",
+  "code": "c-pay-008",
+  "challenge": "6cc8fa11f997b3e64a613223dd386e1d1a3b6dd140f322f20adebe0ac50bd3dd",
+  "method": "S256",
+  "redirect": "https://u:p@pay.example/cb",
+  "jkt": "JKT_PAY_SPA",
+  "auth_method": "pkce",
+  "nonce": "n-deny-userinfo",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2iUvt47b0SZ2VNVygxRW_r0SOje0Gm_oO_KowLeF-Lc"
+}

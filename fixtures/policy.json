@@ -1,0 +1,52 @@
+{
+  "clients": {
+    "pay-spa": {
+      "redirects": [
+        "https://pay.example/cb",
+        "https://pay.example/cb/"
+      ],
+      "methods": [
+        "S256"
+      ],
+      "challenge_len": 64,
+      "auth_methods": [
+        "none",
+        "pkce"
+      ],
+      "require_jkt": true,
+      "jkts": [
+        "JKT_PAY_SPA"
+      ],
+      "code_prefix": [
+        "c-pay-"
+      ]
+    },
+    "ops-cli": {
+      "redirects": [
+        "http://127.0.0.1:8765/cb"
+      ],
+      "methods": [
+        "S256"
+      ],
+      "challenge_len": 64,
+      "auth_methods": [
+        "pkce"
+      ],
+      "require_jkt": true,
+      "jkts": [
+        "JKT_OPS_CLI"
+      ],
+      "code_prefix": [
+        "c-ops-"
+      ]
+    }
+  },
+  "forbid_plain": true,
+  "redirect_normalize_strip_slash": true,
+  "redirect_forbid_userinfo": true,
+  "redirect_forbid_query": true,
+  "redirect_forbid_fragment": true,
+  "code_reuse_is_deny": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 300
+}
