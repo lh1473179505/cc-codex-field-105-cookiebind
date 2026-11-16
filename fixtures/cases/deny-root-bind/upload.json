@@ -1,0 +1,12 @@
+{
+  "user": "paydrop",
+  "root": "/srv/sftp/ops",
+  "path": "inbox/pay.csv",
+  "size": 4096,
+  "mode": "0640",
+  "sha256": "abababababababababababababababababababababababababababababababab",
+  "nonce": "n-deny-root-bind",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "504lgExWuUifOAKmlK12hyZh5fABjbjpSh7f9TiGaPk"
+}

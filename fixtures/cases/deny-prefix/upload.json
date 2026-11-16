@@ -1,0 +1,12 @@
+{
+  "user": "opsdrop",
+  "root": "/srv/sftp/ops",
+  "path": "inbox/pay.csv",
+  "size": 1024,
+  "mode": "0600",
+  "sha256": "abababababababababababababababababababababababababababababababab",
+  "nonce": "n-deny-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PmJqsHuLpheE8i3-j0jtSpF8G3sK8zDYrcttZwDTRWg"
+}

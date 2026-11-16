@@ -1,0 +1,12 @@
+{
+  "user": "opsdrop",
+  "root": "/srv/sftp/ops",
+  "path": "jobs/nightly.json",
+  "size": 1024,
+  "mode": "0600",
+  "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2b8CA558-EQ5to38ge9u214b4seqoOyM_9TkWZNbFnI"
+}

@@ -1,0 +1,12 @@
+{
+  "user": "root",
+  "root": "/srv/sftp/pay",
+  "path": "inbox/pay.csv",
+  "size": 4096,
+  "mode": "0640",
+  "sha256": "abababababababababababababababababababababababababababababababab",
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "kT6JkLHQX2DVnCTAZ5ITPbvLmDF3we-a6R4Pr6ygjhQ"
+}

@@ -1,0 +1,38 @@
+{
+  "users": {
+    "paydrop": {
+      "root": "/srv/sftp/pay",
+      "path_prefixes": [
+        "inbox/",
+        "reports/"
+      ],
+      "size_max": 1048576,
+      "modes": [
+        "0640",
+        "0600"
+      ]
+    },
+    "opsdrop": {
+      "root": "/srv/sftp/ops",
+      "path_prefixes": [
+        "jobs/"
+      ],
+      "size_max": 262144,
+      "modes": [
+        "0600"
+      ]
+    }
+  },
+  "forbid_absolute_path": true,
+  "path_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "\u0000"
+  ],
+  "sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "size_min": 1,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

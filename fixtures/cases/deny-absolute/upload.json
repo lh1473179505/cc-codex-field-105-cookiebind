@@ -1,0 +1,12 @@
+{
+  "user": "paydrop",
+  "root": "/srv/sftp/pay",
+  "path": "/etc/passwd",
+  "size": 4096,
+  "mode": "0640",
+  "sha256": "abababababababababababababababababababababababababababababababab",
+  "nonce": "n-deny-absolute",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "BfUA0wSuP5rKGcpPThEwIfnCP3OAOgumeLOiiYK2suc"
+}

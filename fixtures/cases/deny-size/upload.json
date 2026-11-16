@@ -1,0 +1,12 @@
+{
+  "user": "opsdrop",
+  "root": "/srv/sftp/ops",
+  "path": "jobs/big.json",
+  "size": 262145,
+  "mode": "0600",
+  "sha256": "abababababababababababababababababababababababababababababababab",
+  "nonce": "n-deny-size",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iK-omSKxUAz3S3TJZ4_i5kItbBFJFwG-MyE_mU65OzU"
+}

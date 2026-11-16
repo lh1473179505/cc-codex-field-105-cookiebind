@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "user": "paydrop",
+  "root": "/srv/sftp/pay",
+  "path": "inbox/pay.csv",
+  "size": 4096,
+  "mode": "0640",
+  "sha256": "abababababababababababababababababababababababababababababababab",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "B18NTWqJcej9txPmCL5RX8Ya23IBlmmy4b5_0ebeyQM"
+}
