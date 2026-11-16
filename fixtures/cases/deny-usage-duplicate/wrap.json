@@ -1,0 +1,16 @@
+{
+  "profile": "ops-keys",
+  "key_id": "ops/backup/nightly",
+  "wrapping_key": "kw-ops-hsm-02",
+  "algorithm": "AES-256",
+  "usage": [
+    "encrypt",
+    "encrypt"
+  ],
+  "encoding": "hex",
+  "key_bytes": 32,
+  "nonce": "n-deny-usage-duplicate",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "m4fIdEafU1Rm9oWP1PE5wwPudjgUYLJmR1t9pulnMog"
+}

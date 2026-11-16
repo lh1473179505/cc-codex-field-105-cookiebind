@@ -1,0 +1,63 @@
+{
+  "profiles": {
+    "pay-keys": {
+      "key_prefixes": [
+        "pay/data/",
+        "pay/sign/"
+      ],
+      "wrapping_keys": [
+        "kw-pay-hsm-01"
+      ],
+      "algorithms": {
+        "AES-256": [
+          32
+        ],
+        "RSA-3072": [
+          384
+        ]
+      },
+      "usage_allowed": [
+        "encrypt",
+        "decrypt",
+        "sign",
+        "verify"
+      ],
+      "usage_required": [
+        "encrypt",
+        "decrypt"
+      ],
+      "encodings": [
+        "base64url"
+      ]
+    },
+    "ops-keys": {
+      "key_prefixes": [
+        "ops/backup/"
+      ],
+      "wrapping_keys": [
+        "kw-ops-hsm-02"
+      ],
+      "algorithms": {
+        "AES-256": [
+          32
+        ]
+      },
+      "usage_allowed": [
+        "encrypt",
+        "decrypt"
+      ],
+      "usage_required": [
+        "encrypt"
+      ],
+      "encodings": [
+        "base64url",
+        "hex"
+      ]
+    }
+  },
+  "forbid_key_path_traversal": true,
+  "require_unique_usage": true,
+  "key_bytes_min": 1,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

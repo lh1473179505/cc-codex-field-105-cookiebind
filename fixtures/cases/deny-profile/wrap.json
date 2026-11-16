@@ -1,0 +1,16 @@
+{
+  "profile": "public",
+  "key_id": "pay/data/customer-key",
+  "wrapping_key": "kw-pay-hsm-01",
+  "algorithm": "AES-256",
+  "usage": [
+    "encrypt",
+    "decrypt"
+  ],
+  "encoding": "base64url",
+  "key_bytes": 32,
+  "nonce": "n-deny-profile",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RXjcktVtMRTRBn0r9xUXjts3TSbiK4jgG5uuM0kOXjs"
+}

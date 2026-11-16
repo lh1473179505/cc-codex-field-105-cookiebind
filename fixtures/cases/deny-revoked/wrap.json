@@ -1,0 +1,16 @@
+{
+  "kid": "k-revoked",
+  "profile": "pay-keys",
+  "key_id": "pay/data/customer-key",
+  "wrapping_key": "kw-pay-hsm-01",
+  "algorithm": "AES-256",
+  "usage": [
+    "encrypt",
+    "decrypt"
+  ],
+  "encoding": "base64url",
+  "key_bytes": 32,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "PH36MsOMwW_Ko4fxTfm0MiIOrMQwZzQI9B-DADEyCaE"
+}

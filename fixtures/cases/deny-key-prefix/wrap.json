@@ -1,0 +1,16 @@
+{
+  "profile": "pay-keys",
+  "key_id": "ops/backup/nightly",
+  "wrapping_key": "kw-pay-hsm-01",
+  "algorithm": "AES-256",
+  "usage": [
+    "encrypt",
+    "decrypt"
+  ],
+  "encoding": "base64url",
+  "key_bytes": 32,
+  "nonce": "n-deny-key-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "vzm12DyThQ-8_Gxp6ccL_o3slF-olYNdtaaTwa4IbFU"
+}

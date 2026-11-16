@@ -1,0 +1,15 @@
+{
+  "profile": "ops-keys",
+  "key_id": "ops/backup/nightly",
+  "wrapping_key": "kw-ops-hsm-02",
+  "algorithm": "RSA-3072",
+  "usage": [
+    "encrypt"
+  ],
+  "encoding": "hex",
+  "key_bytes": 384,
+  "nonce": "n-deny-algorithm",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "UC-R3GWhr1NzQsgWSAMuHsIcbHgcuGt7qOdfcvJDGI4"
+}

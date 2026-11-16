@@ -1,0 +1,16 @@
+{
+  "profile": "pay-keys",
+  "key_id": "pay/data/../sign/root",
+  "wrapping_key": "kw-pay-hsm-01",
+  "algorithm": "AES-256",
+  "usage": [
+    "encrypt",
+    "decrypt"
+  ],
+  "encoding": "base64url",
+  "key_bytes": 32,
+  "nonce": "n-deny-key-traversal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "uc4zSp8z6M7KBjxdcYcYs1GPeUbArt4Dpp-uGw-xN5M"
+}
