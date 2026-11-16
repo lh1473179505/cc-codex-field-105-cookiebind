@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "engine_id": "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+  "user": "paytrap",
+  "auth": "SHA256",
+  "priv": "AES256",
+  "oid": "1.3.6.1.4.1.50010.2.1",
+  "varbinds": [
+    "1.3.6.1.4.1.50010.2.1.1"
+  ],
+  "severity": "critical",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "v-5V0gwzQ6bqpAAooNuqeN1YTKDpsPHDLNFkfLp5LzM"
+}

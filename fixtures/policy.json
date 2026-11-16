@@ -1,0 +1,50 @@
+{
+  "engines": {
+    "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1": {
+      "users": {
+        "paytrap": {
+          "auth": [
+            "SHA256"
+          ],
+          "priv": [
+            "AES256"
+          ],
+          "oid_prefixes": [
+            "1.3.6.1.4.1.50010."
+          ],
+          "severities": [
+            "warning",
+            "critical"
+          ]
+        }
+      }
+    },
+    "b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2": {
+      "users": {
+        "opstrap": {
+          "auth": [
+            "SHA256"
+          ],
+          "priv": [
+            "AES256"
+          ],
+          "oid_prefixes": [
+            "1.3.6.1.4.1.50020."
+          ],
+          "severities": [
+            "info",
+            "warning"
+          ]
+        }
+      }
+    }
+  },
+  "engine_id_hex_len": 32,
+  "require_lowercase_hex": true,
+  "varbind_prefix": "1.3.6.1.4.1.",
+  "varbind_count_min": 1,
+  "varbind_count_max": 3,
+  "require_authPriv": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

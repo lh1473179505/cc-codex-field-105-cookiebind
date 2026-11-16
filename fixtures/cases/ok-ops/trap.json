@@ -1,0 +1,15 @@
+{
+  "engine_id": "b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2",
+  "user": "opstrap",
+  "auth": "SHA256",
+  "priv": "AES256",
+  "oid": "1.3.6.1.4.1.50020.9.4",
+  "varbinds": [
+    "1.3.6.1.4.1.50020.9.4.1"
+  ],
+  "severity": "info",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SKLPkZnKZJd9uI2_6CNNhMXx2vC2aIOUPc6_e4OzLus"
+}

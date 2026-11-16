@@ -1,0 +1,15 @@
+{
+  "engine_id": "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+  "user": "paytrap",
+  "auth": "SHA256",
+  "priv": "none",
+  "oid": "1.3.6.1.4.1.50010.2.1",
+  "varbinds": [
+    "1.3.6.1.4.1.50010.2.1.1"
+  ],
+  "severity": "critical",
+  "nonce": "n-deny-no-privacy",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-GVt_CuHN6jqQDvXUq79n3l2-8ryNV65S6RQu0Z_Qvs"
+}
