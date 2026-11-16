@@ -1,0 +1,31 @@
+{
+  "accounts": {
+    "acct-pay": {
+      "identifier_suffixes": [
+        "pay.example"
+      ],
+      "challenges": [
+        "http-01",
+        "dns-01"
+      ],
+      "contact": "mailto:security@pay.example"
+    },
+    "acct-ops": {
+      "identifier_suffixes": [
+        "ops.example"
+      ],
+      "challenges": [
+        "dns-01"
+      ],
+      "contact": "mailto:acme@ops.example"
+    }
+  },
+  "max_identifiers": 3,
+  "forbid_mixed_wildcard": true,
+  "require_dns_for_wildcard": true,
+  "wildcard_flag_must_match": true,
+  "key_auth_hex_len": 64,
+  "require_lowercase_hex": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

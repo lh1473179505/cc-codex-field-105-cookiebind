@@ -1,0 +1,14 @@
+{
+  "account": "acct-pay",
+  "identifiers": [
+    "pay.example"
+  ],
+  "challenge": "http-01",
+  "key_auth_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "contact": "mailto:security@pay.example",
+  "wildcard": 0,
+  "nonce": "n-deny-digest-length",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RmD9EoV-QZHfW3io9XVqtUKzXw9dbk2qYpZrAjHAvCQ"
+}

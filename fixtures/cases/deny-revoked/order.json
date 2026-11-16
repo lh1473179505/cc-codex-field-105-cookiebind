@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "account": "acct-pay",
+  "identifiers": [
+    "pay.example"
+  ],
+  "challenge": "http-01",
+  "key_auth_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "contact": "mailto:security@pay.example",
+  "wildcard": 0,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "TXT2GvgqnkDlcTKP6cGulg0ni07sJJ1Q6aMBNle9Y9Q"
+}

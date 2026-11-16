@@ -1,0 +1,14 @@
+{
+  "account": "acct-ops",
+  "identifiers": [
+    "*.ops.example"
+  ],
+  "challenge": "dns-01",
+  "key_auth_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "contact": "mailto:acme@ops.example",
+  "wildcard": 1,
+  "nonce": "n-ok-ops-dns",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "eO5u6-CmP-ejk_HHr-Od9AibvZ81TQAS0wg7XZSnKeE"
+}

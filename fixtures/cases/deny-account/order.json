@@ -1,0 +1,14 @@
+{
+  "account": "acct-evil",
+  "identifiers": [
+    "pay.example"
+  ],
+  "challenge": "http-01",
+  "key_auth_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "contact": "mailto:security@pay.example",
+  "wildcard": 0,
+  "nonce": "n-deny-account",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "b6jSw64r2rjXyFSSemYmmH7_AiKYzkHTv6hib18sVJg"
+}

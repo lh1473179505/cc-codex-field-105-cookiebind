@@ -1,0 +1,14 @@
+{
+  "account": "acct-ops",
+  "identifiers": [
+    "api.ops.example"
+  ],
+  "challenge": "http-01",
+  "key_auth_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "contact": "mailto:acme@ops.example",
+  "wildcard": 0,
+  "nonce": "n-deny-challenge",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "GRE809iqdPx_KlvaGAX7Uod7YInDyQb3sgLsq82IV6I"
+}
