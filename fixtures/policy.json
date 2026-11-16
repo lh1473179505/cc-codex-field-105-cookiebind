@@ -1,0 +1,56 @@
+{
+  "fps": {
+    "FP-PAY-LEAF": {
+      "signers": [
+        "FP-PAY-CA"
+      ],
+      "max_depth": 2,
+      "algos": [
+        "ed25519",
+        "rsa4096"
+      ],
+      "hashes": [
+        "sha256",
+        "sha512"
+      ],
+      "required_notations": [
+        "policy@pay.example"
+      ],
+      "notation_values": {
+        "policy@pay.example": "https://pay.example/pgp-policy"
+      },
+      "forbid_md5": true
+    },
+    "FP-OPS-LEAF": {
+      "signers": [
+        "FP-OPS-CA"
+      ],
+      "max_depth": 1,
+      "algos": [
+        "ed25519"
+      ],
+      "hashes": [
+        "sha256"
+      ],
+      "required_notations": [
+        "policy@ops.example"
+      ],
+      "notation_values": {
+        "policy@ops.example": "https://ops.example/pgp-policy"
+      },
+      "forbid_md5": true
+    }
+  },
+  "trusted_roots": [
+    "FP-PAY-CA",
+    "FP-OPS-CA"
+  ],
+  "body_sha256_len": 64,
+  "notation_deny_substrings": [
+    " ",
+    "..",
+    "javascript:"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

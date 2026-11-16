@@ -1,0 +1,14 @@
+{
+  "key_fp": "FP-PAY-LEAF",
+  "signer_fp": "FP-PAY-CA",
+  "depth": 1,
+  "algo": "rsa4096",
+  "hash": "sha512",
+  "notation": "policy@pay.example",
+  "notation_val": "https://pay.example/pgp-policy",
+  "body_sha256": "05017408440508469f251b108da3df67c601ab9166f345aa2c1afdb3dd1ff2dc",
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "KbxQdJwUD-Kx8ym83aFyZBryZiyIqeL5SQo25g14ao4"
+}

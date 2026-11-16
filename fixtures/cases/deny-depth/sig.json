@@ -1,0 +1,14 @@
+{
+  "key_fp": "FP-OPS-LEAF",
+  "signer_fp": "FP-OPS-CA",
+  "depth": 3,
+  "algo": "ed25519",
+  "hash": "sha256",
+  "notation": "policy@ops.example",
+  "notation_val": "https://ops.example/pgp-policy",
+  "body_sha256": "05017408440508469f251b108da3df67c601ab9166f345aa2c1afdb3dd1ff2dc",
+  "nonce": "n-deny-depth",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "goTTu165vFvPl8lnDH4wuC3X5ejv0RCi0dsqn5Ivq1c"
+}
