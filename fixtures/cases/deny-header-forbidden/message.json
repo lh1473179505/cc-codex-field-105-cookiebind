@@ -1,0 +1,16 @@
+{
+  "user": "paypub",
+  "vhost": "pay",
+  "exchange": "pay.events",
+  "routing_key": "payment.captured.eu",
+  "delivery_mode": 2,
+  "headers": {
+    "x-tenant": "pay",
+    "x-internal-retry": "9"
+  },
+  "body_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "nonce": "n-deny-header-forbidden",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "A_XqG-Xvijreea11IRVYm-Qe5dhteGa8aIZ1-Gd1CLE"
+}

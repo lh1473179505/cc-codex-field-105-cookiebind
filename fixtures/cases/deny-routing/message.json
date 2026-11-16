@@ -1,0 +1,15 @@
+{
+  "user": "paypub",
+  "vhost": "pay",
+  "exchange": "pay.events",
+  "routing_key": "job.completed.nightly",
+  "delivery_mode": 2,
+  "headers": {
+    "x-tenant": "pay"
+  },
+  "body_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "nonce": "n-deny-routing",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "k7hihUL2Ids1QLVXamTnsvIM7sHKrYjNif2v7klA9UQ"
+}

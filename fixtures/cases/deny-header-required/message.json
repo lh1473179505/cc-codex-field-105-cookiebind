@@ -1,0 +1,15 @@
+{
+  "user": "opspub",
+  "vhost": "ops",
+  "exchange": "ops.jobs",
+  "routing_key": "job.completed.nightly",
+  "delivery_mode": 2,
+  "headers": {
+    "x-tenant": "ops"
+  },
+  "body_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "nonce": "n-deny-header-required",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "WV4LsdmI2uC-Q8KX9BzIMhTlulzq_7Cgmb0NVQqigNs"
+}

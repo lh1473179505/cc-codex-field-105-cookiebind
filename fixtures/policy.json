@@ -1,0 +1,65 @@
+{
+  "vhosts": {
+    "pay": {
+      "users": {
+        "paypub": {
+          "exchanges": {
+            "pay.events": {
+              "routing_prefixes": [
+                "payment.captured.",
+                "payment.refunded."
+              ],
+              "delivery_modes": [
+                2
+              ],
+              "required_headers": {
+                "x-tenant": "pay"
+              },
+              "allowed_headers": [
+                "x-tenant",
+                "x-trace"
+              ],
+              "deny_headers": [
+                "x-internal-retry"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ops": {
+      "users": {
+        "opspub": {
+          "exchanges": {
+            "ops.jobs": {
+              "routing_prefixes": [
+                "job.completed."
+              ],
+              "delivery_modes": [
+                1,
+                2
+              ],
+              "required_headers": {
+                "x-tenant": "ops",
+                "x-source": "scheduler"
+              },
+              "allowed_headers": [
+                "x-tenant",
+                "x-source",
+                "x-trace"
+              ],
+              "deny_headers": [
+                "x-admin"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "body_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "forbid_wildcard_routing": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

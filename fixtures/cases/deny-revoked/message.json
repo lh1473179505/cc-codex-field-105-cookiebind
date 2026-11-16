@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "user": "paypub",
+  "vhost": "pay",
+  "exchange": "pay.events",
+  "routing_key": "payment.captured.eu",
+  "delivery_mode": 2,
+  "headers": {
+    "x-tenant": "pay"
+  },
+  "body_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "c9dL7H0XVoVa0CBZ5uhpbNpRjoLufcraWgWlgYfkbJU"
+}
