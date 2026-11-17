@@ -1,0 +1,13 @@
+{
+  "receiver": "pay-syslog",
+  "peer_cn": "logger.pay.example",
+  "peer_spiffe": "spiffe://pay.example/prod/logger",
+  "facility": 1,
+  "severity": 4,
+  "app": "pay-api",
+  "message_length": 15,
+  "nonce": "n-deny-message-short",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "n7a6s8z-LFV32gAwKOvgKj4gIOuLpXRyaZb01n48uKo"
+}

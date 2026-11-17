@@ -1,0 +1,62 @@
+{
+  "receivers": {
+    "pay-syslog": {
+      "identities": {
+        "logger.pay.example": [
+          "spiffe://pay.example/prod/logger"
+        ],
+        "logger-alt.pay.example": [
+          "spiffe://pay.example/prod/logger-alt"
+        ]
+      },
+      "facilities": [
+        1,
+        4
+      ],
+      "severities": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "apps": [
+        "pay-api",
+        "pay-worker"
+      ],
+      "message_length_min": 16,
+      "message_length_max": 4096
+    },
+    "ops-syslog": {
+      "identities": {
+        "logger.ops.example": [
+          "spiffe://ops.example/prod/logger"
+        ]
+      },
+      "facilities": [
+        3,
+        13
+      ],
+      "severities": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "apps": [
+        "opsd",
+        "kubelet"
+      ],
+      "message_length_min": 8,
+      "message_length_max": 2048
+    }
+  },
+  "require_peer_identity_binding": true,
+  "numeric_fields_are_integers": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

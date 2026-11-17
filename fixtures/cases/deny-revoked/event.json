@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "receiver": "pay-syslog",
+  "peer_cn": "logger.pay.example",
+  "peer_spiffe": "spiffe://pay.example/prod/logger",
+  "facility": 1,
+  "severity": 4,
+  "app": "pay-api",
+  "message_length": 256,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "fkuU8xxEPRQpZ6v5jchrZ-j1N-8CWse7zVShclL3-BM"
+}

@@ -1,0 +1,13 @@
+{
+  "receiver": "ops-syslog",
+  "peer_cn": "logger.ops.example",
+  "peer_spiffe": "spiffe://ops.example/prod/logger",
+  "facility": 3,
+  "severity": 5,
+  "app": "opsd",
+  "message_length": 128,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "a9Oepo5d5xmu6vP_LygBcMnLrD4_CNsq6D5FLIYsSX8"
+}
