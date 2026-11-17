@@ -1,0 +1,46 @@
+{
+  "exports": {
+    "/srv/nfs/pay": {
+      "root_squash": true,
+      "client_supernets": [
+        "10.80.0.0/16"
+      ],
+      "permissions_allowed": [
+        "ro",
+        "sync",
+        "no_subtree_check"
+      ],
+      "permissions_required": [
+        "ro",
+        "sync"
+      ],
+      "anon_uid": 65534,
+      "anon_gid": 65534
+    },
+    "/srv/nfs/ops": {
+      "root_squash": true,
+      "client_supernets": [
+        "10.90.0.0/16"
+      ],
+      "permissions_allowed": [
+        "rw",
+        "sync",
+        "no_subtree_check"
+      ],
+      "permissions_required": [
+        "rw",
+        "sync"
+      ],
+      "anon_uid": 65534,
+      "anon_gid": 65534
+    }
+  },
+  "forbid_default_route": true,
+  "require_unique_permissions": true,
+  "path_deny_characters": [
+    "\\",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,15 @@
+{
+  "export_path": "/srv/nfs/pay",
+  "root_squash": true,
+  "client_cidr": "10.80.2.0/24",
+  "permissions": [
+    "ro",
+    "sync"
+  ],
+  "anon_uid": 65534,
+  "anon_gid": 0,
+  "nonce": "n-deny-anon-gid",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "VJjnhe26vQMCFA-wehzjIwbBo1MwkXmSL6UHNbfAx4Y"
+}

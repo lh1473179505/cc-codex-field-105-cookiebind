@@ -1,0 +1,16 @@
+{
+  "export_path": "/srv/nfs/ops",
+  "root_squash": true,
+  "client_cidr": "10.90.4.0/24",
+  "permissions": [
+    "rw",
+    "sync",
+    "no_subtree_check"
+  ],
+  "anon_uid": 65534,
+  "anon_gid": 65534,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "11ZsqjvDA5ccWm-iTcvOxEsZwrI_bj3sYuv2RiFaD_c"
+}
