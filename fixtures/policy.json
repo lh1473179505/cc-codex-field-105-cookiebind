@@ -1,0 +1,45 @@
+{
+  "callers": {
+    "pay-joiner": {
+      "targets": [
+        "pay-worker",
+        "pay-joiner",
+        "init"
+      ],
+      "fd_types": [
+        "pidfd"
+      ],
+      "required_capability": "CAP_SYS_ADMIN"
+    },
+    "ops-joiner": {
+      "targets": [
+        "ops-worker"
+      ],
+      "fd_types": [
+        "pidfd"
+      ],
+      "required_capability": "CAP_SYS_ADMIN"
+    }
+  },
+  "namespace_inodes": {
+    "pay-worker": 4026532401,
+    "pay-joiner": 4026532400,
+    "ops-worker": 4026532501,
+    "init": 4026531836
+  },
+  "fd_types": [
+    "pidfd",
+    "nsfs"
+  ],
+  "capabilities": [
+    "CAP_SYS_ADMIN",
+    "CAP_SYS_PTRACE"
+  ],
+  "forbidden_targets": [
+    "init"
+  ],
+  "forbid_self_join": true,
+  "ns_inode_min": 1,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

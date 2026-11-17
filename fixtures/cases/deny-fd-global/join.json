@@ -1,0 +1,11 @@
+{
+  "caller": "pay-joiner",
+  "target": "pay-worker",
+  "ns_inode": 4026532401,
+  "fd_type": "file",
+  "capability": "CAP_SYS_ADMIN",
+  "nonce": "n-deny-fd-global",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "K3EnWDoOhiNovB9-8vGCqlOdKZFFyCkkAShkN4HMrMs"
+}

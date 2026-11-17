@@ -1,0 +1,11 @@
+{
+  "caller": "pay-joiner",
+  "target": "missing-worker",
+  "ns_inode": 4026532401,
+  "fd_type": "pidfd",
+  "capability": "CAP_SYS_ADMIN",
+  "nonce": "n-deny-target-unknown",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "tl4SxWEk73jxsIDH_EEQbXJXULa7ReDZDrpf8WXnTZ4"
+}

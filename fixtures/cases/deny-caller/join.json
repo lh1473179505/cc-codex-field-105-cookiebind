@@ -1,0 +1,11 @@
+{
+  "caller": "public-joiner",
+  "target": "pay-worker",
+  "ns_inode": 4026532401,
+  "fd_type": "pidfd",
+  "capability": "CAP_SYS_ADMIN",
+  "nonce": "n-deny-caller",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "bfFUcVZIeHA4Z7hPElw7SekS8e6IeCoivkkRGgrKIwo"
+}

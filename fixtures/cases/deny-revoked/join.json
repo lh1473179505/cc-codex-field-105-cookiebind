@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "caller": "pay-joiner",
+  "target": "pay-worker",
+  "ns_inode": 4026532401,
+  "fd_type": "pidfd",
+  "capability": "CAP_SYS_ADMIN",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "uaz8JbBFw9YoPHEJ_db0x68i8Q8uwd_AmTFz_qFjoP0"
+}
