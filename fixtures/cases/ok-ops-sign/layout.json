@@ -1,0 +1,16 @@
+{
+  "supply_chain": "ops-release",
+  "step_name": "sign",
+  "pubkey_ids": [
+    "key-ops-1"
+  ],
+  "threshold": 1,
+  "artifact_rules": [
+    "ALLOW products/ops.txt"
+  ],
+  "layout_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "nonce": "n-ok-ops-sign",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pXnu_Lu6l3FNa0TxV6GkKxzdxdEvgWDfH7RtAZjj094"
+}

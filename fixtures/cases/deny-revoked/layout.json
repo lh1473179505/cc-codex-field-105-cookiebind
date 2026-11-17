@@ -1,0 +1,18 @@
+{
+  "kid": "k-revoked",
+  "supply_chain": "pay-release",
+  "step_name": "build",
+  "pubkey_ids": [
+    "key-pay-1",
+    "key-pay-2"
+  ],
+  "threshold": 2,
+  "artifact_rules": [
+    "MATCH src/app/*",
+    "CREATE products/app.tar.gz"
+  ],
+  "layout_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "hMlOn93f7hJ7CbHo9qODsjeUzNeaCqWYUiFmSdyVP5w"
+}

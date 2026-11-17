@@ -1,0 +1,16 @@
+{
+  "supply_chain": "ops-release",
+  "step_name": "build",
+  "pubkey_ids": [
+    "key-ops-1"
+  ],
+  "threshold": 1,
+  "artifact_rules": [
+    "ALLOW products/ops.txt"
+  ],
+  "layout_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "nonce": "n-deny-step-bind",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jHVhmuf3ayQZpH5tkLBdMJ9kdGlUbbpaMc-R6jxee9E"
+}

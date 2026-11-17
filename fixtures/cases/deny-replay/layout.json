@@ -1,0 +1,18 @@
+{
+  "supply_chain": "pay-release",
+  "step_name": "build",
+  "pubkey_ids": [
+    "key-pay-1",
+    "key-pay-2"
+  ],
+  "threshold": 2,
+  "artifact_rules": [
+    "MATCH src/app/*",
+    "CREATE products/app.tar.gz"
+  ],
+  "layout_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "kHL6XCScMkPLFWbHQ6WkhHWPpADyr5k96I1pFQcHpqk"
+}
