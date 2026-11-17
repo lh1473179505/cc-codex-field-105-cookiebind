@@ -5,7 +5,7 @@
         "payd-2026.06.01": {
           "arches": {
             "x86_64": {
-              "module_base": 140737488355328,
+              "module_base": 140737219919872,
               "module_size": 1048576
             }
           },
@@ -19,7 +19,7 @@
         "opsd-2026.05.18": {
           "arches": {
             "aarch64": {
-              "module_base": 187650004000768,
+              "module_base": 187651147694080,
               "module_size": 2097152
             }
           },
