@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "service": "pay-login",
+  "module": "pam_unix.so",
+  "control": "required",
+  "arguments": {
+    "try_first_pass": 1,
+    "nullok": 0
+  },
+  "order": 0,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "sNDajCPUZiygIKH19UKQ13NSc-JV3WGFqYNxpNu6GR0"
+}

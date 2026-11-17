@@ -1,0 +1,44 @@
+{
+  "services": {
+    "pay-login": {
+      "stack": [
+        {
+          "module": "pam_unix.so",
+          "control": "required",
+          "arguments": {
+            "try_first_pass": 1,
+            "nullok": 0
+          }
+        },
+        {
+          "module": "pam_deny.so",
+          "control": "required",
+          "arguments": {}
+        }
+      ]
+    },
+    "ops-login": {
+      "stack": [
+        {
+          "module": "pam_sss.so",
+          "control": "required",
+          "arguments": {
+            "forward_pass": 1
+          }
+        },
+        {
+          "module": "pam_deny.so",
+          "control": "required",
+          "arguments": {}
+        }
+      ]
+    }
+  },
+  "forbidden_modules": [
+    "pam_permit.so"
+  ],
+  "forbid_module_paths": true,
+  "require_terminal_deny": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

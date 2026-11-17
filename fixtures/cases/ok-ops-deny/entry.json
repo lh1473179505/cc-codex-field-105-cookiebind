@@ -1,0 +1,11 @@
+{
+  "service": "ops-login",
+  "module": "pam_deny.so",
+  "control": "required",
+  "arguments": {},
+  "order": 1,
+  "nonce": "n-ok-ops-deny",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6cjWcOP4ptqK-Jc9nFqLxuuXJ4D65jNrYtdrmG-dCRI"
+}

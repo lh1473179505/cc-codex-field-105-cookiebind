@@ -1,0 +1,14 @@
+{
+  "service": "pay-login",
+  "module": "pam_unix.so",
+  "control": "required",
+  "arguments": {
+    "try_first_pass": 1,
+    "nullok": 1
+  },
+  "order": 0,
+  "nonce": "n-deny-argument-value",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZQJBQBDOkHaP-_tIvtRTxqmgdYZtliHLUwHezxCo7Ho"
+}

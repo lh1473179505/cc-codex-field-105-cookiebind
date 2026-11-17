@@ -1,0 +1,14 @@
+{
+  "service": "public-login",
+  "module": "pam_unix.so",
+  "control": "required",
+  "arguments": {
+    "try_first_pass": 1,
+    "nullok": 0
+  },
+  "order": 0,
+  "nonce": "n-deny-service",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "TzPDtfcMT9rOL2Xoy68t_B7_DTvxIdUwjqZdX2PCj8k"
+}

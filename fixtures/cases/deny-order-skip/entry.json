@@ -1,0 +1,11 @@
+{
+  "service": "pay-login",
+  "module": "pam_deny.so",
+  "control": "required",
+  "arguments": {},
+  "order": 0,
+  "nonce": "n-deny-order-skip",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Qz3JvcY28GcGCMSvJS_7Vz8CwphyjDMhqmrfKNyLMsE"
+}

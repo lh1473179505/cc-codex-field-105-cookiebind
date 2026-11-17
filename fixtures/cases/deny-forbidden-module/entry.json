@@ -1,0 +1,14 @@
+{
+  "service": "pay-login",
+  "module": "pam_permit.so",
+  "control": "required",
+  "arguments": {
+    "try_first_pass": 1,
+    "nullok": 0
+  },
+  "order": 0,
+  "nonce": "n-deny-forbidden-module",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2dGBAkvKqGgVRNN8TznRP2km6VV__q9AeFOAHBbn3WA"
+}
