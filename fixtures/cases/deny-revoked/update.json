@@ -1,0 +1,18 @@
+{
+  "kid": "k-revoked",
+  "zone": "pay.example.",
+  "owner": "api.pay.example.",
+  "rrtype": "A",
+  "operation": "add",
+  "rdata": [
+    "10.110.4.8"
+  ],
+  "ttl": 300,
+  "prerequisites": {
+    "host": "api.pay.example.",
+    "serial": 42
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "BDG1QFne-gI4XvmiDFzAqLHXGUF4bDP6EV1Fphawg6M"
+}

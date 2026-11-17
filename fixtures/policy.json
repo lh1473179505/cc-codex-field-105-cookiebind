@@ -1,0 +1,47 @@
+{
+  "zones": {
+    "pay.example.": {
+      "rrtypes": {
+        "A": {
+          "operations": [
+            "add",
+            "delete"
+          ],
+          "ttl_min": 30,
+          "ttl_max": 3600,
+          "rdata_cidrs": [
+            "10.110.0.0/16"
+          ]
+        }
+      },
+      "serial_min": 1,
+      "serial_max": 100
+    },
+    "ops.example.": {
+      "rrtypes": {
+        "AAAA": {
+          "operations": [
+            "add",
+            "delete"
+          ],
+          "ttl_min": 60,
+          "ttl_max": 1800,
+          "rdata_cidrs": [
+            "2001:db8:20::/48"
+          ]
+        }
+      },
+      "serial_min": 1,
+      "serial_max": 50
+    }
+  },
+  "prerequisite_keys": [
+    "host",
+    "serial"
+  ],
+  "require_absolute_owner": true,
+  "require_lowercase_owner": true,
+  "require_unique_rdata": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

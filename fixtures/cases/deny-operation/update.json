@@ -1,0 +1,18 @@
+{
+  "zone": "pay.example.",
+  "owner": "api.pay.example.",
+  "rrtype": "A",
+  "operation": "replace",
+  "rdata": [
+    "10.110.4.8"
+  ],
+  "ttl": 300,
+  "prerequisites": {
+    "host": "api.pay.example.",
+    "serial": 42
+  },
+  "nonce": "n-deny-operation",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "NoY4oKIp_ZS_L8CjSR7ABIH8ysRklFCubQ7pTUYhbPI"
+}

@@ -1,0 +1,18 @@
+{
+  "zone": "pay.example.",
+  "owner": "api.pay.example.",
+  "rrtype": "A",
+  "operation": "add",
+  "rdata": [
+    "10.110.4.8"
+  ],
+  "ttl": 300,
+  "prerequisites": {
+    "host": "other.pay.example.",
+    "serial": 42
+  },
+  "nonce": "n-deny-prerequisite-host",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "uC6OZ_SODKLN3uxDg6NhD4RQeKqdV_-fA2a-7nfuli8"
+}

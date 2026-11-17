@@ -1,0 +1,18 @@
+{
+  "zone": "ops.example.",
+  "owner": "old.ops.example.",
+  "rrtype": "AAAA",
+  "operation": "delete",
+  "rdata": [
+    "2001:db8:20::9"
+  ],
+  "ttl": 0,
+  "prerequisites": {
+    "host": "old.ops.example.",
+    "serial": 17
+  },
+  "nonce": "n-deny-delete-payload",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5dn447BAhPc4kFiXyuPt4glk8Wl6Xp7la-PfqRzP5-4"
+}
