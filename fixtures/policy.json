@@ -1,0 +1,59 @@
+{
+  "exporters": {
+    "edge-pay-01": {
+      "src_cidrs": [
+        "10.40.0.0/16"
+      ],
+      "dst_cidrs": [
+        "10.50.0.0/16"
+      ],
+      "protocols": [
+        "TCP",
+        "UDP"
+      ],
+      "dst_ports": {
+        "TCP": [
+          443,
+          8443
+        ],
+        "UDP": [
+          53
+        ]
+      },
+      "packets_min": 1,
+      "packets_max": 1000000,
+      "bytes_min": 1,
+      "bytes_max": 1000000000,
+      "min_bytes_per_packet": 40,
+      "duration_max": 300
+    },
+    "edge-ops-02": {
+      "src_cidrs": [
+        "10.60.0.0/16"
+      ],
+      "dst_cidrs": [
+        "10.70.0.0/16"
+      ],
+      "protocols": [
+        "UDP"
+      ],
+      "dst_ports": {
+        "UDP": [
+          53,
+          123
+        ]
+      },
+      "packets_min": 1,
+      "packets_max": 500000,
+      "bytes_min": 1,
+      "bytes_max": 500000000,
+      "min_bytes_per_packet": 40,
+      "duration_max": 120
+    }
+  },
+  "port_min": 1,
+  "port_max": 65535,
+  "start_time_min": 1,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

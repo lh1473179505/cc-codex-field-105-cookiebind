@@ -1,0 +1,16 @@
+{
+  "exporter": "edge-ops-02",
+  "src_ip": "10.60.3.9",
+  "dst_ip": "10.70.1.53",
+  "src_port": 53000,
+  "dst_port": 53,
+  "protocol": "UDP",
+  "packets": 20,
+  "bytes": 2400,
+  "start_time": 1781776800,
+  "end_time": 1781776810,
+  "nonce": "n-ok-ops-udp",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ToAk_RNh2e3wktZdq6NIxbkMhsH-S_KigXIKNn3QhK0"
+}

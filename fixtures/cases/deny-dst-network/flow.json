@@ -1,0 +1,16 @@
+{
+  "exporter": "edge-pay-01",
+  "src_ip": "10.40.2.8",
+  "dst_ip": "192.0.2.10",
+  "src_port": 51514,
+  "dst_port": 443,
+  "protocol": "TCP",
+  "packets": 100,
+  "bytes": 60000,
+  "start_time": 1781776800,
+  "end_time": 1781776850,
+  "nonce": "n-deny-dst-network",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Fb77_5h4GtuUihaiL3-fYpOlnEJIGe7sgSJ1t55_oOo"
+}

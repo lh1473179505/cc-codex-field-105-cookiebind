@@ -1,0 +1,16 @@
+{
+  "exporter": "edge-unknown",
+  "src_ip": "10.40.2.8",
+  "dst_ip": "10.50.8.10",
+  "src_port": 51514,
+  "dst_port": 443,
+  "protocol": "TCP",
+  "packets": 100,
+  "bytes": 60000,
+  "start_time": 1781776800,
+  "end_time": 1781776850,
+  "nonce": "n-deny-exporter",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "sHCd5MYegGQQiMdokD4YTzbWyoe4JjWO22Gx-kAPEqE"
+}
