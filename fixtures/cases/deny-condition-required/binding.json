@@ -1,0 +1,10 @@
+{
+  "project": "pay-prod",
+  "role": "roles/storage.objectViewer",
+  "principal": "user:alice@pay.example",
+  "condition": {},
+  "nonce": "n-deny-condition-required",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "LTFbxdUGX3pmVYKW8-jY4wZWBBms0dtf_1R1SdOxAE4"
+}

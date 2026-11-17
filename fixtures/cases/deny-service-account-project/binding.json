@@ -1,0 +1,10 @@
+{
+  "project": "pay-prod",
+  "role": "roles/logging.logWriter",
+  "principal": "serviceAccount:runner@ops-prod.iam.gserviceaccount.com",
+  "condition": {},
+  "nonce": "n-deny-service-account-project",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "GuZphDDFZ2gtEUi7XcZBsQlUJe1dBe-C-elnlmKLDo0"
+}

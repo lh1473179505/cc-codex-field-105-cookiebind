@@ -1,0 +1,13 @@
+{
+  "project": "ops-prod",
+  "role": "roles/logging.logWriter",
+  "principal": "serviceAccount:runner@ops-prod.iam.gserviceaccount.com",
+  "condition": {
+    "title": "short-expiry",
+    "expression": "request.time < timestamp(\"2027-01-01T00:00:00Z\")"
+  },
+  "nonce": "n-deny-condition-unexpected",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "h3S00D9fH8AdAvOBoRc4mqm-tCHsCncSSmCgrWdN6RM"
+}

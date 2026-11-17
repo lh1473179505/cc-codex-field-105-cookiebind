@@ -1,0 +1,10 @@
+{
+  "project": "pay-prod",
+  "role": "roles/owner",
+  "principal": "user:alice@pay.example",
+  "condition": {},
+  "nonce": "n-deny-owner",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "zKPwEdFvacM3V-j54c7aeEIV9er5gC7-BHfHX-1HOso"
+}

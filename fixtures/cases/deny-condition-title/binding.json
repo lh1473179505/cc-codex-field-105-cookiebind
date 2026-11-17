@@ -1,0 +1,13 @@
+{
+  "project": "pay-prod",
+  "role": "roles/storage.objectViewer",
+  "principal": "user:alice@pay.example",
+  "condition": {
+    "title": "forever",
+    "expression": "request.time < timestamp(\"2027-01-01T00:00:00Z\")"
+  },
+  "nonce": "n-deny-condition-title",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "gEFk27rnXTmRwv4Ak8U8ZOuuf3IGDUtd3O8drwV_46o"
+}

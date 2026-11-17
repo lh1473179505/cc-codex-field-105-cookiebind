@@ -1,0 +1,10 @@
+{
+  "project": "ops-prod",
+  "role": "roles/logging.logWriter",
+  "principal": "serviceAccount:runner@ops-prod.iam.gserviceaccount.com",
+  "condition": {},
+  "nonce": "n-ok-ops-sa",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "GyqwB0mqd-2urVRR2LrRLWc88uQ9tJpgAcZH24jlto8"
+}

@@ -1,0 +1,13 @@
+{
+  "project": "pay-prod",
+  "role": "roles/storage.objectViewer",
+  "principal": "user:alice@pay.example",
+  "condition": {
+    "title": "short-expiry",
+    "expression": "request.time < timestamp(\"2027-01-01T00:00:00Z\")"
+  },
+  "nonce": "n-ok-pay-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "CBwUjqxARw1bh118Pg28qA55NUjaRKWtj5BIXZ3Lt9I"
+}

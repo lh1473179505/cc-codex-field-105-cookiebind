@@ -1,0 +1,62 @@
+{
+  "projects": {
+    "pay-prod": {
+      "roles": [
+        "roles/storage.objectViewer",
+        "roles/logging.logWriter"
+      ],
+      "member_domains": [
+        "pay.example"
+      ],
+      "service_account_projects": [
+        "pay-prod"
+      ],
+      "role_principals": {
+        "roles/storage.objectViewer": [
+          "user",
+          "group"
+        ],
+        "roles/logging.logWriter": [
+          "serviceAccount"
+        ]
+      },
+      "conditions": {
+        "short-expiry": "request.time < timestamp(\"2027-01-01T00:00:00Z\")"
+      },
+      "required_condition_roles": [
+        "roles/storage.objectViewer"
+      ],
+      "empty_condition_roles": [
+        "roles/logging.logWriter"
+      ]
+    },
+    "ops-prod": {
+      "roles": [
+        "roles/logging.logWriter"
+      ],
+      "member_domains": [
+        "ops.example"
+      ],
+      "service_account_projects": [
+        "ops-prod"
+      ],
+      "role_principals": {
+        "roles/logging.logWriter": [
+          "serviceAccount"
+        ]
+      },
+      "conditions": {},
+      "required_condition_roles": [],
+      "empty_condition_roles": [
+        "roles/logging.logWriter"
+      ]
+    }
+  },
+  "forbid_owner": true,
+  "forbid_public_principals": [
+    "allUsers",
+    "allAuthenticatedUsers"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

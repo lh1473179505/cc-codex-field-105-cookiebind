@@ -1,0 +1,13 @@
+{
+  "project": "pay-prod",
+  "role": "roles/storage.objectViewer",
+  "principal": "allUsers",
+  "condition": {
+    "title": "short-expiry",
+    "expression": "request.time < timestamp(\"2027-01-01T00:00:00Z\")"
+  },
+  "nonce": "n-deny-public-principal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "fsMJWfECUPH1ELL81jEelcUddGFoGBqTiSQV8pTh9KQ"
+}

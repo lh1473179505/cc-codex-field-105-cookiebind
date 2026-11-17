@@ -1,0 +1,10 @@
+{
+  "project": "pay-prod",
+  "role": "roles/logging.logWriter",
+  "principal": "user:alice@pay.example",
+  "condition": {},
+  "nonce": "n-deny-role-principal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "qwXHfpYQ9nMkFActuSbrga4I7rwO250BJpBpHqBKD48"
+}

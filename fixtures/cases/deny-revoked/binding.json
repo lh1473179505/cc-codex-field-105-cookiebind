@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "project": "pay-prod",
+  "role": "roles/storage.objectViewer",
+  "principal": "user:alice@pay.example",
+  "condition": {
+    "title": "short-expiry",
+    "expression": "request.time < timestamp(\"2027-01-01T00:00:00Z\")"
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "Hud9CyKWnsyWePzBxtkiAu5SpwlLy13AB6tLn_cFfyk"
+}

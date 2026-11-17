@@ -1,0 +1,10 @@
+{
+  "project": "ops-prod",
+  "role": "roles/storage.objectViewer",
+  "principal": "serviceAccount:runner@ops-prod.iam.gserviceaccount.com",
+  "condition": {},
+  "nonce": "n-deny-role",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "p-tmp2XI4HgCkc4JOpvClS9a4rvAbWTXzyoirLDywzA"
+}
