@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "principal": "User:pay",
+  "resource": "Topic",
+  "name": "pay.ledger",
+  "op": "Write",
+  "group": "",
+  "client": "pay-producer",
+  "host": "10.0.8.3",
+  "pattern": "LITERAL",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "qXcZJ0jHtq2PyzQACjyLmJM9AE38SVn3amatk98iJTg"
+}

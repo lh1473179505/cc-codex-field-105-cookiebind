@@ -1,0 +1,14 @@
+{
+  "principal": "User:pay",
+  "resource": "Topic",
+  "name": "pay.ledger",
+  "op": "Write",
+  "group": "",
+  "client": "pay-producer",
+  "host": "8.8.8.8",
+  "pattern": "LITERAL",
+  "nonce": "n-deny-host",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Y9mPUKsxTXMlS0hQK4iZ0zwatSGrVlw5JJ9DSH2u95c"
+}

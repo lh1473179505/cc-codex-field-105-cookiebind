@@ -1,0 +1,14 @@
+{
+  "principal": "User:ops",
+  "resource": "Topic",
+  "name": "ops.jobs",
+  "op": "Write",
+  "group": "",
+  "client": "ops-reader",
+  "host": "10.1.2.3",
+  "pattern": "LITERAL",
+  "nonce": "n-deny-op",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "D7MHAUY3_juxXgjST_IHzt5yYx_jVEQiijKRLhva_YE"
+}

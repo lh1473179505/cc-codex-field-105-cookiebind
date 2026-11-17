@@ -1,0 +1,71 @@
+{
+  "principals": {
+    "User:pay": {
+      "topics": [
+        "pay.",
+        "shared."
+      ],
+      "groups": [
+        "pay-"
+      ],
+      "ops": [
+        "Read",
+        "Write",
+        "Describe"
+      ],
+      "clients": [
+        "pay-producer",
+        "pay-consumer"
+      ],
+      "hosts": [
+        "10.0.0.0/8",
+        "203.0.113.0/24"
+      ],
+      "patterns": [
+        "LITERAL",
+        "PREFIXED"
+      ]
+    },
+    "User:ops": {
+      "topics": [
+        "ops."
+      ],
+      "groups": [
+        "ops-"
+      ],
+      "ops": [
+        "Read",
+        "Describe"
+      ],
+      "clients": [
+        "ops-reader"
+      ],
+      "hosts": [
+        "10.1.0.0/16"
+      ],
+      "patterns": [
+        "LITERAL"
+      ]
+    }
+  },
+  "allowed_resources": [
+    "Topic",
+    "Group"
+  ],
+  "name_deny_substrings": [
+    "*",
+    "..",
+    "//",
+    "%2e"
+  ],
+  "group_required_for": [
+    "Read"
+  ],
+  "client_required_for": [
+    "Write",
+    "Read"
+  ],
+  "host_required": true,
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 600
+}

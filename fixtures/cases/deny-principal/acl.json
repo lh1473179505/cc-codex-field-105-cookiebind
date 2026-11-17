@@ -1,0 +1,14 @@
+{
+  "principal": "User:eve",
+  "resource": "Topic",
+  "name": "pay.ledger",
+  "op": "Write",
+  "group": "",
+  "client": "pay-producer",
+  "host": "10.0.8.3",
+  "pattern": "LITERAL",
+  "nonce": "n-deny-principal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "fGPGkQeVFeTgqCclVKdkDM98ZkPCNbdCChnbj0SD_pg"
+}

@@ -1,0 +1,14 @@
+{
+  "principal": "User:pay",
+  "resource": "Topic",
+  "name": "pay.ledger",
+  "op": "Write",
+  "group": "",
+  "client": "ops-reader",
+  "host": "10.0.8.3",
+  "pattern": "LITERAL",
+  "nonce": "n-deny-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SrpaMFOSMPMwVFezfOv8ATdK8sf4xReTJpHoJ1htVoU"
+}

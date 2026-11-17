@@ -1,0 +1,14 @@
+{
+  "principal": "User:pay",
+  "resource": "Topic",
+  "name": "pay.*",
+  "op": "Write",
+  "group": "",
+  "client": "pay-producer",
+  "host": "10.0.8.3",
+  "pattern": "LITERAL",
+  "nonce": "n-deny-glob",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ournEU8K_CCfCiVIvuTkRCqiKbgGaOscZ3uiUFVlGGc"
+}

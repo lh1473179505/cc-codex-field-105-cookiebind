@@ -1,0 +1,14 @@
+{
+  "principal": "User:pay",
+  "resource": "Topic",
+  "name": "pay.ledger",
+  "op": "Read",
+  "group": "pay-workers",
+  "client": "pay-consumer",
+  "host": "203.0.113.9",
+  "pattern": "PREFIXED",
+  "nonce": "n-ok-pay-read",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "AzHCMwseE6AWorNgpGbusBya2U1v9LkIS5gl2kCu-VI"
+}
