@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "policy_id": "mtasts-pay-2026-11",
+  "domain": "pay.example",
+  "mode": "enforce",
+  "mx": [
+    "mx1.pay.example"
+  ],
+  "max_age": 86400,
+  "report_domain": "pay.example",
+  "policy_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "MXbv40zSzYyIeZFc2YZye3hjHHO-ZGgtVfivKZWd-aQ"
+}

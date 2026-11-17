@@ -1,0 +1,15 @@
+{
+  "policy_id": "mtasts-pay-2026-11",
+  "domain": "pay.example",
+  "mode": "enforce",
+  "mx": [
+    "mx1.pay.example"
+  ],
+  "max_age": 86400,
+  "report_domain": "ops.example",
+  "policy_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "nonce": "n-deny-report-alignment",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "1Tu2oR-iDXDvxpwpMQJBoWiTZrU7KmqHyiHEhAUAgwI"
+}

@@ -1,0 +1,15 @@
+{
+  "policy_id": "mtasts-ops-2026-11",
+  "domain": "ops.example",
+  "mode": "testing",
+  "mx": [
+    "mx.ops.example"
+  ],
+  "max_age": 604801,
+  "report_domain": "ops.example",
+  "policy_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "nonce": "n-deny-max-age-high",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Vfxh61G-1tzXFqTe1ja4FRkwo7H9UB5B6RXVmdLbl2o"
+}

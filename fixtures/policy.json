@@ -1,0 +1,51 @@
+{
+  "domains": {
+    "pay.example": {
+      "policy_ids": [
+        "mtasts-pay-2026-11"
+      ],
+      "modes": [
+        "enforce"
+      ],
+      "mx_suffixes": [
+        "pay.example"
+      ],
+      "mx_required": [
+        "mx1.pay.example"
+      ],
+      "max_age_min": 86400,
+      "max_age_max": 31536000,
+      "report_domains": [
+        "pay.example"
+      ]
+    },
+    "ops.example": {
+      "policy_ids": [
+        "mtasts-ops-2026-11"
+      ],
+      "modes": [
+        "testing",
+        "enforce"
+      ],
+      "mx_suffixes": [
+        "ops.example"
+      ],
+      "mx_required": [
+        "mx.ops.example"
+      ],
+      "max_age_min": 3600,
+      "max_age_max": 604800,
+      "report_domains": [
+        "ops.example"
+      ]
+    }
+  },
+  "mx_min": 1,
+  "mx_max": 3,
+  "require_unique_mx": true,
+  "require_lowercase_names": true,
+  "policy_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
