@@ -1,0 +1,66 @@
+{
+  "accounts": {
+    "paystore": {
+      "services": {
+        "blob": {
+          "resources": {
+            "paycontainer": {
+              "path_prefixes": [
+                "incoming/",
+                "reports/"
+              ],
+              "permissions_allowed": [
+                "list",
+                "read"
+              ],
+              "permissions_required": [
+                "read"
+              ],
+              "expiry_min": 300,
+              "expiry_max": 3600,
+              "source_cidrs": [
+                "203.0.113.0/24"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "opsstore": {
+      "services": {
+        "file": {
+          "resources": {
+            "opsshare": {
+              "path_prefixes": [
+                "jobs/"
+              ],
+              "permissions_allowed": [
+                "read"
+              ],
+              "permissions_required": [
+                "read"
+              ],
+              "expiry_min": 600,
+              "expiry_max": 1800,
+              "source_cidrs": [
+                "198.51.100.0/24"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "require_https": 1,
+  "require_sorted_unique_permissions": true,
+  "path_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "%2e",
+    "%2E",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,16 @@
+{
+  "account": "paystore",
+  "service": "file",
+  "resource": "paycontainer",
+  "path": "incoming/pay.csv",
+  "permissions": [
+    "read"
+  ],
+  "expiry": 1800,
+  "source_ip": "203.0.113.8",
+  "https": 1,
+  "nonce": "n-deny-service",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "vQSGXLSNAFHwo06Oi3xyLrzcotG3NGx7d7JpwFgpqdY"
+}

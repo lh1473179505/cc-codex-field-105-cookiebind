@@ -1,0 +1,16 @@
+{
+  "account": "paystore",
+  "service": "blob",
+  "resource": "paycontainer",
+  "path": "incoming/pay.csv",
+  "permissions": [
+    "read"
+  ],
+  "expiry": 299,
+  "source_ip": "203.0.113.8",
+  "https": 1,
+  "nonce": "n-deny-expiry-low",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RGtt4k2Zkz9oruB1vTJTa5DWs5qZQl3ni_A56CLR010"
+}

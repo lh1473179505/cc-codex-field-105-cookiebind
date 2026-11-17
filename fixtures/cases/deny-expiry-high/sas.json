@@ -1,0 +1,16 @@
+{
+  "account": "opsstore",
+  "service": "file",
+  "resource": "opsshare",
+  "path": "jobs/nightly.txt",
+  "permissions": [
+    "read"
+  ],
+  "expiry": 1801,
+  "source_ip": "198.51.100.7",
+  "https": 1,
+  "nonce": "n-deny-expiry-high",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "l867Z0sPpHeHcyp-VPktppOIMsIh4jGRMirZAuCaXVY"
+}
