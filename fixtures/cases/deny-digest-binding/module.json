@@ -1,0 +1,15 @@
+{
+  "module": "payfilter",
+  "path": "/lib/modules/6.8.0/payfilter.ko",
+  "digest": "acacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacac",
+  "sig_alg": "rsa-pkcs1-sha256",
+  "keyring": "kernel-pay",
+  "params": {
+    "mode": "enforce",
+    "table": "pay"
+  },
+  "nonce": "n-deny-digest-binding",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SNwy_VywwDzw0pyIDw1MI_4aB2OYf6Zdp5s1TW6INCo"
+}

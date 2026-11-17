@@ -1,0 +1,15 @@
+{
+  "module": "opsmon",
+  "path": "/lib/modules/6.8.0/opsmon.ko",
+  "digest": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "sig_alg": "ecdsa-nistp256-sha256",
+  "keyring": "kernel-ops",
+  "params": {
+    "level": "9",
+    "mode": "audit"
+  },
+  "nonce": "n-deny-param-value",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "u4Mzc5BqNyhAD009HtW-lD8B5gTueY3nqupS7hmotIY"
+}

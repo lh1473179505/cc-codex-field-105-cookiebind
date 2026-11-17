@@ -1,0 +1,62 @@
+{
+  "modules": {
+    "payfilter": {
+      "path": "/lib/modules/6.8.0/payfilter.ko",
+      "digest": "abababababababababababababababababababababababababababababababab",
+      "sig_algs": [
+        "rsa-pkcs1-sha256"
+      ],
+      "keyring": "kernel-pay",
+      "params_allowed": [
+        "mode",
+        "table"
+      ],
+      "params_required": {
+        "mode": "enforce"
+      },
+      "param_values": {
+        "mode": [
+          "enforce"
+        ],
+        "table": [
+          "pay",
+          "pay-alt"
+        ]
+      }
+    },
+    "opsmon": {
+      "path": "/lib/modules/6.8.0/opsmon.ko",
+      "digest": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "sig_algs": [
+        "ecdsa-nistp256-sha256"
+      ],
+      "keyring": "kernel-ops",
+      "params_allowed": [
+        "mode",
+        "level"
+      ],
+      "params_required": {
+        "mode": "audit"
+      },
+      "param_values": {
+        "mode": [
+          "audit"
+        ],
+        "level": [
+          "1",
+          "2"
+        ]
+      }
+    }
+  },
+  "digest_hex_len": 64,
+  "require_lowercase_hex": true,
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

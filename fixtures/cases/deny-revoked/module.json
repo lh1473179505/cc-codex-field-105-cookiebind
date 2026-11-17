@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "module": "payfilter",
+  "path": "/lib/modules/6.8.0/payfilter.ko",
+  "digest": "abababababababababababababababababababababababababababababababab",
+  "sig_alg": "rsa-pkcs1-sha256",
+  "keyring": "kernel-pay",
+  "params": {
+    "mode": "enforce",
+    "table": "pay"
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "KCcGyosmAQevdpkWQoijjEPdWCT6VOHtITPwG7_Jo4c"
+}
