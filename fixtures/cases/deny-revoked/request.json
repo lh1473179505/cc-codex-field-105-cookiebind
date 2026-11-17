@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "user": "alice@pay.example",
+  "resource": "pay-db",
+  "role": "reader",
+  "duration": 1800,
+  "ticket": "PAY-123456",
+  "approval": {
+    "approver": "lead@pay.example",
+    "decision": "approved"
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "Iy49-COfkWedFBuDIU1X5qi9ZfQcW7R2hpVcZdcKtyo"
+}

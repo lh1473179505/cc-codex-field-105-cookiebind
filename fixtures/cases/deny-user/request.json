@@ -1,0 +1,15 @@
+{
+  "user": "mallory@evil.example",
+  "resource": "pay-db",
+  "role": "reader",
+  "duration": 1800,
+  "ticket": "PAY-123456",
+  "approval": {
+    "approver": "lead@pay.example",
+    "decision": "approved"
+  },
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "4Z_E-C4R4EAQEYaVIo0jmmeqF5siy1GEdt9jJ6mleRs"
+}

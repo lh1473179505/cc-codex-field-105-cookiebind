@@ -1,0 +1,15 @@
+{
+  "user": "alice@pay.example",
+  "resource": "public-db",
+  "role": "reader",
+  "duration": 1800,
+  "ticket": "PAY-123456",
+  "approval": {
+    "approver": "lead@pay.example",
+    "decision": "approved"
+  },
+  "nonce": "n-deny-resource",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "AKBiqvC8ubzDuDP_vnB5gSOe5jKYpgO2Z3Z3uXk4dFA"
+}

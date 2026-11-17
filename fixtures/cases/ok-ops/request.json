@@ -1,0 +1,15 @@
+{
+  "user": "ops-bot@ops.example",
+  "resource": "ops-node",
+  "role": "restart",
+  "duration": 900,
+  "ticket": "OPS-234567",
+  "approval": {
+    "approver": "lead@ops.example",
+    "decision": "approved"
+  },
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5O95v9SFB47abxhrCegN002NMTY1C1KPT3CkvXRvw4M"
+}

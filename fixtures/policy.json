@@ -1,0 +1,44 @@
+{
+  "users": {
+    "alice@pay.example": [
+      "pay-db"
+    ],
+    "ops-bot@ops.example": [
+      "ops-node"
+    ]
+  },
+  "resources": {
+    "pay-db": {
+      "roles": {
+        "reader": {
+          "duration_min": 300,
+          "duration_max": 3600,
+          "ticket_prefix": "PAY-",
+          "approvers": [
+            "lead@pay.example",
+            "alice@pay.example"
+          ]
+        }
+      }
+    },
+    "ops-node": {
+      "roles": {
+        "restart": {
+          "duration_min": 600,
+          "duration_max": 1800,
+          "ticket_prefix": "OPS-",
+          "approvers": [
+            "lead@ops.example"
+          ]
+        }
+      }
+    }
+  },
+  "ticket_pattern": "^[A-Z]+-[0-9]{6}$",
+  "approval_decisions": [
+    "approved"
+  ],
+  "forbid_self_approval": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

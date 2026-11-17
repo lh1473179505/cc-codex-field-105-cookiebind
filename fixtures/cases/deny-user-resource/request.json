@@ -1,0 +1,15 @@
+{
+  "user": "alice@pay.example",
+  "resource": "ops-node",
+  "role": "restart",
+  "duration": 900,
+  "ticket": "OPS-234567",
+  "approval": {
+    "approver": "lead@ops.example",
+    "decision": "approved"
+  },
+  "nonce": "n-deny-user-resource",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6oGfRkb8fy_OZrSOguQX5XnOKF5d7UecsH3xDPDpswg"
+}
