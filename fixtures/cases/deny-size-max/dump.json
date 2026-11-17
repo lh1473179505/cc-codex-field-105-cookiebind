@@ -1,0 +1,13 @@
+{
+  "product": "opsd",
+  "build_id": "opsd-2026.05.18",
+  "arch": "aarch64",
+  "pc_address": "0x0000aaaaf0002000",
+  "module_offset": 8192,
+  "dump_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "size_bytes": 4194305,
+  "nonce": "n-deny-size-max",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IVNc2bk5xphakxtziCjK6LL-mtNyqP63yh-5HSAoufk"
+}

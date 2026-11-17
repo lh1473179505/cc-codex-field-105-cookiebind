@@ -1,0 +1,13 @@
+{
+  "product": "payd",
+  "build_id": "payd-2026.06.01",
+  "arch": "x86_64",
+  "pc_address": "0x00007ffff0001000",
+  "module_offset": 4096,
+  "dump_sha256": "abababababababababababababababababababababababababababababababab",
+  "size_bytes": 1048576,
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "owqCa4J3NlxtFYROKFw0MIeTkh00GxLGzTV-3aD19FE"
+}

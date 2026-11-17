@@ -1,0 +1,36 @@
+{
+  "products": {
+    "payd": {
+      "builds": {
+        "payd-2026.06.01": {
+          "arches": {
+            "x86_64": {
+              "module_base": 140737488355328,
+              "module_size": 1048576
+            }
+          },
+          "dump_size_min": 1024,
+          "dump_size_max": 8388608
+        }
+      }
+    },
+    "opsd": {
+      "builds": {
+        "opsd-2026.05.18": {
+          "arches": {
+            "aarch64": {
+              "module_base": 187650004000768,
+              "module_size": 2097152
+            }
+          },
+          "dump_size_min": 2048,
+          "dump_size_max": 4194304
+        }
+      }
+    }
+  },
+  "pc_hex_digits": 16,
+  "sha256_hex_len": 64,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
