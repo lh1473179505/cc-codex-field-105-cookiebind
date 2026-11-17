@@ -1,0 +1,16 @@
+{
+  "namespace": "ops-ns",
+  "source": "/srv/ops/jobs",
+  "target": "/mnt/ops/jobs",
+  "fstype": "bind",
+  "flags": [
+    "nodev",
+    "nosuid"
+  ],
+  "propagation": "private",
+  "read_only": 1,
+  "nonce": "n-ok-ops-bind",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "eRmxRHsHWNPILY6Sg_gh1BzRDoFt_no0xj4ZcsCx7fc"
+}

@@ -1,0 +1,16 @@
+{
+  "namespace": "ops-ns",
+  "source": "/dev/opsvol",
+  "target": "/mnt/ops/data",
+  "fstype": "ext4",
+  "flags": [
+    "nodev",
+    "nosuid"
+  ],
+  "propagation": "private",
+  "read_only": 0,
+  "nonce": "n-deny-fstype",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "9AIYdiaq_jaC0IOaZncq-xPRI63rTXABaBr_vnORs2s"
+}

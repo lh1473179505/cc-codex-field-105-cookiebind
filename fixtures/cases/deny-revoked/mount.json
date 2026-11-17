@@ -1,0 +1,16 @@
+{
+  "kid": "k-revoked",
+  "namespace": "pay-ns",
+  "source": "/dev/payvol",
+  "target": "/mnt/pay/data",
+  "fstype": "ext4",
+  "flags": [
+    "nodev",
+    "nosuid"
+  ],
+  "propagation": "private",
+  "read_only": 0,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "cE8p1tHAdIBvXWZl396sDV-9t-bER18aWfFSJHVOfNw"
+}

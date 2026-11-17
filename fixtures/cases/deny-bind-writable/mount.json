@@ -1,0 +1,16 @@
+{
+  "namespace": "pay-ns",
+  "source": "/srv/pay/data",
+  "target": "/mnt/pay/data",
+  "fstype": "bind",
+  "flags": [
+    "nodev",
+    "nosuid"
+  ],
+  "propagation": "private",
+  "read_only": 0,
+  "nonce": "n-deny-bind-writable",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "u05l7BZbTv5HP4IYVMaohvbUdcTS0YtUuc1jyiu6W0M"
+}

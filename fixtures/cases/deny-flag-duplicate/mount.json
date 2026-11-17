@@ -1,0 +1,17 @@
+{
+  "namespace": "pay-ns",
+  "source": "/dev/payvol",
+  "target": "/mnt/pay/data",
+  "fstype": "ext4",
+  "flags": [
+    "nodev",
+    "nodev",
+    "nosuid"
+  ],
+  "propagation": "private",
+  "read_only": 0,
+  "nonce": "n-deny-flag-duplicate",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QcrEc0ikVLoHTkZzWLqVDKkHIuGwdy7HU8Si9gUfcuo"
+}

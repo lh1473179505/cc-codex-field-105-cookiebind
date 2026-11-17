@@ -1,0 +1,68 @@
+{
+  "namespaces": {
+    "pay-ns": {
+      "sources": [
+        "/dev/payvol",
+        "/srv/pay/data"
+      ],
+      "target_prefixes": [
+        "/mnt/pay/"
+      ],
+      "fstypes": [
+        "ext4",
+        "bind"
+      ],
+      "flags": [
+        "nodev",
+        "nosuid",
+        "noexec"
+      ],
+      "required_flags": [
+        "nodev",
+        "nosuid"
+      ],
+      "propagation": "private",
+      "bind_sources": [
+        "/srv/pay/data"
+      ]
+    },
+    "ops-ns": {
+      "sources": [
+        "/dev/opsvol",
+        "/srv/ops/jobs"
+      ],
+      "target_prefixes": [
+        "/mnt/ops/"
+      ],
+      "fstypes": [
+        "xfs",
+        "bind"
+      ],
+      "flags": [
+        "nodev",
+        "nosuid"
+      ],
+      "required_flags": [
+        "nodev",
+        "nosuid"
+      ],
+      "propagation": "private",
+      "bind_sources": [
+        "/srv/ops/jobs"
+      ]
+    }
+  },
+  "require_unique_flags": true,
+  "read_only_values": [
+    0,
+    1
+  ],
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

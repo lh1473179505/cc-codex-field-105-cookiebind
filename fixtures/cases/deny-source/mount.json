@@ -1,0 +1,16 @@
+{
+  "namespace": "pay-ns",
+  "source": "/dev/opsvol",
+  "target": "/mnt/pay/data",
+  "fstype": "ext4",
+  "flags": [
+    "nodev",
+    "nosuid"
+  ],
+  "propagation": "private",
+  "read_only": 0,
+  "nonce": "n-deny-source",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "sYVBBJ2-HswO2M9tJxJ5vF0UKkJQprkx8t8TTlOPqZo"
+}
