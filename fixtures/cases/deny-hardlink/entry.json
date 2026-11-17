@@ -1,0 +1,14 @@
+{
+  "archive": "batch.zip",
+  "entry": "hard",
+  "link_target": "reports/a.csv",
+  "target_root": "/var/pay/inbox",
+  "size": 10,
+  "mode": "100000",
+  "uid": 1000,
+  "gid": 1000,
+  "nonce": "n-deny-hardlink",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "VUPT04N3RdmbUcsLlU1vWEjo45h94qp7RQN-2HWhLjA"
+}

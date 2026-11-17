@@ -1,0 +1,14 @@
+{
+  "archive": "logs.tgz",
+  "entry": "day/log.txt",
+  "link_target": "",
+  "target_root": "/var/ops/inbox",
+  "size": 200,
+  "mode": "100644",
+  "uid": 2000,
+  "gid": 0,
+  "nonce": "n-deny-gid",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jxxMVu21GZY4ZrPQaSurr0v0lvZmP8hO9KS7j7Rt0SM"
+}

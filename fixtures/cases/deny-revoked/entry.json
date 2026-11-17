@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "archive": "batch.zip",
+  "entry": "reports/a.csv",
+  "link_target": "",
+  "target_root": "/var/pay/inbox",
+  "size": 100,
+  "mode": "100644",
+  "uid": 1000,
+  "gid": 1000,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "-OydB-uTWB7c2taMEd5sZb4ax97C44Wpmqg1sZdhWPQ"
+}

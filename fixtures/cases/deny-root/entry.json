@@ -1,0 +1,14 @@
+{
+  "archive": "batch.zip",
+  "entry": "reports/a.csv",
+  "link_target": "",
+  "target_root": "/tmp",
+  "size": 100,
+  "mode": "100644",
+  "uid": 1000,
+  "gid": 1000,
+  "nonce": "n-deny-root",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "nAPwZgteYQJCS0sK08z95AXLJVwKhIBvlhc4gSvkXZA"
+}

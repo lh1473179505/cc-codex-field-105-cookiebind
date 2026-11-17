@@ -1,0 +1,56 @@
+{
+  "roots": {
+    "/var/pay/inbox": {
+      "uid_allow": [
+        1000,
+        1001
+      ],
+      "gid_allow": [
+        1000
+      ],
+      "mode_allow": [
+        "100644",
+        "100755"
+      ],
+      "max_size": 1048576
+    },
+    "/var/ops/inbox": {
+      "uid_allow": [
+        2000
+      ],
+      "gid_allow": [
+        2000
+      ],
+      "mode_allow": [
+        "100644"
+      ],
+      "max_size": 524288
+    }
+  },
+  "archive_suffixes": [
+    ".zip",
+    ".tar",
+    ".tgz"
+  ],
+  "entry_deny_substrings": [
+    "..",
+    "\\",
+    "\u0000",
+    "//",
+    "%2e",
+    "%2E"
+  ],
+  "forbid_absolute_entry": true,
+  "forbid_symlink": true,
+  "forbid_hardlink": true,
+  "symlink_modes": [
+    "120777",
+    "120755"
+  ],
+  "hardlink_modes": [
+    "100000"
+  ],
+  "link_target_must_empty_unless_link": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
