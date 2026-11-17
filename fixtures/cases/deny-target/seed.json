@@ -1,0 +1,12 @@
+{
+  "target": "unknown-fuzzer",
+  "input_sha256": "abababababababababababababababababababababababababababababababab",
+  "size": 256,
+  "coverage_edges": 120,
+  "format": "raw",
+  "timeout_ms": 250,
+  "nonce": "n-deny-target",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "FIIIbNljbFHsncVf2mwN3gZB48Qcut-iq0g59IzJrsg"
+}

@@ -1,0 +1,12 @@
+{
+  "target": "ops-decoder",
+  "input_sha256": "abababababababababababababababababababababababababababababababab",
+  "size": 1024,
+  "coverage_edges": 300,
+  "format": "raw",
+  "timeout_ms": 500,
+  "nonce": "n-deny-format",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "zIKUWpq8E9ntBsewVHMGLVg1tkgfk8S0iWiOUPUZj-A"
+}

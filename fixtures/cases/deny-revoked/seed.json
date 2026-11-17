@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "target": "pay-parser",
+  "input_sha256": "abababababababababababababababababababababababababababababababab",
+  "size": 256,
+  "coverage_edges": 120,
+  "format": "raw",
+  "timeout_ms": 250,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "vu3qHICXW604dUdXsRYJPpZUMNYu7KWxupy3yhP59kA"
+}

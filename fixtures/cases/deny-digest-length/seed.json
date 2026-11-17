@@ -1,0 +1,12 @@
+{
+  "target": "pay-parser",
+  "input_sha256": "ababababababababababababababababababababababababababababababab",
+  "size": 256,
+  "coverage_edges": 120,
+  "format": "raw",
+  "timeout_ms": 250,
+  "nonce": "n-deny-digest-length",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "xhLn_zEygeLA-2vnB7omFT8h-WB-wI9YgeN9ejHV-hg"
+}
