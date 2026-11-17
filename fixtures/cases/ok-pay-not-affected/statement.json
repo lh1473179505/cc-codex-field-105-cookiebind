@@ -1,0 +1,12 @@
+{
+  "product_purl": "pkg:npm/@acme/pay@1.4.0",
+  "cve": "CVE-2026-1001",
+  "status": "not_affected",
+  "justification": "vulnerable_code_not_in_execute_path",
+  "action_statement": "",
+  "issued_at": "2026-06-01T00:00:00Z",
+  "nonce": "n-ok-pay-not-affected",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Cce9RtmZTXfHBmTyrxXN70k7f3zgJdD7lN2a6Y_u7Iw"
+}

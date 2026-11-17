@@ -1,0 +1,12 @@
+{
+  "product_purl": "pkg:pypi/acme-ops@2.3.1",
+  "cve": "CVE-2026-2002",
+  "status": "affected",
+  "justification": "vulnerable_code_not_in_execute_path",
+  "action_statement": "Upgrade to 2.3.2 immediately.",
+  "issued_at": "2026-06-02T12:30:00Z",
+  "nonce": "n-deny-justification-present",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "J_XZuMulsNCjCvD46war3tFdHFfliHtx7KZy_W_N8cY"
+}

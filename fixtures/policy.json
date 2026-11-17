@@ -1,0 +1,56 @@
+{
+  "products": {
+    "pkg:npm/@acme/pay@1.4.0": {
+      "cves": {
+        "CVE-2026-1001": {
+          "statuses": [
+            "not_affected"
+          ],
+          "justifications": [
+            "vulnerable_code_not_in_execute_path"
+          ],
+          "action_required": false,
+          "action_prefixes": []
+        },
+        "CVE-2026-1002": {
+          "statuses": [
+            "affected"
+          ],
+          "justifications": [],
+          "action_required": true,
+          "action_prefixes": [
+            "Upgrade to 1.4.1"
+          ]
+        }
+      }
+    },
+    "pkg:pypi/acme-ops@2.3.1": {
+      "cves": {
+        "CVE-2026-2002": {
+          "statuses": [
+            "affected"
+          ],
+          "justifications": [],
+          "action_required": true,
+          "action_prefixes": [
+            "Upgrade to 2.3.2"
+          ]
+        },
+        "CVE-2026-2003": {
+          "statuses": [
+            "fixed"
+          ],
+          "justifications": [],
+          "action_required": false,
+          "action_prefixes": []
+        }
+      }
+    }
+  },
+  "cve_pattern": "^CVE-[0-9]{4}-[0-9]{4,}$",
+  "action_length_max": 240,
+  "issued_at_min": "2025-01-01T00:00:00Z",
+  "issued_at_max": "2026-12-31T23:59:59Z",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
