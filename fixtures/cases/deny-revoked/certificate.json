@@ -1,0 +1,18 @@
+{
+  "kid": "k-revoked",
+  "profile": "server",
+  "not_before": 1780000000,
+  "not_after": 1782592000,
+  "key_alg": "RSA",
+  "key_bits": 3072,
+  "san_dns": [
+    "api.pay.example"
+  ],
+  "eku": [
+    "serverAuth"
+  ],
+  "der_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "vpYF21oYDqNfhXKRRvG2Egx8MItSb3SfqmFXmRSZfFQ"
+}

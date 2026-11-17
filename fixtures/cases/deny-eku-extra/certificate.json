@@ -1,0 +1,19 @@
+{
+  "profile": "client",
+  "not_before": 1780000000,
+  "not_after": 1782592000,
+  "key_alg": "ECDSA",
+  "key_bits": 256,
+  "san_dns": [
+    "device01.devices.ops.example"
+  ],
+  "eku": [
+    "clientAuth",
+    "serverAuth"
+  ],
+  "der_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "nonce": "n-deny-eku-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "33eT50Z0EvSWjUSFLIZkOKVKj2761vSjS8I54fniisg"
+}

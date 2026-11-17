@@ -1,0 +1,62 @@
+{
+  "profiles": {
+    "server": {
+      "validity_min_seconds": 3600,
+      "validity_max_seconds": 34387200,
+      "key_pairs": {
+        "RSA": [
+          3072,
+          4096
+        ],
+        "ECDSA": [
+          384
+        ]
+      },
+      "san_suffixes": [
+        "pay.example",
+        "ops.example"
+      ],
+      "san_min": 1,
+      "san_max": 3,
+      "allow_wildcard": false,
+      "eku_allowed": [
+        "serverAuth"
+      ],
+      "eku_required": [
+        "serverAuth"
+      ]
+    },
+    "client": {
+      "validity_min_seconds": 3600,
+      "validity_max_seconds": 31536000,
+      "key_pairs": {
+        "RSA": [
+          3072
+        ],
+        "ECDSA": [
+          256,
+          384
+        ]
+      },
+      "san_suffixes": [
+        "devices.ops.example"
+      ],
+      "san_min": 1,
+      "san_max": 2,
+      "allow_wildcard": false,
+      "eku_allowed": [
+        "clientAuth"
+      ],
+      "eku_required": [
+        "clientAuth"
+      ]
+    }
+  },
+  "require_unique_san": true,
+  "require_unique_eku": true,
+  "require_lowercase_san": true,
+  "der_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

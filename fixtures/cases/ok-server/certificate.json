@@ -1,0 +1,19 @@
+{
+  "profile": "server",
+  "not_before": 1780000000,
+  "not_after": 1782592000,
+  "key_alg": "RSA",
+  "key_bits": 3072,
+  "san_dns": [
+    "api.pay.example",
+    "www.pay.example"
+  ],
+  "eku": [
+    "serverAuth"
+  ],
+  "der_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+  "nonce": "n-ok-server",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6_9jUm4g9G1RatGhrWYss6-gbF1ejT3zcZBlJ4jRzoU"
+}
