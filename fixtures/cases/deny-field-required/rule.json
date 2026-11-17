@@ -1,0 +1,19 @@
+{
+  "rule_id": "SIG-OPS-AUTH",
+  "title": "Ops repeated authentication failure",
+  "logsource": {
+    "category": "authentication",
+    "product": "linux"
+  },
+  "detection": [
+    "selection_user"
+  ],
+  "level": "medium",
+  "field_names": [
+    "User"
+  ],
+  "nonce": "n-deny-field-required",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Gg76Tc_X30GKJ4PbZKDUFGHMZ2j44qZx2IVjbog2t2c"
+}

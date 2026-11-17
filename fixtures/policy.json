@@ -1,0 +1,86 @@
+{
+  "rules": {
+    "SIG-PAY-PROC": {
+      "title": "Pay suspicious child process",
+      "logsource": {
+        "category": "process_creation",
+        "product": "windows"
+      },
+      "detection_allowed": [
+        "selection",
+        "filter_parent"
+      ],
+      "detection_required": [
+        "selection"
+      ],
+      "selector_fields": {
+        "selection": [
+          "Image",
+          "CommandLine"
+        ],
+        "filter_parent": [
+          "ParentImage"
+        ]
+      },
+      "levels": [
+        "high",
+        "critical"
+      ],
+      "fields_allowed": [
+        "Image",
+        "CommandLine",
+        "ParentImage"
+      ],
+      "fields_required": [
+        "Image",
+        "CommandLine"
+      ]
+    },
+    "SIG-OPS-AUTH": {
+      "title": "Ops repeated authentication failure",
+      "logsource": {
+        "category": "authentication",
+        "product": "linux"
+      },
+      "detection_allowed": [
+        "selection_user",
+        "selection_source"
+      ],
+      "detection_required": [
+        "selection_user"
+      ],
+      "selector_fields": {
+        "selection_user": [
+          "User"
+        ],
+        "selection_source": [
+          "SourceAddress"
+        ]
+      },
+      "levels": [
+        "medium",
+        "high"
+      ],
+      "fields_allowed": [
+        "User",
+        "SourceAddress",
+        "EventID"
+      ],
+      "fields_required": [
+        "User",
+        "EventID"
+      ]
+    }
+  },
+  "logsource_keys": [
+    "category",
+    "product"
+  ],
+  "detection_count_min": 1,
+  "detection_count_max": 2,
+  "field_count_min": 1,
+  "field_count_max": 4,
+  "title_length_max": 80,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

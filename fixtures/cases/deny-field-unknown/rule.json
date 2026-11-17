@@ -1,0 +1,21 @@
+{
+  "rule_id": "SIG-PAY-PROC",
+  "title": "Pay suspicious child process",
+  "logsource": {
+    "category": "process_creation",
+    "product": "windows"
+  },
+  "detection": [
+    "selection"
+  ],
+  "level": "high",
+  "field_names": [
+    "Image",
+    "CommandLine",
+    "NetworkDestination"
+  ],
+  "nonce": "n-deny-field-unknown",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ScxR_-_-w194VWx3wG8cjWLRs2WZlCr_6jKxi673Bd0"
+}

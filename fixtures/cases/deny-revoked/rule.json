@@ -1,0 +1,20 @@
+{
+  "kid": "k-revoked",
+  "rule_id": "SIG-PAY-PROC",
+  "title": "Pay suspicious child process",
+  "logsource": {
+    "category": "process_creation",
+    "product": "windows"
+  },
+  "detection": [
+    "selection"
+  ],
+  "level": "high",
+  "field_names": [
+    "Image",
+    "CommandLine"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "pB8puDwRRQPq63IaaDZ_EUBeB9G8grcbzZF4EZVDTJs"
+}

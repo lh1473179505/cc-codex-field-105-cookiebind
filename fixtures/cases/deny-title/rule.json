@@ -1,0 +1,20 @@
+{
+  "rule_id": "SIG-PAY-PROC",
+  "title": "Unrelated title",
+  "logsource": {
+    "category": "process_creation",
+    "product": "windows"
+  },
+  "detection": [
+    "selection"
+  ],
+  "level": "high",
+  "field_names": [
+    "Image",
+    "CommandLine"
+  ],
+  "nonce": "n-deny-title",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "nFINFawsylaV0KVUOtCRCfwaLa9R66-n5yb7449ZAI4"
+}
