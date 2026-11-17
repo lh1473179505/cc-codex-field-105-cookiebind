@@ -1,0 +1,50 @@
+{
+  "servers": {
+    "https://symbols.pay.example": {
+      "builds": {
+        "payd-2026.06.01": {
+          "files": {
+            "payd.pdb": {
+              "arches": [
+                "x86_64"
+              ],
+              "sha256": "abababababababababababababababababababababababababababababababab"
+            }
+          }
+        }
+      }
+    },
+    "https://symbols.ops.example": {
+      "builds": {
+        "opsd-2026.05.18": {
+          "files": {
+            "opsd.dbg": {
+              "arches": [
+                "aarch64"
+              ],
+              "sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+            }
+          }
+        }
+      }
+    }
+  },
+  "server_pattern": "^https://[a-z0-9.-]+$",
+  "file_deny_substrings": [
+    "/",
+    "\\",
+    "..",
+    "\u0000"
+  ],
+  "path_deny_substrings": [
+    "..",
+    "%2e",
+    "%2E",
+    "\\",
+    "//",
+    "\u0000"
+  ],
+  "sha256_hex_len": 64,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

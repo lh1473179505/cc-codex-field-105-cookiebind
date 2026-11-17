@@ -1,0 +1,12 @@
+{
+  "symbol_server": "https://symbols.ops.example",
+  "build_id": "opsd-2026.05.18",
+  "file_name": "opsd.dbg",
+  "arch": "aarch64",
+  "file_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "path": "/opsd-2026.05.18/aarch64/opsd.dbg",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "7Skxvck1uMA15-UGMbMxd7Fgt2mkgpGZh5Nu_wMrfqw"
+}

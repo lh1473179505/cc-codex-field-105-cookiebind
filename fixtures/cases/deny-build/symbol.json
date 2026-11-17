@@ -1,0 +1,12 @@
+{
+  "symbol_server": "https://symbols.pay.example",
+  "build_id": "payd-2025.01.01",
+  "file_name": "payd.pdb",
+  "arch": "x86_64",
+  "file_sha256": "abababababababababababababababababababababababababababababababab",
+  "path": "/payd-2026.06.01/x86_64/payd.pdb",
+  "nonce": "n-deny-build",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "z8S6aEw88Orz0vxW0jgaW6KJWztZLfFI1xyWyv6ifAM"
+}

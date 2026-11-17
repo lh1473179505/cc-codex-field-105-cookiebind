@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "symbol_server": "https://symbols.pay.example",
+  "build_id": "payd-2026.06.01",
+  "file_name": "payd.pdb",
+  "arch": "x86_64",
+  "file_sha256": "abababababababababababababababababababababababababababababababab",
+  "path": "/payd-2026.06.01/x86_64/payd.pdb",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "bXK096gNPCXW0_GpgPHY1iJbeZkde8mvbF9Us4EBIgY"
+}
