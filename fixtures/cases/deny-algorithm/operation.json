@@ -1,0 +1,14 @@
+{
+  "key_id": "pay-key",
+  "operation": "encrypt",
+  "algorithm": "HMAC_SHA_256",
+  "context": {
+    "tenant": "pay",
+    "purpose": "ledger"
+  },
+  "grant": "grant-pay-enc",
+  "nonce": "n-deny-algorithm",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "VoxBwrbRa4LShyWvEJWBqcL5vb4QROufbwO-4YY3BVc"
+}

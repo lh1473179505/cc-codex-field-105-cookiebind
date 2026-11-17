@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "key_id": "pay-key",
+  "operation": "encrypt",
+  "algorithm": "AES_256_GCM",
+  "context": {
+    "tenant": "pay",
+    "purpose": "ledger"
+  },
+  "grant": "grant-pay-enc",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "dMlIZ3sZowmACMbEka-5-XJliZdNw-yBgYvsEMTTJaY"
+}

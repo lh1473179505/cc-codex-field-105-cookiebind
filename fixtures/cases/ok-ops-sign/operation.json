@@ -1,0 +1,14 @@
+{
+  "key_id": "ops-key",
+  "operation": "sign",
+  "algorithm": "HMAC_SHA_256",
+  "context": {
+    "tenant": "ops",
+    "purpose": "audit"
+  },
+  "grant": "grant-ops-sign",
+  "nonce": "n-ok-ops-sign",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "VSqW41kCiudwvCOMDMP0iw_2p5RIcLT1acWoF4brfoc"
+}

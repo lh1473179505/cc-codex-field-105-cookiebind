@@ -1,0 +1,14 @@
+{
+  "key_id": "pay-key",
+  "operation": "encrypt",
+  "algorithm": "AES_256_GCM",
+  "context": {
+    "tenant": "ops",
+    "purpose": "ledger"
+  },
+  "grant": "grant-pay-enc",
+  "nonce": "n-deny-context-value",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "1jOKINg25KVAx6Jno1a7vXYrjmxxsn9_0K0SrvIawf8"
+}

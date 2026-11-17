@@ -1,0 +1,69 @@
+{
+  "keys": {
+    "pay-key": {
+      "operations": {
+        "encrypt": {
+          "algorithms": [
+            "AES_256_GCM"
+          ],
+          "grants": [
+            "grant-pay-enc"
+          ]
+        },
+        "decrypt": {
+          "algorithms": [
+            "AES_256_GCM"
+          ],
+          "grants": [
+            "grant-pay-dec"
+          ]
+        }
+      },
+      "context_required": {
+        "tenant": "pay",
+        "purpose": "ledger"
+      },
+      "context_allowed": [
+        "tenant",
+        "purpose",
+        "request_id",
+        "plaintext",
+        "secret"
+      ],
+      "context_forbidden": [
+        "plaintext",
+        "secret"
+      ]
+    },
+    "ops-key": {
+      "operations": {
+        "sign": {
+          "algorithms": [
+            "HMAC_SHA_256"
+          ],
+          "grants": [
+            "grant-ops-sign"
+          ]
+        }
+      },
+      "context_required": {
+        "tenant": "ops",
+        "purpose": "audit"
+      },
+      "context_allowed": [
+        "tenant",
+        "purpose",
+        "request_id",
+        "plaintext",
+        "secret"
+      ],
+      "context_forbidden": [
+        "plaintext",
+        "secret"
+      ]
+    }
+  },
+  "request_id_pattern": "^req-[a-z0-9-]{8,32}$",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
