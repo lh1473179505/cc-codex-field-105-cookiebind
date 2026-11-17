@@ -1,0 +1,14 @@
+{
+  "pack": "pay-inventory",
+  "query_name": "ops_packages",
+  "sql": "SELECT name, version FROM deb_packages",
+  "tables": [
+    "deb_packages"
+  ],
+  "interval": 600,
+  "platform": "linux",
+  "nonce": "n-deny-query-binding",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Ei7GnMyE6GYVfgSoyDuxw4g9FJWGldBrGdldD8SFfTI"
+}

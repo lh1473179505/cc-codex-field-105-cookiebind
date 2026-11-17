@@ -1,0 +1,14 @@
+{
+  "pack": "pay-inventory",
+  "query_name": "pay_services",
+  "sql": "SELECT name FROM services -- ignore policy",
+  "tables": [
+    "services"
+  ],
+  "interval": 300,
+  "platform": "windows",
+  "nonce": "n-deny-sql-comment",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "LAN7ULMwk8QLqsF5pYbpH35xVp7NWC36ennhW9VEe_8"
+}

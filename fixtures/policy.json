@@ -1,0 +1,69 @@
+{
+  "packs": {
+    "pay-inventory": {
+      "queries": {
+        "pay_services": {
+          "tables": [
+            "services"
+          ],
+          "intervals": [
+            300,
+            600
+          ],
+          "platforms": [
+            "windows"
+          ]
+        },
+        "pay_listeners": {
+          "tables": [
+            "listening_ports",
+            "processes"
+          ],
+          "intervals": [
+            600
+          ],
+          "platforms": [
+            "windows",
+            "linux"
+          ]
+        }
+      }
+    },
+    "ops-inventory": {
+      "queries": {
+        "ops_packages": {
+          "tables": [
+            "deb_packages"
+          ],
+          "intervals": [
+            900,
+            1800
+          ],
+          "platforms": [
+            "linux"
+          ]
+        }
+      }
+    }
+  },
+  "table_count_min": 1,
+  "table_count_max": 3,
+  "sql_length_max": 1000,
+  "sql_deny_tokens": [
+    "INSERT",
+    "UPDATE",
+    "DELETE",
+    "DROP",
+    "ALTER",
+    "CREATE",
+    "ATTACH",
+    "PRAGMA",
+    "--",
+    "/*",
+    "*/",
+    ";"
+  ],
+  "identifier_pattern": "^[a-z][a-z0-9_]*$",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

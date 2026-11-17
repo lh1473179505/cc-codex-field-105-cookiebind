@@ -1,0 +1,16 @@
+{
+  "pack": "pay-inventory",
+  "query_name": "pay_listeners",
+  "sql": "SELECT port FROM listening_ports JOIN processes ON listening_ports.pid = processes.pid",
+  "tables": [
+    "listening_ports",
+    "processes",
+    "processes"
+  ],
+  "interval": 600,
+  "platform": "linux",
+  "nonce": "n-deny-table-duplicate",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "LTy9rkc_CP62UOQUb7k88gyrjq9-k11wJP5XS-PhuCM"
+}

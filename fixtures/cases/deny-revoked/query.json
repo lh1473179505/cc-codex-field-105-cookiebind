@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "pack": "pay-inventory",
+  "query_name": "pay_services",
+  "sql": "SELECT name, status FROM services",
+  "tables": [
+    "services"
+  ],
+  "interval": 300,
+  "platform": "windows",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "qq3kaxWGLANtzoEAuP2SPOEEXWvFz5G71J20NuPEzPA"
+}

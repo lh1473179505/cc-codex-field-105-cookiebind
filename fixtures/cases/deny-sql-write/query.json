@@ -1,0 +1,14 @@
+{
+  "pack": "pay-inventory",
+  "query_name": "pay_services",
+  "sql": "DELETE FROM services",
+  "tables": [
+    "services"
+  ],
+  "interval": 300,
+  "platform": "windows",
+  "nonce": "n-deny-sql-write",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "D7W9GyGmreNforbItFar78MtcMmL7uYegkxvYoyX5T8"
+}

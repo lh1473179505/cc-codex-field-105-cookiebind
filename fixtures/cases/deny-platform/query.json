@@ -1,0 +1,14 @@
+{
+  "pack": "ops-inventory",
+  "query_name": "ops_packages",
+  "sql": "SELECT name, version FROM deb_packages",
+  "tables": [
+    "deb_packages"
+  ],
+  "interval": 900,
+  "platform": "windows",
+  "nonce": "n-deny-platform",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PzaGMxISt89ifE_ikbkkNi-CtXKyDRZaYwN6OC_QAQ0"
+}

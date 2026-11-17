@@ -1,0 +1,14 @@
+{
+  "pack": "pay-inventory",
+  "query_name": "pay_services",
+  "sql": "SELECT name FROM services; SELECT name FROM processes",
+  "tables": [
+    "services"
+  ],
+  "interval": 300,
+  "platform": "windows",
+  "nonce": "n-deny-sql-multiple",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2TGdaxrJYzVpx_0fdWzGCX98cAS-bPwLnR0d39t6nZE"
+}

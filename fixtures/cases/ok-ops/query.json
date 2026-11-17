@@ -1,0 +1,14 @@
+{
+  "pack": "ops-inventory",
+  "query_name": "ops_packages",
+  "sql": "SELECT name, version FROM deb_packages",
+  "tables": [
+    "deb_packages"
+  ],
+  "interval": 900,
+  "platform": "linux",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "wcfdDh2DDDVM7MZc5n9ipPDKWfK6FYJQ2Clhp_OmAo4"
+}

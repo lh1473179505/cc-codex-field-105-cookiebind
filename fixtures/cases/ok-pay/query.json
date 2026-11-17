@@ -1,0 +1,14 @@
+{
+  "pack": "pay-inventory",
+  "query_name": "pay_services",
+  "sql": "SELECT name, status FROM services",
+  "tables": [
+    "services"
+  ],
+  "interval": 300,
+  "platform": "windows",
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "j49qIgrvjEM0pNtAisBGCqn9rixp0TD0ionwzCWGOCs"
+}

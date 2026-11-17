@@ -1,0 +1,14 @@
+{
+  "pack": "public-inventory",
+  "query_name": "pay_services",
+  "sql": "SELECT name, status FROM services",
+  "tables": [
+    "services"
+  ],
+  "interval": 300,
+  "platform": "windows",
+  "nonce": "n-deny-pack",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "VEgaRiiUK-1-m3M7Lv_z6v_0I-Q4a2kxMg1D_qGOrT4"
+}
