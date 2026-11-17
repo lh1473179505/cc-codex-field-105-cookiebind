@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "user": "alice",
+  "group": "payops",
+  "host": "pay01",
+  "command": "/usr/bin/systemctl",
+  "args_sha256": "abababababababababababababababababababababababababababababababab",
+  "noexec": 1,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "B2Yqw5vAZc7l7O29gfPfmQk7RHSNZn_RGnkxwshxLo8"
+}

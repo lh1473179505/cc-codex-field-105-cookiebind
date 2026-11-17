@@ -1,0 +1,12 @@
+{
+  "user": "bob",
+  "group": "ops",
+  "host": "ops01",
+  "command": "/usr/bin/systemctl",
+  "args_sha256": "abababababababababababababababababababababababababababababababab",
+  "noexec": 1,
+  "nonce": "n-deny-user-command",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "KYXEOTSYy1GAQ3CwROdP3gtACd9HpHeU2QrGnQYob-U"
+}

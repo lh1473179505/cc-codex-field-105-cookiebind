@@ -1,0 +1,12 @@
+{
+  "user": "alice",
+  "group": "payops",
+  "host": "pay01",
+  "command": "/bin/rm",
+  "args_sha256": "abababababababababababababababababababababababababababababababab",
+  "noexec": 1,
+  "nonce": "n-deny-command",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SgY1Xnx9V8kOSUF0L8GtZbNmkCGtku6w-ral0ne2cdk"
+}

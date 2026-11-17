@@ -1,0 +1,12 @@
+{
+  "user": "alice",
+  "group": "payops",
+  "host": "pay01",
+  "command": "/usr/bin/systemctl",
+  "args_sha256": "abababababababababababababababababababababababababababababababab",
+  "noexec": 0,
+  "nonce": "n-deny-noexec",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ARg2df6LjLOZPQXQWAR66hBlgyLzbNpl7iF4g3B06nU"
+}

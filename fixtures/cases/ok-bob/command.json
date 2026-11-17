@@ -1,0 +1,12 @@
+{
+  "user": "bob",
+  "group": "ops",
+  "host": "ops01",
+  "command": "/usr/bin/journalctl",
+  "args_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "noexec": 1,
+  "nonce": "n-ok-bob",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "tAKTa222okKX2HOyewWMA8wZTJS4H8hgaadytuO2TXA"
+}

@@ -1,0 +1,59 @@
+{
+  "users": {
+    "alice": {
+      "groups": [
+        "payops"
+      ],
+      "hosts": [
+        "pay01",
+        "pay02"
+      ],
+      "commands": {
+        "/usr/bin/systemctl": {
+          "groups": [
+            "payops"
+          ],
+          "hosts": [
+            "pay01"
+          ],
+          "args_sha256": "abababababababababababababababababababababababababababababababab"
+        },
+        "/usr/bin/journalctl": {
+          "groups": [
+            "payops"
+          ],
+          "hosts": [
+            "pay01",
+            "pay02"
+          ],
+          "args_sha256": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef"
+        }
+      }
+    },
+    "bob": {
+      "groups": [
+        "ops"
+      ],
+      "hosts": [
+        "ops01"
+      ],
+      "commands": {
+        "/usr/bin/journalctl": {
+          "groups": [
+            "ops"
+          ],
+          "hosts": [
+            "ops01"
+          ],
+          "args_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        }
+      }
+    }
+  },
+  "args_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "require_noexec": 1,
+  "forbid_command_traversal": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

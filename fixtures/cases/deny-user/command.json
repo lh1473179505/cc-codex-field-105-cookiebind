@@ -1,0 +1,12 @@
+{
+  "user": "mallory",
+  "group": "payops",
+  "host": "pay01",
+  "command": "/usr/bin/systemctl",
+  "args_sha256": "abababababababababababababababababababababababababababababababab",
+  "noexec": 1,
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "a_CtkpvNSwN5IYFygFCKRAPTRkS5dGNmHK2Qk3A-lbc"
+}
