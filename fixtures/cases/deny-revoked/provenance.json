@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "builder": "https://builder.pay.example/v1",
+  "repo_ref": "refs/heads/main",
+  "source_digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "subject": "pkg:oci/pay/api",
+  "subject_digest": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "build_level": 3,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "g_tG8t6ZWPql_xl1o16u5wi9BD_XYPUYV6I3GwMOZ30"
+}

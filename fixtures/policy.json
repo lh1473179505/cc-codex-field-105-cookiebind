@@ -1,0 +1,51 @@
+{
+  "builders": {
+    "https://builder.pay.example/v1": {
+      "repo_refs": [
+        "refs/heads/main",
+        "refs/tags/v1.8.0"
+      ],
+      "repo_subjects": {
+        "refs/heads/main": [
+          "pkg:oci/pay/"
+        ],
+        "refs/tags/v1.8.0": [
+          "pkg:oci/pay/"
+        ]
+      },
+      "build_levels": [
+        3
+      ]
+    },
+    "https://builder.ops.example/v1": {
+      "repo_refs": [
+        "refs/heads/stable",
+        "refs/tags/v2.4.0"
+      ],
+      "repo_subjects": {
+        "refs/heads/stable": [
+          "pkg:generic/ops/"
+        ],
+        "refs/tags/v2.4.0": [
+          "pkg:generic/ops/"
+        ]
+      },
+      "build_levels": [
+        2,
+        3
+      ]
+    }
+  },
+  "repo_ref_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "\u0000"
+  ],
+  "source_digest_hex_len": 64,
+  "subject_digest_hex_len": 64,
+  "require_lowercase_hex": true,
+  "require_subject_name": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

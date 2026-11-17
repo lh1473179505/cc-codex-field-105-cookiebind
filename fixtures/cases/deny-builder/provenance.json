@@ -1,0 +1,12 @@
+{
+  "builder": "https://builder.evil.example/v1",
+  "repo_ref": "refs/heads/main",
+  "source_digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "subject": "pkg:oci/pay/api",
+  "subject_digest": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "build_level": 3,
+  "nonce": "n-deny-builder",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "WahDfAkWp5tn_NtxlhVuznRihwYG8EdETvwUivJ9K60"
+}

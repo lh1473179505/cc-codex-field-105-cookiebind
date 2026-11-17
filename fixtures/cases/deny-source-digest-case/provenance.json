@@ -1,0 +1,12 @@
+{
+  "builder": "https://builder.pay.example/v1",
+  "repo_ref": "refs/heads/main",
+  "source_digest": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "subject": "pkg:oci/pay/api",
+  "subject_digest": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "build_level": 3,
+  "nonce": "n-deny-source-digest-case",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pMxcfh99Ac7Rf9BMQ5xuCAEm1V4NC8uoryWnIZzROpk"
+}

@@ -1,0 +1,12 @@
+{
+  "builder": "https://builder.pay.example/v1",
+  "repo_ref": "refs/heads/main",
+  "source_digest": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "subject": "pkg:generic/ops/agent",
+  "subject_digest": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "build_level": 3,
+  "nonce": "n-deny-subject-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "sFLP2CaveTX8bvm09t4iKL2Nit5rKBLVKbP0b9-8lik"
+}

@@ -1,0 +1,12 @@
+{
+  "builder": "https://builder.ops.example/v1",
+  "repo_ref": "refs/tags/v2.4.0",
+  "source_digest": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "subject": "pkg:generic/ops/agent",
+  "subject_digest": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+  "build_level": 2,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IXHaVDGLVU-A6qdodU3G-lvssMk4zjWEpoMXPKfgEcg"
+}
