@@ -1,0 +1,16 @@
+{
+  "name": "ops-worker",
+  "path": "/etc/apparmor.d/ops-worker",
+  "rules": [
+    "/srv/ops/jobs/** rw,"
+  ],
+  "mode": "enforce",
+  "capabilities": [],
+  "network": [
+    "unix dgram"
+  ],
+  "nonce": "n-deny-rule-permission",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2Tp2CB13rmEwLPcfIu9B3XD8Q494hA_PpbxU50HiTEQ"
+}

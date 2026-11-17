@@ -1,0 +1,18 @@
+{
+  "name": "pay-api",
+  "path": "/etc/apparmor.d/pay-api",
+  "rules": [
+    "/srv/pay/data/** rw,"
+  ],
+  "mode": "enforce",
+  "capabilities": [
+    "SYS_ADMIN"
+  ],
+  "network": [
+    "unix stream"
+  ],
+  "nonce": "n-deny-capability",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "VUB8jeLtbApLAu79Ev7Fk1qKnpFWCNM8SbFG4SAr0_s"
+}

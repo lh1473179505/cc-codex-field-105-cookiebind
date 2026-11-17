@@ -1,0 +1,18 @@
+{
+  "kid": "k-revoked",
+  "name": "pay-api",
+  "path": "/etc/apparmor.d/pay-api",
+  "rules": [
+    "/srv/pay/data/** rw,"
+  ],
+  "mode": "enforce",
+  "capabilities": [
+    "NET_BIND_SERVICE"
+  ],
+  "network": [
+    "unix stream"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "78QmwC22rtCkZTeRx2WB0erK7fQLcWrJBsXx-JotLDg"
+}

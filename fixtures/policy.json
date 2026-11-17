@@ -1,0 +1,49 @@
+{
+  "profiles": {
+    "pay-api": {
+      "path": "/etc/apparmor.d/pay-api",
+      "path_prefixes": [
+        "/srv/pay/",
+        "/var/log/pay/"
+      ],
+      "permissions": [
+        "r",
+        "w"
+      ],
+      "mode": "enforce",
+      "capabilities": [
+        "NET_BIND_SERVICE"
+      ],
+      "network": [
+        "unix stream",
+        "inet tcp"
+      ]
+    },
+    "ops-worker": {
+      "path": "/etc/apparmor.d/ops-worker",
+      "path_prefixes": [
+        "/srv/ops/",
+        "/var/log/ops/"
+      ],
+      "permissions": [
+        "r"
+      ],
+      "mode": "enforce",
+      "capabilities": [],
+      "network": [
+        "unix dgram"
+      ]
+    }
+  },
+  "rule_count_min": 1,
+  "rule_count_max": 3,
+  "require_unique_rules": true,
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
