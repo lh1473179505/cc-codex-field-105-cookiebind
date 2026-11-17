@@ -1,0 +1,18 @@
+{
+  "peer": "192.0.2.1",
+  "as_path": [
+    65010,
+    65020
+  ],
+  "origin": "igp",
+  "prefix": "10.10.8.0/24",
+  "next_hop": "192.0.2.1",
+  "communities": [
+    "65000:100",
+    "65000:666"
+  ],
+  "nonce": "n-deny-community-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "A2844e-4E1hSl0CJatedrsPqlwQK2Ye_WiqzHbp25BA"
+}

@@ -1,0 +1,54 @@
+{
+  "local_as": 65000,
+  "peers": {
+    "192.0.2.1": {
+      "asn": 65010,
+      "origins": [
+        "igp"
+      ],
+      "prefix_supernets": [
+        "10.10.0.0/16"
+      ],
+      "next_hop_cidrs": [
+        "192.0.2.0/30"
+      ],
+      "communities_allowed": [
+        "65000:100",
+        "65000:900"
+      ],
+      "communities_required": [
+        "65000:100"
+      ],
+      "as_path_max": 4
+    },
+    "198.51.100.1": {
+      "asn": 65030,
+      "origins": [
+        "igp",
+        "incomplete"
+      ],
+      "prefix_supernets": [
+        "10.20.0.0/16"
+      ],
+      "next_hop_cidrs": [
+        "198.51.100.0/30"
+      ],
+      "communities_allowed": [
+        "65000:200",
+        "65000:900"
+      ],
+      "communities_required": [
+        "65000:200"
+      ],
+      "as_path_max": 3
+    }
+  },
+  "forbid_default_route": true,
+  "require_canonical_prefix": true,
+  "require_peer_as_first": true,
+  "forbid_local_as_loop": true,
+  "require_unique_as_path": false,
+  "require_unique_communities": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

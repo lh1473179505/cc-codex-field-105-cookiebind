@@ -1,0 +1,16 @@
+{
+  "peer": "198.51.100.1",
+  "as_path": [
+    65030
+  ],
+  "origin": "incomplete",
+  "prefix": "10.20.0.0/16",
+  "next_hop": "198.51.100.1",
+  "communities": [
+    "65000:200"
+  ],
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "f7TVeu4ljTiU8mSgM8K5HdcMetUtOPy0_Oh_IvO9fJY"
+}
