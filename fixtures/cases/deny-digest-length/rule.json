@@ -1,0 +1,13 @@
+{
+  "zone": "pay.rpz.example.",
+  "owner": "ads.pay.example.pay.rpz.example.",
+  "qname": "ads.pay.example",
+  "action": "NXDOMAIN",
+  "cname_target": "",
+  "ttl": 300,
+  "rule_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "nonce": "n-deny-digest-length",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "S8RDG1uPtr-yfIKg9y704pJdgsOivty9yBKA1zzRYgI"
+}

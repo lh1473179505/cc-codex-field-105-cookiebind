@@ -1,0 +1,13 @@
+{
+  "zone": "pay.rpz.example.",
+  "owner": "*.*.pay.example.pay.rpz.example.",
+  "qname": "*.*.pay.example",
+  "action": "NXDOMAIN",
+  "cname_target": "",
+  "ttl": 300,
+  "rule_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "nonce": "n-deny-wildcard-double",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jErOKgLNC36pF4ui8jaoz-TUc7R-nzj_8NsGNGgSqzc"
+}

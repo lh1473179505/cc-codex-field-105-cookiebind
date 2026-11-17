@@ -1,0 +1,13 @@
+{
+  "zone": "ops.rpz.example.",
+  "owner": "tracker.ops.example.ops.rpz.example.",
+  "qname": "tracker.ops.example",
+  "action": "CNAME",
+  "cname_target": "blocked.evil.example.",
+  "ttl": 60,
+  "rule_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "nonce": "n-deny-cname-suffix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mQKIsz8OLxEsSqMNvtQJNwI80ZlsgQzQ0kptrGwTSj0"
+}

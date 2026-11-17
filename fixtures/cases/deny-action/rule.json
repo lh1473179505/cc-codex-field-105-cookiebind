@@ -1,0 +1,13 @@
+{
+  "zone": "ops.rpz.example.",
+  "owner": "tracker.ops.example.ops.rpz.example.",
+  "qname": "tracker.ops.example",
+  "action": "NODATA",
+  "cname_target": "",
+  "ttl": 60,
+  "rule_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "nonce": "n-deny-action",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "oCgGuFPBBQm_CO_J6FaIDrr8EtZftDs6Zp3DlrkjSZI"
+}

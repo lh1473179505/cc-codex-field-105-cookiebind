@@ -1,0 +1,41 @@
+{
+  "zones": {
+    "pay.rpz.example.": {
+      "qname_suffixes": [
+        "pay.example"
+      ],
+      "actions": [
+        "NXDOMAIN",
+        "NODATA",
+        "CNAME"
+      ],
+      "cname_suffixes": [
+        "pay.example."
+      ],
+      "ttl_min": 30,
+      "ttl_max": 3600
+    },
+    "ops.rpz.example.": {
+      "qname_suffixes": [
+        "ops.example"
+      ],
+      "actions": [
+        "NXDOMAIN",
+        "CNAME"
+      ],
+      "cname_suffixes": [
+        "ops.example."
+      ],
+      "ttl_min": 30,
+      "ttl_max": 1800
+    }
+  },
+  "allow_leading_wildcard": true,
+  "forbid_other_wildcards": true,
+  "require_owner_qname_zone_binding": true,
+  "require_empty_cname_unless_cname_action": true,
+  "rule_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

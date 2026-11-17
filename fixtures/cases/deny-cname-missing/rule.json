@@ -1,0 +1,13 @@
+{
+  "zone": "ops.rpz.example.",
+  "owner": "tracker.ops.example.ops.rpz.example.",
+  "qname": "tracker.ops.example",
+  "action": "CNAME",
+  "cname_target": "",
+  "ttl": 60,
+  "rule_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "nonce": "n-deny-cname-missing",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "vO7qDSyI4R64LzxVMi_FPGaRGeHhKi65q0thi91uBgg"
+}

@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "zone": "pay.rpz.example.",
+  "owner": "ads.pay.example.pay.rpz.example.",
+  "qname": "ads.pay.example",
+  "action": "NXDOMAIN",
+  "cname_target": "",
+  "ttl": 300,
+  "rule_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "wF6MFQvnp2tKDIdvWZc5zxfrk8hrqzbohxxrE2DNrW4"
+}
