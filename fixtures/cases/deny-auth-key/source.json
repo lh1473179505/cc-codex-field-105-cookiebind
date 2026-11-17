@@ -1,0 +1,14 @@
+{
+  "profile": "pay-edge",
+  "hostname": "ntp-pay-01.example",
+  "ip_address": "10.120.0.10",
+  "stratum": 2,
+  "refid": "GPS",
+  "minpoll": 4,
+  "maxpoll": 6,
+  "auth_key": "ntp-ops-key-02",
+  "nonce": "n-deny-auth-key",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Wu68FbUeWwxha8KAkwahiJkd7CVq8GpSQkeDUQTb6ig"
+}

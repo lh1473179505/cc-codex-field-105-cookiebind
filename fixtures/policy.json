@@ -1,0 +1,46 @@
+{
+  "profiles": {
+    "pay-edge": {
+      "hostname": "ntp-pay-01.example",
+      "ip_cidrs": [
+        "10.120.0.0/24"
+      ],
+      "strata": [
+        2,
+        3
+      ],
+      "refids": [
+        "GPS",
+        "PPS"
+      ],
+      "poll_min": 4,
+      "poll_max": 6,
+      "auth_keys": [
+        "ntp-pay-key-01"
+      ]
+    },
+    "ops-edge": {
+      "hostname": "ntp-ops-01.example",
+      "ip_cidrs": [
+        "10.121.0.0/24"
+      ],
+      "strata": [
+        2
+      ],
+      "refids": [
+        "GNSS"
+      ],
+      "poll_min": 4,
+      "poll_max": 5,
+      "auth_keys": [
+        "ntp-ops-key-02"
+      ]
+    }
+  },
+  "poll_exponent_min": 3,
+  "poll_exponent_max": 10,
+  "require_poll_order": true,
+  "refid_case_sensitive": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

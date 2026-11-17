@@ -1,0 +1,14 @@
+{
+  "profile": "ops-edge",
+  "hostname": "ntp-ops-01.example",
+  "ip_address": "10.121.0.11",
+  "stratum": 2,
+  "refid": "GNSS",
+  "minpoll": 4,
+  "maxpoll": 4,
+  "auth_key": "ntp-ops-key-02",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "1grq8C2NG6lBj-jZC59_YY9jNe8RXxalTaGCskmkBnc"
+}
