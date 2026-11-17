@@ -1,0 +1,15 @@
+{
+  "rule_id": "SIG-PAY-PROC",
+  "technique_id": "T1055",
+  "tactic": "Initial Access",
+  "data_source": "Process Monitoring",
+  "evidence_fields": [
+    "process_guid",
+    "process_name"
+  ],
+  "confidence": 80,
+  "nonce": "n-deny-tactic",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "8N5cy71tINFuyzuGeJYNrQIeYWNockTQ9nu8jpBKnJ8"
+}

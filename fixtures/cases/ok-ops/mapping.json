@@ -1,0 +1,15 @@
+{
+  "rule_id": "SIG-OPS-AUTH",
+  "technique_id": "T1110",
+  "tactic": "Credential Access",
+  "data_source": "Authentication Logs",
+  "evidence_fields": [
+    "account_name",
+    "source_address"
+  ],
+  "confidence": 90,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "WQm52K5qmS6wkxi3b0kj5T1v3cPuIXrnUm7-1mxZPXs"
+}

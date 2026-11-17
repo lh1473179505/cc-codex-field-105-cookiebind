@@ -1,0 +1,16 @@
+{
+  "rule_id": "SIG-PAY-PROC",
+  "technique_id": "T1110",
+  "tactic": "Credential Access",
+  "data_source": "Authentication Logs",
+  "evidence_fields": [
+    "account_name",
+    "source_address",
+    "process_guid"
+  ],
+  "confidence": 80,
+  "nonce": "n-deny-technique-rule",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "A8hlSRrUZU6I_pT4-8zeOwdXLWsd2RQkwzuwkI1IlFs"
+}

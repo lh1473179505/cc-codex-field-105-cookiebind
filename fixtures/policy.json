@@ -1,0 +1,64 @@
+{
+  "rules": {
+    "SIG-PAY-PROC": {
+      "techniques": [
+        "T1055"
+      ],
+      "confidence_min": 70,
+      "confidence_max": 100,
+      "required_evidence": [
+        "process_guid"
+      ],
+      "high_confidence_min": 90,
+      "high_confidence_evidence": [
+        "parent_process_guid"
+      ]
+    },
+    "SIG-OPS-AUTH": {
+      "techniques": [
+        "T1110"
+      ],
+      "confidence_min": 50,
+      "confidence_max": 90,
+      "required_evidence": [
+        "account_name"
+      ],
+      "high_confidence_min": 85,
+      "high_confidence_evidence": [
+        "source_address"
+      ]
+    }
+  },
+  "techniques": {
+    "T1055": {
+      "tactics": [
+        "Defense Evasion",
+        "Privilege Escalation"
+      ],
+      "data_sources": {
+        "Process Monitoring": [
+          "process_guid",
+          "process_name",
+          "parent_process_guid"
+        ]
+      }
+    },
+    "T1110": {
+      "tactics": [
+        "Credential Access"
+      ],
+      "data_sources": {
+        "Authentication Logs": [
+          "account_name",
+          "source_address",
+          "event_id"
+        ]
+      }
+    }
+  },
+  "technique_pattern": "^T[0-9]{4}$",
+  "evidence_count_min": 1,
+  "evidence_count_max": 4,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

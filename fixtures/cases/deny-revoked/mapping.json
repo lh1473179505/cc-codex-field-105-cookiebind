@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "rule_id": "SIG-PAY-PROC",
+  "technique_id": "T1055",
+  "tactic": "Defense Evasion",
+  "data_source": "Process Monitoring",
+  "evidence_fields": [
+    "process_guid",
+    "process_name"
+  ],
+  "confidence": 80,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "OXFyFYsYd5Fx46uVE-2Z00iiyUb3FepTcetumhAEYIM"
+}

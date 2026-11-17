@@ -1,0 +1,15 @@
+{
+  "rule_id": "SIG-PAY-PROC",
+  "technique_id": "T1055",
+  "tactic": "Defense Evasion",
+  "data_source": "Process Monitoring",
+  "evidence_fields": [
+    "process_guid",
+    "process_name"
+  ],
+  "confidence": 69,
+  "nonce": "n-deny-confidence",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2ZRvcaR544khmNd97k5tFp9xWfKk8gNrjLl65EHnZck"
+}

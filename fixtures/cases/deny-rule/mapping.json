@@ -1,0 +1,15 @@
+{
+  "rule_id": "SIG-UNKNOWN",
+  "technique_id": "T1055",
+  "tactic": "Defense Evasion",
+  "data_source": "Process Monitoring",
+  "evidence_fields": [
+    "process_guid",
+    "process_name"
+  ],
+  "confidence": 80,
+  "nonce": "n-deny-rule",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "W9Ezin4rqN1d9QPT1KxkFC5pXAdnTZEKySUtbka5krs"
+}
