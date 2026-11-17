@@ -1,0 +1,61 @@
+{
+  "programs": {
+    "socket_filter": {
+      "attach_types": [
+        "socket"
+      ],
+      "licenses": [
+        "GPL"
+      ],
+      "insn_min": 1,
+      "insn_max": 4096,
+      "map_refs_max": 2,
+      "maps": [
+        "pay_stats",
+        "pay_allow",
+        "pay_labels"
+      ]
+    },
+    "cgroup_skb": {
+      "attach_types": [
+        "cgroup_ingress",
+        "cgroup_egress"
+      ],
+      "licenses": [
+        "GPL"
+      ],
+      "insn_min": 1,
+      "insn_max": 2048,
+      "map_refs_max": 1,
+      "maps": [
+        "ops_quota"
+      ]
+    },
+    "kprobe": {
+      "attach_types": [
+        "kprobe"
+      ],
+      "licenses": [
+        "GPL"
+      ],
+      "insn_min": 1,
+      "insn_max": 512,
+      "map_refs_max": 0,
+      "maps": []
+    }
+  },
+  "map_registry": [
+    "pay_stats",
+    "pay_allow",
+    "pay_labels",
+    "ops_quota"
+  ],
+  "forbidden_prog_types": [
+    "kprobe",
+    "raw_tracepoint"
+  ],
+  "forbid_privileged": true,
+  "require_unique_maps": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

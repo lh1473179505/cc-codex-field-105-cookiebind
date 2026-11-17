@@ -1,0 +1,14 @@
+{
+  "prog_type": "cgroup_skb",
+  "attach_type": "cgroup_ingress",
+  "license": "GPL",
+  "insn_count": 2049,
+  "map_refs": [
+    "ops_quota"
+  ],
+  "privileged": 0,
+  "nonce": "n-deny-insn-limit",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "KDQHkz3fbwbKhvcfot40zjGKjDdDz7XhBRJJ86xyFtY"
+}

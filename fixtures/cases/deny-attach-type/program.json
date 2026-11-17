@@ -1,0 +1,14 @@
+{
+  "prog_type": "socket_filter",
+  "attach_type": "cgroup_ingress",
+  "license": "GPL",
+  "insn_count": 512,
+  "map_refs": [
+    "pay_stats"
+  ],
+  "privileged": 0,
+  "nonce": "n-deny-attach-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "XBKKk8gU_jWJyFsMz3qQ6LqMouF1KjxS3ZcNCr_pLE4"
+}

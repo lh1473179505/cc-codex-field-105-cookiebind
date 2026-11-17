@@ -1,0 +1,14 @@
+{
+  "prog_type": "socket_filter",
+  "attach_type": "socket",
+  "license": "GPL",
+  "insn_count": 512,
+  "map_refs": [
+    "ops_quota"
+  ],
+  "privileged": 0,
+  "nonce": "n-deny-map-binding",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "po332xX4Zb7tPBn5J5qFETrxb8Yv6Fr7BNrFhYjRUTE"
+}

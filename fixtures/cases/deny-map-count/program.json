@@ -1,0 +1,16 @@
+{
+  "prog_type": "socket_filter",
+  "attach_type": "socket",
+  "license": "GPL",
+  "insn_count": 512,
+  "map_refs": [
+    "pay_stats",
+    "pay_allow",
+    "pay_labels"
+  ],
+  "privileged": 0,
+  "nonce": "n-deny-map-count",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "z7xu0kgZAP8cuvpY1uWNPm9G5_HHkZAwqAJ5IAY7MIY"
+}

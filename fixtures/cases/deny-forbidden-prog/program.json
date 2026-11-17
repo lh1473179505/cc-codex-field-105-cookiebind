@@ -1,0 +1,12 @@
+{
+  "prog_type": "kprobe",
+  "attach_type": "kprobe",
+  "license": "GPL",
+  "insn_count": 128,
+  "map_refs": [],
+  "privileged": 0,
+  "nonce": "n-deny-forbidden-prog",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "7_jbXKGXducW2nk8is42CXuGnCn2CWmHCi7KIA7Evng"
+}
