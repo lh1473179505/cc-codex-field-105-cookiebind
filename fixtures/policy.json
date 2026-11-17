@@ -1,0 +1,39 @@
+{
+  "jails": {
+    "payjail": {
+      "jid": 120,
+      "hostname": "pay.jail.example",
+      "ip4_networks": [
+        "10.120.0.0/24"
+      ],
+      "path": "/jails/pay",
+      "securelevel_min": 2,
+      "securelevel_max": 3
+    },
+    "opsjail": {
+      "jid": 121,
+      "hostname": "ops.jail.example",
+      "ip4_networks": [
+        "10.121.0.0/24"
+      ],
+      "path": "/jails/ops",
+      "securelevel_min": 2,
+      "securelevel_max": 2
+    }
+  },
+  "jid_min": 1,
+  "jid_max": 999999,
+  "name_max_len": 32,
+  "forbidden_ip4": [
+    "0.0.0.0",
+    "255.255.255.255"
+  ],
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

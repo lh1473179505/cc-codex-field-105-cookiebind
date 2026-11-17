@@ -1,0 +1,12 @@
+{
+  "name": "opsjail",
+  "jid": 121,
+  "hostname": "ops.jail.example",
+  "ip4": "10.121.0.8",
+  "path": "/jails/ops",
+  "securelevel": 2,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "EPl3W6eULj1dnoQLOKEzQrbEZrDlrshoccmkTR7h9zQ"
+}

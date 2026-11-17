@@ -1,0 +1,12 @@
+{
+  "name": "payjail",
+  "jid": 121,
+  "hostname": "pay.jail.example",
+  "ip4": "10.120.0.2",
+  "path": "/jails/pay",
+  "securelevel": 3,
+  "nonce": "n-deny-jid-binding",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "fZCGtp_SwLVXzTS4blHlyPoSWUB6sCKB3tydY0MmnPo"
+}
