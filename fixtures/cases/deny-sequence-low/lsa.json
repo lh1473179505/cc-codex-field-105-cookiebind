@@ -1,0 +1,13 @@
+{
+  "area": "0.0.0.0",
+  "router_id": "10.0.0.2",
+  "lsa_type": "router",
+  "lsid": "10.0.0.2",
+  "age": 120,
+  "sequence": 199,
+  "payload_sha256": "abababababababababababababababababababababababababababababababab",
+  "nonce": "n-deny-sequence-low",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "DD0QFJ2Vjr3jxdUk4VMBEWGj-lX_hZZyauGCLY5PRzo"
+}

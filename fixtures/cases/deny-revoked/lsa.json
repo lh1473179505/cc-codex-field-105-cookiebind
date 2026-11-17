@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "area": "0.0.0.0",
+  "router_id": "10.0.0.1",
+  "lsa_type": "router",
+  "lsid": "10.0.0.1",
+  "age": 120,
+  "sequence": 500,
+  "payload_sha256": "abababababababababababababababababababababababababababababababab",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "sUdF3d1GfTSKYdB6UaANuOZDRcBaIU_1ikzw8sShmTo"
+}

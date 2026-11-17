@@ -1,0 +1,59 @@
+{
+  "areas": {
+    "0.0.0.0": {
+      "routers": {
+        "10.0.0.1": {
+          "types": {
+            "router": {
+              "lsid_cidrs": [
+                "10.0.0.0/24"
+              ]
+            },
+            "network": {
+              "lsid_cidrs": [
+                "10.0.0.0/24"
+              ]
+            }
+          },
+          "sequence_min": 100,
+          "sequence_max": 100000
+        },
+        "10.0.0.2": {
+          "types": {
+            "router": {
+              "lsid_cidrs": [
+                "10.0.0.0/24"
+              ]
+            }
+          },
+          "sequence_min": 200,
+          "sequence_max": 100000
+        }
+      },
+      "age_min": 1,
+      "age_max": 1800
+    },
+    "0.0.0.1": {
+      "routers": {
+        "10.0.1.1": {
+          "types": {
+            "summary": {
+              "lsid_cidrs": [
+                "10.0.1.0/24"
+              ]
+            }
+          },
+          "sequence_min": 300,
+          "sequence_max": 90000
+        }
+      },
+      "age_min": 1,
+      "age_max": 1200
+    }
+  },
+  "require_router_lsid_identity": true,
+  "payload_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
