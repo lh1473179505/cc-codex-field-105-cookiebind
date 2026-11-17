@@ -1,0 +1,13 @@
+{
+  "user": "bob",
+  "group": "ops-it",
+  "share": "opsdocs",
+  "unc_path": "\\\\smb-ops01.example\\opsdocs\\runbooks\\vpn.docx",
+  "signing": true,
+  "encryption": true,
+  "dialect": "3.0.2",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "knCzfhsnzKK6ygu91sC8BYYugkRPhGlR5IyQc4JP0YU"
+}

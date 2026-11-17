@@ -1,0 +1,13 @@
+{
+  "user": "alice",
+  "group": "pay-finance",
+  "share": "payfiles",
+  "unc_path": "\\\\smb-pay01.example\\payfiles\\reports\\q4.xlsx",
+  "signing": true,
+  "encryption": false,
+  "dialect": "3.1.1",
+  "nonce": "n-deny-encryption",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "8eKKJzueuszDR73HjfuefgCLE7LgZSda5b8yBf9vD0M"
+}

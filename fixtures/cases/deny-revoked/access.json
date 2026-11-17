@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "user": "alice",
+  "group": "pay-finance",
+  "share": "payfiles",
+  "unc_path": "\\\\smb-pay01.example\\payfiles\\reports\\q4.xlsx",
+  "signing": true,
+  "encryption": true,
+  "dialect": "3.1.1",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "2nZZfHHbr9oSn93aOUHTFqCYfBqeRT6v7V83416P-8E"
+}

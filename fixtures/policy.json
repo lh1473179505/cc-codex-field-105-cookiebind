@@ -1,0 +1,58 @@
+{
+  "groups": {
+    "pay-finance": {
+      "users": [
+        "alice",
+        "amy"
+      ]
+    },
+    "ops-it": {
+      "users": [
+        "bob"
+      ]
+    }
+  },
+  "shares": {
+    "payfiles": {
+      "groups": [
+        "pay-finance"
+      ],
+      "server": "smb-pay01.example",
+      "unc_root": "\\\\smb-pay01.example\\payfiles",
+      "folder_prefixes": [
+        "reports\\",
+        "finance\\"
+      ],
+      "signing": true,
+      "encryption": true,
+      "dialects": [
+        "3.1.1"
+      ]
+    },
+    "opsdocs": {
+      "groups": [
+        "ops-it"
+      ],
+      "server": "smb-ops01.example",
+      "unc_root": "\\\\smb-ops01.example\\opsdocs",
+      "folder_prefixes": [
+        "runbooks\\"
+      ],
+      "signing": true,
+      "encryption": true,
+      "dialects": [
+        "3.0.2",
+        "3.1.1"
+      ]
+    }
+  },
+  "unc_deny_substrings": [
+    "//",
+    "\\\\..\\",
+    "\\..\\",
+    "\u0000"
+  ],
+  "require_exact_dialect": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
