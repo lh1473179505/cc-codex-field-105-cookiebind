@@ -1,0 +1,13 @@
+{
+  "user": "ops",
+  "schedule": "15 1 * * 3",
+  "shell": "/bin/sh",
+  "cmd": "/usr/local/ops/rotate.sh",
+  "cwd": "/var/ops",
+  "env": "OPS_ENV",
+  "umask": "0077",
+  "nonce": "n-deny-dow",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PGLR9BXaGQPF8QgJ0CCJHvA_ODrsPYz6T_-3es9Y2is"
+}

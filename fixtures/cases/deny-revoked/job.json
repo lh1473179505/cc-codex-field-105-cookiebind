@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "user": "pay",
+  "schedule": "0 2 * * 1",
+  "shell": "/bin/bash",
+  "cmd": "/usr/local/pay/backup.sh",
+  "cwd": "/var/pay",
+  "env": "PAY_ENV",
+  "umask": "0027",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "jg2KHE4oUuaeI1U0OZfqafzCSpllaqLdzz2GSmL6wmM"
+}

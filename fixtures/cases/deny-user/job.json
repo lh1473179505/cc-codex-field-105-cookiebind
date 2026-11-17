@@ -1,0 +1,13 @@
+{
+  "user": "root",
+  "schedule": "0 2 * * 1",
+  "shell": "/bin/bash",
+  "cmd": "/usr/local/pay/backup.sh",
+  "cwd": "/var/pay",
+  "env": "PAY_ENV",
+  "umask": "0027",
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "DPT06CQhAcMQgbhhSffrJ2yoVvd96QOQDcMn17f3gUs"
+}

@@ -1,0 +1,91 @@
+{
+  "users": {
+    "pay": {
+      "shells": [
+        "/bin/bash",
+        "/usr/bin/bash"
+      ],
+      "cmd_prefixes": [
+        "/usr/local/pay/",
+        "/opt/pay/bin/"
+      ],
+      "cwd_allow": [
+        "/var/pay",
+        "/opt/pay"
+      ],
+      "env_allow": [
+        "PAY_ENV",
+        "PAY_REGION"
+      ],
+      "umask_allow": [
+        "0027",
+        "0077"
+      ],
+      "sched_hours": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sched_dows": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "ops": {
+      "shells": [
+        "/bin/sh"
+      ],
+      "cmd_prefixes": [
+        "/usr/local/ops/"
+      ],
+      "cwd_allow": [
+        "/var/ops"
+      ],
+      "env_allow": [
+        "OPS_ENV"
+      ],
+      "umask_allow": [
+        "0077"
+      ],
+      "sched_hours": [
+        1,
+        2,
+        3
+      ],
+      "sched_dows": [
+        "0",
+        "6"
+      ]
+    }
+  },
+  "schedule_fields": 5,
+  "cmd_deny_substrings": [
+    "..",
+    ";",
+    "|",
+    "&",
+    "`",
+    "$",
+    " ",
+    "\n",
+    "%2e"
+  ],
+  "cwd_deny_substrings": [
+    "..",
+    "//"
+  ],
+  "env_deny_substrings": [
+    "=",
+    ";",
+    " "
+  ],
+  "forbid_wildcard_dow": true,
+  "clock_skew_seconds": 90,
+  "max_age_seconds": 600
+}

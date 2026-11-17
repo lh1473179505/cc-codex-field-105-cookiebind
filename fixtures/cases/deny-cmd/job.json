@@ -1,0 +1,13 @@
+{
+  "user": "pay",
+  "schedule": "0 2 * * 1",
+  "shell": "/bin/bash",
+  "cmd": "/bin/bash",
+  "cwd": "/var/pay",
+  "env": "PAY_ENV",
+  "umask": "0027",
+  "nonce": "n-deny-cmd",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "gZzEz4g1TV-vXfj_5ml1lx2_gu-BeqOL6BKFtKePwoQ"
+}
