@@ -1,0 +1,20 @@
+{
+  "service": "s3",
+  "region": "us-east-1",
+  "method": "GET",
+  "canonical_path": "/pay-artifacts/incoming/",
+  "canonical_query": {
+    "list-type": "2",
+    "debug": "1"
+  },
+  "signed_headers": [
+    "host",
+    "x-amz-content-sha256",
+    "x-amz-date"
+  ],
+  "payload_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "nonce": "n-deny-query-key",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RP0dbGSmcuw3HaPg64IAamXaUlSRXepfQBotD0Zw0rA"
+}

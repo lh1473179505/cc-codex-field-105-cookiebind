@@ -1,0 +1,77 @@
+{
+  "services": {
+    "s3": {
+      "regions": [
+        "us-east-1"
+      ],
+      "methods": [
+        "GET"
+      ],
+      "path_prefixes": [
+        "/pay-artifacts/"
+      ],
+      "query_allowed": [
+        "list-type",
+        "prefix"
+      ],
+      "query_required": {
+        "list-type": "2"
+      },
+      "headers_allowed": [
+        "host",
+        "x-amz-content-sha256",
+        "x-amz-date"
+      ],
+      "headers_required": [
+        "host",
+        "x-amz-content-sha256",
+        "x-amz-date"
+      ]
+    },
+    "execute-api": {
+      "regions": [
+        "us-west-2"
+      ],
+      "methods": [
+        "POST"
+      ],
+      "path_prefixes": [
+        "/prod/payments/"
+      ],
+      "query_allowed": [
+        "dryRun"
+      ],
+      "query_required": {},
+      "headers_allowed": [
+        "host",
+        "x-amz-content-sha256",
+        "x-amz-date",
+        "x-amz-target"
+      ],
+      "headers_required": [
+        "host",
+        "x-amz-content-sha256",
+        "x-amz-date"
+      ]
+    }
+  },
+  "empty_payload_methods": [
+    "GET"
+  ],
+  "empty_payload_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "payload_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "require_sorted_unique_headers": true,
+  "path_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "%2e",
+    "%2E",
+    "%2f",
+    "%2F",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

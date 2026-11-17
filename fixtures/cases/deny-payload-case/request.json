@@ -1,0 +1,17 @@
+{
+  "service": "execute-api",
+  "region": "us-west-2",
+  "method": "POST",
+  "canonical_path": "/prod/payments/authorize",
+  "canonical_query": {},
+  "signed_headers": [
+    "host",
+    "x-amz-content-sha256",
+    "x-amz-date"
+  ],
+  "payload_sha256": "ABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABAB",
+  "nonce": "n-deny-payload-case",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PZvsXhZV4AUM6morPOtfjCDZEDgXCCBtfrWVYIb92nM"
+}
