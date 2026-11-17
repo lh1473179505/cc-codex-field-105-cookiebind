@@ -1,0 +1,60 @@
+{
+  "notice_types": {
+    "SSL::Invalid_Server_Cert": {
+      "source_scripts": [
+        "scripts/ssl/validate-cert.zeek"
+      ],
+      "severities": [
+        "high",
+        "critical"
+      ],
+      "actions": [
+        "ACTION_LOG",
+        "ACTION_ALARM"
+      ],
+      "fields_allowed": [
+        "uid",
+        "issuer",
+        "subject",
+        "not_valid_before"
+      ],
+      "fields_required": [
+        "uid",
+        "issuer"
+      ]
+    },
+    "SSH::Password_Guessing": {
+      "source_scripts": [
+        "scripts/ssh/detect-bruteforce.zeek"
+      ],
+      "severities": [
+        "medium",
+        "high"
+      ],
+      "actions": [
+        "ACTION_LOG",
+        "ACTION_EMAIL"
+      ],
+      "fields_allowed": [
+        "orig_h",
+        "resp_h",
+        "attempts"
+      ],
+      "fields_required": [
+        "orig_h",
+        "attempts"
+      ]
+    }
+  },
+  "script_suffix": ".zeek",
+  "script_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "\u0000"
+  ],
+  "field_count_min": 1,
+  "field_count_max": 4,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

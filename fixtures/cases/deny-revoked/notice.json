@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "notice_type": "SSL::Invalid_Server_Cert",
+  "source_script": "scripts/ssl/validate-cert.zeek",
+  "severity": "high",
+  "action": "ACTION_LOG",
+  "field_names": [
+    "uid",
+    "issuer"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "dmRilg0jPZ6RsEUbnflerXyZgtrK0ZDylqKtBzDK5lg"
+}

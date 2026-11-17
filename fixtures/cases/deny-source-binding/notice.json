@@ -1,0 +1,14 @@
+{
+  "notice_type": "SSL::Invalid_Server_Cert",
+  "source_script": "scripts/ssh/detect-bruteforce.zeek",
+  "severity": "high",
+  "action": "ACTION_LOG",
+  "field_names": [
+    "uid",
+    "issuer"
+  ],
+  "nonce": "n-deny-source-binding",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "FuNdNQkX_Hx3hCGVTXgYd0qWdOHz41URCjp5CKiYt6E"
+}

@@ -1,0 +1,14 @@
+{
+  "notice_type": "HTTP::Unknown",
+  "source_script": "scripts/ssl/validate-cert.zeek",
+  "severity": "high",
+  "action": "ACTION_LOG",
+  "field_names": [
+    "uid",
+    "issuer"
+  ],
+  "nonce": "n-deny-notice-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-yEbk4BOuj7nX0a1od78tECXg44BqTIsACIQlFWfTn8"
+}

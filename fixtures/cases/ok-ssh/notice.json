@@ -1,0 +1,14 @@
+{
+  "notice_type": "SSH::Password_Guessing",
+  "source_script": "scripts/ssh/detect-bruteforce.zeek",
+  "severity": "medium",
+  "action": "ACTION_EMAIL",
+  "field_names": [
+    "orig_h",
+    "attempts"
+  ],
+  "nonce": "n-ok-ssh",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "E_gGwGjwZbE63AIyA3ZWfBwG9Lw1zqYVr2oKbCEfsLA"
+}

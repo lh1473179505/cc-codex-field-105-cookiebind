@@ -1,0 +1,14 @@
+{
+  "notice_type": "SSL::Invalid_Server_Cert",
+  "source_script": "scripts/ssl/validate-cert.zeek",
+  "severity": "high",
+  "action": "ACTION_LOG",
+  "field_names": [
+    "uid",
+    "issuer"
+  ],
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "wPHTKGvEa-mze-01MKFgMhXXZE4-kfW3qwso5w4shLI"
+}
