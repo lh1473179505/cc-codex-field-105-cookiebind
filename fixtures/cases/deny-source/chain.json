@@ -1,0 +1,12 @@
+{
+  "source_role": "arn:aws:iam::999900001111:role/evil/source",
+  "target_role": "arn:aws:iam::111122223333:role/pay/reader",
+  "session_name": "pay-alice-01",
+  "external_id": "ext-pay-2026",
+  "duration": 1800,
+  "mfa": "arn:aws:iam::111122223333:mfa/alice",
+  "nonce": "n-deny-source",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "27j2HpMdjV5-3NBOfEngPamUeL1ySrs2T0C-iqIcT84"
+}

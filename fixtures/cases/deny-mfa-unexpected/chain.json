@@ -1,0 +1,12 @@
+{
+  "source_role": "arn:aws:iam::444455556666:role/ops/automation",
+  "target_role": "arn:aws:iam::444455556666:role/ops/runner",
+  "session_name": "ops-nightly-01",
+  "external_id": "ext-ops-2026",
+  "duration": 900,
+  "mfa": "arn:aws:iam::444455556666:mfa/ops",
+  "nonce": "n-deny-mfa-unexpected",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "AY_ohSK73PTTSLgdY-8g_pQrarksM3-2-tU8NrGlmM0"
+}

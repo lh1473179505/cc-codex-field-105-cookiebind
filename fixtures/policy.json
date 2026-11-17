@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "arn:aws:iam::111122223333:role/pay/deployer": {
+      "targets": {
+        "arn:aws:iam::111122223333:role/pay/reader": {
+          "external_id": "ext-pay-2026",
+          "duration_min": 900,
+          "duration_max": 3600,
+          "session_prefixes": [
+            "pay-"
+          ],
+          "mfa_required": true,
+          "mfa_prefix": "arn:aws:iam::111122223333:mfa/"
+        }
+      }
+    },
+    "arn:aws:iam::444455556666:role/ops/automation": {
+      "targets": {
+        "arn:aws:iam::444455556666:role/ops/runner": {
+          "external_id": "ext-ops-2026",
+          "duration_min": 300,
+          "duration_max": 1800,
+          "session_prefixes": [
+            "ops-"
+          ],
+          "mfa_required": false,
+          "mfa_prefix": ""
+        }
+      }
+    }
+  },
+  "session_pattern": "^[A-Za-z0-9+=,.@-]{2,64}$",
+  "mfa_pattern": "^arn:aws:iam::[0-9]{12}:mfa/[A-Za-z0-9+=,.@_-]+$",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

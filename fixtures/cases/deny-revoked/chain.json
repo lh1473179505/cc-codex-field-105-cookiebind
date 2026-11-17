@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "source_role": "arn:aws:iam::111122223333:role/pay/deployer",
+  "target_role": "arn:aws:iam::111122223333:role/pay/reader",
+  "session_name": "pay-alice-01",
+  "external_id": "ext-pay-2026",
+  "duration": 1800,
+  "mfa": "arn:aws:iam::111122223333:mfa/alice",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "hNdwyrqFfo8PKIDq0cDtHztY-t3f92BqhaYk4fmN4DI"
+}
