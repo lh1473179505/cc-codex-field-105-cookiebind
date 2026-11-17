@@ -1,0 +1,22 @@
+{
+  "subject": "unix-user:alice",
+  "action": "org.pay.mount",
+  "auth": {
+    "allow_any": "no",
+    "allow_inactive": "auth_admin",
+    "allow_active": "yes"
+  },
+  "annotations": {
+    "org.pay.tenant": "pay",
+    "org.freedesktop.policykit.exec.allow_gui": "true"
+  },
+  "session": {
+    "type": "local-seat",
+    "active": 1,
+    "local": 1
+  },
+  "nonce": "n-deny-annotation-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "dk2r-wA7bzU-8MxWU9rNUNnAzYdzIiN_puzR_tzYOtQ"
+}

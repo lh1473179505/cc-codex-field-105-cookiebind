@@ -1,0 +1,22 @@
+{
+  "subject": "unix-user:alice",
+  "action": "org.pay.mount",
+  "auth": {
+    "allow_any": "no",
+    "allow_inactive": "auth_admin",
+    "allow_active": "yes",
+    "allow_root": "yes"
+  },
+  "annotations": {
+    "org.pay.tenant": "pay"
+  },
+  "session": {
+    "type": "local-seat",
+    "active": 1,
+    "local": 1
+  },
+  "nonce": "n-deny-auth-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "shVEe9xvdVR2vY8w0WATwPt3uPXIsYdKxH3M6FRUai0"
+}

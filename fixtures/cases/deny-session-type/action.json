@@ -1,0 +1,21 @@
+{
+  "subject": "unix-user:alice",
+  "action": "org.pay.mount",
+  "auth": {
+    "allow_any": "no",
+    "allow_inactive": "auth_admin",
+    "allow_active": "yes"
+  },
+  "annotations": {
+    "org.pay.tenant": "pay"
+  },
+  "session": {
+    "type": "ssh",
+    "active": 1,
+    "local": 1
+  },
+  "nonce": "n-deny-session-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "EiuUHT7DYOlQIJmj1Ir7jqJG8-hKPjTVO_5lFMXizuI"
+}

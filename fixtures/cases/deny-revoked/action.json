@@ -1,0 +1,21 @@
+{
+  "kid": "k-revoked",
+  "subject": "unix-user:alice",
+  "action": "org.pay.mount",
+  "auth": {
+    "allow_any": "no",
+    "allow_inactive": "auth_admin",
+    "allow_active": "yes"
+  },
+  "annotations": {
+    "org.pay.tenant": "pay"
+  },
+  "session": {
+    "type": "local-seat",
+    "active": 1,
+    "local": 1
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "lnCO0uen9asQTW1ENL4n5H9nhp5sypy6zyc7OIVrF1U"
+}

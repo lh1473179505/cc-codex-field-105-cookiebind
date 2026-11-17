@@ -1,0 +1,21 @@
+{
+  "subject": "alice",
+  "action": "org.pay.mount",
+  "auth": {
+    "allow_any": "no",
+    "allow_inactive": "auth_admin",
+    "allow_active": "yes"
+  },
+  "annotations": {
+    "org.pay.tenant": "pay"
+  },
+  "session": {
+    "type": "local-seat",
+    "active": 1,
+    "local": 1
+  },
+  "nonce": "n-deny-subject-shape",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "uWbvEJrg_r5DmbRgngtdlYlyzRs1CuPCKJYXQKZIIOM"
+}

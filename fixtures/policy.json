@@ -1,0 +1,51 @@
+{
+  "actions": {
+    "org.pay.mount": {
+      "subjects": [
+        "unix-user:alice",
+        "unix-group:payops"
+      ],
+      "auth": {
+        "allow_any": "no",
+        "allow_inactive": "auth_admin",
+        "allow_active": "yes"
+      },
+      "annotations_required": {
+        "org.pay.tenant": "pay"
+      },
+      "annotations_allowed": [
+        "org.pay.tenant",
+        "org.pay.audit"
+      ],
+      "session_types": [
+        "local-seat"
+      ],
+      "require_active": 1,
+      "require_local": 1
+    },
+    "org.ops.restart": {
+      "subjects": [
+        "unix-user:ops"
+      ],
+      "auth": {
+        "allow_any": "no",
+        "allow_inactive": "auth_admin",
+        "allow_active": "auth_admin"
+      },
+      "annotations_required": {
+        "org.ops.tenant": "ops"
+      },
+      "annotations_allowed": [
+        "org.ops.tenant"
+      ],
+      "session_types": [
+        "local-seat"
+      ],
+      "require_active": 1,
+      "require_local": 1
+    }
+  },
+  "subject_pattern": "^unix-(user|group):[a-z][a-z0-9-]{1,31}$",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
