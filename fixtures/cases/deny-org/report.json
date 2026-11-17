@@ -1,0 +1,16 @@
+{
+  "org": "Ops Receiver",
+  "domain": "pay.example",
+  "report_id": "pay-2026-001",
+  "begin": 1781712000,
+  "end": 1781798400,
+  "records": [
+    "192.0.2.10|12|pass|pass"
+  ],
+  "total_count": 12,
+  "report_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "nonce": "n-deny-org",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "lX3d6aykBddjc8-9qTNqYZilX6s5kRUNar2Yg7Te098"
+}

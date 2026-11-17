@@ -1,0 +1,16 @@
+{
+  "org": "Ops Receiver",
+  "domain": "ops.example",
+  "report_id": "ops-2026-014",
+  "begin": 1781827200,
+  "end": 1781913600,
+  "records": [
+    "203.0.113.20|7|pass|fail"
+  ],
+  "total_count": 7,
+  "report_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "0TUypZGv7WsEmGHliynoPaptiB1R2VMdgHHzPx9R8F4"
+}

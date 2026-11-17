@@ -1,0 +1,45 @@
+{
+  "domains": {
+    "pay.example": {
+      "orgs": [
+        "Pay Receiver"
+      ],
+      "report_id_prefixes": [
+        "pay-2026-"
+      ],
+      "source_cidrs": [
+        "192.0.2.0/24",
+        "198.51.100.0/24"
+      ],
+      "window_seconds": 86400
+    },
+    "ops.example": {
+      "orgs": [
+        "Ops Receiver"
+      ],
+      "report_id_prefixes": [
+        "ops-2026-"
+      ],
+      "source_cidrs": [
+        "203.0.113.0/24"
+      ],
+      "window_seconds": 86400
+    }
+  },
+  "record_min": 1,
+  "record_max": 4,
+  "spf_results": [
+    "pass",
+    "fail"
+  ],
+  "dkim_results": [
+    "pass",
+    "fail"
+  ],
+  "require_any_aligned": true,
+  "require_unique_source": true,
+  "report_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

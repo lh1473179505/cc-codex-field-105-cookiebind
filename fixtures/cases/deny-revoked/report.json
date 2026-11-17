@@ -1,0 +1,16 @@
+{
+  "kid": "k-revoked",
+  "org": "Pay Receiver",
+  "domain": "pay.example",
+  "report_id": "pay-2026-001",
+  "begin": 1781712000,
+  "end": 1781798400,
+  "records": [
+    "192.0.2.10|12|pass|pass"
+  ],
+  "total_count": 12,
+  "report_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "aeeyOp9aZiCv86LOad8_KoXdu8Kc-mqzeC14NOhftHo"
+}
