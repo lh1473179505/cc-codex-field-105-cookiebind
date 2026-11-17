@@ -1,0 +1,59 @@
+{
+  "subnets": {
+    "10.130.0.0/24": {
+      "options": {
+        "3": {
+          "value_type": "ipv4",
+          "value_cidrs": [
+            "10.130.0.0/24"
+          ]
+        },
+        "42": {
+          "value_type": "ipv4",
+          "value_cidrs": [
+            "10.130.0.0/24"
+          ]
+        }
+      },
+      "pool_cidrs": [
+        "10.130.0.64/26"
+      ],
+      "forbidden_options": [
+        66,
+        67,
+        121,
+        252
+      ]
+    },
+    "10.131.0.0/24": {
+      "options": {
+        "3": {
+          "value_type": "ipv4",
+          "value_cidrs": [
+            "10.131.0.0/24"
+          ]
+        },
+        "42": {
+          "value_type": "ipv4",
+          "value_cidrs": [
+            "10.131.0.0/24"
+          ]
+        }
+      },
+      "pool_cidrs": [
+        "10.131.0.128/25"
+      ],
+      "forbidden_options": [
+        66,
+        67,
+        121,
+        252
+      ]
+    }
+  },
+  "require_canonical_subnet": true,
+  "require_pool_order": true,
+  "forbid_unregistered_options": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

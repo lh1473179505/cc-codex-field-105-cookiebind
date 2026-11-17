@@ -1,0 +1,12 @@
+{
+  "subnet": "10.130.0.0/24",
+  "option_code": 3,
+  "value_type": "ipv4",
+  "value": "10.130.0.1",
+  "pool_start": "10.130.0.65",
+  "pool_end": "10.130.0.126",
+  "nonce": "n-ok-pay-router",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "bJYAN5FD1wnhDOCl8f69OfD6sq-IiMckOv6HAyLCTwA"
+}

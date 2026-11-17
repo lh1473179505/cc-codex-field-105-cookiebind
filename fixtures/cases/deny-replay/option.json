@@ -1,0 +1,12 @@
+{
+  "subnet": "10.130.0.0/24",
+  "option_code": 3,
+  "value_type": "ipv4",
+  "value": "10.130.0.1",
+  "pool_start": "10.130.0.65",
+  "pool_end": "10.130.0.126",
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "3k6sk0TFhTOC4tCSV6waYw9GWd705eFsRzXhsqU6vAs"
+}

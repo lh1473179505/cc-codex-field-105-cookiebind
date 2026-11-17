@@ -1,0 +1,12 @@
+{
+  "subnet": "10.130.0.0/24",
+  "option_code": 252,
+  "value_type": "string",
+  "value": "http://wpad.evil.example/wpad.dat",
+  "pool_start": "10.130.0.65",
+  "pool_end": "10.130.0.126",
+  "nonce": "n-deny-option-forbidden",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "lI4YimqK9n8kP-_bKXn7V2dHV0AOTreNH6wueHfYuho"
+}
