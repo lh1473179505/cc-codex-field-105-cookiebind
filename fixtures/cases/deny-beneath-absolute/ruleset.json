@@ -1,0 +1,15 @@
+{
+  "abi": 3,
+  "access_fs": [
+    "read_file"
+  ],
+  "allowed_path": "/srv/pay",
+  "beneath": [
+    "/data/incoming"
+  ],
+  "read_write": 0,
+  "nonce": "n-deny-beneath-absolute",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Bn_4cItwabC_sf2W0q_OVTeVQAqiq56ziOrUrIabZiU"
+}

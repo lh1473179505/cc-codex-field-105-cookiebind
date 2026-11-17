@@ -1,0 +1,16 @@
+{
+  "abi": 2,
+  "access_fs": [
+    "read_file",
+    "read_dir"
+  ],
+  "allowed_path": "/srv/ops",
+  "beneath": [
+    "reports/daily"
+  ],
+  "read_write": 0,
+  "nonce": "n-ok-ops-ro",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "65rDfxD6WpbpfkZxJfTlejpvRBVSnlwtB4PYQEGVtGQ"
+}

@@ -1,0 +1,15 @@
+{
+  "abi": 3,
+  "access_fs": [
+    "read_file"
+  ],
+  "allowed_path": "/etc",
+  "beneath": [
+    "data/incoming"
+  ],
+  "read_write": 0,
+  "nonce": "n-deny-allowed-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "qTY9D8OUIhWSNI00cBiglPqWwSTrMmiF8JHkqgWZR4Y"
+}

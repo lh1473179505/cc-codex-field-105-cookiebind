@@ -1,0 +1,66 @@
+{
+  "abi_access": {
+    "1": [
+      "read_file",
+      "write_file",
+      "read_dir",
+      "remove_file"
+    ],
+    "2": [
+      "read_file",
+      "write_file",
+      "read_dir",
+      "remove_file",
+      "refer"
+    ],
+    "3": [
+      "read_file",
+      "write_file",
+      "read_dir",
+      "remove_file",
+      "refer",
+      "truncate"
+    ]
+  },
+  "paths": {
+    "/srv/pay": {
+      "abi_min": 2,
+      "abi_max": 3,
+      "access_allowed": [
+        "read_file",
+        "write_file",
+        "read_dir",
+        "refer",
+        "truncate"
+      ],
+      "ro_prefixes": [
+        "logs/"
+      ],
+      "rw_prefixes": [
+        "data/"
+      ],
+      "beneath_max": 2
+    },
+    "/srv/ops": {
+      "abi_min": 1,
+      "abi_max": 2,
+      "access_allowed": [
+        "read_file",
+        "write_file",
+        "read_dir"
+      ],
+      "ro_prefixes": [
+        "reports/"
+      ],
+      "rw_prefixes": [
+        "jobs/"
+      ],
+      "beneath_max": 2
+    }
+  },
+  "require_unique_access": true,
+  "require_unique_beneath": true,
+  "beneath_min": 1,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

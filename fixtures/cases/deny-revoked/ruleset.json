@@ -1,0 +1,16 @@
+{
+  "kid": "k-revoked",
+  "abi": 3,
+  "access_fs": [
+    "read_file",
+    "write_file"
+  ],
+  "allowed_path": "/srv/pay",
+  "beneath": [
+    "data/incoming"
+  ],
+  "read_write": 1,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "xMxOVHm0ylwPgqpNlSDG6ZN0rjCWZUj6drsQ8bGfGbI"
+}

@@ -1,0 +1,17 @@
+{
+  "abi": 3,
+  "access_fs": [
+    "read_file",
+    "write_file",
+    "remove_file"
+  ],
+  "allowed_path": "/srv/pay",
+  "beneath": [
+    "data/incoming"
+  ],
+  "read_write": 1,
+  "nonce": "n-deny-access-profile",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "9LKyMwIeM3MP7Azu7Mc2UQW1sOO_7A0gTZigjKzeHvk"
+}
