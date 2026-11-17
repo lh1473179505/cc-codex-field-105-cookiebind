@@ -1,0 +1,56 @@
+{
+  "parents": {
+    "/proc/1000/ns/user": {
+      "container_uid_min": 0,
+      "container_uid_max": 1000,
+      "container_gid_min": 0,
+      "container_gid_max": 1000,
+      "host_uid_ranges": [
+        [
+          100000,
+          199999
+        ]
+      ],
+      "host_gid_ranges": [
+        [
+          200000,
+          299999
+        ]
+      ],
+      "length_min": 1,
+      "length_max": 65536,
+      "newuidmap": {
+        "uid": "/usr/bin/newuidmap",
+        "gid": "/usr/bin/newgidmap"
+      }
+    },
+    "/proc/2000/ns/user": {
+      "container_uid_min": 0,
+      "container_uid_max": 500,
+      "container_gid_min": 0,
+      "container_gid_max": 500,
+      "host_uid_ranges": [
+        [
+          300000,
+          349999
+        ]
+      ],
+      "host_gid_ranges": [
+        [
+          350000,
+          399999
+        ]
+      ],
+      "length_min": 1,
+      "length_max": 32768,
+      "newuidmap": {
+        "uid": "/usr/bin/newuidmap",
+        "gid": "/usr/bin/newgidmap"
+      }
+    }
+  },
+  "forbid_parent_traversal": true,
+  "require_distinct_uid_gid_ranges": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,16 @@
+{
+  "parent_ns": "/proc/2000/ns/user",
+  "container_uid": 501,
+  "container_gid": 20,
+  "host_uid_start": 300000,
+  "host_gid_start": 350000,
+  "length": 500,
+  "newuidmap": {
+    "uid": "/usr/bin/newuidmap",
+    "gid": "/usr/bin/newgidmap"
+  },
+  "nonce": "n-deny-container-uid",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Rv3N2PxqIdczESjFAZn8yhnhdvJy9HxcMDr-ZqKzPZg"
+}
