@@ -1,0 +1,40 @@
+{
+  "peers": {
+    "192.0.2.2": {
+      "lsr_id": "10.10.0.2",
+      "fec_supernets": [
+        "10.60.0.0/16"
+      ],
+      "transport_cidrs": [
+        "192.0.2.0/30"
+      ],
+      "label_min": 16,
+      "label_max": 4095,
+      "reserved_labels": [
+        16,
+        17
+      ]
+    },
+    "198.51.100.2": {
+      "lsr_id": "10.20.0.2",
+      "fec_supernets": [
+        "10.70.0.0/16"
+      ],
+      "transport_cidrs": [
+        "198.51.100.0/30"
+      ],
+      "label_min": 100,
+      "label_max": 2999,
+      "reserved_labels": [
+        100
+      ]
+    }
+  },
+  "require_canonical_fec": true,
+  "forbid_default_fec": true,
+  "transport_must_equal_peer": true,
+  "binding_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

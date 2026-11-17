@@ -1,0 +1,12 @@
+{
+  "peer": "192.0.2.2",
+  "lsr_id": "10.10.0.2",
+  "fec": "10.60.8.0/24",
+  "transport_address": "198.51.100.2",
+  "label": 1000,
+  "binding_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "nonce": "n-deny-transport-cidr",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "wxen5tPFzfux8JJLX-F_Lhxg0-bZqmgFqAPiFkUY_3E"
+}
