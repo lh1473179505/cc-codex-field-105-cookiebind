@@ -1,0 +1,14 @@
+{
+  "issuer": "ops-ca",
+  "signature_alg": "sha384WithRSAEncryption",
+  "crl_number": 101,
+  "this_update": "2026-06-18T00:00:00Z",
+  "next_update": "2026-06-19T00:00:00Z",
+  "reasons": [
+    "keyCompromise"
+  ],
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "s3kQjAEwto8ZjW9wMKfqd1u5hdiz6eUdhOuA31Ovu58"
+}

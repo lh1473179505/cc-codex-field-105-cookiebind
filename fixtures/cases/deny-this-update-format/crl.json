@@ -1,0 +1,14 @@
+{
+  "issuer": "pay-ca",
+  "signature_alg": "sha256WithRSAEncryption",
+  "crl_number": 1001,
+  "this_update": "2026-06-18 00:00:00Z",
+  "next_update": "2026-06-25T00:00:00Z",
+  "reasons": [
+    "keyCompromise"
+  ],
+  "nonce": "n-deny-this-update-format",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mdx7qVrMQTaw-SaazjJ_vr_Rm49v6GX510VQ1S7Y8d0"
+}

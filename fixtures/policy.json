@@ -1,0 +1,35 @@
+{
+  "issuers": {
+    "pay-ca": {
+      "signature_algs": [
+        "sha256WithRSAEncryption"
+      ],
+      "crl_number_min": 1000,
+      "crl_number_max": 9999,
+      "validity_seconds": 604800,
+      "reasons_allowed": [
+        "keyCompromise",
+        "caCompromise",
+        "affiliationChanged",
+        "cessationOfOperation"
+      ]
+    },
+    "ops-ca": {
+      "signature_algs": [
+        "sha384WithRSAEncryption"
+      ],
+      "crl_number_min": 100,
+      "crl_number_max": 999,
+      "validity_seconds": 86400,
+      "reasons_allowed": [
+        "keyCompromise",
+        "cessationOfOperation"
+      ]
+    }
+  },
+  "timestamp_format": "YYYY-MM-DDTHH:MM:SSZ",
+  "max_reasons": 3,
+  "require_unique_reasons": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
