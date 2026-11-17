@@ -1,0 +1,57 @@
+{
+  "dbs": {
+    "db": {
+      "owner_guid": "123e4567-e89b-42d3-a456-426614174000",
+      "actions": [
+        "add"
+      ],
+      "append_by_action": {
+        "add": 1
+      },
+      "auth_methods": [
+        "pkcs7-sha256"
+      ],
+      "auth_by_action": {
+        "add": [
+          "pkcs7-sha256",
+          "pkcs7-sha384"
+        ]
+      }
+    },
+    "dbx": {
+      "owner_guid": "123e4567-e89b-42d3-a456-426614174001",
+      "actions": [
+        "add",
+        "remove"
+      ],
+      "append_by_action": {
+        "add": 1,
+        "remove": 0
+      },
+      "auth_methods": [
+        "pkcs7-sha256",
+        "pkcs7-sha384"
+      ],
+      "auth_by_action": {
+        "add": [
+          "pkcs7-sha256"
+        ],
+        "remove": [
+          "pkcs7-sha384"
+        ]
+      }
+    }
+  },
+  "digest_hex_len": 64,
+  "require_lowercase_hex": true,
+  "forbid_zero_digest": true,
+  "forbidden_owner_guids": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "append_values": [
+    0,
+    1
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

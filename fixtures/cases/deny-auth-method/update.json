@@ -1,0 +1,12 @@
+{
+  "db": "db",
+  "owner_guid": "123e4567-e89b-42d3-a456-426614174000",
+  "cert_digest": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+  "action": "add",
+  "append": 1,
+  "auth": "pkcs7-sha384",
+  "nonce": "n-deny-auth-method",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "CSfwqCqRo01mB6BrD9T1oEzKMFGVeQFszhyjmXnB3_0"
+}
