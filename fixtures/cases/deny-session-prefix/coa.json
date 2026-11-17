@@ -1,0 +1,15 @@
+{
+  "nas_id": "nas-pay-01",
+  "session_id": "ops-sess-001",
+  "acct_session_id": "pay-alice-0001",
+  "username": "alice",
+  "attributes": {
+    "action": "disconnect",
+    "reason": "admin-reset"
+  },
+  "source_ip": "10.255.10.8",
+  "nonce": "n-deny-session-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "9RGcU6qh9N6aBVXj1Bo9-zTIZh4i64WO3n1IMqgbTsc"
+}

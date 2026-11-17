@@ -1,0 +1,15 @@
+{
+  "nas_id": "nas-ops-02",
+  "session_id": "ops-sess-044",
+  "acct_session_id": "ops-bob-0044",
+  "username": "bob",
+  "attributes": {
+    "action": "disconnect",
+    "class": "ops-user"
+  },
+  "source_ip": "10.255.20.9",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ijniffin28K0xaiLEwqwX2zF7HJ-noBgONK6TYZFGsQ"
+}

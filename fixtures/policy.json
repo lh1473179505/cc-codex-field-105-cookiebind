@@ -1,0 +1,75 @@
+{
+  "nas_devices": {
+    "nas-pay-01": {
+      "source_cidrs": [
+        "10.255.10.0/24"
+      ],
+      "session_prefixes": [
+        "pay-"
+      ],
+      "users": {
+        "alice": {
+          "acct_session_prefixes": [
+            "pay-alice-"
+          ],
+          "attributes_allowed": [
+            "action",
+            "reason",
+            "class"
+          ],
+          "attributes_required": {
+            "action": "disconnect"
+          },
+          "attribute_values": {
+            "action": [
+              "disconnect"
+            ],
+            "reason": [
+              "admin-reset",
+              "idle-timeout"
+            ],
+            "class": [
+              "pay-user",
+              "pay-admin"
+            ]
+          }
+        }
+      }
+    },
+    "nas-ops-02": {
+      "source_cidrs": [
+        "10.255.20.0/24"
+      ],
+      "session_prefixes": [
+        "ops-"
+      ],
+      "users": {
+        "bob": {
+          "acct_session_prefixes": [
+            "ops-bob-"
+          ],
+          "attributes_allowed": [
+            "action",
+            "class"
+          ],
+          "attributes_required": {
+            "action": "disconnect",
+            "class": "ops-user"
+          },
+          "attribute_values": {
+            "action": [
+              "disconnect"
+            ],
+            "class": [
+              "ops-user"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "session_id_characters": "lowercase ASCII letters, digits and hyphens",
+  "attribute_value_type": "string",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

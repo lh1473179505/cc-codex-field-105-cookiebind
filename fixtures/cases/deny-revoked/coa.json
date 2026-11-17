@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "nas_id": "nas-pay-01",
+  "session_id": "pay-sess-001",
+  "acct_session_id": "pay-alice-0001",
+  "username": "alice",
+  "attributes": {
+    "action": "disconnect",
+    "reason": "admin-reset"
+  },
+  "source_ip": "10.255.10.8",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "vkZTOK_kCJ_AQKIYqRYI6dUASpE529Qd9nhFA1AGui0"
+}
