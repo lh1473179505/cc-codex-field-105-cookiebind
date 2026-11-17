@@ -1,0 +1,13 @@
+{
+  "ring_id": "ring-ops",
+  "opcode": "IORING_OP_READ",
+  "fd_type": "regular",
+  "offset": 0,
+  "buffer_len": 1,
+  "queue_depth": 16,
+  "timeout_ms": 2000,
+  "nonce": "n-deny-opcode",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "lb0LxxXzYMLFYS3QYDcDwM57ZRP1BrNhRGjo5GtvuHo"
+}

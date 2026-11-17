@@ -1,0 +1,13 @@
+{
+  "ring_id": "ring-pay",
+  "opcode": "IORING_OP_READ",
+  "fd_type": "socket",
+  "offset": 4096,
+  "buffer_len": 1024,
+  "queue_depth": 32,
+  "timeout_ms": 1000,
+  "nonce": "n-deny-fd-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jp8Fy0IHZqiXTQ8gSol2V_5ifLkB6SAT3S1mc4C9pMg"
+}

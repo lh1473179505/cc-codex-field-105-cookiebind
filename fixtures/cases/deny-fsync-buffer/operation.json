@@ -1,0 +1,13 @@
+{
+  "ring_id": "ring-ops",
+  "opcode": "IORING_OP_FSYNC",
+  "fd_type": "regular",
+  "offset": 0,
+  "buffer_len": 1,
+  "queue_depth": 16,
+  "timeout_ms": 2000,
+  "nonce": "n-deny-fsync-buffer",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2v67iuFI3MZEvwxiNtrZs-l-9WhPQXxKuEXVmY2NKEc"
+}

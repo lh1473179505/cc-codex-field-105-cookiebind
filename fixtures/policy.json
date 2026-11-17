@@ -1,0 +1,48 @@
+{
+  "rings": {
+    "ring-pay": {
+      "ops": {
+        "IORING_OP_READ": {
+          "fd_types": [
+            "regular"
+          ],
+          "offset_min": 0,
+          "offset_max": 1048575,
+          "buffer_min": 1,
+          "buffer_max": 4096
+        },
+        "IORING_OP_WRITE": {
+          "fd_types": [
+            "regular"
+          ],
+          "offset_min": 0,
+          "offset_max": 1048575,
+          "buffer_min": 1,
+          "buffer_max": 2048
+        }
+      },
+      "queue_depth_min": 1,
+      "queue_depth_max": 64,
+      "timeout_min": 10,
+      "timeout_max": 5000
+    },
+    "ring-ops": {
+      "ops": {
+        "IORING_OP_FSYNC": {
+          "fd_types": [
+            "regular"
+          ],
+          "offset_exact": 0,
+          "buffer_exact": 0
+        }
+      },
+      "queue_depth_min": 1,
+      "queue_depth_max": 16,
+      "timeout_min": 50,
+      "timeout_max": 2000
+    }
+  },
+  "forbid_bool_numbers": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

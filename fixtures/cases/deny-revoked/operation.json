@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "ring_id": "ring-pay",
+  "opcode": "IORING_OP_READ",
+  "fd_type": "regular",
+  "offset": 4096,
+  "buffer_len": 1024,
+  "queue_depth": 32,
+  "timeout_ms": 1000,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "iolELWbF69itqCftj7qALg2M1uJpdSuz3NJU-CdlgDQ"
+}
