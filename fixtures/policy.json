@@ -1,0 +1,48 @@
+{
+  "users": {
+    "alice": {
+      "common_names": [
+        "alice-laptop"
+      ],
+      "client_supernets": [
+        "10.80.0.0/16"
+      ],
+      "route_supernets": [
+        "10.90.0.0/16"
+      ],
+      "dns_suffixes": [
+        "pay.example"
+      ],
+      "dns_required": [
+        "pay.example"
+      ],
+      "max_dns_domains": 2
+    },
+    "opsbot": {
+      "common_names": [
+        "opsbot-runner"
+      ],
+      "client_supernets": [
+        "10.81.0.0/16"
+      ],
+      "route_supernets": [
+        "10.91.0.0/16"
+      ],
+      "dns_suffixes": [
+        "ops.example"
+      ],
+      "dns_required": [
+        "ops.example"
+      ],
+      "max_dns_domains": 2
+    }
+  },
+  "require_canonical_client": true,
+  "require_canonical_route": true,
+  "forbid_default_route": true,
+  "require_unique_dns": true,
+  "config_sha256_hex_len": 64,
+  "require_lowercase_hex": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

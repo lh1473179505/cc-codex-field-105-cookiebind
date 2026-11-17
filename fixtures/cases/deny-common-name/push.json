@@ -1,0 +1,14 @@
+{
+  "username": "alice",
+  "common_name": "opsbot-runner",
+  "client_cidr": "10.80.4.0/24",
+  "route_cidr": "10.90.8.0/24",
+  "dns_domains": [
+    "pay.example"
+  ],
+  "config_sha256": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+  "nonce": "n-deny-common-name",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IiwYVT_8RwCPjz-Wzp6m4NudaT_d1ltJ4UM_fYxe7yM"
+}

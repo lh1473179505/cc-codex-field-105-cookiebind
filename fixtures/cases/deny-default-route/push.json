@@ -1,0 +1,14 @@
+{
+  "username": "alice",
+  "common_name": "alice-laptop",
+  "client_cidr": "10.80.4.0/24",
+  "route_cidr": "0.0.0.0/0",
+  "dns_domains": [
+    "pay.example"
+  ],
+  "config_sha256": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+  "nonce": "n-deny-default-route",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "1tQ26WTj93jfeJ6vZGEbyO8bOGqgEwZhjzwUSFETxcw"
+}

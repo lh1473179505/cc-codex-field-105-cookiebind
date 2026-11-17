@@ -1,0 +1,14 @@
+{
+  "username": "opsbot",
+  "common_name": "opsbot-runner",
+  "client_cidr": "10.81.0.0/16",
+  "route_cidr": "10.91.2.0/24",
+  "dns_domains": [
+    "ops.example"
+  ],
+  "config_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "nonce": "n-ok-opsbot",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "3NcHVyd5-i51_COldzrsus6vn29FpzZhz_2jRPd7wEQ"
+}
