@@ -1,0 +1,39 @@
+{
+  "modules": {
+    "pay.wasm": {
+      "preopen": "/srv/pay",
+      "path_prefixes": [
+        "inbox/",
+        "reports/"
+      ],
+      "read_allowed": true,
+      "write_allowed": true,
+      "write_prefixes": [
+        "inbox/"
+      ]
+    },
+    "ops.wasm": {
+      "preopen": "/srv/ops",
+      "path_prefixes": [
+        "jobs/"
+      ],
+      "read_allowed": true,
+      "write_allowed": false,
+      "write_prefixes": []
+    }
+  },
+  "permission_values": [
+    0,
+    1
+  ],
+  "path_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "%2e",
+    "%2E",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

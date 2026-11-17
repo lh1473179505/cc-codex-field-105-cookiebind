@@ -1,0 +1,11 @@
+{
+  "module": "pay.wasm",
+  "path": "inbox/pay.csv",
+  "preopen": "/srv/pay",
+  "read": 1,
+  "write": 1,
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "NUsK_EBW02vz8pPQFjh7AQIg2vPpkR9sqJg7tBiWYDE"
+}

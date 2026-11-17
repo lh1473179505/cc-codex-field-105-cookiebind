@@ -1,0 +1,11 @@
+{
+  "module": "pay.wasm",
+  "path": "reports/pay.csv",
+  "preopen": "/srv/pay",
+  "read": 0,
+  "write": 0,
+  "nonce": "n-deny-permission-empty",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "BFn0iMwukKWaJzVkU0ppOxiLr_EzjG1iIzeggboVYvE"
+}

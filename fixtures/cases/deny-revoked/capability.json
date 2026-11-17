@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "module": "pay.wasm",
+  "path": "inbox/pay.csv",
+  "preopen": "/srv/pay",
+  "read": 1,
+  "write": 1,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "cH-XtXUGSDpEO0g49aF6BgcgIZsjRV3T4emVjLl6h3I"
+}

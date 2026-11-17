@@ -1,0 +1,11 @@
+{
+  "module": "pay.wasm",
+  "path": "jobs/nightly.json",
+  "preopen": "/srv/pay",
+  "read": 1,
+  "write": 0,
+  "nonce": "n-deny-path-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "R5QEeoIF9b9ASTF2CbihMf6Rcg_uFJKQOjXgMiD6ANA"
+}

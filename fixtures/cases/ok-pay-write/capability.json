@@ -1,0 +1,11 @@
+{
+  "module": "pay.wasm",
+  "path": "inbox/2026/pay.csv",
+  "preopen": "/srv/pay",
+  "read": 1,
+  "write": 1,
+  "nonce": "n-ok-pay-write",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "D_-gQ4htxIpgZaZ-t1B8qOsxtRcFfqfWWeFqja0lxiM"
+}

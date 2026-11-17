@@ -1,0 +1,11 @@
+{
+  "module": "ops.wasm",
+  "path": "jobs/nightly.json",
+  "preopen": "/srv/ops",
+  "read": 1,
+  "write": 1,
+  "nonce": "n-deny-module-write",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "yfCYjLb7DShIeezkQkzuATqR5fZ8El3rsBpM4MRGz2w"
+}

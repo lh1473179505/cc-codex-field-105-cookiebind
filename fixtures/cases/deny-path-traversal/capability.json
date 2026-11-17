@@ -1,0 +1,11 @@
+{
+  "module": "pay.wasm",
+  "path": "inbox/../secrets/pay.csv",
+  "preopen": "/srv/pay",
+  "read": 1,
+  "write": 1,
+  "nonce": "n-deny-path-traversal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "dXeavU4CSF8BbGHeSLv39xwGLGH6H5v_4ysT4fJVbSw"
+}
