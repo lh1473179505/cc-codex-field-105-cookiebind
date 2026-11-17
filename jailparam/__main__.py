@@ -32,6 +32,8 @@ def main(argv=None) -> int:
         report = admit_jail(obj, keys, policy, store, parse_now(args.now))
     except ValueError as e:
         print(str(e), file=sys.stderr); return 2
+    except OSError as e:
+        print(str(e), file=sys.stderr); return 2
     Path(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     if report.get("decision")=="allow":
         save_store(args.store, store); return 0
