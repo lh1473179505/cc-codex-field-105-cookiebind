@@ -1,0 +1,12 @@
+{
+  "document_namespace": "https://spdx.example/pay/1.0",
+  "spdx_id": "SPDXRef-Document",
+  "related_spdx_id": "SPDXRef-Package",
+  "relationship_type": "DESCRIBES",
+  "license": "Apache-2.0",
+  "file_sha256": "",
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}

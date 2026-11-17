@@ -1,0 +1,12 @@
+{
+  "document_namespace": "https://spdx.example/pay/1.0",
+  "spdx_id": "SPDXRef-Package",
+  "related_spdx_id": "SPDXRef-File",
+  "relationship_type": "CONTAINS",
+  "license": "MIT",
+  "file_sha256": "ABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABAB",
+  "nonce": "n-deny-digest-case",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "a_AuMet9j_K9Mropu96ZnIcZccB1l6kuDxaGwoOPGg4"
+}

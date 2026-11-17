@@ -1,0 +1,70 @@
+{
+  "documents": {
+    "https://spdx.example/pay/1.0": {
+      "elements": {
+        "SPDXRef-Document": {
+          "kind": "Document",
+          "license": "NOASSERTION",
+          "sha256": ""
+        },
+        "SPDXRef-Package": {
+          "kind": "Package",
+          "license": "Apache-2.0",
+          "sha256": ""
+        },
+        "SPDXRef-File": {
+          "kind": "File",
+          "license": "MIT",
+          "sha256": "abababababababababababababababababababababababababababababababab"
+        }
+      },
+      "relationships": {
+        "SPDXRef-Document": {
+          "DESCRIBES": [
+            "SPDXRef-Package"
+          ]
+        },
+        "SPDXRef-Package": {
+          "CONTAINS": [
+            "SPDXRef-File"
+          ]
+        }
+      }
+    },
+    "https://spdx.example/ops/2.0": {
+      "elements": {
+        "SPDXRef-Document": {
+          "kind": "Document",
+          "license": "NOASSERTION",
+          "sha256": ""
+        },
+        "SPDXRef-Package": {
+          "kind": "Package",
+          "license": "BSD-3-Clause",
+          "sha256": ""
+        },
+        "SPDXRef-File": {
+          "kind": "File",
+          "license": "BSD-3-Clause",
+          "sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+        }
+      },
+      "relationships": {
+        "SPDXRef-Document": {
+          "DESCRIBES": [
+            "SPDXRef-Package"
+          ]
+        },
+        "SPDXRef-Package": {
+          "CONTAINS": [
+            "SPDXRef-File"
+          ]
+        }
+      }
+    }
+  },
+  "spdx_id_pattern": "^SPDXRef-[A-Za-z0-9][A-Za-z0-9.-]*$",
+  "sha256_hex_len": 64,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

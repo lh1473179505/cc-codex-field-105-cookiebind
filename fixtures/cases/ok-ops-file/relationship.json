@@ -1,0 +1,12 @@
+{
+  "document_namespace": "https://spdx.example/ops/2.0",
+  "spdx_id": "SPDXRef-Package",
+  "related_spdx_id": "SPDXRef-File",
+  "relationship_type": "CONTAINS",
+  "license": "BSD-3-Clause",
+  "file_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "nonce": "n-ok-ops-file",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "nGxjAictNsqCj1fF5GzZFJqmuCroHk3L8mrFqz99UGw"
+}
