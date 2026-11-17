@@ -1,0 +1,15 @@
+{
+  "log_id": "ct-ops-2026",
+  "chain": [
+    "leaf-ops-01",
+    "intermediate-ops-a"
+  ],
+  "root_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "not_before": "2026-05-01T00:00:00Z",
+  "not_after": "2026-06-01T00:00:00Z",
+  "hostname": "status.ops.example",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "TgZoy17eKh_fNgzixfmJTc93MU6a_-KvB-FLmZiL6HE"
+}

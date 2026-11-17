@@ -1,0 +1,44 @@
+{
+  "logs": {
+    "ct-pay-2026": {
+      "root_sha256": "abababababababababababababababababababababababababababababababab",
+      "chains": [
+        [
+          "leaf-pay-01",
+          "intermediate-pay-a"
+        ],
+        [
+          "leaf-pay-02",
+          "intermediate-pay-a"
+        ]
+      ],
+      "hostname_suffixes": [
+        ".pay.example"
+      ],
+      "not_before_min": "2026-01-01T00:00:00Z",
+      "not_after_max": "2027-01-01T00:00:00Z",
+      "max_validity_seconds": 8640000
+    },
+    "ct-ops-2026": {
+      "root_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "chains": [
+        [
+          "leaf-ops-01",
+          "intermediate-ops-a"
+        ]
+      ],
+      "hostname_suffixes": [
+        ".ops.example"
+      ],
+      "not_before_min": "2026-01-01T00:00:00Z",
+      "not_after_max": "2027-01-01T00:00:00Z",
+      "max_validity_seconds": 8640000
+    }
+  },
+  "timestamp_format": "YYYY-MM-DDTHH:MM:SSZ",
+  "root_hex_length": 64,
+  "require_lowercase_root": true,
+  "require_unique_chain_ids": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

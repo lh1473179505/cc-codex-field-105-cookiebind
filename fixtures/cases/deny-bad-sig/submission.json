@@ -1,0 +1,15 @@
+{
+  "log_id": "ct-pay-2026",
+  "chain": [
+    "leaf-pay-01",
+    "intermediate-pay-a"
+  ],
+  "root_sha256": "abababababababababababababababababababababababababababababababab",
+  "not_before": "2026-06-01T00:00:00Z",
+  "not_after": "2026-08-30T00:00:00Z",
+  "hostname": "api.pay.example",
+  "nonce": "n-deny-bad-sig",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+}
