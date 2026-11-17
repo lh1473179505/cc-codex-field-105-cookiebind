@@ -1,0 +1,14 @@
+{
+  "table": "inet filter",
+  "chain": "input",
+  "iface": "eth0",
+  "set": "allow4",
+  "elem": "203.0.113.10",
+  "action": "accept",
+  "jump": "",
+  "priority": 0,
+  "nonce": "n-ok-accept",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-DILkTEZg_5Vvr3xuc1cwM1C0_a-91wlyryq9kS-WFo"
+}

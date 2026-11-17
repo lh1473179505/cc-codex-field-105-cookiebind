@@ -1,0 +1,14 @@
+{
+  "table": "bridge filter",
+  "chain": "input",
+  "iface": "eth0",
+  "set": "allow4",
+  "elem": "203.0.113.10",
+  "action": "accept",
+  "jump": "",
+  "priority": 0,
+  "nonce": "n-deny-table",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "M57DgagWt5aZkXkBiFfxZS_UjYMYmRd9z3_uYlBT8vY"
+}

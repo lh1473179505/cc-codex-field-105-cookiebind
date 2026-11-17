@@ -1,0 +1,70 @@
+{
+  "allowed_tables": [
+    "inet filter",
+    "ip nat"
+  ],
+  "allowed_chains": {
+    "inet filter": [
+      "input",
+      "forward"
+    ],
+    "ip nat": [
+      "prerouting"
+    ]
+  },
+  "ifaces": {
+    "inet filter": [
+      "eth0",
+      "wg0"
+    ],
+    "ip nat": [
+      "eth0"
+    ]
+  },
+  "sets": {
+    "inet filter": {
+      "allow4": [
+        "203.0.113.0/24",
+        "198.51.100.10"
+      ],
+      "mgmt4": [
+        "10.0.0.0/8"
+      ]
+    }
+  },
+  "allowed_actions": [
+    "accept",
+    "drop",
+    "jump"
+  ],
+  "jump_targets": {
+    "inet filter": [
+      "input",
+      "forward"
+    ],
+    "ip nat": [
+      "prerouting"
+    ]
+  },
+  "priority_bands": {
+    "inet filter": [
+      -50,
+      50
+    ],
+    "ip nat": [
+      0,
+      20
+    ]
+  },
+  "elem_deny_substrings": [
+    "*",
+    "..",
+    "%2e"
+  ],
+  "set_required_for": {
+    "inet filter": true,
+    "ip nat": false
+  },
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,14 @@
+{
+  "table": "inet filter",
+  "chain": "forward",
+  "iface": "wg0",
+  "set": "mgmt4",
+  "elem": "10.2.3.4",
+  "action": "jump",
+  "jump": "output",
+  "priority": 10,
+  "nonce": "n-deny-jump",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "J9Ddiz8djvnaPW7bxu_VEu13BmpA3FntIAx6Lb85H-A"
+}
