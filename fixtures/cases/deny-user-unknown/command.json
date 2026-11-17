@@ -1,0 +1,14 @@
+{
+  "user": "mallory",
+  "group": "pay-operators",
+  "service": "shell",
+  "command": "show",
+  "args": [
+    "interfaces"
+  ],
+  "priv_lvl": 1,
+  "nonce": "n-deny-user-unknown",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "B74lmP6LDltKhlhhyMamNf_hu0LJNb23Fe2nnX3pFOU"
+}

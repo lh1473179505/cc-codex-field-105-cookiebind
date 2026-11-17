@@ -1,0 +1,14 @@
+{
+  "user": "bob",
+  "group": "pay-operators",
+  "service": "shell",
+  "command": "show",
+  "args": [
+    "interfaces"
+  ],
+  "priv_lvl": 1,
+  "nonce": "n-deny-user-group",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-UqWWPNsT2SIsw989gI4FXwSCGufmYLGlhOCUjL7K9A"
+}

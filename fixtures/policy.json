@@ -1,0 +1,77 @@
+{
+  "groups": {
+    "pay-operators": {
+      "users": [
+        "alice",
+        "amy"
+      ],
+      "services": {
+        "shell": {
+          "commands": {
+            "show": {
+              "argument_sets": [
+                [
+                  "interfaces"
+                ],
+                [
+                  "ip",
+                  "route"
+                ]
+              ],
+              "priv_lvls": [
+                1
+              ]
+            },
+            "ping": {
+              "argument_sets": [
+                [
+                  "10.10.0.1"
+                ],
+                [
+                  "10.10.0.2"
+                ]
+              ],
+              "priv_lvls": [
+                1,
+                7
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ops-admins": {
+      "users": [
+        "bob"
+      ],
+      "services": {
+        "shell": {
+          "commands": {
+            "reload": {
+              "argument_sets": [
+                []
+              ],
+              "priv_lvls": [
+                15
+              ]
+            },
+            "show": {
+              "argument_sets": [
+                [
+                  "running-config"
+                ]
+              ],
+              "priv_lvls": [
+                15
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "argument_item_type": "string",
+  "priv_lvl_type": "integer",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

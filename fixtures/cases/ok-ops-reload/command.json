@@ -1,0 +1,12 @@
+{
+  "user": "bob",
+  "group": "ops-admins",
+  "service": "shell",
+  "command": "reload",
+  "args": [],
+  "priv_lvl": 15,
+  "nonce": "n-ok-ops-reload",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "OC1cY7zHXQ-4H6nnlDolyy9Oy7YIIfmUQwmUw6I7fJo"
+}

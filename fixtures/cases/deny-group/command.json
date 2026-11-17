@@ -1,0 +1,14 @@
+{
+  "user": "alice",
+  "group": "public",
+  "service": "shell",
+  "command": "show",
+  "args": [
+    "interfaces"
+  ],
+  "priv_lvl": 1,
+  "nonce": "n-deny-group",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Iw5OsNmwU5Ej6s63d10K9_g17FbgeUdtKUlrGWk4NMY"
+}

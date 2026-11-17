@@ -1,0 +1,14 @@
+{
+  "user": "alice",
+  "group": "pay-operators",
+  "service": "shell",
+  "command": "debug",
+  "args": [
+    "interfaces"
+  ],
+  "priv_lvl": 1,
+  "nonce": "n-deny-command",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Z6Wztk-a514FJFYxlCD5Z21mHjlDMF5Fpqajtp4EAHI"
+}

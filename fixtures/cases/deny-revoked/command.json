@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "user": "alice",
+  "group": "pay-operators",
+  "service": "shell",
+  "command": "show",
+  "args": [
+    "interfaces"
+  ],
+  "priv_lvl": 1,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "tyEZulDJ5d3S-c-k2BEHS3N5_hWzNYvClfFEO3OnX5s"
+}

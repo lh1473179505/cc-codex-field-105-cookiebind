@@ -1,0 +1,12 @@
+{
+  "user": "alice",
+  "group": "pay-operators",
+  "service": "shell",
+  "command": "show",
+  "args": [],
+  "priv_lvl": 1,
+  "nonce": "n-deny-args-empty",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "F1NDzPSen79vNanwBea4aS4WwA1xhwdQNGsNY52VcCw"
+}
