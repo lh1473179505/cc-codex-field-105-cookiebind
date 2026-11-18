@@ -1,0 +1,11 @@
+{
+  "recipient": "ops-xml-01",
+  "key_transport": "http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p",
+  "data_alg": "http://www.w3.org/2009/xmlenc11#aes128-gcm",
+  "key_size": 128,
+  "reference_uri": "#ops-job-22",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "9O4gv7n_rFeYoUMhe0ARBWHzbU72o3gX-m3Yf6t_O7U"
+}

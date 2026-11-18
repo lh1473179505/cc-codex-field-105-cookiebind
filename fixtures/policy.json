@@ -1,0 +1,41 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "recipients": {
+    "pay-xml-01": {
+      "key_transports": {
+        "http://www.w3.org/2009/xmlenc11#rsa-oaep": {
+          "data_algorithms": {
+            "http://www.w3.org/2009/xmlenc11#aes256-gcm": {
+              "key_sizes": [
+                256
+              ],
+              "reference_prefixes": [
+                "#pay-invoice-",
+                "#pay-report-"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ops-xml-01": {
+      "key_transports": {
+        "http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p": {
+          "data_algorithms": {
+            "http://www.w3.org/2009/xmlenc11#aes128-gcm": {
+              "key_sizes": [
+                128
+              ],
+              "reference_prefixes": [
+                "#ops-job-"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "reference_pattern": "^#[A-Za-z0-9][A-Za-z0-9._-]*$",
+  "reference_length_max": 96
+}

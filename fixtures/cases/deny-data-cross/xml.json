@@ -1,0 +1,11 @@
+{
+  "recipient": "pay-xml-01",
+  "key_transport": "http://www.w3.org/2009/xmlenc11#rsa-oaep",
+  "data_alg": "http://www.w3.org/2009/xmlenc11#aes128-gcm",
+  "key_size": 256,
+  "reference_uri": "#pay-invoice-17",
+  "nonce": "n-deny-data-cross",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "vZTot-zvjGka9dOdja79jDMhO6d13Oxqn6HjMCTdUvQ"
+}
