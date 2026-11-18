@@ -1,0 +1,20 @@
+{
+  "entry": "pay/dashboard.jsonnet",
+  "imports": [
+    "lib/pay.libsonnet",
+    "lib/pay.libsonnet"
+  ],
+  "ext_vars": {
+    "env": "prod",
+    "tier": "pay"
+  },
+  "output_path": "out/pay/dashboard.json",
+  "libraries": [
+    "common",
+    "pay"
+  ],
+  "nonce": "n-deny-import-duplicate",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "MfVOUfPoUoDORoaC9NuO67SHqt9aqGRLLH4QIRQZCqQ"
+}

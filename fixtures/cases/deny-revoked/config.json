@@ -1,0 +1,20 @@
+{
+  "kid": "k-revoked",
+  "entry": "pay/dashboard.jsonnet",
+  "imports": [
+    "lib/common.libsonnet",
+    "lib/pay.libsonnet"
+  ],
+  "ext_vars": {
+    "env": "prod",
+    "tier": "pay"
+  },
+  "output_path": "out/pay/dashboard.json",
+  "libraries": [
+    "common",
+    "pay"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "xoWUd57peGxa9V4P5bi2eMTpTjSKvhcwzqglUdqFFPQ"
+}

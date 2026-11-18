@@ -1,0 +1,18 @@
+{
+  "entry": "ops/inventory.jsonnet",
+  "imports": [
+    "lib/ops.libsonnet"
+  ],
+  "ext_vars": {
+    "env": "prod",
+    "tier": "ops"
+  },
+  "output_path": "out/ops/inventory.json",
+  "libraries": [
+    "ops"
+  ],
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "LFhAj29J_6Q1etZ9lBJUfOB4hnoyr2acP9gf7gGiGcg"
+}

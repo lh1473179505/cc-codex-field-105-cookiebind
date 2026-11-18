@@ -1,0 +1,57 @@
+{
+  "entries": {
+    "pay/dashboard.jsonnet": {
+      "imports_allowed": [
+        "lib/common.libsonnet",
+        "lib/pay.libsonnet"
+      ],
+      "imports_required": [
+        "lib/pay.libsonnet"
+      ],
+      "import_libraries": {
+        "lib/common.libsonnet": "common",
+        "lib/pay.libsonnet": "pay"
+      },
+      "ext_vars": {
+        "env": "prod",
+        "tier": "pay"
+      },
+      "output_path": "out/pay/dashboard.json",
+      "libraries_allowed": [
+        "common",
+        "pay"
+      ]
+    },
+    "ops/inventory.jsonnet": {
+      "imports_allowed": [
+        "lib/ops.libsonnet"
+      ],
+      "imports_required": [
+        "lib/ops.libsonnet"
+      ],
+      "import_libraries": {
+        "lib/ops.libsonnet": "ops"
+      },
+      "ext_vars": {
+        "env": "prod",
+        "tier": "ops"
+      },
+      "output_path": "out/ops/inventory.json",
+      "libraries_allowed": [
+        "ops"
+      ]
+    }
+  },
+  "import_count_min": 1,
+  "import_count_max": 3,
+  "import_suffix": ".libsonnet",
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "require_unique_lists": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

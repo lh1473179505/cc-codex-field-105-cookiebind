@@ -1,0 +1,21 @@
+{
+  "entry": "pay/dashboard.jsonnet",
+  "imports": [
+    "lib/common.libsonnet",
+    "lib/pay.libsonnet"
+  ],
+  "ext_vars": {
+    "env": "prod",
+    "tier": "pay",
+    "code": "import \"evil.jsonnet\""
+  },
+  "output_path": "out/pay/dashboard.json",
+  "libraries": [
+    "common",
+    "pay"
+  ],
+  "nonce": "n-deny-ext-var-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "aEB580JtTYUMcOxGk9mmD1fWSOxsBJGFGowE0tNFlW0"
+}
