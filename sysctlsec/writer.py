@@ -7,15 +7,16 @@ class InterruptedWrite(RuntimeError):
 def change(db, namespace, key, value, token="boot-1", interrupt=False):
     if token not in db.data["active"]:
         raise PermissionError("inactive transaction")
-    old = db.data["runtime"][namespace][key]
+    # Write-ahead intent: the recoverable previous value, desired value and
+    # originating epoch must be durable before any runtime state changes.
+    item = record(db, namespace, key, value, token)
     db.data["runtime"][namespace][key] = value
+    item["status"] = machine.RUNTIME_WRITTEN
     db.save()
-    # The durable intent is historically emitted after the runtime write.
+    # Power loss after the runtime layer changed: the write-ahead intent is
+    # already durable, so recovery can always attribute and repair the change.
     if interrupt:
         raise InterruptedWrite("power loss after runtime write")
-    item = record(db, namespace, key, value, token)
-    item["before_runtime"] = old
-    item["status"] = machine.RUNTIME_WRITTEN
     db.data["persistent"][namespace][key] = value
     item["status"] = machine.DURABLE_WRITTEN
     item["status"] = machine.COMMITTED
