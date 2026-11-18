@@ -1,0 +1,15 @@
+{
+  "client_id": "public",
+  "login_hint": "user:alice",
+  "binding_message": "PAY-42",
+  "interval": 5,
+  "expires_in": 300,
+  "scope": [
+    "openid",
+    "payments"
+  ],
+  "nonce": "n-deny-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "qulu3fWWowOMke03U1CoJJETjvTMu9avYxbQNppTtgw"
+}

@@ -1,0 +1,15 @@
+{
+  "client_id": "ops-ciba",
+  "login_hint": "device:ops-7",
+  "binding_message": "OPS-7",
+  "interval": 10,
+  "expires_in": 180,
+  "scope": [
+    "openid",
+    "jobs"
+  ],
+  "nonce": "n-ok-secondary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "G6fLauOCBsPMUMln_zJ-IlYv0j3cqGdXMKc0gUq6hMU"
+}

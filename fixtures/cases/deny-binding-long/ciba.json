@@ -1,0 +1,15 @@
+{
+  "client_id": "pay-ciba",
+  "login_hint": "user:alice",
+  "binding_message": "PAY-123456789012345",
+  "interval": 5,
+  "expires_in": 300,
+  "scope": [
+    "openid",
+    "payments"
+  ],
+  "nonce": "n-deny-binding-long",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "DRztbopUuKEfAsw0jZewqROStkznCZ7UPRPOfGRXBTc"
+}

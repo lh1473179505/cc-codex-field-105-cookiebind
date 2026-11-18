@@ -1,0 +1,35 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "clients": {
+    "pay-ciba": {
+      "hint_prefixes": [
+        "user:"
+      ],
+      "binding_pattern": "PAY-[0-9]{2}",
+      "interval_min": 5,
+      "expires_max": 600,
+      "scopes": [
+        "openid",
+        "payments",
+        "profile"
+      ]
+    },
+    "ops-ciba": {
+      "hint_prefixes": [
+        "device:ops-"
+      ],
+      "binding_pattern": "OPS-[0-9]",
+      "interval_min": 10,
+      "expires_max": 300,
+      "scopes": [
+        "openid",
+        "jobs"
+      ]
+    }
+  },
+  "binding_len_max": 16,
+  "expires_min": 60,
+  "scope_max": 3,
+  "require_openid": true
+}
