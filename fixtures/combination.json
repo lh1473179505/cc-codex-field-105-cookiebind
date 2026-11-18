@@ -1,0 +1,65 @@
+{
+  "operations": [
+    {
+      "generation": 1,
+      "rows": [
+        {
+          "fingerprint": "fp-item",
+          "key": "item",
+          "scope": "main",
+          "value": "baseline"
+        },
+        {
+          "fingerprint": "fp-ghost",
+          "key": "ghost",
+          "scope": "main",
+          "value": "ghost"
+        }
+      ],
+      "sequence": 100,
+      "type": "snapshot"
+    },
+    {
+      "fingerprint": "fp-other",
+      "key": "other",
+      "sequence": 110,
+      "type": "delta",
+      "value": "delta"
+    },
+    {
+      "action": "revoke",
+      "fingerprint": "fp-item",
+      "key": "item",
+      "scope": "main",
+      "sequence": 120,
+      "type": "delta"
+    },
+    {
+      "action": "revoke",
+      "fingerprint": "fp-ghost",
+      "key": "ghost",
+      "sequence": 121,
+      "type": "delta"
+    },
+    {
+      "generation": 2,
+      "rows": [
+        {
+          "fingerprint": "fp-item",
+          "key": "item",
+          "scope": "main",
+          "value": "recovered"
+        }
+      ],
+      "sequence": 40,
+      "type": "snapshot"
+    },
+    {
+      "fingerprint": "fp-ghost",
+      "key": "ghost",
+      "sequence": 35,
+      "type": "delta",
+      "value": "late"
+    }
+  ]
+}
