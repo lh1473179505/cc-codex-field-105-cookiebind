@@ -1,0 +1,19 @@
+{
+  "rule_id": "pay-api-token",
+  "regex": "(?P<secret>pay_[A-Za-z0-9]{32})",
+  "entropy": 3.9,
+  "keywords": [
+    "pay_"
+  ],
+  "allowlist": {
+    "paths": [
+      "tests/fixtures/**"
+    ],
+    "stopwords": []
+  },
+  "secret_group": 1,
+  "nonce": "n-deny-entropy",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-lRfwBF_F96RRh5Tt1L8ts-0HSXylRltgsJ0s5328Sg"
+}

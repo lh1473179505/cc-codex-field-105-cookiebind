@@ -1,0 +1,59 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "rules": {
+    "pay-api-token": {
+      "regex": "(?P<secret>pay_[A-Za-z0-9]{32})",
+      "entropy_min": 4.0,
+      "entropy_max": 5.0,
+      "keywords_allowed": [
+        "pay_",
+        "payment"
+      ],
+      "keywords_required": [
+        "pay_"
+      ],
+      "secret_group": 1,
+      "allowlist_paths": [
+        "tests/fixtures/**"
+      ],
+      "allowlist_stopwords": [
+        "example",
+        "placeholder"
+      ]
+    },
+    "ops-deploy-secret": {
+      "regex": "(?P<secret>ops-[a-f0-9]{40})",
+      "entropy_min": 3.5,
+      "entropy_max": 5.0,
+      "keywords_allowed": [
+        "ops-",
+        "deploy"
+      ],
+      "keywords_required": [
+        "ops-"
+      ],
+      "secret_group": 1,
+      "allowlist_paths": [
+        "testdata/**"
+      ],
+      "allowlist_stopwords": [
+        "dummy"
+      ]
+    }
+  },
+  "allowlist_keys": [
+    "paths",
+    "stopwords"
+  ],
+  "keyword_count_min": 1,
+  "keyword_count_max": 2,
+  "secret_group_min": 1,
+  "secret_group_max": 1,
+  "path_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "\u0000"
+  ]
+}

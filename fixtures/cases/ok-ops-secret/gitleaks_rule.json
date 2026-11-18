@@ -1,0 +1,19 @@
+{
+  "rule_id": "ops-deploy-secret",
+  "regex": "(?P<secret>ops-[a-f0-9]{40})",
+  "entropy": 4.0,
+  "keywords": [
+    "ops-"
+  ],
+  "allowlist": {
+    "paths": [
+      "testdata/**"
+    ],
+    "stopwords": []
+  },
+  "secret_group": 1,
+  "nonce": "n-ok-ops-secret",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "oeAJtxLmyZoHV79Ob22rrLo_DEnhz1-Pn7042-Brpy8"
+}
