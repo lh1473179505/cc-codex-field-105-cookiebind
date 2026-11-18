@@ -1,0 +1,5 @@
+PROPOSED = "proposed"
+RUNTIME_WRITTEN = "runtime_written"
+DURABLE_WRITTEN = "durable_written"
+COMMITTED = "committed"
+ABORTED = "aborted"
