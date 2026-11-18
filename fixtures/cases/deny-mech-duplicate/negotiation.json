@@ -1,0 +1,15 @@
+{
+  "service": "HTTP",
+  "spn": "HTTP/web.pay.example@PAY.EXAMPLE",
+  "realm": "PAY.EXAMPLE",
+  "mech_types": [
+    "krb5",
+    "krb5"
+  ],
+  "mutual": 1,
+  "address": "10.40.2.5",
+  "nonce": "n-deny-mech-duplicate",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-NxqTjvtcM7EYcVGV6Kpcoe8c2yWuGlXeOv-xaWMVu4"
+}

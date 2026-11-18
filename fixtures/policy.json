@@ -1,0 +1,43 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "realms": {
+    "PAY.EXAMPLE": {
+      "services": [
+        "HTTP"
+      ],
+      "host_suffixes": [
+        ".pay.example"
+      ],
+      "mech_allowed": [
+        "krb5",
+        "spnego"
+      ],
+      "mech_required": [
+        "krb5"
+      ],
+      "address_cidrs": [
+        "10.40.0.0/16"
+      ]
+    },
+    "OPS.EXAMPLE": {
+      "services": [
+        "host"
+      ],
+      "host_suffixes": [
+        ".ops.example"
+      ],
+      "mech_allowed": [
+        "krb5"
+      ],
+      "mech_required": [
+        "krb5"
+      ],
+      "address_cidrs": [
+        "10.50.0.0/16"
+      ]
+    }
+  },
+  "require_mutual": true,
+  "require_unique_mechs": true
+}

@@ -1,0 +1,14 @@
+{
+  "service": "host",
+  "spn": "host/box.ops.example@OPS.EXAMPLE",
+  "realm": "OPS.EXAMPLE",
+  "mech_types": [
+    "krb5"
+  ],
+  "mutual": 1,
+  "address": "10.50.3.6",
+  "nonce": "n-ok-secondary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Ki4nkElBf-2kbVKarfqCgZJWh_5phnDfhA80QZ5OM4Q"
+}
