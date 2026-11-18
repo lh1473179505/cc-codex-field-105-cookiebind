@@ -1,0 +1,14 @@
+{
+  "store_path": "/nix/store/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-payd-1.4.0",
+  "nar_hash": "sha256:abababababababababababababababababababababababababababababababab",
+  "size": 7340032,
+  "signature": "cache.pay.example-1:UGF5ZFNpZ25hdHVyZVZhbGlk",
+  "references": [
+    "/nix/store/dddddddddddddddddddddddddddddddd-libssl-3.3",
+    "/nix/store/cccccccccccccccccccccccccccccccc-glibc-2.40"
+  ],
+  "nonce": "n-deny-reference-order",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-xY7pRRIgc2xBPKwMpKX3jnYYS3fmbiJMI3WgbBAe2k"
+}

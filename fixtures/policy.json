@@ -1,0 +1,36 @@
+{
+  "paths": {
+    "/nix/store/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-payd-1.4.0": {
+      "nar_hash": "sha256:abababababababababababababababababababababababababababababababab",
+      "size": 7340032,
+      "signature": "cache.pay.example-1:UGF5ZFNpZ25hdHVyZVZhbGlk",
+      "references": [
+        "/nix/store/cccccccccccccccccccccccccccccccc-glibc-2.40",
+        "/nix/store/dddddddddddddddddddddddddddddddd-libssl-3.3"
+      ]
+    },
+    "/nix/store/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-opsd-2.3.1": {
+      "nar_hash": "sha256:cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "size": 4194304,
+      "signature": "cache.ops.example-1:T3BzZFNpZ25hdHVyZVZhbGlk",
+      "references": []
+    }
+  },
+  "reference_registry": [
+    "/nix/store/cccccccccccccccccccccccccccccccc-glibc-2.40",
+    "/nix/store/dddddddddddddddddddddddddddddddd-libssl-3.3"
+  ],
+  "store_prefix": "/nix/store/",
+  "store_hash_length": 32,
+  "nar_hash_prefix": "sha256:",
+  "nar_hex_length": 64,
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "require_unique_references": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

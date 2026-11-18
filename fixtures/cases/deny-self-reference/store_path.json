@@ -1,0 +1,13 @@
+{
+  "store_path": "/nix/store/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-opsd-2.3.1",
+  "nar_hash": "sha256:cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "size": 4194304,
+  "signature": "cache.ops.example-1:T3BzZFNpZ25hdHVyZVZhbGlk",
+  "references": [
+    "/nix/store/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb-opsd-2.3.1"
+  ],
+  "nonce": "n-deny-self-reference",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SNeu1H-ScJaJ4llTgbaYMjKz56Vbzl1UUJRM0BVXql0"
+}
