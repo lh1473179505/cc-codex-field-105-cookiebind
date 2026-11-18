@@ -1,0 +1,40 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "recipients": {
+    "pay-hpke-01": {
+      "suites": {
+        "DHKEM(P-256,HKDF-SHA256)": {
+          "kdf": "HKDF-SHA256",
+          "aeads": {
+            "AES-128-GCM": {
+              "info": "pay-hpke/v1",
+              "aad_prefixes": [
+                "pay:invoice:",
+                "pay:ledger:"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ops-hpke-01": {
+      "suites": {
+        "DHKEM(X25519,HKDF-SHA256)": {
+          "kdf": "HKDF-SHA256",
+          "aeads": {
+            "ChaCha20-Poly1305": {
+              "info": "ops-hpke/v2",
+              "aad_prefixes": [
+                "ops:node:"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "aad_length_min": 1,
+  "aad_length_max": 128,
+  "aad_printable_ascii": true
+}

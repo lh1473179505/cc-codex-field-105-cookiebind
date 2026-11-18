@@ -1,0 +1,12 @@
+{
+  "recipient": "pay-hpke-01",
+  "kem": "DHKEM(P-256,HKDF-SHA256)",
+  "kdf": "HKDF-SHA256",
+  "aead": "AES-128-GCM",
+  "info": "ops-hpke/v2",
+  "aad": "ops:node:edge-02",
+  "nonce": "n-deny-context-cross",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "BxXx6fkafQpkslfaR4iHpiJZQemQagDPLn3fhpE3BqM"
+}

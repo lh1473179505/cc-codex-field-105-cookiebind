@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "recipient": "pay-hpke-01",
+  "kem": "DHKEM(P-256,HKDF-SHA256)",
+  "kdf": "HKDF-SHA256",
+  "aead": "AES-128-GCM",
+  "info": "pay-hpke/v1",
+  "aad": "pay:invoice:2026-06",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "vz1RQ38zOocICr9OfZvKPKzcutuIecO8OfrPCq53b_k"
+}

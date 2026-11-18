@@ -1,0 +1,12 @@
+{
+  "recipient": "ops-hpke-01",
+  "kem": "DHKEM(X25519,HKDF-SHA256)",
+  "kdf": "HKDF-SHA256",
+  "aead": "ChaCha20-Poly1305",
+  "info": "ops-hpke/v2",
+  "aad": "ops:node:edge-02",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "3kGeM3KAKHh-zrLnwaVDMvOg5W7jdHAqmLhxEO1ns5k"
+}

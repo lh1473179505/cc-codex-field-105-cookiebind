@@ -1,0 +1,12 @@
+{
+  "recipient": "public-hpke",
+  "kem": "DHKEM(P-256,HKDF-SHA256)",
+  "kdf": "HKDF-SHA256",
+  "aead": "AES-128-GCM",
+  "info": "pay-hpke/v1",
+  "aad": "pay:invoice:2026-06",
+  "nonce": "n-deny-recipient",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "1SoAqY2Ic5t1pzhOrguNalP826PUrIH41IH96nr1oQE"
+}
