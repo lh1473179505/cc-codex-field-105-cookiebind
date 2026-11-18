@@ -1,0 +1,12 @@
+{
+  "tsa": "https://tsa.ops.example",
+  "digest_alg": "sha256",
+  "message_imprint": "abababababababababababababababababababababababababababababababab",
+  "request_nonce": "ops-0123456789abcdef",
+  "cert_req": true,
+  "policy_oid": "1.2.3.4.2",
+  "nonce": "n-deny-digest-cross",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Hg2E8NIbQvoJEszwNQLnlvhj9cplCC6I_ZCvi-WyOpk"
+}

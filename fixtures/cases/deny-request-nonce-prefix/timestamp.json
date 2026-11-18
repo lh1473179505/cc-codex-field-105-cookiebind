@@ -1,0 +1,12 @@
+{
+  "tsa": "https://tsa.pay.example",
+  "digest_alg": "sha256",
+  "message_imprint": "abababababababababababababababababababababababababababababababab",
+  "request_nonce": "ops-0123456789abcdef",
+  "cert_req": true,
+  "policy_oid": "1.2.3.4.1",
+  "nonce": "n-deny-request-nonce-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "o9ZlY5T6rYnqFcxX96uMwYNrn3dGS_mrPgClBUMkR30"
+}

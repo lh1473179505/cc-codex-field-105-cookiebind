@@ -1,0 +1,33 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "tsas": {
+    "https://tsa.pay.example": {
+      "digest_algorithms": {
+        "sha256": 64
+      },
+      "request_nonce_prefix": "pay-",
+      "cert_req_values": [
+        true
+      ],
+      "policy_oids": [
+        "1.2.3.4.1"
+      ]
+    },
+    "https://tsa.ops.example": {
+      "digest_algorithms": {
+        "sha384": 96
+      },
+      "request_nonce_prefix": "ops-",
+      "cert_req_values": [
+        false,
+        true
+      ],
+      "policy_oids": [
+        "1.2.3.4.2"
+      ]
+    }
+  },
+  "request_nonce_pattern": "^[a-z]+-[A-Za-z0-9]{16,32}$",
+  "require_lowercase_imprint": true
+}
