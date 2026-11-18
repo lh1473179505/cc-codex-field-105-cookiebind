@@ -1,0 +1,16 @@
+{
+  "kid": "k-revoked",
+  "pack": "pay-security",
+  "query_id": "pay/java/sql-injection",
+  "language": "java",
+  "severity": "error",
+  "precision": "high",
+  "metadata": {
+    "kind": "path-problem",
+    "security-severity": "9.8",
+    "tags": "security/external/cwe/cwe-089"
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "cabVNvy9Vow3AT7gKPISKdb5-_WUgb4LyGkMWsIlqzk"
+}

@@ -1,0 +1,16 @@
+{
+  "pack": "public-security",
+  "query_id": "pay/java/sql-injection",
+  "language": "java",
+  "severity": "error",
+  "precision": "high",
+  "metadata": {
+    "kind": "path-problem",
+    "security-severity": "9.8",
+    "tags": "security/external/cwe/cwe-089"
+  },
+  "nonce": "n-deny-pack",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "qY9rM47KbM2bnC48ABraTRDnrYZleOZ77Rh6ltsk97w"
+}

@@ -1,0 +1,16 @@
+{
+  "pack": "ops-security",
+  "query_id": "ops/go/unsafe-exec",
+  "language": "go",
+  "severity": "error",
+  "precision": "medium",
+  "metadata": {
+    "kind": "problem",
+    "security-severity": "8.1",
+    "tags": "security/external/cwe/cwe-078"
+  },
+  "nonce": "n-deny-precision",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ve5Hz4g106N9jBlAb4R6_0g0H7A2WSw90AVkgpoecnc"
+}

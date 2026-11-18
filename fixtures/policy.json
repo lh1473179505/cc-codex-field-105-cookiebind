@@ -1,0 +1,46 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "packs": {
+    "pay-security": {
+      "queries": {
+        "pay/java/sql-injection": {
+          "language": "java",
+          "severities": [
+            "error"
+          ],
+          "precisions": [
+            "high",
+            "very-high"
+          ],
+          "metadata_required": {
+            "kind": "path-problem",
+            "security-severity": "9.8",
+            "tags": "security/external/cwe/cwe-089"
+          }
+        }
+      }
+    },
+    "ops-security": {
+      "queries": {
+        "ops/go/unsafe-exec": {
+          "language": "go",
+          "severities": [
+            "warning",
+            "error"
+          ],
+          "precisions": [
+            "high"
+          ],
+          "metadata_required": {
+            "kind": "problem",
+            "security-severity": "8.1",
+            "tags": "security/external/cwe/cwe-078"
+          }
+        }
+      }
+    }
+  },
+  "metadata_value_type": "string",
+  "query_id_pattern": "^[a-z][a-z0-9-]*/[a-z][a-z0-9-]*/[a-z][a-z0-9-]*$"
+}
