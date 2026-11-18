@@ -1,0 +1,43 @@
+{
+  "paths": {
+    "/usr/local/pay/bin/collector": {
+      "capabilities_allowed": [
+        "cap_net_raw",
+        "cap_net_admin"
+      ],
+      "capabilities_required": [
+        "cap_net_raw"
+      ],
+      "effective_allowed": [
+        "cap_net_raw"
+      ],
+      "bounding_required": [
+        "cap_net_raw"
+      ]
+    },
+    "/usr/local/ops/bin/prober": {
+      "capabilities_allowed": [
+        "cap_net_bind_service"
+      ],
+      "capabilities_required": [
+        "cap_net_bind_service"
+      ],
+      "effective_allowed": [
+        "cap_net_bind_service"
+      ],
+      "bounding_required": [
+        "cap_net_bind_service"
+      ]
+    }
+  },
+  "capability_name_prefix": "cap_",
+  "require_unique_sets": true,
+  "require_nonempty_effective": true,
+  "bounding_forbidden": [
+    "cap_sys_admin",
+    "cap_sys_ptrace",
+    "cap_sys_module"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

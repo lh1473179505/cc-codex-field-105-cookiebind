@@ -1,0 +1,22 @@
+{
+  "path": "/usr/local/pay/bin/collector",
+  "capabilities": [
+    "cap_net_raw",
+    "cap_net_admin"
+  ],
+  "permitted": [
+    "cap_net_raw",
+    "cap_net_admin"
+  ],
+  "effective": [
+    "cap_net_admin"
+  ],
+  "bounding": [
+    "cap_net_raw",
+    "cap_net_admin"
+  ],
+  "nonce": "n-deny-effective-policy",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Radwq09BprvFx6rjoe5DSSYQMU0dYLm4NNO2ywJmvis"
+}

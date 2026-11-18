@@ -1,0 +1,19 @@
+{
+  "path": "/usr/local/ops/bin/prober",
+  "capabilities": [
+    "cap_net_bind_service"
+  ],
+  "permitted": [
+    "cap_net_bind_service"
+  ],
+  "effective": [
+    "cap_net_bind_service"
+  ],
+  "bounding": [
+    "cap_net_bind_service"
+  ],
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "WZP6VRxpfi6t3S5_BSkymVnwLl4Oo30so2lmJ5a2_CE"
+}

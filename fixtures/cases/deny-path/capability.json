@@ -1,0 +1,19 @@
+{
+  "path": "/usr/local/bin/collector",
+  "capabilities": [
+    "cap_net_raw"
+  ],
+  "permitted": [
+    "cap_net_raw"
+  ],
+  "effective": [
+    "cap_net_raw"
+  ],
+  "bounding": [
+    "cap_net_raw"
+  ],
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "HtCh4UTl_5RQYU0k3_Zw4WqD7JF52sfuL7qj4-GiuB8"
+}
