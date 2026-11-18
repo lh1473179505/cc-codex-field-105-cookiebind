@@ -1,0 +1,12 @@
+{
+  "context": "dir:///workspace/pay",
+  "context_sha256": "abababababababababababababababababababababababababababababababab",
+  "destination": "registry.ops.example/ops/agent:2026.07.02",
+  "cache": true,
+  "cache_repository": "registry.pay.example/pay/cache",
+  "certificate_path": "/kaniko/certs/pay-ca.pem",
+  "nonce": "n-deny-destination",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "BRcvyOMRe3_oHDw1A7o5GdXEF9_fwVwXieYGAHCz1xQ"
+}

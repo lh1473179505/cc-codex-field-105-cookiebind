@@ -1,0 +1,12 @@
+{
+  "context": "dir:///workspace/ops",
+  "context_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "destination": "registry.ops.example/ops/agent:2026.07.02",
+  "cache": false,
+  "cache_repository": "",
+  "certificate_path": "/kaniko/certs/ops-ca.pem",
+  "nonce": "n-ok-ops-no-cache",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "FIAmhSaGXzxuKTI300BlzFTcaMPahrrRPSAqzDIkW_Y"
+}

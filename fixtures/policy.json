@@ -1,0 +1,28 @@
+{
+  "contexts": {
+    "dir:///workspace/pay": {
+      "context_sha256": "abababababababababababababababababababababababababababababababab",
+      "destination": "registry.pay.example/pay/web:2026.06.18",
+      "cache": true,
+      "cache_repository": "registry.pay.example/pay/cache",
+      "certificate_path": "/kaniko/certs/pay-ca.pem"
+    },
+    "dir:///workspace/ops": {
+      "context_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "destination": "registry.ops.example/ops/agent:2026.07.02",
+      "cache": false,
+      "cache_repository": "",
+      "certificate_path": "/kaniko/certs/ops-ca.pem"
+    }
+  },
+  "sha256_hex_length": 64,
+  "certificate_root": "/kaniko/certs/",
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
