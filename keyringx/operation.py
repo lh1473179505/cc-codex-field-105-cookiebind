@@ -1,0 +1,6 @@
+REQUESTED = "requested"
+LINKED = "linked"
+UNLINKED = "unlinked"
+COMMITTED = "committed"
+ABORTED = "aborted"
+REVOKED = "revoked"
