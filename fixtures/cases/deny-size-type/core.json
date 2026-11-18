@@ -1,0 +1,12 @@
+{
+  "process": "pay-api",
+  "core_path": "/var/lib/coredumps/pay",
+  "size_bytes": "65536",
+  "compression": "zstd",
+  "owner": "pay-core",
+  "sensitive": false,
+  "nonce": "n-deny-size-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IfI1YQXB8j53JqZmhFd-L2e4rvQn9BkTTkDW2Kjh-Dw"
+}

@@ -1,0 +1,12 @@
+{
+  "process": "ops-worker",
+  "core_path": "/var/lib/coredumps/ops",
+  "size_bytes": 16384,
+  "compression": "lz4",
+  "owner": "ops-core",
+  "sensitive": false,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jIZi7eeczaCmM_bBIjigIGeGA8f5YDeVch1AZ_a89rg"
+}

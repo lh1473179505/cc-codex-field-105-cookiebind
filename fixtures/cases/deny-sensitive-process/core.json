@@ -1,0 +1,12 @@
+{
+  "process": "pay-vault",
+  "core_path": "/var/lib/coredumps/vault",
+  "size_bytes": 65536,
+  "compression": "zstd",
+  "owner": "vault-core",
+  "sensitive": true,
+  "nonce": "n-deny-sensitive-process",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2Bo8g8VLp3x6b21jsmUi38wT72WCrnx9QKwgfy0KEBU"
+}

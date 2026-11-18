@@ -1,0 +1,41 @@
+{
+  "processes": {
+    "pay-api": {
+      "dumps_allowed": true,
+      "sensitive": false,
+      "core_path": "/var/lib/coredumps/pay",
+      "size_min": 4096,
+      "size_max": 1048576,
+      "compressions": [
+        "zstd"
+      ],
+      "owner": "pay-core"
+    },
+    "ops-worker": {
+      "dumps_allowed": true,
+      "sensitive": false,
+      "core_path": "/var/lib/coredumps/ops",
+      "size_min": 1024,
+      "size_max": 524288,
+      "compressions": [
+        "lz4"
+      ],
+      "owner": "ops-core"
+    },
+    "pay-vault": {
+      "dumps_allowed": false,
+      "sensitive": true,
+      "core_path": "/var/lib/coredumps/vault",
+      "size_min": 4096,
+      "size_max": 1048576,
+      "compressions": [
+        "zstd"
+      ],
+      "owner": "vault-core"
+    }
+  },
+  "size_type": "integer",
+  "forbid_world_writable_owner": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
