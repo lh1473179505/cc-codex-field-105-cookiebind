@@ -32,7 +32,7 @@ class SeparateCommandChains(unittest.TestCase):
                 cwd=root, capture_output=True, text=True, check=False,
             )
             self.assertEqual(0, restored.returncode, restored.stderr)
-            self.assertIn(SOURCE := "'scimprov-source'", json.loads(restored.stdout)["sessions"])
+            self.assertIn(SOURCE := "scimprov-source", json.loads(restored.stdout)["sessions"])
 
 
 if __name__ == "__main__":

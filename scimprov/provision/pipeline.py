@@ -1,6 +1,8 @@
 """Online transaction entry points."""
 from __future__ import annotations
 
+from copy import deepcopy
+
 from scimprov.resources.lifecycle import FINAL, STAGE_PHASES, WORK_KEY, new_session, require_phase
 from scimprov.bulk.rebalance import Migration
 
@@ -21,16 +23,23 @@ class OnlineService:
 
     def stage_resource(self, session_id: str, transaction_id: str, payload: dict) -> dict:
         session = self.store.data["sessions"][session_id]
-        require_phase(session, tuple(STAGE_PHASES))
+        # Permission admission is the first gate: a session whose epoch was
+        # revoked must be refused before any phase/state evaluation, so a
+        # stale-epoch session can never open a new transaction.
         if session["epoch"] != self.store.epoch(session["authority"]):
             raise PermissionError("session authorization epoch is stale")
+        require_phase(session, tuple(STAGE_PHASES))
         if transaction_id in self.store.data["transactions"]:
             raise ValueError("transaction already exists")
-        transaction = {"id": transaction_id, "session": session_id, "epoch": session["epoch"], "status": "pending", "payload": dict(payload)}
+        # Each holder gets an independent payload snapshot: the transaction
+        # record, the session work area and the journal must not share nested
+        # mutable objects with the caller or each other.
+        payload_snapshot = deepcopy(payload)
+        transaction = {"id": transaction_id, "session": session_id, "epoch": session["epoch"], "status": "pending", "payload": payload_snapshot}
         self.store.data["transactions"][transaction_id] = transaction
         session[WORK_KEY]["tx"] = transaction_id
-        session[WORK_KEY]["payload"] = dict(payload)
-        self.store.append("stage", session=session_id, transaction=transaction_id, payload=dict(payload))
+        session[WORK_KEY]["payload"] = deepcopy(payload)
+        self.store.append("stage", session=session_id, transaction=transaction_id, payload=deepcopy(payload))
         self.store.save()
         return transaction
 
@@ -41,10 +50,13 @@ class OnlineService:
         session = self.store.data["sessions"][session_id]
         transaction_id = transaction_id or session[WORK_KEY]["tx"]
         transaction = self.store.data["transactions"][transaction_id]
-        # The legacy admission hook checks only the live epoch.  Ownership was
-        # historically left to callers and in-flight pinning was not represented.
-        if transaction["epoch"] != self.store.epoch(session["authority"]):
-            raise PermissionError("transaction epoch was revoked")
+        # A transaction is only committable by the session that opened it; a
+        # bare identifier must never borrow another session's authority.
+        if transaction["session"] != session_id:
+            raise PermissionError("transaction belongs to another session")
+        # Revocation raises the permission epoch for new work, but a
+        # transaction already started keeps the epoch snapshot pinned at its
+        # stage time and is allowed to finish under that fixed snapshot.
         if transaction["status"] != "pending":
             raise RuntimeError("transaction is not pending")
         transaction["status"] = "committed"
