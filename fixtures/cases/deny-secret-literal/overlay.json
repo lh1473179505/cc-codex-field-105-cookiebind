@@ -1,0 +1,21 @@
+{
+  "overlay": "pay-prod",
+  "base_path": "bases/pay",
+  "resources": [
+    "bases/pay",
+    "resources/pay-service.yaml",
+    "resources/pay-hpa.yaml"
+  ],
+  "patches": [
+    "patches/pay-replicas.yaml",
+    "patches/pay-resources.yaml"
+  ],
+  "namespace": "pay-prod",
+  "secret_fields": [
+    "literals"
+  ],
+  "nonce": "n-deny-secret-literal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mn4JmonLxA7B722tsD9ZBFZrpkKwLN_U9eWfzZx4Hgg"
+}

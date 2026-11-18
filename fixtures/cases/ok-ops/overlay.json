@@ -1,0 +1,17 @@
+{
+  "overlay": "ops-staging",
+  "base_path": "bases/ops",
+  "resources": [
+    "bases/ops",
+    "resources/ops-service.yaml"
+  ],
+  "patches": [
+    "patches/ops-staging.yaml"
+  ],
+  "namespace": "ops-staging",
+  "secret_fields": [],
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "JwU6vo1k-Nw9eMFWZ9SfzjljlYSHpVXfDQZA_82JwJU"
+}
