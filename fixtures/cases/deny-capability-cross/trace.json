@@ -1,0 +1,12 @@
+{
+  "caller": "ops-debugger",
+  "target": "ops-agent",
+  "scope": "thread",
+  "capability": "CAP_SYS_PTRACE",
+  "dumpable": true,
+  "yama": 1,
+  "nonce": "n-deny-capability-cross",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Rpmx3LfD3NbxbyCuauVQLggUW_XJWjpluqZNEwMvim8"
+}

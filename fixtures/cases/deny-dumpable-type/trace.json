@@ -1,0 +1,12 @@
+{
+  "caller": "pay-debugger",
+  "target": "pay-worker",
+  "scope": "process",
+  "capability": "CAP_SYS_PTRACE",
+  "dumpable": 1,
+  "yama": 1,
+  "nonce": "n-deny-dumpable-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "DMMJ41ns610vpPqXjCxzhYHb48EPzfBrqtgWfwQAp70"
+}

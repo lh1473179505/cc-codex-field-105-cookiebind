@@ -1,0 +1,12 @@
+{
+  "caller": "pay-debugger",
+  "target": "ops-agent",
+  "scope": "process",
+  "capability": "CAP_SYS_PTRACE",
+  "dumpable": true,
+  "yama": 1,
+  "nonce": "n-deny-target-binding",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pn0CnvRScRTyKnfZrZJaWVQC9yQLKwNiDPghxobvYkE"
+}

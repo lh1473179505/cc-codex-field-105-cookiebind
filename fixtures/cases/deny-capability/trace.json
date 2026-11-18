@@ -1,0 +1,12 @@
+{
+  "caller": "pay-debugger",
+  "target": "pay-worker",
+  "scope": "process",
+  "capability": "none",
+  "dumpable": true,
+  "yama": 1,
+  "nonce": "n-deny-capability",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "UGp4R_ew885FBHwCyPFHMTthcNAjK-JdS4MD7bPA018"
+}

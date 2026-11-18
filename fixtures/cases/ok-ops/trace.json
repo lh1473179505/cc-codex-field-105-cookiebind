@@ -1,0 +1,12 @@
+{
+  "caller": "ops-debugger",
+  "target": "ops-agent",
+  "scope": "thread",
+  "capability": "none",
+  "dumpable": true,
+  "yama": 2,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "79kOIpZpmcFkI1yztUXVs2Kbdm_njPwJepRlqLLkt0I"
+}

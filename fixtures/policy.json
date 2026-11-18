@@ -1,0 +1,42 @@
+{
+  "callers": {
+    "pay-debugger": {
+      "targets": {
+        "pay-worker": {
+          "scopes": [
+            "process"
+          ],
+          "capabilities": [
+            "CAP_SYS_PTRACE"
+          ],
+          "dumpable": true,
+          "yama_values": [
+            1
+          ]
+        }
+      }
+    },
+    "ops-debugger": {
+      "targets": {
+        "ops-agent": {
+          "scopes": [
+            "thread"
+          ],
+          "capabilities": [
+            "none"
+          ],
+          "dumpable": true,
+          "yama_values": [
+            1,
+            2
+          ]
+        }
+      }
+    }
+  },
+  "dumpable_type": "boolean",
+  "yama_type": "integer",
+  "integer_excludes_boolean": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
