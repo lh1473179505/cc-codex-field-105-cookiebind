@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce the baseline convergence defect; success means it is observable."""
+"""Run the end-to-end convergence scenario; exits non-zero if any problem is observed."""
 from __future__ import annotations
 
 import json
@@ -16,7 +16,7 @@ def main() -> int:
         "report": result["second"],
         "observed_problems": result["problems"],
     }, ensure_ascii=False, indent=2, sort_keys=True))
-    return 0 if result["problems"] else 1
+    return 1 if result["problems"] else 0
 
 
 if __name__ == "__main__":

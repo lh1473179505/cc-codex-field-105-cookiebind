@@ -18,10 +18,10 @@ def merge_snapshot(state: State, index: FingerprintIndex, journal: OperationJour
         scope = str(row.get("scope", "main"))
         fingerprint = str(row["fingerprint"])
         value = str(row["value"])
-        record = Record(key, scope, fingerprint, value, generation, sequence)
         cached = index.get(scope, fingerprint, generation)
-        if cached is not None:
-            record = cached
+        if cached is not None and cached.key == key and cached.value == value:
+            value = cached.value
+        record = Record(key, scope, fingerprint, value, generation, sequence)
         records[record.identity] = record
         index.put(record)
     state.records = records

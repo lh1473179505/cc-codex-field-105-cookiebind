@@ -9,14 +9,15 @@ class FingerprintIndex:
         self._entries: dict[tuple[object, ...], Record] = {}
 
     def _record_key(self, record: Record) -> tuple[object, ...]:
-        return (record.fingerprint,)
+        return (record.scope, record.fingerprint)
 
     def _lookup_key(self, scope: str, fingerprint: str) -> tuple[object, ...]:
-        return (fingerprint,)
+        return (scope, fingerprint)
 
     def put(self, record: Record) -> None:
         identity = self._record_key(record)
-        if identity not in self._entries:
+        existing = self._entries.get(identity)
+        if existing is None or (record.generation, record.sequence) >= (existing.generation, existing.sequence):
             self._entries[identity] = record
 
     def get(self, scope: str, fingerprint: str, generation: int) -> Record | None:

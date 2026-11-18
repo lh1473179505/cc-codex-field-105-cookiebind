@@ -18,5 +18,6 @@ python -m trivyconf audit fixtures/combination.json
 ```
 
 Run the repository tests with `python -m unittest discover -s tests -v`.
-The combination test marked as expected failure characterizes the existing
-cross-phase defect without weakening the read-only compatibility assertions.
+The combination tests assert cross-phase convergence (snapshot authority,
+target-isolated cache reuse, revocation recovery, late-retransmission
+rejection) together with the read-only compatibility guarantees.
