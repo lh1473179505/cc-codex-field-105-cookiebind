@@ -1,0 +1,6 @@
+STABLE = "stable"
+MOVED = "moved"
+OVERFLOWED = "overflowed"
+RESYNCING = "resyncing"
+STALE = "stale"
+RELEASED = "released"
