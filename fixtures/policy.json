@@ -1,0 +1,56 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "profiles": {
+    "pay-tls13": {
+      "session_prefixes": [
+        "pay-"
+      ],
+      "labels": {
+        "CLIENT_HANDSHAKE_TRAFFIC_SECRET": {
+          "secret_lengths": [
+            32
+          ],
+          "purposes": [
+            "decrypt-audit"
+          ],
+          "retention_values": [
+            300,
+            600
+          ]
+        },
+        "CLIENT_TRAFFIC_SECRET_0": {
+          "secret_lengths": [
+            32
+          ],
+          "purposes": [
+            "decrypt-audit"
+          ],
+          "retention_values": [
+            300
+          ]
+        }
+      }
+    },
+    "ops-tls12": {
+      "session_prefixes": [
+        "ops-"
+      ],
+      "labels": {
+        "CLIENT_RANDOM": {
+          "secret_lengths": [
+            48
+          ],
+          "purposes": [
+            "session-reconstruction"
+          ],
+          "retention_values": [
+            120
+          ]
+        }
+      }
+    }
+  },
+  "session_pattern": "^[a-z0-9-]+$",
+  "client_random_hex_length": 64
+}

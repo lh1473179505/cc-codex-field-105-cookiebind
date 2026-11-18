@@ -1,0 +1,13 @@
+{
+  "profile": "ops-tls12",
+  "session_id": "ops-1f00",
+  "label": "CLIENT_RANDOM",
+  "client_random": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "secret_length": 48,
+  "purpose": "session-reconstruction",
+  "retention_seconds": 120,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "P8MhoKvRXghJPkE4jTplnHvL35H-0J8umTZ7HJdWmZ4"
+}

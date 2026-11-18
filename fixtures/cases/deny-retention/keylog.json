@@ -1,0 +1,13 @@
+{
+  "profile": "pay-tls13",
+  "session_id": "pay-7f00",
+  "label": "CLIENT_TRAFFIC_SECRET_0",
+  "client_random": "abababababababababababababababababababababababababababababababab",
+  "secret_length": 32,
+  "purpose": "decrypt-audit",
+  "retention_seconds": 600,
+  "nonce": "n-deny-retention",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "kyBuRcAR_U219U7bO24EN_GmtRAAbx9-07xRQhB99qs"
+}

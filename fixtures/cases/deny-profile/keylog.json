@@ -1,0 +1,13 @@
+{
+  "profile": "public-tls",
+  "session_id": "pay-7f00",
+  "label": "CLIENT_HANDSHAKE_TRAFFIC_SECRET",
+  "client_random": "abababababababababababababababababababababababababababababababab",
+  "secret_length": 32,
+  "purpose": "decrypt-audit",
+  "retention_seconds": 300,
+  "nonce": "n-deny-profile",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PB0wEWb8djbI_z3s6mntB1OmRSNbXd8yeERLwzbIYpU"
+}
