@@ -1,0 +1,12 @@
+{
+  "artifact_id": "public-release.tar",
+  "public_key": "RWS-pay-2026",
+  "signature": "sig-pay-release-2026",
+  "canonical_digest": "abababababababababababababababababababababababababababababababab",
+  "artifact_size": 4096,
+  "trusted_comment": "timestamp:2026-06-18 artifact:pay-release",
+  "nonce": "n-deny-artifact",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "McfjV_dbwWg3CAwwN333OS_UMRFHa4s_97enSQ150_A"
+}

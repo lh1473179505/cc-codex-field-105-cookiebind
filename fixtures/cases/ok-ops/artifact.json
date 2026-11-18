@@ -1,0 +1,12 @@
+{
+  "artifact_id": "ops-agent.bin",
+  "public_key": "RWS-ops-2026",
+  "signature": "sig-ops-agent-2026",
+  "canonical_digest": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "artifact_size": 2048,
+  "trusted_comment": "timestamp:2026-06-18 artifact:ops-agent",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "DY6DbzJCTYY3INz2OC0ew2ICuLfvxCxSO09mZYSz01E"
+}

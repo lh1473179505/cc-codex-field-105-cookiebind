@@ -1,0 +1,47 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "artifacts": {
+    "pay-release.tar": {
+      "keys": {
+        "RWS-pay-2026": {
+          "signatures": [
+            "sig-pay-release-2026"
+          ],
+          "trusted_comment_prefixes": [
+            "timestamp:2026-06-18 artifact:pay-release"
+          ]
+        },
+        "RWS-pay-backup": {
+          "signatures": [
+            "sig-pay-release-backup"
+          ],
+          "trusted_comment_prefixes": [
+            "timestamp:2026-06-18 artifact:pay-release"
+          ]
+        }
+      },
+      "canonical_sha256": "abababababababababababababababababababababababababababababababab",
+      "size_min": 1024,
+      "size_max": 1048576
+    },
+    "ops-agent.bin": {
+      "keys": {
+        "RWS-ops-2026": {
+          "signatures": [
+            "sig-ops-agent-2026"
+          ],
+          "trusted_comment_prefixes": [
+            "timestamp:2026-06-18 artifact:ops-agent"
+          ]
+        }
+      },
+      "canonical_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "size_min": 512,
+      "size_max": 4194304
+    }
+  },
+  "digest_hex_length": 64,
+  "trusted_comment_length_max": 160,
+  "trusted_comment_printable_ascii": true
+}
