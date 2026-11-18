@@ -6,9 +6,10 @@ from pathlib import Path
 
 
 class Store:
-    def __init__(self, root):
+    def __init__(self, root, create=True):
         self.root = Path(root)
-        self.root.mkdir(parents=True, exist_ok=True)
+        if create:
+            self.root.mkdir(parents=True, exist_ok=True)
         self.snapshot_path = self.root / "snapshot.json"
         self.event_path = self.root / "events.jsonl"
         self.audit_path = self.root / "audit.jsonl"

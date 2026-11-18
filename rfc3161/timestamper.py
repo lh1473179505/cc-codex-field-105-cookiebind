@@ -1,3 +1,5 @@
+import hashlib
+
 from .imprints import request_frame, verify_frame
 from .requests import Store
 from .tokens import PendingToken, TokenState
@@ -14,11 +16,19 @@ class Service:
     def request(self, identifier, payload, nonce):
         if nonce in self.consumed_nonces:
             raise ValueError("request nonce already consumed")
-        self.consumed_nonces.add(nonce)
-        token = PendingToken(identifier, __import__("hashlib").sha256(payload).hexdigest(), nonce, self.generation)
+        if nonce in {item.nonce for item in self.pending.values()}:
+            raise ValueError("request nonce already in flight")
+        imprint = hashlib.sha256(payload).hexdigest()
+        token = PendingToken(identifier, imprint, nonce, self.generation)
         self.pending[identifier] = token
-        self.store.append("timestamp_requested", identifier=identifier, nonce=nonce, generation=self.generation)
-        return request_frame(identifier, token.imprint, nonce, legacy=self.generation == 1)
+        self.store.append(
+            "timestamp_requested",
+            identifier=identifier,
+            imprint=imprint,
+            nonce=nonce,
+            generation=self.generation,
+        )
+        return request_frame(identifier, imprint, nonce, legacy=self.generation == 1)
 
     def rotate_tsa(self, certificate):
         self.generation += 1
@@ -28,8 +38,8 @@ class Service:
     def accept(self, identifier, frame):
         token = self.pending[identifier]
         value = verify_frame(frame, token.nonce)
-        # Outstanding requests accidentally move to the newly installed TSA generation.
-        token.tsa_generation = self.generation
+        # The nonce is consumed only once the response frame has been verified.
+        self.consumed_nonces.add(token.nonce)
         token.state = TokenState.VERIFIED
         self.store.append("timestamp_verified", identifier=identifier, generation=token.tsa_generation)
         return value
@@ -37,6 +47,13 @@ class Service:
     def archive(self, identifier):
         token = self.pending[identifier]
         token.state = TokenState.ARCHIVED
+        self.store.append(
+            "timestamp_archived",
+            identifier=identifier,
+            imprint=token.imprint,
+            nonce=token.nonce,
+            generation=token.tsa_generation,
+        )
         return {"id": identifier, "imprint": token.imprint, "generation": token.tsa_generation}
 
     def audit(self):
