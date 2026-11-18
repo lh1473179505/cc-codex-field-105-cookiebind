@@ -1,0 +1,19 @@
+{
+  "subscription": "ops-node-alert",
+  "source": "ops-fleet",
+  "event_type": "com.example.ops.node.alert.v1",
+  "subject_prefix": "/nodes/prod/",
+  "handler": "https://ops-events.example/hooks/alerts",
+  "retry": {
+    "max_attempts": 3,
+    "backoff_seconds": 30
+  },
+  "deadletter": {
+    "topic": "ops-deadletter",
+    "enabled": true
+  },
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "F2ImTbz8tUgP98-b_Nb3wP6ZUgDPhDM7NZNCxqx6gtE"
+}

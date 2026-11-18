@@ -1,0 +1,19 @@
+{
+  "subscription": "pay-order-created",
+  "source": "pay-orders",
+  "event_type": "com.example.pay.order.created.v1",
+  "subject_prefix": "/orders/eu/",
+  "handler": "https://pay-events.example/hooks/orders",
+  "retry": {
+    "max_attempts": 10,
+    "backoff_seconds": 10
+  },
+  "deadletter": {
+    "topic": "pay-deadletter",
+    "enabled": true
+  },
+  "nonce": "n-deny-retry-attempts",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mamE8caVfkTF_3bD3efEOc4t-ceLoa-I6B6ejhnfU1c"
+}

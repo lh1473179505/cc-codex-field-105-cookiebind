@@ -1,0 +1,52 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "subscriptions": {
+    "pay-order-created": {
+      "source": "pay-orders",
+      "event_types": [
+        "com.example.pay.order.created.v1"
+      ],
+      "subject_prefixes": [
+        "/orders/eu/",
+        "/orders/us/"
+      ],
+      "handler": "https://pay-events.example/hooks/orders",
+      "retry": {
+        "max_attempts": 5,
+        "backoff_seconds": 10
+      },
+      "deadletter": {
+        "topic": "pay-deadletter",
+        "enabled": true
+      }
+    },
+    "ops-node-alert": {
+      "source": "ops-fleet",
+      "event_types": [
+        "com.example.ops.node.alert.v1"
+      ],
+      "subject_prefixes": [
+        "/nodes/prod/"
+      ],
+      "handler": "https://ops-events.example/hooks/alerts",
+      "retry": {
+        "max_attempts": 3,
+        "backoff_seconds": 30
+      },
+      "deadletter": {
+        "topic": "ops-deadletter",
+        "enabled": true
+      }
+    }
+  },
+  "subject_deny_substrings": [
+    "//",
+    "/../",
+    "\u0000",
+    "?",
+    "#"
+  ],
+  "retry_exact_object": true,
+  "deadletter_exact_object": true
+}
