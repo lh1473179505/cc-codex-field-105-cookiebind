@@ -1,0 +1,15 @@
+{
+  "client_id": "pay-exchange",
+  "subject_type": "urn:ietf:params:oauth:token-type:jwt",
+  "actor_type": "urn:ietf:params:oauth:token-type:jwt",
+  "audience": "ops-worker",
+  "scope": [
+    "read",
+    "write"
+  ],
+  "delegation": 1,
+  "nonce": "n-deny-audience",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "NOLRgUIYsdBOZ_R-S4zWTs1TTR5QoQ_8ssfOV5RAGNo"
+}

@@ -1,0 +1,14 @@
+{
+  "client_id": "ops-exchange",
+  "subject_type": "urn:ietf:params:oauth:token-type:jwt",
+  "actor_type": "none",
+  "audience": "ops-worker",
+  "scope": [
+    "jobs"
+  ],
+  "delegation": 1,
+  "nonce": "n-deny-delegation-flag",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RNmdXo-eZNX5rI9gUGAxCP-FO5ychje29zLaJ3Wjr0s"
+}

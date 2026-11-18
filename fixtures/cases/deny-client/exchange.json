@@ -1,0 +1,15 @@
+{
+  "client_id": "evil",
+  "subject_type": "urn:ietf:params:oauth:token-type:jwt",
+  "actor_type": "urn:ietf:params:oauth:token-type:jwt",
+  "audience": "pay-api",
+  "scope": [
+    "read",
+    "write"
+  ],
+  "delegation": 1,
+  "nonce": "n-deny-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6riNBWKa0aJsvdt9YdcYxrqYqOXstH3DD9lyqLrBnRk"
+}

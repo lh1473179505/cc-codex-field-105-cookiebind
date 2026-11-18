@@ -1,0 +1,40 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "clients": {
+    "pay-exchange": {
+      "subject_types": [
+        "urn:ietf:params:oauth:token-type:jwt"
+      ],
+      "actor_types": [
+        "urn:ietf:params:oauth:token-type:jwt"
+      ],
+      "audiences": [
+        "pay-api"
+      ],
+      "scopes": [
+        "read",
+        "write"
+      ],
+      "delegation_required": true
+    },
+    "ops-exchange": {
+      "subject_types": [
+        "urn:ietf:params:oauth:token-type:jwt"
+      ],
+      "actor_types": [
+        "none"
+      ],
+      "audiences": [
+        "ops-worker"
+      ],
+      "scopes": [
+        "jobs",
+        "status"
+      ],
+      "delegation_required": false
+    }
+  },
+  "scope_max": 2,
+  "forbid_scope_duplicates": true
+}
