@@ -21,9 +21,11 @@ class OnlineService:
 
     def stage_context(self, session_id: str, transaction_id: str, payload: dict) -> dict:
         session = self.store.data["sessions"][session_id]
-        require_phase(session, tuple(STAGE_PHASES))
+        # Authorization is the admission gate: a revoked realm epoch blocks new
+        # transactions before any phase transition is considered.
         if session["epoch"] != self.store.epoch(session["authority"]):
             raise PermissionError("session authorization epoch is stale")
+        require_phase(session, tuple(STAGE_PHASES))
         if transaction_id in self.store.data["transactions"]:
             raise ValueError("transaction already exists")
         transaction = {"id": transaction_id, "session": session_id, "epoch": session["epoch"], "status": "pending", "payload": dict(payload)}
@@ -41,10 +43,13 @@ class OnlineService:
         session = self.store.data["sessions"][session_id]
         transaction_id = transaction_id or session[WORK_KEY]["tx"]
         transaction = self.store.data["transactions"][transaction_id]
-        # The legacy admission hook checks only the live epoch.  Ownership was
-        # historically left to callers and in-flight pinning was not represented.
-        if transaction["epoch"] != self.store.epoch(session["authority"]):
-            raise PermissionError("transaction epoch was revoked")
+        # A transaction is bound to the session that opened it: another session
+        # cannot borrow the identifier even if it shares the live epoch.  The
+        # transaction keeps the epoch pinned at open time, so an in-flight
+        # transaction can still finish after its authority epoch is revoked;
+        # only new work is blocked at staging time.
+        if transaction["session"] != session_id:
+            raise PermissionError("transaction belongs to another session")
         if transaction["status"] != "pending":
             raise RuntimeError("transaction is not pending")
         transaction["status"] = "committed"
