@@ -1,0 +1,11 @@
+{
+  "key": "net.ipv4.conf.all.rp_filter",
+  "value_type": "integer",
+  "value": 1,
+  "namespace": "net.ipv4",
+  "persistent": true,
+  "nonce": "n-ok-rp-filter",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "V0WZjTX47M5PRZnlwT6rTbVLIGXAX1DLh6OClKcdNsQ"
+}

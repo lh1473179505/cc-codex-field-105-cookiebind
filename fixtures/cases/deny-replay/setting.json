@@ -1,0 +1,11 @@
+{
+  "key": "kernel.randomize_va_space",
+  "value_type": "integer",
+  "value": 2,
+  "namespace": "kernel",
+  "persistent": true,
+  "nonce": "n-deny-replay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "WX4Pxb8o4fTZIxsrzCkNJUb2VYDF5a3LKuy79ZhBPcg"
+}

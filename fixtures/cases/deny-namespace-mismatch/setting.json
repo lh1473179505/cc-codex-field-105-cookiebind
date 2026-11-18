@@ -1,0 +1,11 @@
+{
+  "key": "kernel.randomize_va_space",
+  "value_type": "integer",
+  "value": 2,
+  "namespace": "net.ipv4",
+  "persistent": true,
+  "nonce": "n-deny-namespace-mismatch",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "EE5XDQKSnlb4STpTWFBzY077OX5bHDDDJaJR3pkNsp0"
+}

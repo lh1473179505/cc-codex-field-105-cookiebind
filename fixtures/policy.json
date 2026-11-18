@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "kernel.randomize_va_space": {
+      "value_type": "integer",
+      "value_min": 0,
+      "value_max": 2,
+      "allowed_values": [
+        2
+      ],
+      "namespace": "kernel",
+      "persistent": true
+    },
+    "net.ipv4.conf.all.rp_filter": {
+      "value_type": "integer",
+      "value_min": 0,
+      "value_max": 2,
+      "allowed_values": [
+        1,
+        2
+      ],
+      "namespace": "net.ipv4",
+      "persistent": true
+    }
+  },
+  "key_component_characters": "lowercase ASCII letters, digits and underscore",
+  "forbid_empty_key_components": true,
+  "integer_excludes_boolean": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

@@ -1,0 +1,11 @@
+{
+  "key": "kernel.core_uses_pid",
+  "value_type": "integer",
+  "value": 1,
+  "namespace": "kernel",
+  "persistent": true,
+  "nonce": "n-deny-key",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5Qx4Bl1oV_5jiLSIUWgaD4FvIr98VrOmMlztkwDuSVI"
+}
