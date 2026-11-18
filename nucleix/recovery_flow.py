@@ -21,6 +21,8 @@ def run_combination() -> dict[str, object]:
     before = service.state_token()
     first = service.report()
     after_first = service.state_token()
+    audit = service.audit()
+    after_audit = service.state_token()
     second = service.report()
     after_second = service.state_token()
     expected_identity = "main:item"
@@ -34,8 +36,10 @@ def run_combination() -> dict[str, object]:
         problems.append("an absent revoked record reappeared")
     if late["accepted"]:
         problems.append("a pre-recovery delta crossed the snapshot boundary")
-    if before != after_first or before != after_second:
+    if before != after_first or before != after_audit or before != after_second:
         problems.append("a read-only report changed public state")
+    if first["items"] != second["items"] or first["items"] != audit["report"]["items"]:
+        problems.append("repeated read-only output is not stable")
     return {
         "service": service,
         "initial": initial,
@@ -47,8 +51,10 @@ def run_combination() -> dict[str, object]:
         "restored": restored,
         "before": before,
         "after_first": after_first,
+        "after_audit": after_audit,
         "after_second": after_second,
         "first": first,
+        "audit": audit,
         "second": second,
         "problems": problems,
     }

@@ -12,8 +12,6 @@ class LegacyReporter:
     def render(self, state: State) -> dict[str, object]:
         records = self._projector.view(state)
         items = [record.public() for record in records]
-        for record in records:
-            record.value = "[read-only]"
         return {
             "schema": "scan-v1",
             "phase": state.phase,

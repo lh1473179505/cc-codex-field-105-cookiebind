@@ -1,6 +1,8 @@
 """Derived current-state view consumed by legacy and audit readers."""
 from __future__ import annotations
 
+from copy import copy
+
 from .template_records import Record, State
 
 
@@ -10,7 +12,7 @@ class Projector:
 
     def view(self, state: State) -> list[Record]:
         records = [
-            state.records[identity]
+            copy(state.records[identity])
             for identity in sorted(state.records)
             if identity not in state.revoked
         ]
