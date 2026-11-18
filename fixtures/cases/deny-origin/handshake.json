@@ -1,0 +1,14 @@
+{
+  "origin": "https://evil.example",
+  "host": "pay-ws.example",
+  "path": "/orders",
+  "subprotocol": "pay.v2.json",
+  "websocket_key": "AAECAwQFBgcICQoLDA0ODw==",
+  "extensions": [
+    "permessage-deflate"
+  ],
+  "nonce": "n-deny-origin",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "7KvH-laMfkwWw2yU3iPcSdAYOkoqNKYB4RSkY6toj3w"
+}

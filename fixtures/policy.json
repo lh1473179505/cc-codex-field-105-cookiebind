@@ -1,0 +1,40 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "endpoints": {
+    "wss://pay-ws.example/orders": {
+      "origins": [
+        "https://pay-app.example"
+      ],
+      "host": "pay-ws.example",
+      "path": "/orders",
+      "subprotocols": [
+        "pay.v2.json",
+        "pay.v1.json"
+      ],
+      "extension_sets": [
+        [],
+        [
+          "permessage-deflate"
+        ]
+      ]
+    },
+    "wss://ops-ws.example/alerts": {
+      "origins": [
+        "https://ops-console.example"
+      ],
+      "host": "ops-ws.example",
+      "path": "/alerts",
+      "subprotocols": [
+        "ops.v1.json"
+      ],
+      "extension_sets": [
+        []
+      ]
+    }
+  },
+  "websocket_key_base64_bytes": 16,
+  "extensions_ordered_unique": true,
+  "origin_no_path": true,
+  "path_exact": true
+}

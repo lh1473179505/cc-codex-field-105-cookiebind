@@ -1,0 +1,14 @@
+{
+  "origin": "https://pay-app.example",
+  "host": "pay-ws.example",
+  "path": "/orders",
+  "subprotocol": "ops.v1.json",
+  "websocket_key": "AAECAwQFBgcICQoLDA0ODw==",
+  "extensions": [
+    "permessage-deflate"
+  ],
+  "nonce": "n-deny-subprotocol",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "m_E8ZOLft1sJQPsBvyy66t7jNUzzINCEhvv0IDJJtmc"
+}

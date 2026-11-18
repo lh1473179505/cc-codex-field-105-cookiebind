@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "origin": "https://pay-app.example",
+  "host": "pay-ws.example",
+  "path": "/orders",
+  "subprotocol": "pay.v2.json",
+  "websocket_key": "AAECAwQFBgcICQoLDA0ODw==",
+  "extensions": [
+    "permessage-deflate"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "Li2eTwdoMP12y6tWJgHjGMu77Dm7870T5rjNcHEtYrE"
+}

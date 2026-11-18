@@ -1,0 +1,12 @@
+{
+  "origin": "https://ops-console.example",
+  "host": "ops-ws.example",
+  "path": "/alerts",
+  "subprotocol": "ops.v1.json",
+  "websocket_key": "EBESExQVFhcYGRobHB0eHw==",
+  "extensions": [],
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "o-6nZMDPWpw2tSCefpJnhceCgJjIKBU1pDLZ6tbDOUs"
+}

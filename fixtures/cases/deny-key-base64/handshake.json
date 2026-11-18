@@ -1,0 +1,14 @@
+{
+  "origin": "https://pay-app.example",
+  "host": "pay-ws.example",
+  "path": "/orders",
+  "subprotocol": "pay.v2.json",
+  "websocket_key": "not*a*base64*value==",
+  "extensions": [
+    "permessage-deflate"
+  ],
+  "nonce": "n-deny-key-base64",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "12tcglEXZWG53pndpnlH0Tf6BK6oENYJ6W-0dOfXZhU"
+}
