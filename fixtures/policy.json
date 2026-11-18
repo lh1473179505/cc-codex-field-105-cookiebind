@@ -1,0 +1,33 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "rps": {
+    "pay.example": {
+      "credentials": [
+        "cred-pay-1",
+        "cred-pay-2"
+      ],
+      "require_up": true,
+      "require_uv": true,
+      "sign_count_min": 1,
+      "sign_count_max": 1000,
+      "origins": [
+        "https://app.pay.example"
+      ]
+    },
+    "ops.example": {
+      "credentials": [
+        "cred-ops-2"
+      ],
+      "require_up": true,
+      "require_uv": false,
+      "sign_count_min": 1,
+      "sign_count_max": 100,
+      "origins": [
+        "https://ops.example"
+      ]
+    }
+  },
+  "challenge_hex_len": 64,
+  "forbid_origin_path": true
+}

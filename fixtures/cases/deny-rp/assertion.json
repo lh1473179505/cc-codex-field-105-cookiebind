@@ -1,0 +1,13 @@
+{
+  "rp_id": "evil.example",
+  "credential_id": "cred-pay-1",
+  "up": 1,
+  "uv": 1,
+  "sign_count": 42,
+  "challenge_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "origin": "https://app.pay.example",
+  "nonce": "n-deny-rp",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QBR9AQ9vmONQbWgvGUMsfiKBofAwr9N4NxSFctGJfds"
+}

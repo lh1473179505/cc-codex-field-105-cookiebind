@@ -1,0 +1,13 @@
+{
+  "rp_id": "ops.example",
+  "credential_id": "cred-ops-2",
+  "up": 1,
+  "uv": 0,
+  "sign_count": 7,
+  "challenge_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "origin": "https://ops.example",
+  "nonce": "n-ok-secondary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pEAWkxUIYGed66Ato40VpPPGCR6SigmIpnNnisdFJI4"
+}
