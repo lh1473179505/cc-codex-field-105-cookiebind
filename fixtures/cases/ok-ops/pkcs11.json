@@ -1,0 +1,12 @@
+{
+  "slot": 9,
+  "token": "ops-hsm",
+  "key_label": "ops-wrap-01",
+  "mechanism": "AES_KEY_WRAP",
+  "usage": "wrap",
+  "pin_source": "env:OPS_HSM_PIN",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "aTo_JEbq4kG-y09jIAM1D2pidSMmb9QEtW485PqCaUU"
+}

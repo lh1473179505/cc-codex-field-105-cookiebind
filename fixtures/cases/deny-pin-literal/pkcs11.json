@@ -1,0 +1,12 @@
+{
+  "slot": 7,
+  "token": "pay-hsm",
+  "key_label": "pay-sign-01",
+  "mechanism": "ECDSA_SHA256",
+  "usage": "sign",
+  "pin_source": "literal:secret",
+  "nonce": "n-deny-pin-literal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "yWYHHzCgkJsJTQxSMxerDjr3OYCJZROhDS_SpdgIM9M"
+}

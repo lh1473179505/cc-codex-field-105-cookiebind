@@ -1,0 +1,42 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "slots": {
+    "7": {
+      "token": "pay-hsm",
+      "keys": {
+        "pay-sign-01": {
+          "mechanisms": {
+            "ECDSA_SHA256": {
+              "usages": [
+                "sign"
+              ],
+              "pin_sources": [
+                "env:PAY_HSM_PIN"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "9": {
+      "token": "ops-hsm",
+      "keys": {
+        "ops-wrap-01": {
+          "mechanisms": {
+            "AES_KEY_WRAP": {
+              "usages": [
+                "wrap"
+              ],
+              "pin_sources": [
+                "env:OPS_HSM_PIN"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "pin_source_pattern": "^(env|file|fd):[A-Za-z0-9_./-]+$",
+  "forbid_literal_pin": true
+}
