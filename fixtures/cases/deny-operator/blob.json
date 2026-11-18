@@ -1,0 +1,13 @@
+{
+  "object": "inode:/srv/pay/data",
+  "label": "system_u:object_r:pay_data_t:s0",
+  "blob_fields": [
+    "security"
+  ],
+  "operator": "secupd-public",
+  "context": "system_u:system_r:pay_secupd_t:s0",
+  "nonce": "n-deny-operator",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iGCyGoy0f-sGcWPD1hCKYsCUXNvJHwqOFfqP8YjukGI"
+}

@@ -1,0 +1,43 @@
+{
+  "objects": {
+    "inode:/srv/pay/data": {
+      "labels": [
+        "system_u:object_r:pay_data_t:s0"
+      ],
+      "fields_allowed": [
+        "security",
+        "secctx"
+      ],
+      "fields_required": [
+        "security"
+      ],
+      "operators": {
+        "secupd-pay": [
+          "system_u:system_r:pay_secupd_t:s0"
+        ]
+      }
+    },
+    "task:ops-agent": {
+      "labels": [
+        "system_u:system_r:ops_agent_t:s0"
+      ],
+      "fields_allowed": [
+        "security",
+        "secid"
+      ],
+      "fields_required": [
+        "security",
+        "secid"
+      ],
+      "operators": {
+        "secupd-ops": [
+          "system_u:system_r:ops_secupd_t:s0"
+        ]
+      }
+    }
+  },
+  "require_unique_fields": true,
+  "label_and_context_case_sensitive": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

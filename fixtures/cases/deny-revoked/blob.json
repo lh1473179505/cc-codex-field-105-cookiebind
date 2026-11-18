@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "object": "inode:/srv/pay/data",
+  "label": "system_u:object_r:pay_data_t:s0",
+  "blob_fields": [
+    "security",
+    "secctx"
+  ],
+  "operator": "secupd-pay",
+  "context": "system_u:system_r:pay_secupd_t:s0",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "lFsnlUlpX-ptVAKJ3EWe8bb_inMw68cWfRWWvOZyzE8"
+}

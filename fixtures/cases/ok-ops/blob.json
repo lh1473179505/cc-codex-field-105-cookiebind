@@ -1,0 +1,14 @@
+{
+  "object": "task:ops-agent",
+  "label": "system_u:system_r:ops_agent_t:s0",
+  "blob_fields": [
+    "security",
+    "secid"
+  ],
+  "operator": "secupd-ops",
+  "context": "system_u:system_r:ops_secupd_t:s0",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "vGoPPyiIlVdOwFrbL3oxTigxIZYZUE8f_O5YCPn6uxE"
+}
