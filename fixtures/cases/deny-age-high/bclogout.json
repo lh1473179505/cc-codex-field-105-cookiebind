@@ -1,0 +1,17 @@
+{
+  "client_id": "pay-web",
+  "issuer": "https://id.pay.example/",
+  "aud": "pay-web",
+  "sid": "pay-sid-001",
+  "events": [
+    "http://schemas.openid.net/event/backchannel-logout"
+  ],
+  "jti_sha256": "abababababababababababababababababababababababababababababababab",
+  "delivery": "http-post",
+  "endpoint": "https://app.pay.example/backchannel-logout",
+  "session_age": 3601,
+  "nonce": "n-deny-age-high",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "m9peBHYjXwseNLcaBR9ltOl0d7gOl8sRg8DlSIBbnGE"
+}

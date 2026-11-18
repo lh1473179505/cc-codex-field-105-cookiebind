@@ -1,0 +1,18 @@
+{
+  "client_id": "ops-cli",
+  "issuer": "https://id.ops.example/",
+  "aud": "ops-cli",
+  "sid": "ops-sid-002",
+  "events": [
+    "http://schemas.openid.net/event/backchannel-logout",
+    "http://schemas.openid.net/event/session-revoked"
+  ],
+  "jti_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "delivery": "http-post",
+  "endpoint": "https://cli.ops.example/bc-poll",
+  "session_age": 600,
+  "nonce": "n-deny-endpoint-poll-mode",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RGvvpvTOK3ZdgAinCmG98glPXmVzlDxwX9OPzcaCpDk"
+}

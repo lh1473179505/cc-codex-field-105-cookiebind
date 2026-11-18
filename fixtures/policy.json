@@ -1,0 +1,59 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "clients": {
+    "pay-web": {
+      "issuer": "https://id.pay.example/",
+      "audiences": [
+        "pay-web"
+      ],
+      "sid_prefix": "pay-sid-",
+      "events_required": [
+        "http://schemas.openid.net/event/backchannel-logout"
+      ],
+      "events_allowed": [
+        "http://schemas.openid.net/event/backchannel-logout"
+      ],
+      "deliveries": [
+        "http-post"
+      ],
+      "endpoints": [
+        "https://app.pay.example/backchannel-logout"
+      ],
+      "poll_endpoints": [],
+      "session_age_min": 0,
+      "session_age_max": 3600
+    },
+    "ops-cli": {
+      "issuer": "https://id.ops.example/",
+      "audiences": [
+        "ops-cli"
+      ],
+      "sid_prefix": "ops-sid-",
+      "events_required": [
+        "http://schemas.openid.net/event/backchannel-logout"
+      ],
+      "events_allowed": [
+        "http://schemas.openid.net/event/backchannel-logout",
+        "http://schemas.openid.net/event/session-revoked"
+      ],
+      "deliveries": [
+        "http-post",
+        "poll"
+      ],
+      "endpoints": [
+        "https://cli.ops.example/bc-logout"
+      ],
+      "poll_endpoints": [
+        "https://cli.ops.example/bc-poll"
+      ],
+      "session_age_min": 0,
+      "session_age_max": 7200
+    }
+  },
+  "jti_hex_len": 64,
+  "sid_min_len": 10,
+  "events_max": 2,
+  "forbid_endpoint_query": true,
+  "require_aud_equals_client": true
+}
