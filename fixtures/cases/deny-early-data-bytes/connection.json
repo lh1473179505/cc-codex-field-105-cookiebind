@@ -1,0 +1,21 @@
+{
+  "sni": "pay-quic.example",
+  "alpn": "pay-h3",
+  "version": "0x00000001",
+  "transport_params": {
+    "max_idle_timeout_ms": 10000,
+    "initial_max_data": 4194304,
+    "initial_max_streams_bidi": 16,
+    "max_udp_payload_size": 1350,
+    "disable_active_migration": true
+  },
+  "early_data": {
+    "enabled": true,
+    "max_bytes": 32768,
+    "alpn": "pay-h3"
+  },
+  "nonce": "n-deny-early-data-bytes",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SPwsddHjnw-lqnoln60VNHCKZQOvTGQNFK3JyWSv2kQ"
+}

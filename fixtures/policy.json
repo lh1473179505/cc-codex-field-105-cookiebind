@@ -1,0 +1,78 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "services": {
+    "pay-quic.example": {
+      "alpns": [
+        "pay-h3"
+      ],
+      "versions": [
+        "0x00000001"
+      ],
+      "transport_params": {
+        "max_idle_timeout_ms": {
+          "min": 1000,
+          "max": 30000
+        },
+        "initial_max_data": {
+          "min": 1048576,
+          "max": 10485760
+        },
+        "initial_max_streams_bidi": {
+          "min": 1,
+          "max": 100
+        },
+        "max_udp_payload_size": {
+          "exact": 1350
+        },
+        "disable_active_migration": {
+          "exact": true
+        }
+      },
+      "early_data": {
+        "enabled": true,
+        "max_bytes": 16384,
+        "alpns": [
+          "pay-h3"
+        ]
+      }
+    },
+    "ops-quic.example": {
+      "alpns": [
+        "ops-h3"
+      ],
+      "versions": [
+        "0x00000001",
+        "0x6b3343cf"
+      ],
+      "transport_params": {
+        "max_idle_timeout_ms": {
+          "min": 5000,
+          "max": 20000
+        },
+        "initial_max_data": {
+          "min": 2097152,
+          "max": 8388608
+        },
+        "initial_max_streams_bidi": {
+          "min": 1,
+          "max": 20
+        },
+        "max_udp_payload_size": {
+          "exact": 1400
+        },
+        "disable_active_migration": {
+          "exact": true
+        }
+      },
+      "early_data": {
+        "enabled": false,
+        "max_bytes": 0,
+        "alpns": []
+      }
+    }
+  },
+  "transport_param_keys_exact": true,
+  "alpn_exact": true,
+  "sni_lowercase_dns": true
+}

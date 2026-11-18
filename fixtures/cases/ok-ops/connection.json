@@ -1,0 +1,21 @@
+{
+  "sni": "ops-quic.example",
+  "alpn": "ops-h3",
+  "version": "0x6b3343cf",
+  "transport_params": {
+    "max_idle_timeout_ms": 15000,
+    "initial_max_data": 4194304,
+    "initial_max_streams_bidi": 8,
+    "max_udp_payload_size": 1400,
+    "disable_active_migration": true
+  },
+  "early_data": {
+    "enabled": false,
+    "max_bytes": 0,
+    "alpn": "ops-h3"
+  },
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "r6CXcvQJ3N26M1jNcWYk2U80FMl4jpJWV2yOSCm00tY"
+}
