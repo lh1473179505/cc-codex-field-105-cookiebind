@@ -14,7 +14,4 @@ def diagnose(store) -> dict:
     }
     pending = sorted(key for key, value in store.data["transactions"].items() if value["status"] == "pending")
     canonical = json.dumps({"sessions": sessions, "pending": pending}, sort_keys=True).encode("utf-8")
-    report = {"sessions": sessions, "pending": pending, "digest": hashlib.sha256(canonical).hexdigest()}
-    store.data["audit_views"] += 1
-    store.save()
-    return report
+    return {"sessions": sessions, "pending": pending, "digest": hashlib.sha256(canonical).hexdigest()}
