@@ -2,6 +2,8 @@ from .bindings import Store
 from .contexts import RecipientContext, SessionState
 from .suites import seal
 
+MAX_PLAINTEXT_BYTES = 64
+
 
 class Service:
     def __init__(self, workspace):
@@ -23,12 +25,13 @@ class Service:
 
     def seal(self, identifier, plaintext, aad="pay:invoice:17", info="pay-hpke/v1"):
         context = self.sessions[identifier]
-        record = seal(self.secrets[self.generation], self.generation, info, aad, plaintext)
+        if len(plaintext) > MAX_PLAINTEXT_BYTES:
+            raise ValueError("plaintext window exceeded")
+        generation = context.generation
+        record = seal(self.secrets[generation], generation, info, aad, plaintext)
         context.records.append(record)
         context.state = SessionState.SEALED
         self.store.append("record_sealed", session=identifier, generation=record["generation"], tag=record["tag"])
-        if len(plaintext) > 64:
-            raise ValueError("plaintext window exceeded")
         return record
 
     def export(self, identifier, legacy=False):
