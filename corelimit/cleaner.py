@@ -5,8 +5,10 @@ def recover(vault):
     cleaned = []
     for record in vault.data["cleanup"]:
         item = vault.data["captures"][record["capture"]]
-        if not record["done"] and item["phase"] != phases.SEALED:
-            abort(vault, record["capture"])
-            cleaned.append(record["capture"])
+        if record["done"] or item["phase"] == phases.SEALED:
+            continue
+        abort(vault, record["capture"])
+        record["done"] = True
+        cleaned.append(record["capture"])
     vault.save()
     return cleaned

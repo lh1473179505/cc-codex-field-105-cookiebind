@@ -7,6 +7,9 @@ class Ledger:
         self.state["used"] += amount
 
     def release(self, capture):
-        amount = self.state["reserved"].get(capture, 0)
+        # Removing the reservation makes release idempotent: a capture can
+        # only release its quota once, so ``used`` never goes negative even
+        # when failure handling and recovery re-enter for the same capture.
+        amount = self.state["reserved"].pop(capture, 0)
         self.state["used"] -= amount
         return amount

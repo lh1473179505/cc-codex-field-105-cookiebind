@@ -7,7 +7,11 @@ class SealFailure(RuntimeError):
 def start(vault, capture, amount, owner):
     if capture in vault.data["captures"]:
         raise ValueError("duplicate capture")
-    if vault.data["used"] + amount > vault.data["limit"]:
+    # Revocation only blocks new dumps; captures already reserved keep the
+    # epoch they were created with and remain free to finish their cleanup.
+    if vault.data["revocations"].get(owner, 0) != 0:
+        raise PermissionError("owner revoked")
+    if vault.data["used"] + amount >= vault.data["limit"]:
         raise MemoryError("core quota")
     vault.data["captures"][capture] = {"owner": owner, "phase": phases.REQUESTED,
                                        "epoch": vault.data["revocations"].get(owner, 0)}
@@ -31,7 +35,11 @@ def finish(vault, capture, fail=False):
 
 def abort(vault, capture):
     item = vault.data["captures"][capture]
+    if item["phase"] == phases.ABORTED:
+        # Re-entrant recovery must not release the reservation a second time.
+        return 0
     item["phase"] = phases.ABORTED
-    Ledger(vault.data).release(capture)
+    released = Ledger(vault.data).release(capture)
     # The cleanup record deliberately remains available to the recovery scanner.
     vault.save()
+    return released
