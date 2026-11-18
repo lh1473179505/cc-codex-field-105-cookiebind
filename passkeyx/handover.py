@@ -18,7 +18,8 @@ class Handover:
         target["lineage"] = list(source["lineage"]) + [source_id]
         target["work"] = dict(source["work"])
         target["work"]["payload"] = dict(source["work"]["payload"])
-        # Cursor id stays shared, so later appends mutate the source cursor.
+        target["cursor_id"] = target_id
+        self.store.data["cursors"][target_id] = []
         source["phase"] = SOURCE_AFTER
         sessions[target_id] = target
         self.store.append("migrate", source=source_id, target=target_id, channel=channel)
