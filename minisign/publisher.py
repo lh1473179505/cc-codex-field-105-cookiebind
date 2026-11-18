@@ -21,12 +21,13 @@ class Service:
 
     def sign(self, identifier, comment="timestamp:2026-06-18 artifact:pay-release", fail_after=False):
         artifact = self.artifacts[identifier]
-        value = artifact_signature(self.keys[self.generation], identifier, artifact.content, comment)
-        artifact.signatures.append({"generation": self.generation, "signature": value})
-        artifact.state = ReleaseState.SIGNED
-        self.store.append("artifact_signed", identifier=identifier, generation=self.generation, signature=value)
+        generation = artifact.generation
+        value = artifact_signature(self.keys[generation], identifier, artifact.content, comment)
         if fail_after:
             raise ValueError("secondary signature publication failed")
+        artifact.signatures.append({"generation": generation, "signature": value})
+        artifact.state = ReleaseState.SIGNED
+        self.store.append("artifact_signed", identifier=identifier, generation=generation, signature=value)
         return value
 
     def abort(self, identifier):
