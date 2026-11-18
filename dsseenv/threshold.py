@@ -1,6 +1,10 @@
 from .dssestore import Store
 from .model import Attestation, AttestationState
-from .signing import sign
+from .signing import PAYLOAD_ALIASES, sign
+
+
+def canonical_payload_type(payload_type):
+    return PAYLOAD_ALIASES.get(payload_type, payload_type)
 
 
 class Service:
@@ -12,9 +16,10 @@ class Service:
         self.payloads = {}
 
     def draft(self, identifier, payload, payload_type="application/vnd.pay.release+json"):
+        payload_type = canonical_payload_type(payload_type)
         self.attestations[identifier] = Attestation(identifier, payload_type, self.generation)
         self.payloads[identifier] = payload
-        self.store.append("attestation_drafted", identifier=identifier, generation=self.generation)
+        self.store.append("attestation_drafted", identifier=identifier, generation=self.generation, payload_type=payload_type)
 
     def rotate(self, keys):
         self.generation += 1
@@ -25,16 +30,15 @@ class Service:
         attestation = self.attestations[identifier]
         if any(entry["signer"] == signer for entry in attestation.signatures):
             raise ValueError("duplicate signer")
-        attestation.state = AttestationState.COLLECTING
-        attestation.signatures.append({"signer": signer, "signature": supplied or "pending"})
-        keys = self.signer_keys[self.generation]
+        keys = self.signer_keys[attestation.generation]
         if signer not in keys:
             raise ValueError("unknown signer")
         expected = sign(keys[signer], attestation.payload_type, self.payloads[identifier])
         if supplied is not None and supplied != expected:
             raise ValueError("signature mismatch")
-        attestation.signatures[-1]["signature"] = expected
-        self.store.append("signature_added", identifier=identifier, signer=signer, generation=self.generation)
+        attestation.state = AttestationState.COLLECTING
+        attestation.signatures.append({"signer": signer, "signature": expected})
+        self.store.append("signature_added", identifier=identifier, signer=signer, generation=attestation.generation)
         return expected
 
     def seal(self, identifier):
