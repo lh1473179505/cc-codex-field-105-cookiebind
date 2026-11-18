@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "image_ref": "registry.pay.example/pay/web:2026.06",
+  "digest": "sha256:abababababababababababababababababababababababababababababababab",
+  "manifest": "sha256:1212121212121212121212121212121212121212121212121212121212121212",
+  "media_type": "application/vnd.oci.image.manifest.v1+json",
+  "platform": {
+    "os": "linux",
+    "architecture": "amd64",
+    "variant": ""
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "lWNyu0TN21ldAH32e2VNH5h2v8dyDvWiqWnD7I1zFlk"
+}

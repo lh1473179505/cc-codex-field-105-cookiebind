@@ -1,0 +1,15 @@
+{
+  "image_ref": "registry.pay.example/pay/web:2026.06",
+  "digest": "sha256:abababababababababababababababababababababababababababababababab",
+  "manifest": "sha256:1212121212121212121212121212121212121212121212121212121212121212",
+  "media_type": "application/vnd.oci.image.manifest.v1+json",
+  "platform": {
+    "os": "windows",
+    "architecture": "amd64",
+    "variant": ""
+  },
+  "nonce": "n-deny-platform-os",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "l8jGkGUzVI_iHfUOFEJLuc9Fh-A5iGiDVu8ciVr4U9M"
+}

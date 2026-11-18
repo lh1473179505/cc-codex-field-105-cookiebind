@@ -1,0 +1,50 @@
+{
+  "images": {
+    "registry.pay.example/pay/web:2026.06": {
+      "digest": "sha256:abababababababababababababababababababababababababababababababab",
+      "manifests": [
+        {
+          "manifest": "sha256:1212121212121212121212121212121212121212121212121212121212121212",
+          "media_type": "application/vnd.oci.image.manifest.v1+json",
+          "platform": {
+            "os": "linux",
+            "architecture": "amd64",
+            "variant": ""
+          }
+        }
+      ]
+    },
+    "registry.ops.example/ops/agent:2026.07": {
+      "digest": "sha256:cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "manifests": [
+        {
+          "manifest": "sha256:3434343434343434343434343434343434343434343434343434343434343434",
+          "media_type": "application/vnd.oci.image.manifest.v1+json",
+          "platform": {
+            "os": "linux",
+            "architecture": "arm64",
+            "variant": "v8"
+          }
+        },
+        {
+          "manifest": "sha256:5656565656565656565656565656565656565656565656565656565656565656",
+          "media_type": "application/vnd.oci.image.manifest.v1+json",
+          "platform": {
+            "os": "linux",
+            "architecture": "amd64",
+            "variant": ""
+          }
+        }
+      ]
+    }
+  },
+  "platform_keys": [
+    "os",
+    "architecture",
+    "variant"
+  ],
+  "digest_prefix": "sha256:",
+  "digest_hex_length": 64,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

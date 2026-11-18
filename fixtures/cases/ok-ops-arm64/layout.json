@@ -1,0 +1,15 @@
+{
+  "image_ref": "registry.ops.example/ops/agent:2026.07",
+  "digest": "sha256:cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "manifest": "sha256:3434343434343434343434343434343434343434343434343434343434343434",
+  "media_type": "application/vnd.oci.image.manifest.v1+json",
+  "platform": {
+    "os": "linux",
+    "architecture": "arm64",
+    "variant": "v8"
+  },
+  "nonce": "n-ok-ops-arm64",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "X_1HfuHWB3rTzumUR9jkozVS4PWPZhur6quOkc7udZ0"
+}
