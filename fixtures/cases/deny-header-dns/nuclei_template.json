@@ -1,0 +1,27 @@
+{
+  "template_id": "ops-dns-exposure",
+  "protocol": "dns",
+  "matcher": {
+    "type": "word",
+    "part": "raw",
+    "words": [
+      "ops.example"
+    ],
+    "condition": "and"
+  },
+  "extractor": {
+    "type": "regex",
+    "part": "raw",
+    "regex": [
+      "([a-z0-9-]+)\\.ops\\.example"
+    ],
+    "group": 1
+  },
+  "request_headers": {
+    "User-Agent": "nuclei-pay-audit"
+  },
+  "nonce": "n-deny-header-dns",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ryDpetr6BJuTLXycreU1oS_X96FlAuh_w8HdTU4CoXQ"
+}

@@ -1,0 +1,28 @@
+{
+  "kid": "k-revoked",
+  "template_id": "pay-http-exposure",
+  "protocol": "http",
+  "matcher": {
+    "type": "word",
+    "part": "body",
+    "words": [
+      "pay-internal",
+      "build-sha"
+    ],
+    "condition": "and"
+  },
+  "extractor": {
+    "type": "regex",
+    "part": "body",
+    "regex": [
+      "build-sha: ([a-f0-9]{40})"
+    ],
+    "group": 1
+  },
+  "request_headers": {
+    "User-Agent": "nuclei-pay-audit"
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "MbNURIUXHn0i3urLvP2GzLm0GgPEDRoeuw9gUQUSqHA"
+}

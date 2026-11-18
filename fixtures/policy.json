@@ -1,0 +1,83 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "templates": {
+    "pay-http-exposure": {
+      "protocol": "http",
+      "matchers_allowed": [
+        {
+          "type": "word",
+          "part": "body",
+          "words": [
+            "pay-internal",
+            "build-sha"
+          ],
+          "condition": "and"
+        }
+      ],
+      "extractors_allowed": [
+        {
+          "type": "regex",
+          "part": "body",
+          "regex": [
+            "build-sha: ([a-f0-9]{40})"
+          ],
+          "group": 1
+        }
+      ],
+      "headers_allowed": [
+        "User-Agent",
+        "Accept"
+      ],
+      "headers_required": {
+        "User-Agent": "nuclei-pay-audit"
+      }
+    },
+    "ops-dns-exposure": {
+      "protocol": "dns",
+      "matchers_allowed": [
+        {
+          "type": "word",
+          "part": "raw",
+          "words": [
+            "ops.example"
+          ],
+          "condition": "and"
+        }
+      ],
+      "extractors_allowed": [
+        {
+          "type": "regex",
+          "part": "raw",
+          "regex": [
+            "([a-z0-9-]+)\\.ops\\.example"
+          ],
+          "group": 1
+        }
+      ],
+      "headers_allowed": [],
+      "headers_required": {}
+    }
+  },
+  "template_id_pattern": "^[a-z][a-z0-9-]*$",
+  "forbidden_headers": [
+    "host",
+    "authorization",
+    "cookie",
+    "x-forwarded-for",
+    "x-original-url",
+    "x-rewrite-url"
+  ],
+  "matcher_keys": [
+    "type",
+    "part",
+    "words",
+    "condition"
+  ],
+  "extractor_keys": [
+    "type",
+    "part",
+    "regex",
+    "group"
+  ]
+}

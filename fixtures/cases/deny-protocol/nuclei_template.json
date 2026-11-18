@@ -1,0 +1,28 @@
+{
+  "template_id": "pay-http-exposure",
+  "protocol": "dns",
+  "matcher": {
+    "type": "word",
+    "part": "body",
+    "words": [
+      "pay-internal",
+      "build-sha"
+    ],
+    "condition": "and"
+  },
+  "extractor": {
+    "type": "regex",
+    "part": "body",
+    "regex": [
+      "build-sha: ([a-f0-9]{40})"
+    ],
+    "group": 1
+  },
+  "request_headers": {
+    "User-Agent": "nuclei-pay-audit"
+  },
+  "nonce": "n-deny-protocol",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "XroNzY_NL3XTz8Q6YUxQTHbfyW2vT48ioPPfUH7UqWc"
+}

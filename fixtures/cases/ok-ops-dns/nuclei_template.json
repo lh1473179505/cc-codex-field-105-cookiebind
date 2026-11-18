@@ -1,0 +1,25 @@
+{
+  "template_id": "ops-dns-exposure",
+  "protocol": "dns",
+  "matcher": {
+    "type": "word",
+    "part": "raw",
+    "words": [
+      "ops.example"
+    ],
+    "condition": "and"
+  },
+  "extractor": {
+    "type": "regex",
+    "part": "raw",
+    "regex": [
+      "([a-z0-9-]+)\\.ops\\.example"
+    ],
+    "group": 1
+  },
+  "request_headers": {},
+  "nonce": "n-ok-ops-dns",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jIL8c47OQTwSFnxcY2Ma7tLkXexp2DsxFKsz30uVjgw"
+}
