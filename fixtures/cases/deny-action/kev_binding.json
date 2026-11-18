@@ -1,0 +1,12 @@
+{
+  "cve": "CVE-2026-7101",
+  "product": "pay-gateway",
+  "due_date": "2026-12-01",
+  "priority": "P0",
+  "owner": "pay-sre",
+  "action": "Monitor only.",
+  "nonce": "n-deny-action",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Ds5o0Jvy6oFZ9fyz81StVVGCGDpaIquFkwCnCxMZ_5U"
+}

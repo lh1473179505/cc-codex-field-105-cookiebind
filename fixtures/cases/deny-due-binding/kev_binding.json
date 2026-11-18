@@ -1,0 +1,12 @@
+{
+  "cve": "CVE-2026-7101",
+  "product": "pay-gateway",
+  "due_date": "2026-12-02",
+  "priority": "P0",
+  "owner": "pay-sre",
+  "action": "Upgrade pay-gateway to 5.8.2 and restart the gateway pool.",
+  "nonce": "n-deny-due-binding",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "1RUekGosXy2CkopKc4SY7Zigzx7U7anJHw1eWjjiWq8"
+}

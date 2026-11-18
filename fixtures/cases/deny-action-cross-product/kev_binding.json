@@ -1,0 +1,12 @@
+{
+  "cve": "CVE-2026-7101",
+  "product": "pay-gateway",
+  "due_date": "2026-12-01",
+  "priority": "P0",
+  "owner": "pay-sre",
+  "action": "Apply vendor patch OPS-2026-44 and invalidate active sessions.",
+  "nonce": "n-deny-action-cross-product",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5RGlJtRG1Y--NxxQExDDh8AHkfEnfb-G8w-yQmCq63s"
+}

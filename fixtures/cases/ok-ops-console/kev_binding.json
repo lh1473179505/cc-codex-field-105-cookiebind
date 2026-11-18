@@ -1,0 +1,12 @@
+{
+  "cve": "CVE-2026-7202",
+  "product": "ops-console",
+  "due_date": "2026-11-15",
+  "priority": "P1",
+  "owner": "ops-sre",
+  "action": "Apply vendor patch OPS-2026-44 and invalidate active sessions.",
+  "nonce": "n-ok-ops-console",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Rv_LEwZlbh3bw6NGsVRvKj4IcEbT-w-h4XO9f2fcdX4"
+}

@@ -1,0 +1,44 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "cves": {
+    "CVE-2026-7101": {
+      "products": {
+        "pay-gateway": {
+          "due_date": "2026-12-01",
+          "priorities": [
+            "P0"
+          ],
+          "owners": [
+            "pay-sre",
+            "pay-security"
+          ],
+          "actions": [
+            "Upgrade pay-gateway to 5.8.2 and restart the gateway pool."
+          ]
+        }
+      }
+    },
+    "CVE-2026-7202": {
+      "products": {
+        "ops-console": {
+          "due_date": "2026-11-15",
+          "priorities": [
+            "P1"
+          ],
+          "owners": [
+            "ops-sre"
+          ],
+          "actions": [
+            "Apply vendor patch OPS-2026-44 and invalidate active sessions."
+          ]
+        }
+      }
+    }
+  },
+  "cve_pattern": "^CVE-[0-9]{4}-[0-9]{4,}$",
+  "date_format": "YYYY-MM-DD",
+  "due_date_min": "2026-01-01",
+  "due_date_max": "2026-12-31",
+  "action_length_max": 160
+}
