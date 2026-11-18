@@ -1,0 +1,13 @@
+{
+  "profile": "pay-session",
+  "purpose": "session-encryption",
+  "ikm_sha256": "abababababababababababababababababababababababababababababababab",
+  "salt_hex": "00112233445566778899aabbccddeeff",
+  "info": "pay/api/v1",
+  "output_length": 0,
+  "algorithm": "HKDF-SHA256",
+  "nonce": "n-deny-output-length",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iuxpXG154PYTMEy501E3V1o_1yaBx9qQ8Syo0Vd08QU"
+}

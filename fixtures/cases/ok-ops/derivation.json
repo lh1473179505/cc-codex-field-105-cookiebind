@@ -1,0 +1,13 @@
+{
+  "profile": "ops-wrap",
+  "purpose": "key-wrap",
+  "ikm_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "salt_hex": "ffeeddccbbaa99887766554433221100",
+  "info": "ops/config/v2",
+  "output_length": 48,
+  "algorithm": "HKDF-SHA384",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "C-B1QAv7e6gwQbf-P-WwxEyDiUklmTXTpuBqo9mCE_4"
+}

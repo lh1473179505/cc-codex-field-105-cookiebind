@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "profile": "pay-session",
+  "purpose": "session-encryption",
+  "ikm_sha256": "abababababababababababababababababababababababababababababababab",
+  "salt_hex": "00112233445566778899aabbccddeeff",
+  "info": "pay/api/v1",
+  "output_length": 32,
+  "algorithm": "HKDF-SHA256",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "bOZdXId2y2tHQsqJ71eab_D_jI5OqGJ_kbQ2JbnQ3rg"
+}

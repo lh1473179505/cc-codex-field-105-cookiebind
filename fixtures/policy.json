@@ -1,0 +1,38 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "profiles": {
+    "pay-session": {
+      "purpose": "session-encryption",
+      "ikm_sha256": "abababababababababababababababababababababababababababababababab",
+      "salt_hex": "00112233445566778899aabbccddeeff",
+      "info_values": [
+        "pay/api/v1",
+        "pay/worker/v1"
+      ],
+      "algorithm_outputs": {
+        "HKDF-SHA256": [
+          32,
+          64
+        ]
+      }
+    },
+    "ops-wrap": {
+      "purpose": "key-wrap",
+      "ikm_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "salt_hex": "ffeeddccbbaa99887766554433221100",
+      "info_values": [
+        "ops/config/v2"
+      ],
+      "algorithm_outputs": {
+        "HKDF-SHA384": [
+          48
+        ]
+      }
+    }
+  },
+  "ikm_hex_length": 64,
+  "salt_hex_length": 32,
+  "info_length_max": 96,
+  "info_ascii_only": true
+}
