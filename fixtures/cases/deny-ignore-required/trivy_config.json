@@ -1,0 +1,22 @@
+{
+  "target": "fs:/srv/pay",
+  "scanners": [
+    "vuln",
+    "secret",
+    "misconfig"
+  ],
+  "severities": [
+    "HIGH",
+    "CRITICAL"
+  ],
+  "ignore_rules": [],
+  "offline_db": {
+    "dir": "/var/lib/trivy/pay-db",
+    "skip_update": true,
+    "db_repository": "registry.example/security/trivy-db:2"
+  },
+  "nonce": "n-deny-ignore-required",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "3DK1JraHQsqkWKZ6PdTnMcfpP9aog75yxvLpQo2CXm4"
+}

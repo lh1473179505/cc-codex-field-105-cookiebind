@@ -1,0 +1,29 @@
+{
+  "target": "fs:/srv/pay",
+  "scanners": [
+    "vuln",
+    "secret",
+    "misconfig"
+  ],
+  "severities": [
+    "LOW",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "ignore_rules": [
+    {
+      "id": "CVE-2026-5101",
+      "expired_at": "2026-12-31T23:59:59Z",
+      "statement": "Accepted until the payment library upgrade."
+    }
+  ],
+  "offline_db": {
+    "dir": "/var/lib/trivy/pay-db",
+    "skip_update": true,
+    "db_repository": "registry.example/security/trivy-db:2"
+  },
+  "nonce": "n-deny-severity",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "XA-7sfDFkGFkbfB80pbr_hyoX2bzih2XF6ilHQFD5RY"
+}

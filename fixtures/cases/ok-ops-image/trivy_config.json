@@ -1,0 +1,22 @@
+{
+  "target": "image:registry.ops.example/opsd:2.3.1",
+  "scanners": [
+    "vuln",
+    "misconfig"
+  ],
+  "severities": [
+    "MEDIUM",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "ignore_rules": [],
+  "offline_db": {
+    "dir": "/var/lib/trivy/ops-db",
+    "skip_update": true,
+    "db_repository": "registry.example/security/trivy-db:2"
+  },
+  "nonce": "n-ok-ops-image",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RLtggLCZEh3fcRIEkTulXiAutTSlc4qYEwWUF2d7TN4"
+}
