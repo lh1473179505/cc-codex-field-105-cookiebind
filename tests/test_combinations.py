@@ -22,5 +22,12 @@ class CombinationTests(unittest.TestCase):
         sessions.detach(sid)
         self.assertEqual(sessions.items[sid]["state"], "closed")
 
+    def test_migration_moves_routing_with_session_namespace(self):
+        sessions = Sessions(Targets(), Registry())
+        sid = sessions.attach("alpha", 7)
+        migrate(sessions, sid, "beta")
+        self.assertIsNone(lookup(sessions, "alpha", 7))
+        self.assertEqual(lookup(sessions, "beta", 7)["state"], "bound")
+
 if __name__ == "__main__":
     unittest.main()

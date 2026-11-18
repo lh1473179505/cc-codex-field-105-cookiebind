@@ -13,6 +13,10 @@ def main():
     sessions.detach(old)
     table = session_table(sessions)["sessions"]
     current = next(row for row in table if row["session"] == new)
+    reachable = current["state"] == "bound" and current["routable"]
+    sessions.revoke("beta")
+    sessions.detach(new)
+    cleaned = sessions.items[new]["state"] == "closed"
     print(json.dumps({"old_session": old, "new_session": new, "sessions": table,
-                      "active_session_unreachable": not current["routable"]}, sort_keys=True))
-    return 0 if current["state"] == "bound" and not current["routable"] else 1
+                      "active_session_unreachable": not reachable}, sort_keys=True))
+    return 0 if reachable and cleaned else 1

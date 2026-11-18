@@ -5,6 +5,7 @@ def migrate(sessions, sid, destination):
     source = item["namespace"]
     sessions.targets.move(source, destination, item["pid"])
     item["state"] = states.MIGRATING
+    sessions.registry.unbind(source, item["pid"], sid)
     item["namespace"] = destination
-    # Routing is rebuilt lazily by the next attach rather than at migration.
+    sessions.registry.bind(destination, item["pid"], sid)
     item["state"] = states.BOUND

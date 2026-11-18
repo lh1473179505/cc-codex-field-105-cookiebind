@@ -5,5 +5,5 @@ def session_table(sessions):
     for sid, item in sessions.items.items():
         routed = lookup(sessions, item["namespace"], item["pid"])
         rows.append({"session": sid, "namespace": item["namespace"], "pid": item["pid"],
-                     "state": item["state"], "routable": routed is not None})
+                     "state": item["state"], "routable": routed is item})
     return {"sessions": rows}

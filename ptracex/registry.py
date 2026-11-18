@@ -1,16 +1,17 @@
 class Registry:
     def __init__(self):
-        # Original single-namespace index retained for fast legacy lookup.
-        self.by_pid = {}
+        # Routing identity is the (namespace, pid) pair; a pid alone is not unique.
+        self.by_route = {}
 
     def bind(self, namespace, pid, session):
-        self.by_pid[pid] = (namespace, session)
+        self.by_route[(namespace, pid)] = session
 
     def unbind(self, namespace, pid, session):
-        self.by_pid.pop(pid, None)
+        key = (namespace, pid)
+        # Only the session that owns the binding may remove it; a stale
+        # session cleaning up must not unbind a newer session on the same pid.
+        if self.by_route.get(key) == session:
+            del self.by_route[key]
 
     def resolve(self, namespace, pid):
-        item = self.by_pid.get(pid)
-        if item is None or item[0] != namespace:
-            return None
-        return item[1]
+        return self.by_route.get((namespace, pid))
