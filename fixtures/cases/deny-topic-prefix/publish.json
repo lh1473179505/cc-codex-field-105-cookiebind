@@ -1,0 +1,12 @@
+{
+  "message_vpn": "pay-vpn",
+  "client": "pay-producer",
+  "exchange": "pay-exchange",
+  "topic": "ops/alerts/node-17",
+  "permission": "publish-persistent",
+  "ttl_seconds": 300,
+  "nonce": "n-deny-topic-prefix",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "-0ivMw1U3N4_0zVUdC18Nww0BSos7iLazfrni9jndDI"
+}

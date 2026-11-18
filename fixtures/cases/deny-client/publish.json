@@ -1,0 +1,12 @@
+{
+  "message_vpn": "pay-vpn",
+  "client": "ops-reporter",
+  "exchange": "pay-exchange",
+  "topic": "pay/orders/region-eu/created",
+  "permission": "publish-persistent",
+  "ttl_seconds": 300,
+  "nonce": "n-deny-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "zh5Qrx2FD6CR6MKKxWJLOkMxjn1iD9lYn1htKv_zMv8"
+}

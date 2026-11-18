@@ -1,0 +1,12 @@
+{
+  "message_vpn": "pay-vpn",
+  "client": "pay-producer",
+  "exchange": "pay-exchange",
+  "topic": "pay/orders.evil/created",
+  "permission": "publish-persistent",
+  "ttl_seconds": 300,
+  "nonce": "n-deny-topic-lookalike",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ujJm2EJ9IdxdLSLDNTDQ_IiWcasxvknXWP1MWa9OcaM"
+}

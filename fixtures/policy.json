@@ -1,0 +1,53 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "message_vpns": {
+    "pay-vpn": {
+      "clients": {
+        "pay-producer": {
+          "exchanges": {
+            "pay-exchange": {
+              "topic_prefixes": [
+                "pay/orders/",
+                "pay/receipts/"
+              ],
+              "permissions": [
+                "publish",
+                "publish-persistent"
+              ],
+              "ttl_min": 1,
+              "ttl_max": 86400
+            }
+          }
+        }
+      }
+    },
+    "ops-vpn": {
+      "clients": {
+        "ops-reporter": {
+          "exchanges": {
+            "ops-exchange": {
+              "topic_prefixes": [
+                "ops/alerts/"
+              ],
+              "permissions": [
+                "publish"
+              ],
+              "ttl_min": 5,
+              "ttl_max": 3600
+            }
+          }
+        }
+      }
+    }
+  },
+  "topic_max_segments": 6,
+  "topic_deny_patterns": [
+    "//",
+    "/../",
+    "*",
+    ">",
+    "\u0000"
+  ],
+  "ttl_integer": true
+}

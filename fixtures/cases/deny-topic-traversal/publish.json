@@ -1,0 +1,12 @@
+{
+  "message_vpn": "pay-vpn",
+  "client": "pay-producer",
+  "exchange": "pay-exchange",
+  "topic": "pay/orders/../admin",
+  "permission": "publish-persistent",
+  "ttl_seconds": 300,
+  "nonce": "n-deny-topic-traversal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "GBJb7IBB8JFKY27SaBmuls3xEMu-7rKZL4E79eQjhXA"
+}

@@ -1,0 +1,12 @@
+{
+  "message_vpn": "pay-vpn",
+  "client": "pay-producer",
+  "exchange": "pay-exchange",
+  "topic": "pay/orders/region-eu/created",
+  "permission": "subscribe",
+  "ttl_seconds": 300,
+  "nonce": "n-deny-permission",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "P-MGB1D0N-vFwHLIHZwK9KTUlg6Lpg4OD-YB1efb4Yc"
+}

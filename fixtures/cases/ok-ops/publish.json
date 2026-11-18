@@ -1,0 +1,12 @@
+{
+  "message_vpn": "ops-vpn",
+  "client": "ops-reporter",
+  "exchange": "ops-exchange",
+  "topic": "ops/alerts/node-17",
+  "permission": "publish",
+  "ttl_seconds": 60,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "BRKTjzG3uG0me7jxjWlhnVPSmoiaWLksAI1a1S8m-4s"
+}

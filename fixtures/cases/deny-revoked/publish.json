@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "message_vpn": "pay-vpn",
+  "client": "pay-producer",
+  "exchange": "pay-exchange",
+  "topic": "pay/orders/region-eu/created",
+  "permission": "publish-persistent",
+  "ttl_seconds": 300,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "b8SHEoFqUjyXyrvgCG2hnQxK_k5dVqtuYqkvxijuX1c"
+}
