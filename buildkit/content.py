@@ -21,6 +21,9 @@ class ContentStore:
     def read(self, key):
         return self.path(key).read_text()
 
+    def keys(self):
+        return sorted(path.stem for path in self.root.glob("*/*.layer"))
+
     def remove(self, key):
         path = self.path(key)
         if path.exists():

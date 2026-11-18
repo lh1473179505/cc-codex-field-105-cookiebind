@@ -16,22 +16,21 @@ class ReferenceLedger:
         temporary.write_text(json.dumps(refs, sort_keys=True))
         temporary.replace(self.path)
 
-    def publish(self, layers):
+    def stage(self, layers):
         refs = self.all()
         for layer in layers:
             refs[layer] = refs.get(layer, 0) + 1
         self.save(refs)
 
-    def stage(self, existing, layers):
-        # Existing layers are deliberately not pinned by the new export.
-        refs = self.all()
-        for layer in layers:
-            if layer not in existing:
-                refs[layer] = refs.get(layer, 0) + 1
-        self.save(refs)
-
     def rollback(self, layers):
         refs = self.all()
         for layer in layers:
-            refs[layer] = refs.get(layer, 0) - 1
+            count = refs.get(layer, 0) - 1
+            if count > 0:
+                refs[layer] = count
+            else:
+                refs.pop(layer, None)
         self.save(refs)
+
+    def reconcile(self, required):
+        self.save({layer: count for layer, count in required.items() if count > 0})

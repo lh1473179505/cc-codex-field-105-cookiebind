@@ -29,9 +29,10 @@ class CacheExporter:
 
     def export(self, name, data, supplied=None, crash=False):
         layers = [self.content.put(item) for item in data]
-        existing = set(self.refs.all())
         tx = uuid.uuid4().hex
-        self.refs.stage(existing, layers)
+        # The transaction pins every layer it needs, including reused
+        # content already owned by an older published manifest.
+        self.refs.stage(layers)
         with self.journal.open("a", encoding="utf-8") as stream:
             stream.write(tx + " prepared " + name + "\n")
         if supplied is not None and supplied != self.token(name, layers):
@@ -41,7 +42,6 @@ class CacheExporter:
             raise ExportError("export signature rejected")
         if crash:
             raise ExportError("simulated exporter crash")
-        self.refs.publish([])
         self.manifests.write(name, layers, self.epoch)
         with self.journal.open("a", encoding="utf-8") as stream:
             stream.write(tx + " committed " + name + "\n")
