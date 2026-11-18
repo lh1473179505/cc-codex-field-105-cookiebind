@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "recipient": "pay-cms-01",
+  "key_alg": "rsa-OAEP",
+  "content_enc": "aes256-gcm",
+  "aad": "pay:document:invoice-17",
+  "digest_alg": "sha256",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "7Auj-ssP4mu66DH-SKncuyHjv74jaY8LyrJg6mJivfo"
+}

@@ -1,0 +1,34 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "recipients": {
+    "pay-cms-01": {
+      "key_alg": "rsa-OAEP",
+      "content_encryptions": {
+        "aes256-gcm": {
+          "digest_algs": [
+            "sha256"
+          ],
+          "aad_prefixes": [
+            "pay:document:"
+          ]
+        }
+      }
+    },
+    "ops-cms-01": {
+      "key_alg": "ecdh-es",
+      "content_encryptions": {
+        "aes128-gcm": {
+          "digest_algs": [
+            "sha384"
+          ],
+          "aad_prefixes": [
+            "ops:bundle:"
+          ]
+        }
+      }
+    }
+  },
+  "aad_length_max": 128,
+  "aad_printable_ascii": true
+}

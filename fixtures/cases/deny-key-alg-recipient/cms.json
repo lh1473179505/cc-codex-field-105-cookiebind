@@ -1,0 +1,11 @@
+{
+  "recipient": "pay-cms-01",
+  "key_alg": "ecdh-es",
+  "content_enc": "aes256-gcm",
+  "aad": "pay:document:invoice-17",
+  "digest_alg": "sha256",
+  "nonce": "n-deny-key-alg-recipient",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "A-YAXnHKXttn7b1SsFIDS77icvvrPCgCX73oNQpHuO4"
+}

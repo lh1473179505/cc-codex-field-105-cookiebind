@@ -1,0 +1,11 @@
+{
+  "recipient": "ops-cms-01",
+  "key_alg": "ecdh-es",
+  "content_enc": "aes128-gcm",
+  "aad": "ops:bundle:job-22",
+  "digest_alg": "sha384",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "wFt6qpW1WaoyGKePqfNx4J3P4rwv5UR8xJa6KLQo-8s"
+}
