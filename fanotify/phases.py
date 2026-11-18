@@ -1,0 +1,7 @@
+RECEIVED = "received"
+WAITING = "waiting"
+ANSWERED = "answered"
+CLOSED = "closed"
+ACTIVE = "active"
+REVOKED = "revoked"
+DRAINED = "drained"
