@@ -1,0 +1,7 @@
+NEW = "new"
+ATTACHING = "attaching"
+BOUND = "bound"
+MIGRATING = "migrating"
+DETACHING = "detaching"
+CLOSED = "closed"
+REVOKED = "revoked"
