@@ -1,0 +1,16 @@
+{
+  "kid": "k-revoked",
+  "keyring": "pay-session",
+  "key_type": "user",
+  "payload_length": 128,
+  "permissions": [
+    "view",
+    "read",
+    "write"
+  ],
+  "timeout": 600,
+  "link": "pay-process",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "3PGXP5zC0SmJ79FqbiLU9wcnjKi-2FpBf_guTnAgZUA"
+}

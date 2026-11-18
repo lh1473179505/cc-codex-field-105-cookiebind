@@ -1,0 +1,15 @@
+{
+  "keyring": "ops-session",
+  "key_type": "logon",
+  "payload_length": 64,
+  "permissions": [
+    "view",
+    "read"
+  ],
+  "timeout": 300,
+  "link": "ops-process",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "nV0P31LvI8OqfjSveOubS9AGJuEh0oF2Mk3eYJ8H2Fk"
+}

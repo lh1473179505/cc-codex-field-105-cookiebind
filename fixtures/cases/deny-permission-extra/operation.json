@@ -1,0 +1,16 @@
+{
+  "keyring": "pay-session",
+  "key_type": "user",
+  "payload_length": 128,
+  "permissions": [
+    "view",
+    "read",
+    "setattr"
+  ],
+  "timeout": 600,
+  "link": "pay-process",
+  "nonce": "n-deny-permission-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "1Hpaeq6WYvq82XeH3eZYqlZ5XR2AmruNDJOrR64RKaE"
+}

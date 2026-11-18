@@ -1,0 +1,54 @@
+{
+  "keyrings": {
+    "pay-session": {
+      "key_types": {
+        "user": {
+          "payload_min": 16,
+          "payload_max": 1024
+        }
+      },
+      "permissions_allowed": [
+        "view",
+        "read",
+        "write",
+        "search"
+      ],
+      "permissions_required": [
+        "view",
+        "read"
+      ],
+      "timeout_min": 60,
+      "timeout_max": 3600,
+      "link_targets": [
+        "pay-process"
+      ]
+    },
+    "ops-session": {
+      "key_types": {
+        "logon": {
+          "payload_min": 16,
+          "payload_max": 512
+        }
+      },
+      "permissions_allowed": [
+        "view",
+        "read",
+        "search"
+      ],
+      "permissions_required": [
+        "view",
+        "read"
+      ],
+      "timeout_min": 30,
+      "timeout_max": 1800,
+      "link_targets": [
+        "ops-process"
+      ]
+    }
+  },
+  "require_unique_permissions": true,
+  "forbid_self_link": true,
+  "integer_excludes_boolean": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
