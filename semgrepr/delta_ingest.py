@@ -13,7 +13,7 @@ def apply_delta(state: State, index: FingerprintIndex, journal: OperationJournal
         raise ValueError("unknown delta action")
     identity = scope + ":" + key
     if sequence <= state.high_water:
-            return {"accepted": False, "reason": "stale"}
+        return {"accepted": False, "reason": "stale"}
     journal.append(action, sequence, max(1, state.generation), {"key": key, "scope": scope, "value": value})
     state.high_water = max(state.high_water, sequence)
     if action == "revoke":

@@ -23,7 +23,11 @@ def merge_snapshot(state: State, index: FingerprintIndex, journal: OperationJour
         records[record.identity] = record
         index.put(record)
     state.records = records
-    state.revoked = dict(state.revoked)
+    state.revoked = {
+        identity: revoked_sequence
+        for identity, revoked_sequence in state.revoked.items()
+        if identity not in records
+    }
     state.generation = generation
     state.high_water = max(state.high_water, sequence)
     state.phase = advance(state.phase, "snapshot")

@@ -10,7 +10,6 @@ class ConvergenceTests(unittest.TestCase):
     def setUp(self) -> None:
         self.result = run_combination()
 
-    @unittest.expectedFailure
     def test_snapshot_delta_recovery_converges(self) -> None:
         self.assertEqual([], self.result["problems"])
 

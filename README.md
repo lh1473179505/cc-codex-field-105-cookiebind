@@ -18,5 +18,5 @@ python -m semgrepr audit fixtures/combination.json
 ```
 
 Run the repository tests with `python -m unittest discover -s tests -v`.
-The combination test marked as expected failure characterizes the existing
-cross-phase defect without weakening the read-only compatibility assertions.
+The combination test covers the cross-phase convergence of snapshot, delta,
+revocation and recovery alongside the read-only compatibility assertions.
