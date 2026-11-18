@@ -1,0 +1,15 @@
+{
+  "client_id": "evil",
+  "redirect_uri": "https://app.pay.example/callback",
+  "code_challenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "code_method": "S256",
+  "claims": {
+    "prompt": "consent",
+    "max_age": "300"
+  },
+  "expires_in": 90,
+  "nonce": "n-deny-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "_2lRB41OmbY72fkMOipEBHqwJXPdthvXGRQDlMoUXsY"
+}

@@ -1,0 +1,15 @@
+{
+  "client_id": "pay-web",
+  "redirect_uri": "https://app.pay.example/callback",
+  "code_challenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "code_method": "S256",
+  "claims": {
+    "prompt": "consent",
+    "max_age": "300"
+  },
+  "expires_in": 90,
+  "kid": "k-revoked",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "VEKfQT62W4poKHg5iT8eGuHtyRTLKznGqRAuF76T13c"
+}

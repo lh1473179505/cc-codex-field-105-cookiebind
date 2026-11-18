@@ -1,0 +1,41 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "clients": {
+    "pay-web": {
+      "redirect_exact": [
+        "https://app.pay.example/callback"
+      ],
+      "methods": [
+        "S256"
+      ],
+      "claims_allow": [
+        "prompt",
+        "max_age"
+      ],
+      "claims_required": {
+        "prompt": "consent"
+      },
+      "expires_max": 120
+    },
+    "ops-cli": {
+      "redirect_exact": [
+        "https://cli.ops.example/oauth/cb"
+      ],
+      "methods": [
+        "S256"
+      ],
+      "claims_allow": [
+        "prompt",
+        "max_age"
+      ],
+      "claims_required": {
+        "prompt": "login"
+      },
+      "expires_max": 90
+    }
+  },
+  "challenge_min": 43,
+  "challenge_max": 128,
+  "expires_min": 30
+}

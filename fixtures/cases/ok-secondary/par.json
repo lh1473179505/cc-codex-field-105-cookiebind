@@ -1,0 +1,15 @@
+{
+  "client_id": "ops-cli",
+  "redirect_uri": "https://cli.ops.example/oauth/cb",
+  "code_challenge": "0123456789abcdefABCDEF_-_xxxxxxxxxxxxxxxxxxxx",
+  "code_method": "S256",
+  "claims": {
+    "prompt": "login",
+    "max_age": "60"
+  },
+  "expires_in": 60,
+  "nonce": "n-ok-secondary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "KWyaEsYP2zyHTNl8OsBH5YonEB87G7R3JrUcItmEX9g"
+}

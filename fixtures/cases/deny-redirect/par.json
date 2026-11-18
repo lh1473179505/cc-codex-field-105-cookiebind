@@ -1,0 +1,15 @@
+{
+  "client_id": "pay-web",
+  "redirect_uri": "https://evil.example/cb",
+  "code_challenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "code_method": "S256",
+  "claims": {
+    "prompt": "consent",
+    "max_age": "300"
+  },
+  "expires_in": 90,
+  "nonce": "n-deny-redirect",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Ppg9AZgl_JxU66SWShJn1lCyDl_XIDxt0tAKPMPLyvc"
+}
