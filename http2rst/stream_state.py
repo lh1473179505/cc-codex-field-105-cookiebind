@@ -11,4 +11,6 @@ class StreamTable:
         self.states[stream] = "reset"
 
     def accepts(self, frame):
-        return self.states.get(frame.stream) == "open"
+        if self.states.get(frame.stream) != "open":
+            return False
+        return self.epochs.get(frame.stream) == frame.epoch
