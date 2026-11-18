@@ -1,0 +1,6 @@
+REQUESTED = "requested"
+RESERVED = "reserved"
+WRITTEN = "written"
+SEALED = "sealed"
+ABORTED = "aborted"
+REVOKED = "revoked"
