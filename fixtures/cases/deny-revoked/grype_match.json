@@ -1,0 +1,11 @@
+{
+  "kid": "k-revoked",
+  "package_purl": "pkg:npm/@acme/pay@4.2.0",
+  "cve": "CVE-2026-6101",
+  "fix_state": "fixed",
+  "severity": "High",
+  "ignore": {},
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "kVrmo7S2_U3tYS4UvgJgQFJWH_jfAoKnU3C1YLptJKY"
+}

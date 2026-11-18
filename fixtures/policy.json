@@ -1,0 +1,43 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "packages": {
+    "pkg:npm/@acme/pay@4.2.0": {
+      "cves": {
+        "CVE-2026-6101": {
+          "fix_state": "fixed",
+          "severities": [
+            "High",
+            "Critical"
+          ],
+          "ignore_required": false,
+          "ignore_conditions": []
+        }
+      }
+    },
+    "pkg:rpm/opsd@2.3.1": {
+      "cves": {
+        "CVE-2026-6202": {
+          "fix_state": "wont-fix",
+          "severities": [
+            "Medium",
+            "High"
+          ],
+          "ignore_required": true,
+          "ignore_conditions": [
+            "vendor-wont-fix",
+            "unreachable-code"
+          ]
+        }
+      }
+    }
+  },
+  "cve_pattern": "^CVE-[0-9]{4}-[0-9]{4,}$",
+  "ignore_keys": [
+    "condition",
+    "expires_at"
+  ],
+  "ignore_expires_min": "2026-07-01T00:00:00Z",
+  "ignore_expires_max": "2026-12-31T23:59:59Z",
+  "timestamp_format": "YYYY-MM-DDTHH:MM:SSZ"
+}

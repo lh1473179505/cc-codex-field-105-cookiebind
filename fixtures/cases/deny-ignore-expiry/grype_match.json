@@ -1,0 +1,14 @@
+{
+  "package_purl": "pkg:rpm/opsd@2.3.1",
+  "cve": "CVE-2026-6202",
+  "fix_state": "wont-fix",
+  "severity": "High",
+  "ignore": {
+    "condition": "unreachable-code",
+    "expires_at": "2027-01-01T00:00:00Z"
+  },
+  "nonce": "n-deny-ignore-expiry",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "LoN9G7msHbCQd2AO3aiLOY64bFgvUYZqDPKC-rouH0Y"
+}

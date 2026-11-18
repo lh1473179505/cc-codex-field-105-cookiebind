@@ -1,0 +1,11 @@
+{
+  "package_purl": "pkg:rpm/opsd@2.3.1",
+  "cve": "CVE-2026-6202",
+  "fix_state": "wont-fix",
+  "severity": "High",
+  "ignore": {},
+  "nonce": "n-deny-ignore-required",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SsGzYDFvR5HTcsFHThrSRNAydpD-2HD3eM27uFVc40o"
+}

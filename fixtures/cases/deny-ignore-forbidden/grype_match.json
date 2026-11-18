@@ -1,0 +1,14 @@
+{
+  "package_purl": "pkg:npm/@acme/pay@4.2.0",
+  "cve": "CVE-2026-6101",
+  "fix_state": "fixed",
+  "severity": "High",
+  "ignore": {
+    "condition": "vendor-wont-fix",
+    "expires_at": "2026-11-30T23:59:59Z"
+  },
+  "nonce": "n-deny-ignore-forbidden",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "ZKttlBOOvZPmVbJDmscy-Lj-qBxR312JozPabdj6GH4"
+}
