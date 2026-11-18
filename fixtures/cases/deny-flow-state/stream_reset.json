@@ -1,0 +1,16 @@
+{
+  "connection_id": "pay-h2-conn",
+  "stream_id": 7,
+  "error_code": "CANCEL",
+  "stream_state": "open",
+  "last_stream_id": 6,
+  "flow_control": {
+    "connection_window": 131072,
+    "stream_window": 65536,
+    "state": "blocked"
+  },
+  "nonce": "n-deny-flow-state",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "BtsFNBFFlaA-mL6s9dze0JMD7hNVzPWJrzKscTcXfoU"
+}

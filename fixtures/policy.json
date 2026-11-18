@@ -1,0 +1,69 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "connections": {
+    "pay-h2-conn": {
+      "peer": "client",
+      "stream_rules": {
+        "open": {
+          "error_codes": [
+            "CANCEL",
+            "INTERNAL_ERROR"
+          ],
+          "flow_states": [
+            "active"
+          ]
+        },
+        "half-closed-local": {
+          "error_codes": [
+            "CANCEL"
+          ],
+          "flow_states": [
+            "active"
+          ]
+        }
+      },
+      "last_stream_id_min": 0,
+      "last_stream_id_max": 1000,
+      "flow_control": {
+        "connection_window_min": 65535,
+        "stream_window_min": 32768,
+        "stream_window_max": 1048576
+      }
+    },
+    "ops-h2-conn": {
+      "peer": "server",
+      "stream_rules": {
+        "open": {
+          "error_codes": [
+            "REFUSED_STREAM",
+            "INTERNAL_ERROR"
+          ],
+          "flow_states": [
+            "active"
+          ]
+        },
+        "half-closed-remote": {
+          "error_codes": [
+            "REFUSED_STREAM"
+          ],
+          "flow_states": [
+            "idle",
+            "active"
+          ]
+        }
+      },
+      "last_stream_id_min": 0,
+      "last_stream_id_max": 2000,
+      "flow_control": {
+        "connection_window_min": 65535,
+        "stream_window_min": 65535,
+        "stream_window_max": 524288
+      }
+    }
+  },
+  "stream_id_positive_odd": true,
+  "last_stream_id_even_or_zero": true,
+  "flow_control_exact_keys": true,
+  "error_code_names": true
+}

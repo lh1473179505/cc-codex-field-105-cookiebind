@@ -1,0 +1,16 @@
+{
+  "connection_id": "ops-h2-conn",
+  "stream_id": 9,
+  "error_code": "REFUSED_STREAM",
+  "stream_state": "half-closed-remote",
+  "last_stream_id": 8,
+  "flow_control": {
+    "connection_window": 262144,
+    "stream_window": 131072,
+    "state": "idle"
+  },
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "VpK24Zz93ZmfgBsDYx5uMaLn_xKIcuyZFQYtgBuAc-4"
+}
