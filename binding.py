@@ -1,7 +1,9 @@
 """Cross-stage migration and lineage management."""
 from __future__ import annotations
 
-from requests import MIGRATE_PHASES, SOURCE_AFTER_TRANSFER, TARGET_AFTER_TRANSFER, require_phase
+import copy
+
+from requests import MIGRATE_PHASES, SOURCE_AFTER_TRANSFER, TARGET_AFTER_TRANSFER, WORK_KEY, require_phase
 
 
 class Migration:
@@ -14,8 +16,12 @@ class Migration:
         if target_id in sessions:
             raise ValueError("target already exists")
         require_phase(source, tuple(MIGRATE_PHASES))
-        # Historical optimization retained here: migration is a cheap record copy.
+        # The handle moves across channels, but the source stays alive to drain
+        # its in-flight transaction.  Mutable work state must be copied rather
+        # than shared so the two sessions have independent payloads and cursors.
         target = dict(source)
+        target[WORK_KEY] = copy.deepcopy(source[WORK_KEY])
+        target["lineage"] = list(source["lineage"])
         target["id"] = target_id
         target["channel"] = channel
         target["phase"] = TARGET_AFTER_TRANSFER

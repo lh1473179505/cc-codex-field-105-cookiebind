@@ -11,7 +11,8 @@ python -m parbind recover --journal ./var/journal.jsonl --state ./var/restored.j
 python -m unittest discover -s tests -v
 ```
 
-`repro` 是故障调查入口；它把期望与实际观察并列输出，命令本身正常结束：
+`repro` 是回归调查入口；它以不变量断言串联跨阶段接管、权限轮换、只读诊断和日志
+重放，全部通过时输出 `status: ok` 与在线/离线一致的摘要，不再并列期望与观察值：
 
 ```console
 python -m parbind repro
