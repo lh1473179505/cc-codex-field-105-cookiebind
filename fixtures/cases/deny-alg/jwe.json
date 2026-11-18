@@ -1,0 +1,13 @@
+{
+  "alg": "dir",
+  "enc": "A256GCM",
+  "zip": "DEF",
+  "jwe_kid": "jwe-pay-2026",
+  "crit": [
+    "zip"
+  ],
+  "nonce": "n-deny-alg",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Nd3aqKsSSBQrg_A9F0K8AkBFlVUYPMJRGXT3cof4xGc"
+}

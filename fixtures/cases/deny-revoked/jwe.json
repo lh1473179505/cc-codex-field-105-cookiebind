@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "alg": "RSA-OAEP-256",
+  "enc": "A256GCM",
+  "zip": "DEF",
+  "jwe_kid": "jwe-pay-2026",
+  "crit": [
+    "zip"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "z54jHq75sCPX4YJ-DxftSKAR7DmFo4s8lkkFmNUf0cI"
+}

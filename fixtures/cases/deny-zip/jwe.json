@@ -1,0 +1,13 @@
+{
+  "alg": "RSA-OAEP-256",
+  "enc": "A256GCM",
+  "zip": "gzip",
+  "jwe_kid": "jwe-pay-2026",
+  "crit": [
+    "zip"
+  ],
+  "nonce": "n-deny-zip",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "kZD9ETxBbnwKrqhbG715JVzE5TejPjQoNkl2xzx5aRk"
+}

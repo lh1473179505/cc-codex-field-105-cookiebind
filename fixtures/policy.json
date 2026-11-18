@@ -1,0 +1,39 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "recipients": {
+    "jwe-pay-2026": {
+      "algorithms": {
+        "RSA-OAEP-256": {
+          "encryptions": {
+            "A256GCM": {
+              "zips": [
+                "DEF"
+              ]
+            },
+            "A128CBC-HS256": {
+              "zips": []
+            }
+          }
+        }
+      }
+    },
+    "jwe-ops-2026": {
+      "algorithms": {
+        "ECDH-ES+A256KW": {
+          "encryptions": {
+            "A256GCM": {
+              "zips": [
+                "DEF"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "crit_allowed": [
+    "zip"
+  ],
+  "uncompressed_zip_value": ""
+}
