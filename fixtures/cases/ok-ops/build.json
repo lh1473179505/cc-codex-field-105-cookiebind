@@ -1,0 +1,18 @@
+{
+  "build": "ops-agent",
+  "context": "/srv/build/ops-agent",
+  "base_image": "registry.ops.example/base/golang@sha256:cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "args": {
+    "CGO_ENABLED": "0"
+  },
+  "secret": {
+    "id": "ops-module-token",
+    "path": "/run/secrets/ops-module-token",
+    "mode": 384
+  },
+  "isolation": "oci",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "sv5mdYQT9be8gdeqd05v1HQd7wNLmoqciEt3LhcRWuQ"
+}

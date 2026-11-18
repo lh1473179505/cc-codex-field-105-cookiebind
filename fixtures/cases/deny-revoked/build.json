@@ -1,0 +1,19 @@
+{
+  "kid": "k-revoked",
+  "build": "pay-api",
+  "context": "/srv/build/pay-api",
+  "base_image": "registry.pay.example/base/python@sha256:abababababababababababababababababababababababababababababababab",
+  "args": {
+    "PIP_INDEX_URL": "https://pypi.pay.example/simple",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "secret": {
+    "id": "pay-pypi-token",
+    "path": "/run/secrets/pay-pypi-token",
+    "mode": 256
+  },
+  "isolation": "chroot",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "HpU-f7H0Y2Ro8_6HldKsp-uN68wu6XRuDxmdM6bLHjg"
+}

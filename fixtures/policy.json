@@ -1,0 +1,45 @@
+{
+  "builds": {
+    "pay-api": {
+      "context": "/srv/build/pay-api",
+      "base_image": "registry.pay.example/base/python@sha256:abababababababababababababababababababababababababababababababab",
+      "args": {
+        "PIP_INDEX_URL": "https://pypi.pay.example/simple",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "secret": {
+        "id": "pay-pypi-token",
+        "path": "/run/secrets/pay-pypi-token",
+        "mode": 256
+      },
+      "isolation": "chroot"
+    },
+    "ops-agent": {
+      "context": "/srv/build/ops-agent",
+      "base_image": "registry.ops.example/base/golang@sha256:cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+      "args": {
+        "CGO_ENABLED": "0"
+      },
+      "secret": {
+        "id": "ops-module-token",
+        "path": "/run/secrets/ops-module-token",
+        "mode": 384
+      },
+      "isolation": "oci"
+    }
+  },
+  "secret_keys": [
+    "id",
+    "path",
+    "mode"
+  ],
+  "context_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "base_image_requires_digest": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

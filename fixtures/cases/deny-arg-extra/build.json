@@ -1,0 +1,20 @@
+{
+  "build": "pay-api",
+  "context": "/srv/build/pay-api",
+  "base_image": "registry.pay.example/base/python@sha256:abababababababababababababababababababababababababababababababab",
+  "args": {
+    "PIP_INDEX_URL": "https://pypi.pay.example/simple",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "HTTP_PROXY": "http://proxy.evil.example"
+  },
+  "secret": {
+    "id": "pay-pypi-token",
+    "path": "/run/secrets/pay-pypi-token",
+    "mode": 256
+  },
+  "isolation": "chroot",
+  "nonce": "n-deny-arg-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "dwnTqs7qNG0C6Z991GO5RYamSCO270Oy7Mhjl7oNl8c"
+}
