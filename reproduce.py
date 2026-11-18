@@ -24,6 +24,6 @@ def scenario():
 if __name__ == "__main__":
     original, resumed = scenario()
     assert original["rows"] == [("e1", "old")]
-    assert original["last_sequence"] == 2
-    assert resumed["sent"] == ["e1", "e2"]
-    print("reproduced: failed SSE send advanced resume past both events", original)
+    assert original["last_sequence"] == 1
+    assert resumed["sent"] == ["e1"]
+    print("fixed: failed SSE send no longer advances resume past the gap", original)

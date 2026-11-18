@@ -27,8 +27,8 @@ class Feed:
         delivered = []
         for event in self.buffer.ordered_tail():
             if self.resume.eligible(event):
-                self.resume.mark(event)
                 self.client.write(event)
+                self.resume.mark(event)
                 delivered.append(event.event_id)
         return delivered
 
