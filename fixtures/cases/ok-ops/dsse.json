@@ -1,0 +1,15 @@
+{
+  "payloadType": "application/vnd.ops.attestation+json",
+  "payload_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "signatures": [
+    {
+      "signer": "ops-bot",
+      "keyid": "ops-attest-2026"
+    }
+  ],
+  "threshold": 1,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5jHyOtlyE3h_AHcqnhOKlsOlT4HKllsF_HkuI9q47j4"
+}

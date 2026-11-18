@@ -1,0 +1,19 @@
+{
+  "payloadType": "application/vnd.pay.release+json",
+  "payload_sha256": "abababababababababababababababababababababababababababababababab",
+  "signatures": [
+    {
+      "signer": "alice",
+      "keyid": "pay-release-2026"
+    },
+    {
+      "signer": "amy",
+      "keyid": "pay-release-backup"
+    }
+  ],
+  "threshold": 2,
+  "nonce": "n-ok-pay",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "eD_NdB3TMSzzCdu3KzclCQuQFH6QFPLQCaQZDUBGT-k"
+}
