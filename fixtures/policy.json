@@ -1,0 +1,64 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "cves": {
+    "CVE-2026-8101": {
+      "cwes": {
+        "CWE-89": {
+          "relations": [
+            "root-cause"
+          ],
+          "confidence_min": 80,
+          "confidence_max": 100,
+          "required_evidence": [
+            "nvd_cwe",
+            "source_sink_trace"
+          ],
+          "high_confidence_min": 90,
+          "high_confidence_evidence": [
+            "vendor_advisory"
+          ]
+        }
+      }
+    },
+    "CVE-2026-8202": {
+      "cwes": {
+        "CWE-502": {
+          "relations": [
+            "observed-example"
+          ],
+          "confidence_min": 60,
+          "confidence_max": 90,
+          "required_evidence": [
+            "nvd_cwe"
+          ],
+          "high_confidence_min": 85,
+          "high_confidence_evidence": [
+            "reproducer"
+          ]
+        }
+      }
+    }
+  },
+  "cwes": {
+    "CWE-89": {
+      "evidence_allowed": [
+        "nvd_cwe",
+        "source_sink_trace",
+        "vendor_advisory",
+        "scanner_finding"
+      ]
+    },
+    "CWE-502": {
+      "evidence_allowed": [
+        "nvd_cwe",
+        "reproducer",
+        "stack_trace"
+      ]
+    }
+  },
+  "cve_pattern": "^CVE-[0-9]{4}-[0-9]{4,}$",
+  "cwe_pattern": "^CWE-[1-9][0-9]*$",
+  "evidence_count_min": 1,
+  "evidence_count_max": 4
+}

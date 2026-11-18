@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "cve": "CVE-2026-8101",
+  "cwe_id": "CWE-89",
+  "relation": "root-cause",
+  "evidence": [
+    "nvd_cwe",
+    "source_sink_trace"
+  ],
+  "confidence": 80,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "tv40BhLoOpNKagYxEk6qm519S5rUe2PESYJFViNchEY"
+}

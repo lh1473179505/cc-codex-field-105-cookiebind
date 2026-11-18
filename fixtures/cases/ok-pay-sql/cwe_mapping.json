@@ -1,0 +1,15 @@
+{
+  "cve": "CVE-2026-8101",
+  "cwe_id": "CWE-89",
+  "relation": "root-cause",
+  "evidence": [
+    "nvd_cwe",
+    "source_sink_trace",
+    "vendor_advisory"
+  ],
+  "confidence": 95,
+  "nonce": "n-ok-pay-sql",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QNkM2ErWi3InQbOdQbYlKzDdhQm14kxifyNI7-_npc4"
+}

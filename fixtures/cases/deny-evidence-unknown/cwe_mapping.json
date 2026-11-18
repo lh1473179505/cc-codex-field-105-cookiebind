@@ -1,0 +1,15 @@
+{
+  "cve": "CVE-2026-8101",
+  "cwe_id": "CWE-89",
+  "relation": "root-cause",
+  "evidence": [
+    "nvd_cwe",
+    "source_sink_trace",
+    "blog_post"
+  ],
+  "confidence": 80,
+  "nonce": "n-deny-evidence-unknown",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pupJ8LcZvXQJMQ8gLVYSpSKn3vrL9uWhCHYwJboWjHY"
+}

@@ -1,0 +1,14 @@
+{
+  "cve": "CVE-2026-8101",
+  "cwe_id": "CWE-502",
+  "relation": "observed-example",
+  "evidence": [
+    "nvd_cwe",
+    "source_sink_trace"
+  ],
+  "confidence": 80,
+  "nonce": "n-deny-cwe-binding",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "h0nKKslO4uS1j_ti6ZsqdapYjD-lG0EQFcKFpChPp7k"
+}

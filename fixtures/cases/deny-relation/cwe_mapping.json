@@ -1,0 +1,14 @@
+{
+  "cve": "CVE-2026-8101",
+  "cwe_id": "CWE-89",
+  "relation": "chain-component",
+  "evidence": [
+    "nvd_cwe",
+    "source_sink_trace"
+  ],
+  "confidence": 80,
+  "nonce": "n-deny-relation",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "y389rtJkIBO0DHMnwE8eP6lBENKOfYiHNoV0uDekmZo"
+}

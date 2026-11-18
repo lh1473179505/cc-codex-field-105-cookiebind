@@ -1,0 +1,14 @@
+{
+  "cve": "CVE-2026-8202",
+  "cwe_id": "CWE-502",
+  "relation": "observed-example",
+  "evidence": [
+    "nvd_cwe",
+    "nvd_cwe"
+  ],
+  "confidence": 75,
+  "nonce": "n-deny-evidence-duplicate",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PAtwsXYBBm_mz5tga5xOemHpV_tFItZfCnf0WhoxJng"
+}
