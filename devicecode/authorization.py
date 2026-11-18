@@ -41,10 +41,12 @@ class OnlineService:
         session = self.store.data["sessions"][session_id]
         transaction_id = transaction_id or session[WORK_KEY]["tx"]
         transaction = self.store.data["transactions"][transaction_id]
-        # The legacy admission hook checks only the live epoch.  Ownership was
-        # historically left to callers and in-flight pinning was not represented.
-        if transaction["epoch"] != self.store.epoch(session["authority"]):
-            raise PermissionError("transaction epoch was revoked")
+        # A transaction is pinned to the session that opened it and to the
+        # authority epoch in force at that moment.  Revocation blocks new work
+        # but never retroactively cancels an already-started transaction, while
+        # another session may not borrow it by identifier alone.
+        if transaction["session"] != session_id:
+            raise PermissionError("transaction belongs to another session")
         if transaction["status"] != "pending":
             raise RuntimeError("transaction is not pending")
         transaction["status"] = "committed"

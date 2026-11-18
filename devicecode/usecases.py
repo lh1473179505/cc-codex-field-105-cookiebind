@@ -13,6 +13,7 @@ SOURCE = 'devicecode-source'
 TARGET = 'devicecode-target'
 OLD_TX = 'devicecode-old-tx'
 NEW_TX = 'devicecode-new-tx'
+EXTRA_TX = 'devicecode-extra-tx'
 AUTHORITY = 'pay-tv'
 SUBJECT = 'device:living-room'
 ARTIFACT = 'PAYK-8F2Q'
@@ -43,40 +44,72 @@ def defect_probe(work: Path) -> dict:
     service.companion_takeover(SOURCE, TARGET, CHANNELS[1])
     service.stage_verification(TARGET, NEW_TX, NEW_PAYLOAD)
 
-    observed_source_tx = store.data["sessions"][SOURCE][WORK_KEY]["tx"]
+    source_work = store.data["sessions"][SOURCE][WORK_KEY]
+    target_work = store.data["sessions"][TARGET][WORK_KEY]
+    source_work["payload"]["note"] = "source-local"
+    target_work["payload"]["note"] = "target-local"
+    migration_work_independent = (
+        source_work["tx"] == OLD_TX
+        and target_work["tx"] == NEW_TX
+        and source_work is not target_work
+        and source_work["payload"] is not target_work["payload"]
+        and store.data["transactions"][OLD_TX]["payload"] != source_work["payload"]
+    )
+
     try:
         service.redeem_code(SOURCE, NEW_TX)
-        cross_commit = store.data["transactions"][NEW_TX]["status"]
+        cross_session_commit = "committed"
     except PermissionError:
-        cross_commit = "rejected"
+        cross_session_commit = "rejected"
 
     service.revoke_device_client(AUTHORITY)
-    try:
-        service.redeem_code(SOURCE, OLD_TX)
-        in_flight = store.data["transactions"][OLD_TX]["status"]
-    except PermissionError:
-        in_flight = "rejected"
+    in_flight_after_revoke = service.redeem_code(SOURCE, OLD_TX)["status"]
+
+    stale_session_results = {}
+    for stale_session, transaction_id in ((SOURCE, EXTRA_TX), (TARGET, NEW_TX + "-again")):
+        try:
+            service.stage_verification(stale_session, transaction_id, NEW_PAYLOAD)
+            stale_session_results[stale_session] = "accepted"
+        except (PermissionError, RuntimeError) as error:
+            stale_session_results[stale_session] = f"rejected:{type(error).__name__}"
+    stale_sessions_blocked = all(result.startswith("rejected") for result in stale_session_results.values())
 
     before = store.state_path.read_bytes()
-    device_status(store)
-    audit_bytes = "unchanged" if before == store.state_path.read_bytes() else "changed"
+    first_report = device_status(store)
+    second_report = device_status(store)
+    audit_read_only = (
+        before == store.state_path.read_bytes()
+        and first_report == second_report
+        and set(first_report) == {"sessions", "pending", "digest"}
+    )
 
     recovery_state = Path(work) / "recovered.json"
-    try:
-        recovered = rebuild_devices(store.journal_path, recovery_state)
-        recovery = recovered["transactions"][OLD_TX]["status"]
-    except (PermissionError, RuntimeError) as error:
-        recovery = f"error:{error}"
+    rebuild_devices(store.journal_path, recovery_state)
+    recovered_store = JsonStore(recovery_state, recovery_state.with_suffix(".replayed.jsonl"))
+    online_report = device_status(store)
+    offline_report = device_status(recovered_store)
+    online_offline_same_conclusion = online_report == offline_report
 
-    checks = {
-        "source_work_after_target_stage": {"expected": OLD_TX, "observed": observed_source_tx},
-        "cross_session_commit": {"expected": "rejected", "observed": cross_commit},
-        "in_flight_after_revoke": {"expected": "committed", "observed": in_flight},
-        "audit_bytes": {"expected": "unchanged", "observed": audit_bytes},
-        "combined_recovery": {"expected": "committed", "observed": recovery},
+    invariants = {
+        "migration_work_independent": migration_work_independent,
+        "cross_session_commit": cross_session_commit,
+        "in_flight_after_revoke": in_flight_after_revoke,
+        "stale_sessions_blocked": stale_sessions_blocked,
+        "audit_read_only": audit_read_only,
+        "online_offline_same_conclusion": online_offline_same_conclusion,
     }
+    all_hold = (
+        migration_work_independent
+        and cross_session_commit == "rejected"
+        and in_flight_after_revoke == "committed"
+        and stale_sessions_blocked
+        and audit_read_only
+        and online_offline_same_conclusion
+    )
     return {
         "protocol": '设备授权码跨端确认',
-        "checks": checks,
-        "observed_mismatch": [name for name, result in checks.items() if result["expected"] != result["observed"]],
+        "invariants": invariants,
+        "online_digest": online_report["digest"],
+        "offline_digest": offline_report["digest"],
+        "status": "all_invariants_hold" if all_hold else "invariant_violated",
     }
