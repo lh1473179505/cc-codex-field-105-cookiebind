@@ -1,0 +1,5 @@
+DRAFT = "draft"
+STAGED = "staged"
+APPLIED = "applied"
+ROLLED_BACK = "rolled_back"
+CANCELLED = "cancelled"
