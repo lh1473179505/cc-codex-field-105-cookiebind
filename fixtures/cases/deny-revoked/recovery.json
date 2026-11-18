@@ -1,0 +1,12 @@
+{
+  "user_id": "user-pay-1",
+  "code_sha256": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+  "code_format": "PAY1-ABCD-2345",
+  "channel": "web",
+  "attempt": 1,
+  "used_count": 0,
+  "kid": "k-revoked",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "-rv57SegcWQq31oFPQLtfP4RRfxp66xaM7br3XXwWkc"
+}

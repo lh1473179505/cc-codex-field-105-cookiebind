@@ -1,0 +1,12 @@
+{
+  "user_id": "unknown",
+  "code_sha256": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+  "code_format": "PAY1-ABCD-2345",
+  "channel": "web",
+  "attempt": 1,
+  "used_count": 0,
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "mqY2WvjPTUUQQGWxNk_SqCzFD0URB3Vmqzh41xx3mKE"
+}

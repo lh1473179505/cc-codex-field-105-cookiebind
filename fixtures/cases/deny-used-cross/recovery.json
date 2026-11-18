@@ -1,0 +1,12 @@
+{
+  "user_id": "user-ops-2",
+  "code_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "code_format": "OPS2-ZY89-7654",
+  "channel": "cli",
+  "attempt": 2,
+  "used_count": 2,
+  "nonce": "n-deny-used-cross",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "kAtIbIQ8R9_pEFDT5IFjR7l23EkYf9zuuUfSCbjcSuc"
+}

@@ -1,0 +1,12 @@
+{
+  "user_id": "user-pay-1",
+  "code_sha256": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+  "code_format": "PAY1-ABCD-2345",
+  "channel": "web",
+  "attempt": 1,
+  "used_count": 0,
+  "nonce": "n-ok-primary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "JEwjpWyF5MkjM22U_mJgTFLEUjvvZirO-hvQHp_cXPQ"
+}

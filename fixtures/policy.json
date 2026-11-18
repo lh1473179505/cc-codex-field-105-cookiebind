@@ -1,0 +1,25 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "users": {
+    "user-pay-1": {
+      "code_pattern": "PAY1-[A-Z0-9]{4}-[0-9]{4}",
+      "channels": [
+        "web"
+      ],
+      "attempt_max": 3,
+      "used_max": 0
+    },
+    "user-ops-2": {
+      "code_pattern": "OPS2-[A-Z0-9]{4}-[0-9]{4}",
+      "channels": [
+        "cli"
+      ],
+      "attempt_max": 5,
+      "used_max": 1
+    }
+  },
+  "digest_hex_len": 64,
+  "attempt_min": 1,
+  "forbid_used_reuse": true
+}

@@ -1,0 +1,12 @@
+{
+  "user_id": "user-pay-1",
+  "code_sha256": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef",
+  "code_format": "OPS2-ZY89-7654",
+  "channel": "web",
+  "attempt": 1,
+  "used_count": 0,
+  "nonce": "n-deny-format",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "y91jNv4xsBBe9th-czgcfFMRehd5PZcKN9THPF4EE7g"
+}
