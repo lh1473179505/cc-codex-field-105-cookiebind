@@ -1,0 +1,15 @@
+{
+  "repository": "pay-repo",
+  "target_path": "packages/pay/app-1.4.0.whl",
+  "length": 184320,
+  "hashes": {
+    "sha256": "abababababababababababababababababababababababababababababababab",
+    "sha512": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef"
+  },
+  "role": "ops-targets",
+  "delegation": "pay-python",
+  "nonce": "n-deny-role",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "hcOlmtdy4pb2BvA3U2pa4XBkQXqe64SbizS5q1qEhrU"
+}

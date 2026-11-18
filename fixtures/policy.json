@@ -1,0 +1,44 @@
+{
+  "repositories": {
+    "pay-repo": {
+      "targets": {
+        "packages/pay/app-1.4.0.whl": {
+          "length": 184320,
+          "hashes": {
+            "sha256": "abababababababababababababababababababababababababababababababab",
+            "sha512": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef"
+          },
+          "role": "pay-targets",
+          "delegation": "pay-python"
+        }
+      }
+    },
+    "ops-repo": {
+      "targets": {
+        "packages/ops/agent-2.3.1.rpm": {
+          "length": 919552,
+          "hashes": {
+            "sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+            "sha512": "12121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212"
+          },
+          "role": "ops-targets",
+          "delegation": "ops-rpm"
+        }
+      }
+    }
+  },
+  "hash_keys": [
+    "sha256",
+    "sha512"
+  ],
+  "sha256_hex_length": 64,
+  "sha512_hex_length": 128,
+  "path_deny_substrings": [
+    "..",
+    "//",
+    "\\",
+    "\u0000"
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

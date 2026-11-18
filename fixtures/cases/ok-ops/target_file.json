@@ -1,0 +1,15 @@
+{
+  "repository": "ops-repo",
+  "target_path": "packages/ops/agent-2.3.1.rpm",
+  "length": 919552,
+  "hashes": {
+    "sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "sha512": "12121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212"
+  },
+  "role": "ops-targets",
+  "delegation": "ops-rpm",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "u_SobAbMVragoBwFoVNJjAQ92W48hXuROiNlV7m0XpQ"
+}

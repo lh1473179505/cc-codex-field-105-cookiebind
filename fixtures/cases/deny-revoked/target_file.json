@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "repository": "pay-repo",
+  "target_path": "packages/pay/app-1.4.0.whl",
+  "length": 184320,
+  "hashes": {
+    "sha256": "abababababababababababababababababababababababababababababababab",
+    "sha512": "efefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefefef"
+  },
+  "role": "pay-targets",
+  "delegation": "pay-python",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "X7x-Jxl-8H76893l9M5t1V36Z74zJSyD0Ujt8m4PqIA"
+}
