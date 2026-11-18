@@ -1,0 +1,28 @@
+{
+  "version": "3.1",
+  "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+  "metrics": {
+    "AV": "N",
+    "AC": "L",
+    "AT": "N",
+    "PR": "N",
+    "UI": "N",
+    "VC": "H",
+    "VI": "H",
+    "VA": "H",
+    "SC": "N",
+    "SI": "N",
+    "SA": "N"
+  },
+  "score": 9.3,
+  "severity": "CRITICAL",
+  "environmental": {
+    "CR": "H",
+    "IR": "H",
+    "AR": "M"
+  },
+  "nonce": "n-deny-version",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "o60uEHxFtOFD8yP5_M5o6nBTxffRx9Au6genJoWK-O4"
+}

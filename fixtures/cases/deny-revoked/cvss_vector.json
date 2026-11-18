@@ -1,0 +1,21 @@
+{
+  "kid": "k-revoked",
+  "version": "3.1",
+  "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "metrics": {
+    "AV": "N",
+    "AC": "L",
+    "PR": "N",
+    "UI": "N",
+    "S": "U",
+    "C": "H",
+    "I": "H",
+    "A": "H"
+  },
+  "score": 9.8,
+  "severity": "CRITICAL",
+  "environmental": {},
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "-m2EetfZh8IfJRfAxpROtc24X6x-CWWVEG7li8aoJ8M"
+}

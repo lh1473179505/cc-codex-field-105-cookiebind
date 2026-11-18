@@ -1,0 +1,21 @@
+{
+  "version": "3.1",
+  "vector": "CVSS:3.1/AC:L/AV:N/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "metrics": {
+    "AV": "N",
+    "AC": "L",
+    "PR": "N",
+    "UI": "N",
+    "S": "U",
+    "C": "H",
+    "I": "H",
+    "A": "H"
+  },
+  "score": 9.8,
+  "severity": "CRITICAL",
+  "environmental": {},
+  "nonce": "n-deny-vector-metric-order",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "OAcl_AYEFyyMOladxqR8RTAPE2B638ae8IpsfWS8z0g"
+}
