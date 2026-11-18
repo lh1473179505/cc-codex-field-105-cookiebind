@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "user": "alice",
+  "channel": "pay-orders",
+  "last_event_id": "pay-00001234",
+  "origin": "https://pay-app.example",
+  "event_types": [
+    "order.created",
+    "order.paid",
+    "heartbeat"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "EdxmX2y-3Z2gJGJdGUknG-V-aDSv18aoPnHgjXCEJy4"
+}

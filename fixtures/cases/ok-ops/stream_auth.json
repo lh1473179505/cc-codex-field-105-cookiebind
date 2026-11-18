@@ -1,0 +1,14 @@
+{
+  "user": "bob",
+  "channel": "ops-alerts",
+  "last_event_id": "ops-001200",
+  "origin": "https://ops-console.example",
+  "event_types": [
+    "alert.raised",
+    "heartbeat"
+  ],
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "yDNJByw3mFGw7Nv8FzzEX6s-GK1MLgZeC87dJGfySNo"
+}

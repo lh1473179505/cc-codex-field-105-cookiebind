@@ -1,0 +1,14 @@
+{
+  "user": "alice",
+  "channel": "pay-orders",
+  "last_event_id": "pay-00001234",
+  "origin": "https://pay-app.example",
+  "event_types": [
+    "order.created",
+    "order.paid"
+  ],
+  "nonce": "n-deny-event-required",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iW5DZR5abW2InMSRvaGQJkGHxrXgaByJODrkvnJUyaM"
+}

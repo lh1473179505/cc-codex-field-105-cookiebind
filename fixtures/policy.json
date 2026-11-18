@@ -1,0 +1,48 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "channels": {
+    "pay-orders": {
+      "users": [
+        "alice",
+        "amy"
+      ],
+      "origins": [
+        "https://pay-app.example"
+      ],
+      "event_types": [
+        "order.created",
+        "order.paid",
+        "heartbeat"
+      ],
+      "last_event_id_pattern": "^pay-[0-9]{8}$",
+      "last_event_id_min_numeric": 1,
+      "last_event_id_max_numeric": 99999999,
+      "required_event_types": [
+        "heartbeat"
+      ]
+    },
+    "ops-alerts": {
+      "users": [
+        "bob"
+      ],
+      "origins": [
+        "https://ops-console.example"
+      ],
+      "event_types": [
+        "alert.raised",
+        "alert.resolved",
+        "heartbeat"
+      ],
+      "last_event_id_pattern": "^ops-[0-9]{6}$",
+      "last_event_id_min_numeric": 1,
+      "last_event_id_max_numeric": 999999,
+      "required_event_types": [
+        "heartbeat"
+      ]
+    }
+  },
+  "event_types_ordered_unique": true,
+  "last_event_id_nonempty": true,
+  "origin_exact": true
+}

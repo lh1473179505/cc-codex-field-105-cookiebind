@@ -1,0 +1,15 @@
+{
+  "user": "mallory",
+  "channel": "pay-orders",
+  "last_event_id": "pay-00001234",
+  "origin": "https://pay-app.example",
+  "event_types": [
+    "order.created",
+    "order.paid",
+    "heartbeat"
+  ],
+  "nonce": "n-deny-user",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Qx3IBado4f_gNF35VA2LzFVbsRnbImL6eDKYM2YGGjQ"
+}

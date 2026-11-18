@@ -1,0 +1,15 @@
+{
+  "user": "alice",
+  "channel": "public-events",
+  "last_event_id": "pay-00001234",
+  "origin": "https://pay-app.example",
+  "event_types": [
+    "order.created",
+    "order.paid",
+    "heartbeat"
+  ],
+  "nonce": "n-deny-channel",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "9rQyn6EZWMECH-ij9yU6gobzRFNhi_b1tZBuCN0kWvQ"
+}

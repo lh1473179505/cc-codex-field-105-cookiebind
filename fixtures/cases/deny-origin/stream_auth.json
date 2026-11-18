@@ -1,0 +1,15 @@
+{
+  "user": "alice",
+  "channel": "pay-orders",
+  "last_event_id": "pay-00001234",
+  "origin": "https://evil.example",
+  "event_types": [
+    "order.created",
+    "order.paid",
+    "heartbeat"
+  ],
+  "nonce": "n-deny-origin",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6U-ALO555wBBoNO8vgdY5MI5W4aCkKKkJWc9tbKNNIg"
+}
