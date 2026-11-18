@@ -17,8 +17,9 @@ class ImageIndex:
         temporary.replace(self.path)
 
     def mutable_working_copy(self):
-        # A shallow document copy shares the manifest array with readers.
         value = self.read()
         working = dict(value)
-        self.write(working)
+        # Deep-copy the manifest array so staged descriptors are never
+        # shared with readers of the published index.
+        working["manifests"] = [dict(item) for item in value.get("manifests", [])]
         return working

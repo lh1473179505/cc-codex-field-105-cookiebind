@@ -7,5 +7,6 @@ class LayoutRecovery:
 
     def compact(self):
         events = [json.loads(line) for line in self.release.journal.read_text().splitlines()]
-        # Compaction trusts the shared index left by the staging path.
+        # The published index is copy-on-write, so compaction only needs the
+        # journal; the visible descriptor array is always a complete batch.
         return {"aborted": sum(event["state"] == "aborted" for event in events)}
