@@ -1,0 +1,12 @@
+{
+  "client_id": "pay-tv",
+  "device_code_sha256": "abababababababababababababababababababababababababababababababab",
+  "user_code": "PAYK-8F2Q",
+  "interval": 31,
+  "expires_in": 600,
+  "verification_uri": "https://pay.example/device",
+  "nonce": "n-deny-interval-high",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "OhAC53FWSNDDRAyhYR3YwRccz2t-tj-wGZmlSGLXGdA"
+}

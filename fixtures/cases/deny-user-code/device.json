@@ -1,0 +1,12 @@
+{
+  "client_id": "pay-tv",
+  "device_code_sha256": "abababababababababababababababababababababababababababababababab",
+  "user_code": "OPSX-71BB",
+  "interval": 5,
+  "expires_in": 600,
+  "verification_uri": "https://pay.example/device",
+  "nonce": "n-deny-user-code",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "D1PSXFgVQhAk_U0P0IcoyY5qAOFFvpn2VbZEXbQB3xw"
+}

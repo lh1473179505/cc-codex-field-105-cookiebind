@@ -1,0 +1,21 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "clients": {
+    "pay-tv": {
+      "user_code_pattern": "PAYK-[A-Z0-9]{4}",
+      "verification_exact": "https://pay.example/device",
+      "interval_min": 5,
+      "expires_max": 900
+    },
+    "ops-box": {
+      "user_code_pattern": "OPSX-[A-Z0-9]{4}",
+      "verification_exact": "https://ops.example/activate",
+      "interval_min": 10,
+      "expires_max": 600
+    }
+  },
+  "digest_hex_len": 64,
+  "expires_min": 60,
+  "interval_max": 30
+}

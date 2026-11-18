@@ -1,0 +1,12 @@
+{
+  "client_id": "evil",
+  "device_code_sha256": "abababababababababababababababababababababababababababababababab",
+  "user_code": "PAYK-8F2Q",
+  "interval": 5,
+  "expires_in": 600,
+  "verification_uri": "https://pay.example/device",
+  "nonce": "n-deny-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IAJ61alHawYS8zsPr4hFOCPyjgsQNlXJnmfJdaFPdw8"
+}

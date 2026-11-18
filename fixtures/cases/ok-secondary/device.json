@@ -1,0 +1,12 @@
+{
+  "client_id": "ops-box",
+  "device_code_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "user_code": "OPSX-71BB",
+  "interval": 10,
+  "expires_in": 300,
+  "verification_uri": "https://ops.example/activate",
+  "nonce": "n-ok-secondary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6GUDkailnOLlIj2F0Sydh4agUzvZdovsney21MO9JEE"
+}
