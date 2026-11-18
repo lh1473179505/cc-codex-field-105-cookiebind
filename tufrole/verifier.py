@@ -14,10 +14,15 @@ class Verifier:
         self.epochs = epochs
 
     def verify(self, role, epoch=None):
-        # The optional pin is ignored by the original integration.
-        _, current = self.epochs.current()
+        # A prepared transaction is pinned to the signing epoch it captured.
+        # Rotation only constrains new transactions; already prepared work is
+        # authenticated against the keys and revocation set of that epoch.
+        if epoch is None:
+            epoch, current = self.epochs.current()
+        else:
+            current = self.epochs.at(epoch)
         if role.name in current["revoked"]:
-            raise VerificationError("role revoked in current epoch")
+            raise VerificationError(f"role revoked in epoch {epoch}")
         secret = current["keys"].get(role.name)
         expected = hmac.new(
             (secret or "").encode(),
@@ -25,7 +30,7 @@ class Verifier:
             hashlib.sha256,
         ).hexdigest()
         if not secret or not hmac.compare_digest(expected, role.signature):
-            raise VerificationError("signature is not valid in current epoch")
+            raise VerificationError(f"signature is not valid in epoch {epoch}")
 
     def from_record(self, record):
         return Role(
