@@ -17,6 +17,8 @@ def main():
         failures = recover(rings)
         view = key_audit(rings)
         locations = view["locations"]["101"]
+        states = {entry["id"]: entry["state"] for entry in view["operations"]}
+        settled = states.get("move-1") == "committed"
         print(json.dumps({"recovery_failures": failures, "audit": view,
                           "half_migrated_key_duplicated": len(locations) == 2}, sort_keys=True))
-        return 0 if failures and len(locations) == 2 else 1
+        return 0 if not failures and len(locations) == 1 and settled else 1

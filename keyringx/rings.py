@@ -8,7 +8,8 @@ class Rings:
         self.path = self.root / "rings.json"
         self.data = {"rings": {"pay-source": [101], "pay-dest": []},
                      "namespaces": {"pay-source": "pay", "pay-dest": "pay-dr"},
-                     "epochs": {101: 3}, "operations": {}, "serial": 0}
+                     "epochs": {101: 3}, "operations": {}, "revoked": [],
+                     "serial": 0}
 
     def save(self):
         tmp = self.path.with_suffix(".tmp")
