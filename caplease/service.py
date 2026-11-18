@@ -24,9 +24,9 @@ class Service:
 
     def stage(self, session_id, transaction_id, payload):
         session = self.store.data["sessions"][session_id]
-        require_phase(session, STAGE_PHASES)
         if session["epoch"] != self.store.epoch(session["authority"]):
             raise PermissionError("session authorization epoch is stale")
+        require_phase(session, STAGE_PHASES)
         if transaction_id in self.store.data["transactions"]:
             raise ValueError("transaction already exists")
         transaction = {
@@ -52,8 +52,10 @@ class Service:
         session = self.store.data["sessions"][session_id]
         transaction_id = transaction_id or session["work"]["tx"]
         transaction = self.store.data["transactions"][transaction_id]
-        if transaction["epoch"] != self.store.epoch(session["authority"]):
-            raise PermissionError("transaction epoch was revoked")
+        if transaction["session"] != session_id:
+            raise PermissionError("transaction belongs to another session")
+        if transaction["epoch"] != session["epoch"]:
+            raise PermissionError("transaction epoch does not match pinned session epoch")
         if transaction["status"] != "pending":
             raise RuntimeError("transaction is not pending")
         transaction["status"] = "committed"
