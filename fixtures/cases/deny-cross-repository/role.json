@@ -1,0 +1,14 @@
+{
+  "repository": "ops-repo",
+  "role": "root",
+  "version": 5,
+  "threshold": 2,
+  "keyids": [
+    "pay-root-a",
+    "pay-root-b"
+  ],
+  "nonce": "n-deny-cross-repository",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IVoGp9BEcH0uDXws_EdHCgE-saGyEGOQaZOACOfBT90"
+}

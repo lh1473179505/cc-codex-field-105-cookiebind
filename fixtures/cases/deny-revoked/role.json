@@ -1,0 +1,14 @@
+{
+  "kid": "k-revoked",
+  "repository": "pay-repo",
+  "role": "root",
+  "version": 5,
+  "threshold": 2,
+  "keyids": [
+    "pay-root-a",
+    "pay-root-b"
+  ],
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "-FwMRmcUhCnnIJveXLccatJC83-Sg1qerfGVI2s_GfI"
+}

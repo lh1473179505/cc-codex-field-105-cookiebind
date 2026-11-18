@@ -1,0 +1,13 @@
+{
+  "repository": "ops-repo",
+  "role": "timestamp",
+  "version": 30,
+  "threshold": 1,
+  "keyids": [
+    "ops-timestamp-a"
+  ],
+  "nonce": "n-ok-ops-timestamp",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Ajy60l0tdZ15EDbMje3W75Tu3MsHgYiOOYT0gZZaSGk"
+}

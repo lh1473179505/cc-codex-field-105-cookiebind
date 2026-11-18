@@ -1,0 +1,80 @@
+{
+  "repositories": {
+    "pay-repo": {
+      "roles": {
+        "root": {
+          "version": 5,
+          "threshold": 2,
+          "keyids": [
+            "pay-root-a",
+            "pay-root-b"
+          ]
+        },
+        "targets": {
+          "version": 8,
+          "threshold": 1,
+          "keyids": [
+            "pay-targets-a"
+          ]
+        },
+        "snapshot": {
+          "version": 21,
+          "threshold": 1,
+          "keyids": [
+            "pay-snapshot-a"
+          ]
+        },
+        "timestamp": {
+          "version": 44,
+          "threshold": 1,
+          "keyids": [
+            "pay-timestamp-a"
+          ]
+        }
+      }
+    },
+    "ops-repo": {
+      "roles": {
+        "root": {
+          "version": 3,
+          "threshold": 2,
+          "keyids": [
+            "ops-root-a",
+            "ops-root-b"
+          ]
+        },
+        "targets": {
+          "version": 6,
+          "threshold": 1,
+          "keyids": [
+            "ops-targets-a"
+          ]
+        },
+        "snapshot": {
+          "version": 12,
+          "threshold": 1,
+          "keyids": [
+            "ops-snapshot-a"
+          ]
+        },
+        "timestamp": {
+          "version": 30,
+          "threshold": 1,
+          "keyids": [
+            "ops-timestamp-a"
+          ]
+        }
+      }
+    }
+  },
+  "role_names": [
+    "root",
+    "targets",
+    "snapshot",
+    "timestamp"
+  ],
+  "keyid_pattern": "^[a-z][a-z0-9-]*$",
+  "require_unique_keyids": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

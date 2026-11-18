@@ -1,0 +1,14 @@
+{
+  "repository": "pay-repo",
+  "role": "root",
+  "version": 5,
+  "threshold": 2,
+  "keyids": [
+    "pay-root-a",
+    "pay-root-b"
+  ],
+  "nonce": "n-ok-pay-root",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "HKw_mZVTyCbm3zl_HD3ia1wbTmj6kHT-DNo5G4UiqpM"
+}
