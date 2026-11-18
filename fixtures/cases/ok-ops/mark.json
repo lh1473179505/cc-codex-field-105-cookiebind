@@ -1,0 +1,16 @@
+{
+  "mount": "/srv/ops",
+  "path": "/srv/ops/jobs",
+  "event_mask": [
+    "FAN_ACCESS",
+    "FAN_ACCESS_PERM"
+  ],
+  "flags": [
+    "FAN_MARK_ADD"
+  ],
+  "permission": "FAN_ACCESS_PERM",
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "sN_gYSx8uvpN4lZnWa1cFnlOtufFsVvANRQmek9dYvA"
+}

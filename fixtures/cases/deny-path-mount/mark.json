@@ -1,0 +1,16 @@
+{
+  "mount": "/srv/pay",
+  "path": "/srv/ops/jobs",
+  "event_mask": [
+    "FAN_OPEN",
+    "FAN_OPEN_PERM"
+  ],
+  "flags": [
+    "FAN_MARK_ADD"
+  ],
+  "permission": "FAN_OPEN_PERM",
+  "nonce": "n-deny-path-mount",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QPrxIeHyiou8-zXBWSH1yURN32N8mqpspMVxa2oSKYk"
+}

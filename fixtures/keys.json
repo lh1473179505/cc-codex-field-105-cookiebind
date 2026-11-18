@@ -1,0 +1,12 @@
+{
+  "keys": {
+    "k-active": {
+      "secret": "bad8b78bd9a433244804f0b50e0d023e8d86b80c526b9207d0b8db018f72d720",
+      "status": "active"
+    },
+    "k-revoked": {
+      "secret": "74a4850208112a4b18a36ac41d6f19c37ac4ea6a822ebafcc41386a06e0d36e5",
+      "status": "revoked"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mount": "/srv/pay",
+  "path": "/srv/pay-evil/inbox",
+  "event_mask": [
+    "FAN_OPEN",
+    "FAN_OPEN_PERM"
+  ],
+  "flags": [
+    "FAN_MARK_ADD"
+  ],
+  "permission": "FAN_OPEN_PERM",
+  "nonce": "n-deny-path-lookalike",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "NCTZTql_pFe8WJqoNM39KogwTYFt3H3DSIxIUInL0VU"
+}

@@ -1,0 +1,54 @@
+{
+  "mounts": {
+    "/srv/pay": {
+      "path_components": [
+        "inbox",
+        "archive"
+      ],
+      "events_allowed": [
+        "FAN_OPEN",
+        "FAN_OPEN_PERM",
+        "FAN_CLOSE_WRITE"
+      ],
+      "events_required": [
+        "FAN_OPEN"
+      ],
+      "flags_allowed": [
+        "FAN_MARK_ADD",
+        "FAN_MARK_ONLYDIR"
+      ],
+      "flags_required": [
+        "FAN_MARK_ADD"
+      ],
+      "permissions": [
+        "FAN_OPEN_PERM"
+      ]
+    },
+    "/srv/ops": {
+      "path_components": [
+        "jobs"
+      ],
+      "events_allowed": [
+        "FAN_ACCESS",
+        "FAN_ACCESS_PERM"
+      ],
+      "events_required": [
+        "FAN_ACCESS"
+      ],
+      "flags_allowed": [
+        "FAN_MARK_ADD",
+        "FAN_MARK_ONLYDIR"
+      ],
+      "flags_required": [
+        "FAN_MARK_ADD"
+      ],
+      "permissions": [
+        "FAN_ACCESS_PERM"
+      ]
+    }
+  },
+  "require_unique_lists": true,
+  "permission_must_be_in_event_mask": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

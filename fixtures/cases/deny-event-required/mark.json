@@ -1,0 +1,16 @@
+{
+  "mount": "/srv/pay",
+  "path": "/srv/pay/inbox",
+  "event_mask": [
+    "FAN_OPEN_PERM",
+    "FAN_CLOSE_WRITE"
+  ],
+  "flags": [
+    "FAN_MARK_ADD"
+  ],
+  "permission": "FAN_OPEN_PERM",
+  "nonce": "n-deny-event-required",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jz8bHID_cByBSq0QIP2gkpjOjABIbMdxWtJVS8XvuN8"
+}
