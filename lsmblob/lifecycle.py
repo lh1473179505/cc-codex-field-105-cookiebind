@@ -1,0 +1,6 @@
+EMPTY = "empty"
+PREPARING = "preparing"
+ATTACHED = "attached"
+UPDATING = "updating"
+MIGRATING = "migrating"
+RELEASED = "released"
