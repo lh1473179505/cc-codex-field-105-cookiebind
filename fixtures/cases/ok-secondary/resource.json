@@ -1,0 +1,14 @@
+{
+  "tenant": "ops",
+  "resource_type": "Groups",
+  "external_id": "ops-admins",
+  "operation": "replace",
+  "attributes": {
+    "displayName": "admins"
+  },
+  "bulk_id": "bulk-ops-2",
+  "nonce": "n-ok-secondary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "P-yk2SzotpTk8LzOLSCIL9dM-RKFNcsA820yZzllh-s"
+}

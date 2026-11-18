@@ -1,0 +1,15 @@
+{
+  "tenant": "evil",
+  "resource_type": "Users",
+  "external_id": "pay-alice",
+  "operation": "create",
+  "attributes": {
+    "userName": "alice",
+    "active": "true"
+  },
+  "bulk_id": "bulk-pay-1",
+  "nonce": "n-deny-tenant",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "y1SDEAw-xZEc4d5diSk5JizRJ55bnJCfsGlU3X7-d3E"
+}

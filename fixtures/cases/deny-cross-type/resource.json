@@ -1,0 +1,14 @@
+{
+  "tenant": "ops",
+  "resource_type": "Groups",
+  "external_id": "ops-admins",
+  "operation": "create",
+  "attributes": {
+    "displayName": "admins"
+  },
+  "bulk_id": "bulk-ops-2",
+  "nonce": "n-deny-cross-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "hTkFYIIJS9j_BD_iOkxPg_25IP1V6ZxNDCHtfQhDlfs"
+}

@@ -1,0 +1,15 @@
+{
+  "tenant": "pay",
+  "resource_type": "Users",
+  "external_id": "pay-alice",
+  "operation": "delete",
+  "attributes": {
+    "userName": "alice",
+    "active": "true"
+  },
+  "bulk_id": "bulk-pay-1",
+  "nonce": "n-deny-operation",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "RSn9JuD545NlltVb4K0JnMGpSW210FrrUJL8caKkZmI"
+}

@@ -1,0 +1,43 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "tenants": {
+    "pay": {
+      "types": {
+        "Users": {
+          "external_prefix": "pay-",
+          "operations": [
+            "create"
+          ],
+          "attribute_allow": [
+            "userName",
+            "active"
+          ],
+          "attribute_required": [
+            "userName"
+          ]
+        }
+      },
+      "bulk_prefix": "bulk-pay-"
+    },
+    "ops": {
+      "types": {
+        "Groups": {
+          "external_prefix": "ops-",
+          "operations": [
+            "replace"
+          ],
+          "attribute_allow": [
+            "displayName"
+          ],
+          "attribute_required": [
+            "displayName"
+          ]
+        }
+      },
+      "bulk_prefix": "bulk-ops-"
+    }
+  },
+  "attribute_count_max": 3,
+  "external_id_min": 8
+}
