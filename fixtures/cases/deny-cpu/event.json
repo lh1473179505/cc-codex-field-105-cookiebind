@@ -1,0 +1,13 @@
+{
+  "profile": "pay-process",
+  "pid": 1234,
+  "cpu": 8,
+  "event_type": "cycles",
+  "sample_freq": 100,
+  "privileged": false,
+  "paranoid": 2,
+  "nonce": "n-deny-cpu",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "pDg91NM5Omxw5QG9fa5Z3-eWjIStWGP-8SkcPnuruYg"
+}

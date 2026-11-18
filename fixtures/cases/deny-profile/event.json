@@ -1,0 +1,13 @@
+{
+  "profile": "public-process",
+  "pid": 1234,
+  "cpu": 2,
+  "event_type": "cycles",
+  "sample_freq": 100,
+  "privileged": false,
+  "paranoid": 2,
+  "nonce": "n-deny-profile",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "UdNw7DxQ2Ny9NyiLo-Ry-0LZ8dSDAg_lLHDnFUFko_Y"
+}

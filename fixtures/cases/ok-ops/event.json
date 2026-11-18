@@ -1,0 +1,13 @@
+{
+  "profile": "ops-host",
+  "pid": -1,
+  "cpu": 0,
+  "event_type": "cache-misses",
+  "sample_freq": 50,
+  "privileged": true,
+  "paranoid": 1,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "QUq_PUIApxzUTpqwbJv0BipDYDQ3rJinUyPfNWDTQbI"
+}

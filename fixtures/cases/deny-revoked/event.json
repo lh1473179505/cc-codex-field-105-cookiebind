@@ -1,0 +1,13 @@
+{
+  "kid": "k-revoked",
+  "profile": "pay-process",
+  "pid": 1234,
+  "cpu": 2,
+  "event_type": "cycles",
+  "sample_freq": 100,
+  "privileged": false,
+  "paranoid": 2,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "aVs5xS76tzKHMHQh2JZHQHvK0SrssUvMZ0x_iXHCs6U"
+}

@@ -1,0 +1,13 @@
+{
+  "profile": "pay-process",
+  "pid": 1234,
+  "cpu": 2,
+  "event_type": "cache-misses",
+  "sample_freq": 100,
+  "privileged": false,
+  "paranoid": 2,
+  "nonce": "n-deny-event-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "I_qa9PM-D4qTUw2tuP70IfEHdRGO3SUmjsyO-yzz8u0"
+}

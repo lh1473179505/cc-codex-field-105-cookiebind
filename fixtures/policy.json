@@ -1,0 +1,43 @@
+{
+  "profiles": {
+    "pay-process": {
+      "pid_min": 100,
+      "pid_max": 9999,
+      "cpu_min": 0,
+      "cpu_max": 7,
+      "system_wide": false,
+      "event_types": [
+        "cycles",
+        "instructions"
+      ],
+      "sample_freq_min": 1,
+      "sample_freq_max": 1000,
+      "privileged": false,
+      "paranoid_values": [
+        1,
+        2
+      ]
+    },
+    "ops-host": {
+      "pid_min": -1,
+      "pid_max": -1,
+      "cpu_min": 0,
+      "cpu_max": 0,
+      "system_wide": true,
+      "event_types": [
+        "cache-misses"
+      ],
+      "sample_freq_min": 1,
+      "sample_freq_max": 100,
+      "privileged": true,
+      "paranoid_values": [
+        0,
+        1
+      ]
+    }
+  },
+  "numeric_fields_are_integers": true,
+  "integer_excludes_boolean": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}
