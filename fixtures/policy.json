@@ -1,0 +1,57 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "queues": {
+    "arn:aws:sqs:us-east-1:111122223333:pay-jobs": {
+      "account_id": "111122223333",
+      "actions_allowed": [
+        "sqs:SendMessage",
+        "sqs:ReceiveMessage",
+        "sqs:DeleteMessage"
+      ],
+      "actions_required": [
+        "sqs:SendMessage"
+      ],
+      "resource_arn": "arn:aws:sqs:us-east-1:111122223333:pay-jobs",
+      "conditions_required": {
+        "aws:SourceVpc": "vpc-pay01",
+        "aws:SecureTransport": "true"
+      },
+      "conditions_allowed": [
+        "aws:SourceVpc",
+        "aws:SecureTransport",
+        "aws:SourceAccount"
+      ],
+      "encryption": {
+        "kms_key_id": "alias/sqs-pay",
+        "sse_enabled": true
+      }
+    },
+    "arn:aws:sqs:us-west-2:444455556666:ops-jobs": {
+      "account_id": "444455556666",
+      "actions_allowed": [
+        "sqs:SendMessage",
+        "sqs:ChangeMessageVisibility"
+      ],
+      "actions_required": [
+        "sqs:SendMessage"
+      ],
+      "resource_arn": "arn:aws:sqs:us-west-2:444455556666:ops-jobs",
+      "conditions_required": {
+        "aws:SourceVpc": "vpc-ops02",
+        "aws:SecureTransport": "true"
+      },
+      "conditions_allowed": [
+        "aws:SourceVpc",
+        "aws:SecureTransport"
+      ],
+      "encryption": {
+        "kms_key_id": "alias/sqs-ops",
+        "sse_enabled": true
+      }
+    }
+  },
+  "actions_ordered_unique": true,
+  "condition_values_strings": true,
+  "encryption_exact_object": true
+}

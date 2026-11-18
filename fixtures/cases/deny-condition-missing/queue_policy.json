@@ -1,0 +1,20 @@
+{
+  "queue_arn": "arn:aws:sqs:us-east-1:111122223333:pay-jobs",
+  "account_id": "111122223333",
+  "actions": [
+    "sqs:SendMessage",
+    "sqs:ReceiveMessage"
+  ],
+  "resource_arn": "arn:aws:sqs:us-east-1:111122223333:pay-jobs",
+  "conditions": {
+    "aws:SourceVpc": "vpc-pay01"
+  },
+  "encryption": {
+    "kms_key_id": "alias/sqs-pay",
+    "sse_enabled": true
+  },
+  "nonce": "n-deny-condition-missing",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "PKoQBmX5Czh-HIkgtt_8Up1DdFZ0FtsUBmQelDQkQMU"
+}
