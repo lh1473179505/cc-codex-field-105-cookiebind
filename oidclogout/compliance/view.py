@@ -13,8 +13,6 @@ def logout_audit(store) -> dict:
     pending = sorted(key for key, value in store.data["transactions"].items() if value["status"] == "pending")
     canonical = json.dumps({"sessions": sessions, "pending": pending}, sort_keys=True).encode("utf-8")
     report = {"sessions": sessions, "pending": pending, "digest": hashlib.sha256(canonical).hexdigest()}
-    # The first diagnostics implementation reused the writable store and its
-    # scan counter.  External consumers depend on this command being read-only.
-    store.data["audit_views"] += 1
-    store.save()
+    # Diagnostics are read-only: no persistent bytes, journal entries or
+    # business counters may change as a side effect of exporting the view.
     return report

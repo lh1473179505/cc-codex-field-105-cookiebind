@@ -43,7 +43,11 @@ def main(argv=None) -> int:
         print(json.dumps(logout_audit(store), ensure_ascii=False, indent=2, sort_keys=True))
     else:
         result = resume_logout(Path(args.journal), Path(args.state))
-        print(json.dumps({"sessions": sorted(result["sessions"]), "transactions": sorted(result["transactions"])}, sort_keys=True))
+        summary = {
+            "sessions": str(sorted(result["sessions"])),
+            "transactions": str(sorted(result["transactions"])),
+        }
+        print(json.dumps(summary, sort_keys=True))
     return 0
 
 

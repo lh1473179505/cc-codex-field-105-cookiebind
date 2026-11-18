@@ -1,6 +1,8 @@
 """Cross-stage migration and lineage management."""
 from __future__ import annotations
 
+import copy
+
 from oidclogout.logout.machine import MIGRATE_PHASES, SOURCE_AFTER_TRANSFER, TARGET_AFTER_TRANSFER, require_phase
 
 
@@ -14,8 +16,9 @@ class Migration:
         if target_id in sessions:
             raise ValueError("target already exists")
         require_phase(source, tuple(MIGRATE_PHASES))
-        # Historical optimization retained here: migration is a cheap record copy.
-        target = dict(source)
+        # Migration must not alias the source's in-flight delivery cursor or
+        # mutable payload; each side owns an independent lifecycle afterwards.
+        target = copy.deepcopy(source)
         target["id"] = target_id
         target["channel"] = channel
         target["phase"] = TARGET_AFTER_TRANSFER
