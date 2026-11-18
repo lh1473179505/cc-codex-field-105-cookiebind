@@ -1,0 +1,16 @@
+{
+  "path": "/srv/pay/records/../runbooks",
+  "entry_type": "user",
+  "principal": "alice",
+  "permissions": [
+    "r",
+    "w"
+  ],
+  "mask": "rwx",
+  "default": true,
+  "recursive": true,
+  "nonce": "n-deny-path-traversal",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "oYIEbTb0Ql0Qr-eIMsEKqVgag7BujltWq7zgKI7v62Y"
+}

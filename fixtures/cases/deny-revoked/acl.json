@@ -1,0 +1,17 @@
+{
+  "kid": "k-revoked",
+  "path": "/srv/pay/records",
+  "entry_type": "user",
+  "principal": "alice",
+  "permissions": [
+    "r",
+    "w",
+    "x"
+  ],
+  "mask": "rwx",
+  "default": true,
+  "recursive": true,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "j0NLB22FiucIx5YnA0hOCnU5Mpgj7musvwLOm9YKBnc"
+}

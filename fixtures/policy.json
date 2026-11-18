@@ -1,0 +1,47 @@
+{
+  "paths": {
+    "/srv/pay/records": {
+      "entries": {
+        "user": {
+          "alice": {
+            "permissions_allowed": [
+              "r",
+              "w",
+              "x"
+            ],
+            "permissions_required": [
+              "r",
+              "w"
+            ]
+          }
+        }
+      },
+      "mask": "rwx",
+      "default": true,
+      "recursive": true
+    },
+    "/srv/ops/runbooks": {
+      "entries": {
+        "group": {
+          "ops": {
+            "permissions_allowed": [
+              "r",
+              "x"
+            ],
+            "permissions_required": [
+              "r"
+            ]
+          }
+        }
+      },
+      "mask": "r-x",
+      "default": false,
+      "recursive": false
+    }
+  },
+  "permission_characters": "rwx",
+  "require_unique_permissions": true,
+  "mask_is_exact_string": true,
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

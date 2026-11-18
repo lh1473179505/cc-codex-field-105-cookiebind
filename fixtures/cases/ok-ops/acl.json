@@ -1,0 +1,16 @@
+{
+  "path": "/srv/ops/runbooks",
+  "entry_type": "group",
+  "principal": "ops",
+  "permissions": [
+    "r",
+    "x"
+  ],
+  "mask": "r-x",
+  "default": false,
+  "recursive": false,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "5g-qqBMbfQ0J1G7dSFsTBgHlbHa3V7uQl-7_TB-vFD0"
+}

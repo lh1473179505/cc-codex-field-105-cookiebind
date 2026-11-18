@@ -1,0 +1,16 @@
+{
+  "path": "/srv/public",
+  "entry_type": "user",
+  "principal": "alice",
+  "permissions": [
+    "r",
+    "w"
+  ],
+  "mask": "rwx",
+  "default": true,
+  "recursive": true,
+  "nonce": "n-deny-path",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iacj-si3bisxOfTeozlY1xKHFTYQ--LQsRmAYVympDU"
+}

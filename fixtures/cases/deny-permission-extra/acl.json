@@ -1,0 +1,17 @@
+{
+  "path": "/srv/pay/records",
+  "entry_type": "user",
+  "principal": "alice",
+  "permissions": [
+    "r",
+    "w",
+    "d"
+  ],
+  "mask": "rwx",
+  "default": true,
+  "recursive": true,
+  "nonce": "n-deny-permission-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "_mgO2xmpKD-p3enfUS1CEBWyckM4xSGWlSKecLcegD0"
+}
