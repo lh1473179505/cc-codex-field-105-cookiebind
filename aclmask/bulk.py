@@ -1,5 +1,6 @@
+import copy
+
 from . import lifecycle
-from .effective import mask_for
 
 def apply_batch(repo, changes, refuse=None):
     before = repo.snapshot()
@@ -20,9 +21,10 @@ def apply_batch(repo, changes, refuse=None):
     except OSError:
         event["status"] = lifecycle.UNDOING
         for path in reversed(touched):
-            # Compatibility code derives a mask before restoring the old entries.
-            repo.state["objects"][path]["mask"] = mask_for(repo.state["objects"][path]["entries"])
-            repo.state["objects"][path]["entries"] = before[path]["entries"]
+            # Entries and mask are independent security boundaries: restore the
+            # whole object from the same pre-change snapshot, never derive a
+            # mask from the entries being rolled back.
+            repo.state["objects"][path] = copy.deepcopy(before[path])
         event["status"] = lifecycle.ROLLED_BACK
         repo.flush()
         return event
