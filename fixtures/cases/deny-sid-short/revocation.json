@@ -1,0 +1,12 @@
+{
+  "user_id": "alice",
+  "client_id": "pay-web",
+  "sid": "pay-1",
+  "reason": "password-change",
+  "effective_in": 0,
+  "device_id": "dev-pay-1",
+  "nonce": "n-deny-sid-short",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "2FRgPqPPg5ICgQfEn-znAXC2cHcYva9kZtKhU6X6HJc"
+}

@@ -1,0 +1,12 @@
+{
+  "user_id": "bob",
+  "client_id": "ops-cli",
+  "sid": "ops-sid-002",
+  "reason": "admin-reset",
+  "effective_in": 30,
+  "device_id": "dev-ops-2",
+  "nonce": "n-ok-secondary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "qSZbGptAy-Yy_KeFomcx0tHXyWus95K7i6q05NDp-sw"
+}

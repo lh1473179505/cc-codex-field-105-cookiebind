@@ -1,0 +1,12 @@
+{
+  "user_id": "alice",
+  "client_id": "pay-web",
+  "sid": "pay-sid-001",
+  "reason": "admin-reset",
+  "effective_in": 0,
+  "device_id": "dev-pay-1",
+  "nonce": "n-deny-reason",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "jiy02TEkoJEUdfj0lVByN9Yb6ZVVzL_W-m9bb7xJY1k"
+}

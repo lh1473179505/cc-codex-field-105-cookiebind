@@ -1,0 +1,12 @@
+{
+  "user_id": "bob",
+  "client_id": "pay-web",
+  "sid": "ops-sid-002",
+  "reason": "admin-reset",
+  "effective_in": 30,
+  "device_id": "dev-ops-2",
+  "nonce": "n-deny-cross-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "SF18ko7e9zWKLbrSokw3Z38OykqyLf3mMIfL88Cu6vI"
+}

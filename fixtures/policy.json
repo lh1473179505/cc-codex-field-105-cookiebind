@@ -1,0 +1,38 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "clients": {
+    "pay-web": {
+      "users": {
+        "alice": {
+          "sid_prefix": "pay-sid-",
+          "devices": [
+            "dev-pay-1"
+          ],
+          "reasons": [
+            "password-change",
+            "logout-all"
+          ],
+          "effective_max": 0
+        }
+      }
+    },
+    "ops-cli": {
+      "users": {
+        "bob": {
+          "sid_prefix": "ops-sid-",
+          "devices": [
+            "dev-ops-2"
+          ],
+          "reasons": [
+            "admin-reset"
+          ],
+          "effective_max": 300
+        }
+      }
+    }
+  },
+  "effective_min": 0,
+  "sid_min_len": 10,
+  "device_pattern": "[a-z0-9-]{6,32}"
+}
