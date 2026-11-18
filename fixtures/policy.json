@@ -1,0 +1,41 @@
+{
+  "roots": {
+    "/srv/pay/watch": {
+      "path_components": [
+        "reports",
+        "drops"
+      ],
+      "events_allowed": [
+        "IN_CREATE",
+        "IN_DELETE",
+        "IN_MOVED_TO"
+      ],
+      "events_required": [
+        "IN_CREATE"
+      ],
+      "recursive": true,
+      "watches_min": 1,
+      "watches_max": 512
+    },
+    "/srv/ops/watch": {
+      "path_components": [
+        "jobs"
+      ],
+      "events_allowed": [
+        "IN_CLOSE_WRITE",
+        "IN_MOVED_TO"
+      ],
+      "events_required": [
+        "IN_CLOSE_WRITE"
+      ],
+      "recursive": false,
+      "watches_min": 1,
+      "watches_max": 256
+    }
+  },
+  "require_unique_events": true,
+  "recursive_type": "boolean",
+  "max_watches_type": "integer",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

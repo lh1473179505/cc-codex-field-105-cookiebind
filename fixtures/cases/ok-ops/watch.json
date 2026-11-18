@@ -1,0 +1,14 @@
+{
+  "root": "/srv/ops/watch",
+  "path": "/srv/ops/watch/jobs",
+  "event_mask": [
+    "IN_CLOSE_WRITE",
+    "IN_MOVED_TO"
+  ],
+  "recursive": false,
+  "max_watches": 64,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "i_IB3xE2_IJXvxyG0yqWDBlVuBfPXTaP21jJN9QVQRE"
+}

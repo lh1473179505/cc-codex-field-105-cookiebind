@@ -1,0 +1,15 @@
+{
+  "kid": "k-revoked",
+  "root": "/srv/pay/watch",
+  "path": "/srv/pay/watch/reports",
+  "event_mask": [
+    "IN_CREATE",
+    "IN_DELETE",
+    "IN_MOVED_TO"
+  ],
+  "recursive": true,
+  "max_watches": 128,
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "GmGrtVS0wI52KVW6gi_6F6df4L8Ke1juv1pnSsFGKRg"
+}

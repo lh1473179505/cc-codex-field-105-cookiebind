@@ -1,0 +1,13 @@
+{
+  "root": "/srv/pay/watch",
+  "path": "/srv/pay/watch/reports",
+  "event_mask": [
+    "IN_CREATE"
+  ],
+  "recursive": false,
+  "max_watches": 128,
+  "nonce": "n-deny-recursive",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "p1YX_vTiGOfW7X6AS2kehAYa8ljvFnUT9OoKMrX8Je8"
+}
