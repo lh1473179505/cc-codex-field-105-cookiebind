@@ -1,0 +1,18 @@
+{
+  "context": "pay-ui",
+  "target_url": "https://pay.example/portal/",
+  "scan_rule": "40018",
+  "threshold": "MEDIUM",
+  "strength": "LOW",
+  "auth": {
+    "method": "form",
+    "username": "zap_pay",
+    "login_url": "https://pay.example/login",
+    "logged_in_regex": "Logout",
+    "password": "admin"
+  },
+  "nonce": "n-deny-auth-extra",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "dd7nrXLJxZEtaLuOHq96qFsHqxUNkwpf6T1h5nDhaSM"
+}

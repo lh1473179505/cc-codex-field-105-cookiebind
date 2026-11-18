@@ -1,0 +1,68 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "contexts": {
+    "pay-ui": {
+      "target_urls": [
+        "https://pay.example/portal/",
+        "https://pay.example/api/"
+      ],
+      "rules": {
+        "40018": {
+          "thresholds": [
+            "MEDIUM",
+            "HIGH"
+          ],
+          "strengths": [
+            "LOW",
+            "MEDIUM"
+          ]
+        }
+      },
+      "auth": {
+        "method": "form",
+        "username": "zap_pay",
+        "login_url": "https://pay.example/login",
+        "logged_in_regex": "Logout"
+      }
+    },
+    "ops-console": {
+      "target_urls": [
+        "https://ops.example/console/"
+      ],
+      "rules": {
+        "90022": {
+          "thresholds": [
+            "HIGH"
+          ],
+          "strengths": [
+            "LOW"
+          ]
+        }
+      },
+      "auth": {
+        "method": "script",
+        "script": "ops-auth",
+        "logged_in_regex": "Ops Console"
+      }
+    }
+  },
+  "auth_keys_by_method": {
+    "form": [
+      "method",
+      "username",
+      "login_url",
+      "logged_in_regex"
+    ],
+    "script": [
+      "method",
+      "script",
+      "logged_in_regex"
+    ]
+  },
+  "target_deny_components": [
+    "userinfo",
+    "query",
+    "fragment"
+  ]
+}

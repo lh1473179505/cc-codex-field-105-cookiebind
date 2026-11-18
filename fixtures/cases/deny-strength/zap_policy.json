@@ -1,0 +1,16 @@
+{
+  "context": "ops-console",
+  "target_url": "https://ops.example/console/",
+  "scan_rule": "90022",
+  "threshold": "HIGH",
+  "strength": "INSANE",
+  "auth": {
+    "method": "script",
+    "script": "ops-auth",
+    "logged_in_regex": "Ops Console"
+  },
+  "nonce": "n-deny-strength",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Adk6n81n5c-KcCW1H-pkmojUzv0CQgwcOK-pHmyHrw0"
+}

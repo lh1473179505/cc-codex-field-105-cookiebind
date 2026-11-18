@@ -1,0 +1,17 @@
+{
+  "kid": "k-revoked",
+  "context": "pay-ui",
+  "target_url": "https://pay.example/portal/",
+  "scan_rule": "40018",
+  "threshold": "MEDIUM",
+  "strength": "LOW",
+  "auth": {
+    "method": "form",
+    "username": "zap_pay",
+    "login_url": "https://pay.example/login",
+    "logged_in_regex": "Logout"
+  },
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "SS7R4HxXIuN-YaP7HhskZzsWZvtw0IpkaMILq3XjJcw"
+}

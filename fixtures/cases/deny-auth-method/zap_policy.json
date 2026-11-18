@@ -1,0 +1,16 @@
+{
+  "context": "pay-ui",
+  "target_url": "https://pay.example/portal/",
+  "scan_rule": "40018",
+  "threshold": "MEDIUM",
+  "strength": "LOW",
+  "auth": {
+    "method": "script",
+    "script": "ops-auth",
+    "logged_in_regex": "Logout"
+  },
+  "nonce": "n-deny-auth-method",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "GuTYK8x0oqj3FrZNimwaHD8cAST83TGhk7Ww2Y3y2Fk"
+}
