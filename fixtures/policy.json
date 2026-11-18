@@ -1,0 +1,65 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "sessions": {
+    "pay-call-001": {
+      "ufrag": "payufrag01",
+      "dtls_fingerprints": [
+        "AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99"
+      ],
+      "candidates": {
+        "host": {
+          "address_cidrs": [
+            "10.160.0.0/24"
+          ],
+          "ports": [
+            5000,
+            5001
+          ]
+        },
+        "srflx": {
+          "address_cidrs": [
+            "203.0.113.0/24"
+          ],
+          "ports": [
+            6000
+          ]
+        }
+      },
+      "protocols": [
+        "udp"
+      ]
+    },
+    "ops-call-002": {
+      "ufrag": "opsufrag02",
+      "dtls_fingerprints": [
+        "10:20:30:40:50:60:70:80:90:A0:B0:C0:D0:E0:F0:01:10:20:30:40:50:60:70:80:90:A0:B0:C0:D0:E0:F0:01"
+      ],
+      "candidates": {
+        "host": {
+          "address_cidrs": [
+            "10.161.0.0/24"
+          ],
+          "ports": [
+            5100
+          ]
+        }
+      },
+      "protocols": [
+        "udp"
+      ]
+    }
+  },
+  "candidate_types": [
+    "foundation",
+    "component",
+    "transport",
+    "priority",
+    "address",
+    "port",
+    "type"
+  ],
+  "fingerprint_sha256_uppercase": true,
+  "ufrag_length_min": 8,
+  "ufrag_length_max": 32
+}

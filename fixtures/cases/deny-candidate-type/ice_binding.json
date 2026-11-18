@@ -1,0 +1,19 @@
+{
+  "session_id": "pay-call-001",
+  "ufrag": "payufrag01",
+  "dtls_fingerprint": "AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99",
+  "candidate": {
+    "foundation": "1",
+    "component": 1,
+    "transport": "udp",
+    "priority": 2130706431,
+    "address": "203.0.113.8",
+    "port": 6000,
+    "type": "srflx"
+  },
+  "protocol": "udp",
+  "nonce": "n-deny-candidate-type",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "tCbOYhprO8av673EjuU6oHqjQMpV-w4hNgS1MHrsjBA"
+}
