@@ -1,0 +1,16 @@
+{
+  "rule_id": "public.python.sql.execute",
+  "languages": [
+    "python"
+  ],
+  "pattern_form": "patterns",
+  "pattern": "patterns:\n  - pattern: $DB.execute($QUERY)\n  - pattern-not: $DB.execute(\"...\")",
+  "severity": "ERROR",
+  "paths_exclude": [
+    "tests/**"
+  ],
+  "nonce": "n-deny-rule-id",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "i9Tl9U_NvnnHh4C9VjdYawAtYzsxkOx-RtSj_KRvoSQ"
+}

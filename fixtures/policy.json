@@ -1,0 +1,56 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "rules": {
+    "pay.python.sql.execute": {
+      "languages": [
+        "python"
+      ],
+      "pattern_forms": [
+        "patterns"
+      ],
+      "pattern": "patterns:\n  - pattern: $DB.execute($QUERY)\n  - pattern-not: $DB.execute(\"...\")",
+      "severities": [
+        "ERROR"
+      ],
+      "paths_allowed": [
+        "tests/**",
+        "migrations/**"
+      ],
+      "paths_required": [
+        "tests/**"
+      ]
+    },
+    "ops.go.process.exec": {
+      "languages": [
+        "go"
+      ],
+      "pattern_forms": [
+        "pattern-either"
+      ],
+      "pattern": "pattern-either:\n  - pattern: exec.Command($CMD, ...)\n  - pattern: syscall.Exec($CMD, ...)",
+      "severities": [
+        "WARNING",
+        "ERROR"
+      ],
+      "paths_allowed": [
+        "vendor/**",
+        "testdata/**"
+      ],
+      "paths_required": [
+        "vendor/**"
+      ]
+    }
+  },
+  "language_count_min": 1,
+  "language_count_max": 2,
+  "exclude_count_max": 3,
+  "rule_id_pattern": "^[a-z][a-z0-9-]*(\\.[a-z][a-z0-9-]*){2,}$",
+  "pattern_length_max": 2000,
+  "path_deny_substrings": [
+    "..",
+    "\\",
+    "//",
+    "\u0000"
+  ]
+}

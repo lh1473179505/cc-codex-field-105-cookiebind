@@ -1,0 +1,16 @@
+{
+  "rule_id": "ops.go.process.exec",
+  "languages": [
+    "go"
+  ],
+  "pattern_form": "pattern-either",
+  "pattern": "pattern-either:\n  - pattern: exec.Command($CMD, ...)\n  - pattern: syscall.Exec($CMD, ...)",
+  "severity": "WARNING",
+  "paths_exclude": [
+    "vendor/**"
+  ],
+  "nonce": "n-ok-ops-go",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "IhzjvFy_4yy5aDbfcXrI0Tziu6o-AIctfJk5aDg2T8A"
+}

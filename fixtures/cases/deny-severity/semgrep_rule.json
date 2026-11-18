@@ -1,0 +1,16 @@
+{
+  "rule_id": "pay.python.sql.execute",
+  "languages": [
+    "python"
+  ],
+  "pattern_form": "patterns",
+  "pattern": "patterns:\n  - pattern: $DB.execute($QUERY)\n  - pattern-not: $DB.execute(\"...\")",
+  "severity": "WARNING",
+  "paths_exclude": [
+    "tests/**"
+  ],
+  "nonce": "n-deny-severity",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "sF5YlbOFdTpeYBeoCkI89hJHwEcVHAe8qx7E83Yhrqw"
+}
