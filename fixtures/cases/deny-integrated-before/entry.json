@@ -1,0 +1,12 @@
+{
+  "log_id": "rekor-ops-prod",
+  "kind": "intoto",
+  "body_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+  "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOpsTransparencyKey0002 rekor-ops",
+  "log_index": 5017,
+  "integrated_time": "2026-02-28T23:59:59Z",
+  "nonce": "n-deny-integrated-before",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "rBbwUuPngsrAojyYdXiwWu0SfJFSFm76Dn5PTkADo-k"
+}

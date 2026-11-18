@@ -1,0 +1,12 @@
+{
+  "kid": "k-revoked",
+  "log_id": "rekor-pay-prod",
+  "kind": "hashedrekord",
+  "body_sha256": "abababababababababababababababababababababababababababababababab",
+  "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPayTransparencyKey0001 rekor-pay",
+  "log_index": 1042,
+  "integrated_time": "2026-06-18T10:15:30Z",
+  "nonce": "n-deny-revoked",
+  "iat": 1781783975,
+  "sig": "gdNY_1G5iyp6esYTrQRIuDgBtDaAupNwE8di9wXzjzg"
+}

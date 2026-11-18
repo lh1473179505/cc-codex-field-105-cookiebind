@@ -1,0 +1,36 @@
+{
+  "logs": {
+    "rekor-pay-prod": {
+      "kinds": {
+        "hashedrekord": {
+          "body_sha256": "abababababababababababababababababababababababababababababababab",
+          "public_keys": [
+            "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPayTransparencyKey0001 rekor-pay"
+          ]
+        }
+      },
+      "log_index_min": 1000,
+      "log_index_max": 1999,
+      "integrated_time_min": "2026-01-01T00:00:00Z",
+      "integrated_time_max": "2026-12-31T23:59:59Z"
+    },
+    "rekor-ops-prod": {
+      "kinds": {
+        "intoto": {
+          "body_sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+          "public_keys": [
+            "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOpsTransparencyKey0002 rekor-ops"
+          ]
+        }
+      },
+      "log_index_min": 5000,
+      "log_index_max": 5999,
+      "integrated_time_min": "2026-03-01T00:00:00Z",
+      "integrated_time_max": "2026-11-30T23:59:59Z"
+    }
+  },
+  "sha256_hex_length": 64,
+  "timestamp_format": "YYYY-MM-DDTHH:MM:SSZ",
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

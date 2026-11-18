@@ -1,0 +1,12 @@
+{
+  "log_id": "rekor-pay-prod",
+  "kind": "hashedrekord",
+  "body_sha256": "abababababababababababababababababababababababababababababababab",
+  "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPayTransparencyKey0001 rekor-pay",
+  "log_index": 999,
+  "integrated_time": "2026-06-18T10:15:30Z",
+  "nonce": "n-deny-index-low",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "viP1l7XVyBK6Gusv_MsJjF6LV8dYpgHWP9Ef8zDof1U"
+}
