@@ -1,0 +1,6 @@
+DISARMED = "disarmed"
+ARMING = "arming"
+ARMED = "armed"
+DRAINING = "draining"
+CANCELLED = "cancelled"
+CLOSED = "closed"
