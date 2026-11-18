@@ -1,0 +1,17 @@
+{
+  "topic_arn": "arn:aws:sns:us-east-1:111122223333:public-events",
+  "principal": "arn:aws:iam::111122223333:role/pay-delivery",
+  "protocol": "sqs",
+  "endpoint": "arn:aws:sqs:us-east-1:111122223333:pay-delivery",
+  "raw_message_delivery": true,
+  "filter_policy": {
+    "event": [
+      "order.created",
+      "order.paid"
+    ]
+  },
+  "nonce": "n-deny-topic",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Iw2bsjO7wngc9XTYb9Ay6EoIaeXL0amkUs9xelSSUY8"
+}

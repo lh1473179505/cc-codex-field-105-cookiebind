@@ -1,0 +1,67 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "topics": {
+    "arn:aws:sns:us-east-1:111122223333:pay-events": {
+      "principals": {
+        "arn:aws:iam::111122223333:role/pay-delivery": {
+          "subscriptions": {
+            "https": {
+              "endpoints": [
+                "https://pay-hooks.example/sns"
+              ],
+              "raw_message_delivery": false,
+              "filter_policy": {
+                "event": [
+                  "order.created",
+                  "order.paid"
+                ],
+                "region": [
+                  "eu",
+                  "us"
+                ]
+              }
+            },
+            "sqs": {
+              "endpoints": [
+                "arn:aws:sqs:us-east-1:111122223333:pay-delivery"
+              ],
+              "raw_message_delivery": true,
+              "filter_policy": {
+                "event": [
+                  "order.created",
+                  "order.paid"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "arn:aws:sns:us-west-2:444455556666:ops-events": {
+      "principals": {
+        "arn:aws:iam::444455556666:role/ops-delivery": {
+          "subscriptions": {
+            "https": {
+              "endpoints": [
+                "https://ops-hooks.example/sns"
+              ],
+              "raw_message_delivery": false,
+              "filter_policy": {
+                "event": [
+                  "alert.raised"
+                ],
+                "severity": [
+                  "high",
+                  "critical"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "filter_arrays_ordered": true,
+  "endpoint_case_sensitive": true
+}

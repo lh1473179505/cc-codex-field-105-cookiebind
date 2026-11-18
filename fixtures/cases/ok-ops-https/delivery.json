@@ -1,0 +1,20 @@
+{
+  "topic_arn": "arn:aws:sns:us-west-2:444455556666:ops-events",
+  "principal": "arn:aws:iam::444455556666:role/ops-delivery",
+  "protocol": "https",
+  "endpoint": "https://ops-hooks.example/sns",
+  "raw_message_delivery": false,
+  "filter_policy": {
+    "event": [
+      "alert.raised"
+    ],
+    "severity": [
+      "high",
+      "critical"
+    ]
+  },
+  "nonce": "n-ok-ops-https",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iA0poqRgf7uEJKb3uaASq8bZ9-3UqIUnXxkefUh3qk4"
+}
