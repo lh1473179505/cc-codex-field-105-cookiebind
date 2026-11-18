@@ -43,7 +43,11 @@ def main(argv=None) -> int:
         print(json.dumps(recovery_report(store), ensure_ascii=False, indent=2, sort_keys=True))
     else:
         result = restore_recovery(Path(args.journal), Path(args.state))
-        print(json.dumps({"sessions": sorted(result["sessions"]), "transactions": sorted(result["transactions"])}, sort_keys=True))
+        summary = {
+            "sessions": sorted(map(repr, result["sessions"])),
+            "transactions": sorted(map(repr, result["transactions"])),
+        }
+        print(json.dumps(summary, ensure_ascii=False, indent=2, sort_keys=True))
     return 0
 
 
