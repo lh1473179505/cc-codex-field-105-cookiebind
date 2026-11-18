@@ -1,0 +1,84 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "issuers": {
+    "nats-pay-operator": {
+      "accounts": {
+        "ACCPAY": {
+          "signing_keys": [
+            "SKPAYA"
+          ],
+          "claims_required": {
+            "sub": "ACCPAY",
+            "aud": "nats-account",
+            "type": "jwt"
+          },
+          "claims_allowed": [
+            "sub",
+            "aud",
+            "type",
+            "name"
+          ],
+          "permissions": {
+            "publish": {
+              "allow": [
+                "pay.orders.>"
+              ],
+              "deny": [
+                "pay.orders.admin"
+              ]
+            },
+            "subscribe": {
+              "allow": [
+                "pay.events.>"
+              ],
+              "deny": []
+            }
+          },
+          "expires_in_min": 60,
+          "expires_in_max": 3600
+        }
+      }
+    },
+    "nats-ops-operator": {
+      "accounts": {
+        "ACCOPS": {
+          "signing_keys": [
+            "SKOPSB"
+          ],
+          "claims_required": {
+            "sub": "ACCOPS",
+            "aud": "nats-account",
+            "type": "jwt"
+          },
+          "claims_allowed": [
+            "sub",
+            "aud",
+            "type",
+            "name"
+          ],
+          "permissions": {
+            "publish": {
+              "allow": [
+                "ops.alerts.>"
+              ],
+              "deny": []
+            },
+            "subscribe": {
+              "allow": [
+                "ops.commands.>"
+              ],
+              "deny": [
+                "ops.commands.shutdown"
+              ]
+            }
+          },
+          "expires_in_min": 120,
+          "expires_in_max": 1800
+        }
+      }
+    }
+  },
+  "permission_exact_lists": true,
+  "expires_in_integer": true
+}

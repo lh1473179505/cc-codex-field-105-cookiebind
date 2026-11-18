@@ -1,0 +1,32 @@
+{
+  "issuer": "nats-ops-operator",
+  "account": "ACCOPS",
+  "signing_key": "SKOPSB",
+  "claims": {
+    "sub": "ACCOPS",
+    "aud": "nats-account",
+    "type": "jwt",
+    "name": "operations"
+  },
+  "permissions": {
+    "publish": {
+      "allow": [
+        "ops.alerts.>"
+      ],
+      "deny": []
+    },
+    "subscribe": {
+      "allow": [
+        "ops.commands.>"
+      ],
+      "deny": [
+        "ops.commands.shutdown"
+      ]
+    }
+  },
+  "expires_in": 600,
+  "nonce": "n-ok-ops",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Av3I90oU3kPLl7ugMrkBfxbwiA_0io5pFbhtCm_Zadc"
+}

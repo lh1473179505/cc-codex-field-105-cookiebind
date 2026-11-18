@@ -1,0 +1,32 @@
+{
+  "issuer": "nats-pay-operator",
+  "account": "ACCPAY",
+  "signing_key": "SKPAYA",
+  "claims": {
+    "sub": "ACCPAY",
+    "aud": "nats-account",
+    "type": "jwt",
+    "name": "payments"
+  },
+  "permissions": {
+    "publish": {
+      "allow": [
+        "pay.orders.>"
+      ],
+      "deny": [
+        "pay.orders.admin"
+      ]
+    },
+    "subscribe": {
+      "allow": [
+        "pay.events.>"
+      ],
+      "deny": []
+    }
+  },
+  "expires_in": 3601,
+  "nonce": "n-deny-expiry",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "AQMbQGFp8ifbUv-fFh3lw5tMrU1-M3lLrnBsT0c8hl8"
+}
