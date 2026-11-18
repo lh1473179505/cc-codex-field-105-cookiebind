@@ -18,5 +18,6 @@ python -m gitleaksr audit fixtures/combination.json
 ```
 
 Run the repository tests with `python -m unittest discover -s tests -v`.
-The combination test marked as expected failure characterizes the existing
-cross-phase defect without weakening the read-only compatibility assertions.
+The combination tests assert that snapshot and incremental writers share one
+progress boundary, so a late retransmission cannot cross a newer recovery,
+alongside the read-only compatibility assertions.

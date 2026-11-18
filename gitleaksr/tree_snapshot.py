@@ -25,7 +25,7 @@ def merge_snapshot(state: State, index: FingerprintIndex, journal: OperationJour
     state.records = records
     state.revoked = {key: seq for key, seq in state.revoked.items() if key not in records}
     state.generation = generation
-    
+    state.high_water = max(state.high_water, sequence)
     state.phase = advance(state.phase, "snapshot")
     state.history.append("snapshot:%d:%d" % (generation, sequence))
     return {"accepted": True, "generation": generation, "sequence": sequence, "count": len(records)}

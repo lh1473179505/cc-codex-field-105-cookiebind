@@ -10,7 +10,6 @@ class ConvergenceTests(unittest.TestCase):
     def setUp(self) -> None:
         self.result = run_combination()
 
-    @unittest.expectedFailure
     def test_snapshot_delta_recovery_converges(self) -> None:
         self.assertEqual([], self.result["problems"])
 
@@ -21,7 +20,6 @@ class ConvergenceTests(unittest.TestCase):
         self.assertIn("delta", kinds)
         self.assertGreaterEqual(service.state.generation, 1)
 
-    @unittest.expectedFailure
     def test_late_result_cannot_cross_recovery(self) -> None:
         self.assertFalse(self.result["late"]["accepted"])
         self.assertFalse(any(row["id"] == "ghost" for row in self.result["second"]["items"]))
