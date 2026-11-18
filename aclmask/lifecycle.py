@@ -1,0 +1,6 @@
+CLEAN = "clean"
+APPLYING = "applying"
+UNDOING = "undoing"
+COMMITTED = "committed"
+ROLLED_BACK = "rolled_back"
+MIGRATING = "migrating"
