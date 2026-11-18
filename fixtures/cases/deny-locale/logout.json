@@ -1,0 +1,14 @@
+{
+  "client_id": "pay-web",
+  "issuer": "https://id.pay.example/",
+  "sid": "pay-sid-001",
+  "post_logout_uri": "https://app.pay.example/logged-out",
+  "state": "state-pay-1",
+  "ui_locales": [
+    "fr-FR"
+  ],
+  "nonce": "n-deny-locale",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "iOe32eUVdu_5C9tA1-VAssfUFdbaIc-KyTklxvDMhKM"
+}

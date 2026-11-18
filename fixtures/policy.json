@@ -1,0 +1,30 @@
+{
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600,
+  "clients": {
+    "pay-web": {
+      "issuer": "https://id.pay.example/",
+      "sid_prefix": "pay-sid-",
+      "post_logout_exact": [
+        "https://app.pay.example/logged-out"
+      ],
+      "locales": [
+        "zh-CN"
+      ]
+    },
+    "ops-cli": {
+      "issuer": "https://id.ops.example/",
+      "sid_prefix": "ops-sid-",
+      "post_logout_exact": [
+        "https://cli.ops.example/bye"
+      ],
+      "locales": [
+        "en-US",
+        "zh-CN"
+      ]
+    }
+  },
+  "sid_min_len": 10,
+  "state_min_len": 8,
+  "locale_max": 2
+}

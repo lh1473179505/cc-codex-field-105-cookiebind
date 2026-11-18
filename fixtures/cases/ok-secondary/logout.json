@@ -1,0 +1,15 @@
+{
+  "client_id": "ops-cli",
+  "issuer": "https://id.ops.example/",
+  "sid": "ops-sid-002",
+  "post_logout_uri": "https://cli.ops.example/bye",
+  "state": "state-ops-2",
+  "ui_locales": [
+    "en-US",
+    "zh-CN"
+  ],
+  "nonce": "n-ok-secondary",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "YWm4ObH4z81JFPpPrXGE5UO8T8AjgptvlYnkudo9c8g"
+}

@@ -1,0 +1,14 @@
+{
+  "client_id": "evil",
+  "issuer": "https://id.pay.example/",
+  "sid": "pay-sid-001",
+  "post_logout_uri": "https://app.pay.example/logged-out",
+  "state": "state-pay-1",
+  "ui_locales": [
+    "zh-CN"
+  ],
+  "nonce": "n-deny-client",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "Z0OFkPcfu96JAYvJUcojYfmRdCBGPspXK5xuS4K3EwQ"
+}
