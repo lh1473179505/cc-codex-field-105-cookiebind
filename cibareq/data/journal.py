@@ -14,7 +14,7 @@ class JsonStore:
         if self.state_path.exists():
             self.data = json.loads(self.state_path.read_text(encoding="utf-8"))
         else:
-            self.data = {"format": 1, "epochs": {}, "sessions": {}, "transactions": {}, "journal": [], "audit_views": 0}
+            self.data = {"format": 1, "epochs": {}, "sessions": {}, "transactions": {}, "journal": []}
 
     def epoch(self, authority: str) -> int:
         return self.data["epochs"].get(authority, 1)

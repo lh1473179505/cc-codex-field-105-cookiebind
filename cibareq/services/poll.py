@@ -21,9 +21,9 @@ class OnlineService:
 
     def queue_decision(self, session_id: str, transaction_id: str, payload: dict) -> dict:
         session = self.store.data["sessions"][session_id]
-        require_phase(session, tuple(STAGE_PHASES))
         if session["epoch"] != self.store.epoch(session["authority"]):
             raise PermissionError("session authorization epoch is stale")
+        require_phase(session, tuple(STAGE_PHASES))
         if transaction_id in self.store.data["transactions"]:
             raise ValueError("transaction already exists")
         transaction = {"id": transaction_id, "session": session_id, "epoch": session["epoch"], "status": "pending", "payload": dict(payload)}
@@ -41,10 +41,8 @@ class OnlineService:
         session = self.store.data["sessions"][session_id]
         transaction_id = transaction_id or session[WORK_KEY]["tx"]
         transaction = self.store.data["transactions"][transaction_id]
-        # The legacy admission hook checks only the live epoch.  Ownership was
-        # historically left to callers and in-flight pinning was not represented.
-        if transaction["epoch"] != self.store.epoch(session["authority"]):
-            raise PermissionError("transaction epoch was revoked")
+        if transaction["session"] != session_id:
+            raise PermissionError("transaction belongs to another session")
         if transaction["status"] != "pending":
             raise RuntimeError("transaction is not pending")
         transaction["status"] = "committed"
